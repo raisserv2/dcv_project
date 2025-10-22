@@ -1,0 +1,2639 @@
+[
+  {
+    "tag": "V8QG2J8GR",
+    "trophies": 606,
+    "name": "hbqbbs",
+    "deck": {
+      "highestTrophies": 606,
+      "deckId": [
+        "26000003",
+        "26000014",
+        "26000018",
+        "26000000",
+        "26000001",
+        "26000005",
+        "27000001",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 95.45,
+      "count": 66,
+      "wins": 63,
+      "stars": 185,
+      "avgStars": 2.8,
+      "players": [
+        {
+          "name": "hbqbbs",
+          "hashtag": "V8QG2J8GR",
+          "stars": 3,
+          "score": 606,
+          "timestamp": 1759761892,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "hbqbbs",
+                "tag": "V8QG2J8GR"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "FearlessSteak",
+                "tag": "V80VQR9GJ"
+              }
+            ],
+            "replayTag": "#002PCV2PQG9R"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "arthas",
+          "hashtag": "VYLCQLL82",
+          "stars": 3,
+          "score": 597,
+          "timestamp": 1760315229,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "arthas",
+                "tag": "VYLCQLL82"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "VoidBigBoss",
+                "tag": "20QPPGY2LP"
+              }
+            ],
+            "replayTag": "#02QPRYCYCYQJ"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "wheyyy",
+          "hashtag": "VYYQCV08C",
+          "stars": 3,
+          "score": 595,
+          "timestamp": 1760294844,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "wheyyy",
+                "tag": "VYYQCV08C"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Woke_Bao",
+                "tag": "202LJYU98R"
+              }
+            ],
+            "replayTag": "#022PCPLVGYUQ"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.75
+    }
+  },
+  {
+    "tag": "VUCLURUUU",
+    "trophies": 980,
+    "name": "SKmystichyrule♕",
+    "source_arena": 2,
+    "target_arena": 4,
+    "iteration": 1
+  },
+  {
+    "tag": "VULJGY209",
+    "trophies": 1002,
+    "name": "King",
+    "deck": {
+      "highestTrophies": 1002,
+      "deckId": [
+        "26000003",
+        "26000014",
+        "26000018",
+        "26000000",
+        "26000005",
+        "27000000",
+        "28000001",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 91.84,
+      "count": 49,
+      "wins": 45,
+      "stars": 100,
+      "avgStars": 2.04,
+      "players": [
+        {
+          "name": "King",
+          "hashtag": "VULJGY209",
+          "stars": 1,
+          "score": 1002,
+          "timestamp": 1760297474,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "King",
+                "tag": "VULJGY209"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Drshark",
+                "tag": "2098R0GYUL"
+              }
+            ],
+            "replayTag": "#089PG2JLJLRU"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "2NDerzy",
+          "hashtag": "VP9G8R0U9",
+          "alliance": "clashaholics",
+          "alliancehashtag": "G80LP0YG",
+          "badge": 16000122,
+          "stars": 1,
+          "score": 873,
+          "timestamp": 1760321556,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "2NDerzy",
+                "tag": "VP9G8R0U9"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "ImmortalCyborg",
+                "tag": "VYPRVJURL"
+              }
+            ],
+            "replayTag": "#009PU9PQ9GY8"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "CIBORG_nr38",
+          "hashtag": "V80LQUJ29",
+          "alliance": "BROOOOOOK",
+          "alliancehashtag": "QL02JQG0",
+          "badge": 16000125,
+          "stars": 3,
+          "score": 753,
+          "timestamp": 1760106133,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "CIBORG_nr38",
+                "tag": "V80LQUJ29"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "HeroicReaper",
+                "tag": "VYY2PYVUP"
+              }
+            ],
+            "replayTag": "#00RPJ2C8PP2G"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.63
+    }
+  },
+  {
+    "tag": "20YURYVYYQ",
+    "trophies": 1150,
+    "name": "Yami",
+    "source_arena": 3,
+    "target_arena": 5,
+    "iteration": 1
+  },
+  {
+    "tag": "208UVLPC88",
+    "trophies": 1172,
+    "name": "wassim",
+    "source_arena": 3,
+    "target_arena": 5,
+    "iteration": 2
+  },
+  {
+    "tag": "VQ8Q8RQ8P",
+    "trophies": 1292,
+    "name": "skdontplay",
+    "source_arena": 3,
+    "target_arena": 5,
+    "iteration": 3
+  },
+  {
+    "tag": "ULYVU90RP",
+    "trophies": 1302,
+    "name": "mo",
+    "deck": {
+      "highestTrophies": 1302,
+      "deckId": [
+        "26000036",
+        "26000014",
+        "26000018",
+        "26000000",
+        "26000010",
+        "27000000",
+        "28000001",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 78.79,
+      "count": 33,
+      "wins": 26,
+      "stars": 53,
+      "avgStars": 1.61,
+      "players": [
+        {
+          "name": "mo",
+          "hashtag": "ULYVU90RP",
+          "stars": 3,
+          "score": 1302,
+          "timestamp": 1760370968,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "mo",
+                "tag": "ULYVU90RP"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "DBZinfernoryuk|",
+                "tag": "VP8G2JVLQ"
+              }
+            ],
+            "replayTag": "#00JPJYY88RVC"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "savedes",
+          "hashtag": "VPC20LJGG",
+          "stars": 1,
+          "score": 1278,
+          "timestamp": 1760357591,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "savedes",
+                "tag": "VPC20LJGG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Zeke|",
+                "tag": "20Q0YUUJYL"
+              }
+            ],
+            "replayTag": "#028PJJ2PPJU8"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "R4DiK_TR4k4",
+          "hashtag": "VUQ0V0ULG",
+          "alliance": "THE FAMILY JAL",
+          "alliancehashtag": "G9QYYPP0",
+          "badge": 16000128,
+          "stars": 1,
+          "score": 1124,
+          "timestamp": 1759979088,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "R4DiK_TR4k4",
+                "tag": "VUQ0V0ULG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "iphan",
+                "tag": "V9CVJQ89G"
+              }
+            ],
+            "replayTag": "#080PG99QJQVQ"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.25
+    }
+  },
+  {
+    "tag": "20QJUYG0CJ",
+    "trophies": 1454,
+    "name": "shiest",
+    "source_arena": 4,
+    "target_arena": 6,
+    "iteration": 1
+  },
+  {
+    "tag": "VPRQL0LV9",
+    "trophies": 1563,
+    "name": "rodrinha",
+    "source_arena": 4,
+    "target_arena": 6,
+    "iteration": 2
+  },
+  {
+    "tag": "VVLL2CY8U",
+    "trophies": 1600,
+    "name": "Howlelosss",
+    "deck": {
+      "highestTrophies": 1600,
+      "deckId": [
+        "37000006",
+        "26000021",
+        "26000011",
+        "26000014",
+        "26000018",
+        "26000005",
+        "26000010",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 90,
+      "count": 50,
+      "wins": 45,
+      "stars": 80,
+      "avgStars": 1.6,
+      "players": [
+        {
+          "name": "Howlelosss",
+          "hashtag": "VVLL2CY8U",
+          "alliance": "The Chicken Nug",
+          "alliancehashtag": "G028JCQQ",
+          "badge": 16000080,
+          "stars": 3,
+          "score": 1600,
+          "timestamp": 1759807617,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Howlelosss",
+                "tag": "VVLL2CY8U"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "AFKstriker",
+                "tag": "202LR2C0Y9"
+              }
+            ],
+            "replayTag": "#09J992Q08URC"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.5
+    }
+  },
+  {
+    "tag": "QVCC9PLJP",
+    "trophies": 1630,
+    "name": "Jula",
+    "source_arena": 5,
+    "target_arena": 7,
+    "iteration": 1
+  },
+  {
+    "tag": "202GLV222V",
+    "trophies": 1983,
+    "name": "juju",
+    "source_arena": 5,
+    "target_arena": 7,
+    "iteration": 2
+  },
+  {
+    "tag": "20JUPU8C2Q",
+    "trophies": 2010,
+    "name": "lucio",
+    "deck": {
+      "highestTrophies": 2010,
+      "deckId": [
+        "26000021",
+        "26000007",
+        "26000014",
+        "26000018",
+        "26000012",
+        "27000000",
+        "27000009",
+        "28000001"
+      ],
+      "challengeWins": {},
+      "winRate": 70.27,
+      "count": 74,
+      "wins": 52,
+      "stars": 137,
+      "avgStars": 1.85,
+      "players": [
+        {
+          "name": "lucio",
+          "hashtag": "20JUPU8C2Q",
+          "alliance": "riverplate",
+          "alliancehashtag": "GG99UURG",
+          "badge": 16000046,
+          "stars": 2,
+          "score": 2010,
+          "timestamp": 1760367539,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "lucio",
+                "tag": "20JUPU8C2Q"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "lennon.b4",
+                "tag": "VRCCQYU09"
+              }
+            ],
+            "replayTag": "#09Q9J098QRLY"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "LarrYZz",
+          "hashtag": "UG0VV09C9",
+          "stars": 2,
+          "score": 2008,
+          "timestamp": 1760466110,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "LarrYZz",
+                "tag": "UG0VV09C9"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "ethann2605",
+                "tag": "20LQ8099PY"
+              }
+            ],
+            "replayTag": "#02CPGPUCC82V"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "envy",
+          "hashtag": "V808QQ9RG",
+          "alliance": "Phoenix E-Sport",
+          "alliancehashtag": "GQ9V8QP2",
+          "badge": 16000029,
+          "stars": 1,
+          "score": 1988,
+          "timestamp": 1760011847,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "envy",
+                "tag": "V808QQ9RG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "GGnimblevictor",
+                "tag": "V8VJ29J8Q"
+              }
+            ],
+            "replayTag": "#00JPJ8GR8PYQ"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.63
+    }
+  },
+  {
+    "tag": "V9P8GRQRL",
+    "trophies": 2278,
+    "name": "Deaツ",
+    "source_arena": 6,
+    "target_arena": 8,
+    "iteration": 1
+  },
+  {
+    "tag": "CJ0QQYLY8",
+    "trophies": 2304,
+    "name": "Teddy",
+    "deck": {
+      "highestTrophies": 2304,
+      "deckId": [
+        "26000021",
+        "26000004",
+        "26000007",
+        "26000011",
+        "26000018",
+        "26000001",
+        "26000005",
+        "28000008"
+      ],
+      "challengeWins": {},
+      "winRate": 80,
+      "count": 90,
+      "wins": 72,
+      "stars": 194,
+      "avgStars": 2.16,
+      "players": [
+        {
+          "name": "Teddy",
+          "hashtag": "CJ0QQYLY8",
+          "alliance": "MUGIWARA",
+          "alliancehashtag": "G28JCGQJ",
+          "badge": 16000078,
+          "stars": 2,
+          "score": 2304,
+          "timestamp": 1760297668,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Teddy",
+                "tag": "CJ0QQYLY8"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "julii",
+                "tag": "V8LG2RCC8"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "arrbmt",
+          "hashtag": "V0GR0JY9Q",
+          "stars": 2,
+          "score": 2282,
+          "timestamp": 1760616273,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "arrbmt",
+                "tag": "V0GR0JY9Q"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "OofEwan",
+                "tag": "VUCYQ0VJR"
+              }
+            ],
+            "replayTag": "#02QPRQCLYG9Q"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "[Fer Rxn]",
+          "hashtag": "J99RGRCRV",
+          "alliance": "Clandestinos13",
+          "alliancehashtag": "GPYGP90Q",
+          "badge": 16000024,
+          "stars": 3,
+          "score": 2169,
+          "timestamp": 1759833429,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "[Fer Rxn]",
+                "tag": "J99RGRCRV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "GamerSkill",
+                "tag": "V8GGPYG22"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 4
+    }
+  },
+  {
+    "tag": "20YL89VLYU",
+    "trophies": 2585,
+    "name": "VDS member",
+    "source_arena": 7,
+    "target_arena": 9,
+    "iteration": 1
+  },
+  {
+    "tag": "UV2RRG089",
+    "trophies": 2609,
+    "name": "Kirima",
+    "deck": {
+      "highestTrophies": 2609,
+      "deckId": [
+        "26000021",
+        "26000007",
+        "26000018",
+        "26000027",
+        "26000037",
+        "26000000",
+        "26000013",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 65.74,
+      "count": 108,
+      "wins": 71,
+      "stars": 213,
+      "avgStars": 1.97,
+      "players": [
+        {
+          "name": "Kirima",
+          "hashtag": "UV2RRG089",
+          "alliance": "GÖK DELENLER",
+          "alliancehashtag": "GRQYY9JP",
+          "badge": 16000128,
+          "stars": 2,
+          "score": 2609,
+          "timestamp": 1760375930,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Kirima",
+                "tag": "UV2RRG089"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "stone",
+                "tag": "20J9L28QYC"
+              }
+            ],
+            "replayTag": "#022PCY20CP92"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.75
+    }
+  },
+  {
+    "tag": "V8P2L8VQ2",
+    "trophies": 2965,
+    "name": "achikenuggie",
+    "source_arena": 8,
+    "target_arena": 10,
+    "iteration": 1
+  },
+  {
+    "tag": "UV2RRG089",
+    "trophies": 2972,
+    "name": "Unknown",
+    "source_arena": 8,
+    "target_arena": 10,
+    "iteration": 2
+  },
+  {
+    "tag": "V8J99Q88V",
+    "trophies": 3004,
+    "name": "Zaratustra",
+    "deck": {
+      "highestTrophies": 3004,
+      "deckId": [
+        "26000021",
+        "28000004",
+        "26000007",
+        "26000018",
+        "26000000",
+        "26000012",
+        "27000000",
+        "28000001"
+      ],
+      "challengeWins": {},
+      "winRate": 66.67,
+      "count": 66,
+      "wins": 44,
+      "stars": 109,
+      "avgStars": 1.65,
+      "players": [
+        {
+          "name": "Zaratustra",
+          "hashtag": "V8J99Q88V",
+          "alliance": "JJ",
+          "alliancehashtag": "GCRLLL9V",
+          "badge": 16000152,
+          "stars": 1,
+          "score": 3004,
+          "timestamp": 1760440112,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Zaratustra",
+                "tag": "V8J99Q88V"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "tamara",
+                "tag": "209GPLL99V"
+              }
+            ],
+            "replayTag": "#00RPJP9VVVY2"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Flawex",
+          "hashtag": "V29CC2QRJ",
+          "alliance": "King of a hill",
+          "alliancehashtag": "PPPL08CY",
+          "badge": 16000144,
+          "stars": 1,
+          "score": 2999,
+          "timestamp": 1760454918,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Flawex",
+                "tag": "V29CC2QRJ"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "SHADOW",
+                "tag": "20GCQ29V8P"
+              }
+            ],
+            "replayTag": "#0989C2C2CCRU"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "TheoBT",
+          "hashtag": "20RUG9C822",
+          "alliance": "basketball",
+          "alliancehashtag": "9PRUP02Y",
+          "badge": 16000162,
+          "stars": 2,
+          "score": 2890,
+          "timestamp": 1760493313,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "TheoBT",
+                "tag": "20RUG9C822"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "R U I V O",
+                "tag": "V22V82G0C"
+              }
+            ],
+            "replayTag": "#09Y9J22PV2RP"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.5
+    }
+  },
+  {
+    "tag": "20YL2L99R2",
+    "trophies": 3404,
+    "name": "Rayanhbl",
+    "deck": {
+      "highestTrophies": 3404,
+      "deckId": [
+        "26000003",
+        "26000016",
+        "26000044",
+        "26000025",
+        "26000039",
+        "26000030",
+        "28000008",
+        "28000009"
+      ],
+      "challengeWins": {},
+      "winRate": 55.21,
+      "count": 163,
+      "wins": 90,
+      "stars": 200,
+      "avgStars": 1.23,
+      "players": [
+        {
+          "name": "Rayanhbl",
+          "hashtag": "20YL2L99R2",
+          "alliance": "jtm pas",
+          "alliancehashtag": "GGRYU0YL",
+          "badge": 16000009,
+          "stars": 0,
+          "score": 3404,
+          "timestamp": 1759729070,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Rayanhbl",
+                "tag": "20YL2L99R2"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Cri_1004",
+                "tag": "V2J0UVR2U"
+              }
+            ],
+            "replayTag": "#09R98VQ9802V"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Mhyr0k",
+          "hashtag": "PV8GQP0VG",
+          "alliance": "FC bruc",
+          "alliancehashtag": "QCYRLRU2",
+          "badge": 16000078,
+          "stars": 1,
+          "score": 3355,
+          "timestamp": 1759862677,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Mhyr0k",
+                "tag": "PV8GQP0VG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "arian",
+                "tag": "UC9U2Y888"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "dhurim",
+          "hashtag": "VUUJC0CLP",
+          "alliance": "SIGMA KIRILPICK",
+          "alliancehashtag": "GVPQ920Q",
+          "badge": 16000132,
+          "stars": 0,
+          "score": 3349,
+          "timestamp": 1760435982,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "dhurim",
+                "tag": "VUUJC0CLP"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "сигма про 2",
+                "tag": "208J08L09G"
+              }
+            ],
+            "replayTag": "#08LPG28U80QP"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.38
+    }
+  },
+  {
+    "tag": "20Y89PGVJG",
+    "trophies": 3563,
+    "name": "Кенкелес",
+    "source_arena": 10,
+    "target_arena": 12,
+    "iteration": 1
+  },
+  {
+    "tag": "U0U0R9VQ2",
+    "trophies": 3789,
+    "name": "daddy_brandon",
+    "source_arena": 10,
+    "target_arena": 12,
+    "iteration": 2
+  },
+  {
+    "tag": "PQU90RVJV",
+    "trophies": 3801,
+    "name": "Grodan07",
+    "deck": {
+      "highestTrophies": 3801,
+      "deckId": [
+        "26000021",
+        "26000032",
+        "28000004",
+        "26000055",
+        "26000007",
+        "26000014",
+        "27000000",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 100,
+      "count": 90,
+      "wins": 90,
+      "stars": 234,
+      "avgStars": 2.6,
+      "players": [
+        {
+          "name": "Grodan07",
+          "hashtag": "PQU90RVJV",
+          "stars": 3,
+          "score": 3801,
+          "timestamp": 1760705401,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Grodan07",
+                "tag": "PQU90RVJV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "OPcheeky_bond",
+                "tag": "VYGUQLYR8"
+              }
+            ],
+            "replayTag": "#08RPYVVVJYV2"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Log_bait",
+          "hashtag": "JVYRY9YYP",
+          "alliance": "Log_bait",
+          "alliancehashtag": "LPJ9LUJJ",
+          "badge": 16000154,
+          "stars": 3,
+          "score": 3799,
+          "timestamp": 1759743338,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Log_bait",
+                "tag": "JVYRY9YYP"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Gon97",
+                "tag": "V2VJCYP9R"
+              }
+            ],
+            "replayTag": "#09U990LLGR9L"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 4.13
+    }
+  },
+  {
+    "tag": "20RUL0Y9J0",
+    "trophies": 4157,
+    "name": "Yubel",
+    "source_arena": 11,
+    "target_arena": 13,
+    "iteration": 1
+  },
+  {
+    "tag": "CCY29JJLG",
+    "trophies": 4184,
+    "name": "the killer",
+    "source_arena": 11,
+    "target_arena": 13,
+    "iteration": 2
+  },
+  {
+    "tag": "JV9LYVJ9Q",
+    "trophies": 4200,
+    "name": "leguildien",
+    "deck": {
+      "highestTrophies": 4200,
+      "deckId": [
+        "26000021",
+        "26000011",
+        "26000014",
+        "26000015",
+        "26000018",
+        "26000041",
+        "26000049",
+        "27000000"
+      ],
+      "challengeWins": {},
+      "winRate": 57.5,
+      "count": 80,
+      "wins": 46,
+      "stars": 132,
+      "avgStars": 1.65,
+      "players": [
+        {
+          "name": "leguildien",
+          "hashtag": "JV9LYVJ9Q",
+          "stars": 3,
+          "score": 4200,
+          "timestamp": 1760623312,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "leguildien",
+                "tag": "JV9LYVJ9Q"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Serial Gooner",
+                "tag": "VCVQ9J8YV"
+              }
+            ],
+            "replayTag": "#02VPGQY92CPG"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.5
+    }
+  },
+  {
+    "tag": "V8PQLVU0G",
+    "trophies": 4441,
+    "name": "BlueEyedMini",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 1
+  },
+  {
+    "tag": "YCLR2RRVG",
+    "trophies": 4461,
+    "name": "Lucre",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 2
+  },
+  {
+    "tag": "VR29YCUQ0",
+    "trophies": 4484,
+    "name": "Fluffy",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 3
+  },
+  {
+    "tag": "VUCLQVRQU",
+    "trophies": 4516,
+    "name": "Antti42",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 4
+  },
+  {
+    "tag": "J0JV220Q2",
+    "trophies": 4547,
+    "name": "Sanuxy",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 5
+  },
+  {
+    "tag": "UVPQ92L09",
+    "trophies": 4550,
+    "name": "口渴",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 6
+  },
+  {
+    "tag": "LY08LYGVG",
+    "trophies": 4598,
+    "name": "candecraft",
+    "source_arena": 12,
+    "target_arena": 14,
+    "iteration": 7
+  },
+  {
+    "tag": "UCUG09PYL",
+    "trophies": 4602,
+    "name": "TOTTI_1",
+    "deck": {
+      "highestTrophies": 4602,
+      "deckId": [
+        "26000021",
+        "26000007",
+        "26000014",
+        "26000010",
+        "26000030",
+        "27000000",
+        "28000011",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 73.68,
+      "count": 114,
+      "wins": 84,
+      "stars": 223,
+      "avgStars": 1.96,
+      "players": [
+        {
+          "name": "TOTTI_1",
+          "hashtag": "UCUG09PYL",
+          "alliance": "xoeluja 3",
+          "alliancehashtag": "RPRYCPJ0",
+          "badge": 16000011,
+          "stars": 3,
+          "score": 4602,
+          "timestamp": 1760389146,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "TOTTI_1",
+                "tag": "UCUG09PYL"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "FireJOHNWiCK",
+                "tag": "VJV0VR80C"
+              }
+            ],
+            "replayTag": "#00PPU8QC80C9"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3
+    }
+  },
+  {
+    "tag": "CUGVUJPUQ",
+    "trophies": 4630,
+    "name": "rammydagoat",
+    "source_arena": 13,
+    "target_arena": 15,
+    "iteration": 1
+  },
+  {
+    "tag": "LYRRGJUJP",
+    "trophies": 4662,
+    "name": "DJ SZKUDLARSON",
+    "source_arena": 13,
+    "target_arena": 15,
+    "iteration": 2
+  },
+  {
+    "tag": "V9UVJ9GY0",
+    "trophies": 4689,
+    "name": "Tiramisu§",
+    "source_arena": 13,
+    "target_arena": 15,
+    "iteration": 3
+  },
+  {
+    "tag": "UVC0C9R0V",
+    "trophies": 4719,
+    "name": "machu",
+    "source_arena": 13,
+    "target_arena": 15,
+    "iteration": 4
+  },
+  {
+    "tag": "VJCG9GPLG",
+    "trophies": 5001,
+    "name": "julia",
+    "deck": {
+      "highestTrophies": 5001,
+      "deckId": [
+        "28000004",
+        "26000055",
+        "26000007",
+        "26000012",
+        "26000050",
+        "26000064",
+        "28000015",
+        "28000000"
+      ],
+      "challengeWins": {},
+      "winRate": 75.41,
+      "count": 122,
+      "wins": 92,
+      "stars": 186,
+      "avgStars": 1.52,
+      "players": [
+        {
+          "name": "julia",
+          "hashtag": "VJCG9GPLG",
+          "alliance": "15k=tuff",
+          "alliancehashtag": "GPQ882CQ",
+          "badge": 16000143,
+          "stars": 3,
+          "score": 5001,
+          "timestamp": 1759712965,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "julia",
+                "tag": "VJCG9GPLG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "SpeddyMcSped",
+                "tag": "V2U9JJP08"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Criitk",
+          "hashtag": "VQ2C08JVG",
+          "alliance": "UFRG",
+          "alliancehashtag": "RQQUCLJJ",
+          "badge": 16000141,
+          "stars": 1,
+          "score": 4995,
+          "timestamp": 1760479424,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Criitk",
+                "tag": "VQ2C08JVG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "CHE7ROZ7NHO TDC",
+                "tag": "20Y288VU0G"
+              }
+            ],
+            "replayTag": "#09U99YRYP80Y"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Paco13",
+          "hashtag": "CV9YL0G29",
+          "alliance": "wuawischupan3p3",
+          "alliancehashtag": "LLUL9C8R",
+          "badge": 16000106,
+          "stars": 1,
+          "score": 4993,
+          "timestamp": 1760413378,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Paco13",
+                "tag": "CV9YL0G29"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "gracie",
+                "tag": "V8P0VP92G"
+              }
+            ],
+            "replayTag": "#09Q9J0G8CYYV"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.75
+    }
+  },
+  {
+    "tag": "UVGL9V89J",
+    "trophies": 5215,
+    "name": "El pecas",
+    "source_arena": 14,
+    "target_arena": 16,
+    "iteration": 1
+  },
+  {
+    "tag": "VGCJRY802",
+    "trophies": 5230,
+    "name": "lw",
+    "source_arena": 14,
+    "target_arena": 16,
+    "iteration": 2
+  },
+  {
+    "tag": "20QJJQQR2J",
+    "trophies": 5254,
+    "name": "SKcrispykirito",
+    "source_arena": 14,
+    "target_arena": 16,
+    "iteration": 3
+  },
+  {
+    "tag": "RQCVRCQJP",
+    "trophies": 5284,
+    "name": "Ukra_gt",
+    "source_arena": 14,
+    "target_arena": 16,
+    "iteration": 4
+  },
+  {
+    "tag": "UVCCQCGUQ",
+    "trophies": 5466,
+    "name": "bel tacchino",
+    "source_arena": 14,
+    "target_arena": 16,
+    "iteration": 5
+  },
+  {
+    "tag": "QRQ8LUJU",
+    "trophies": 5503,
+    "name": "doop",
+    "deck": {
+      "highestTrophies": 5503,
+      "deckId": [
+        "28000010",
+        "26000015",
+        "26000000",
+        "26000023",
+        "27000009",
+        "28000015",
+        "28000012",
+        "28000009"
+      ],
+      "challengeWins": {},
+      "winRate": 47.79,
+      "count": 136,
+      "wins": 65,
+      "stars": 101,
+      "avgStars": 0.74,
+      "players": [
+        {
+          "name": "doop",
+          "hashtag": "QRQ8LUJU",
+          "alliance": "我们有大飞机",
+          "alliancehashtag": "RJGVVR89",
+          "badge": 16000017,
+          "stars": 0,
+          "score": 5503,
+          "timestamp": 1759887427,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "doop",
+                "tag": "QRQ8LUJU"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Shadow_Fredi",
+                "tag": "V8L8RLR00"
+              }
+            ],
+            "replayTag": "#02JPR9QLCYJL"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Luanziin_l",
+          "hashtag": "2PYC20JG9",
+          "alliance": "ICEBERG ❄️",
+          "alliancehashtag": "QYV0RVJ0",
+          "badge": 16000168,
+          "stars": 2,
+          "score": 5495,
+          "timestamp": 1760199811,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Luanziin_l",
+                "tag": "2PYC20JG9"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "ChaoticSouvlaki",
+                "tag": "V2VVU0YL0"
+              }
+            ],
+            "replayTag": "#00CPJ92Y20CP"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "boumgaet",
+          "hashtag": "Y0VVU9YVV",
+          "alliance": "Moietco",
+          "alliancehashtag": "QLC9LY2L",
+          "badge": 16000163,
+          "stars": 0,
+          "score": 5482,
+          "timestamp": 1759995671,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "boumgaet",
+                "tag": "Y0VVU9YVV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Ultimate",
+                "tag": "CURG0RU88"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.38
+    }
+  },
+  {
+    "tag": "VQRL9GVYJ",
+    "trophies": 5998,
+    "name": "elmamasesta",
+    "source_arena": 15,
+    "target_arena": 17,
+    "iteration": 1
+  },
+  {
+    "tag": "JG2U0C98G",
+    "trophies": 6001,
+    "name": "Merlin♡",
+    "deck": {
+      "highestTrophies": 6001,
+      "deckId": [
+        "26000058",
+        "28000004",
+        "26000011",
+        "26000026",
+        "26000040",
+        "26000041",
+        "26000030",
+        "27000000"
+      ],
+      "challengeWins": {},
+      "winRate": 57.81,
+      "count": 256,
+      "wins": 148,
+      "stars": 277,
+      "avgStars": 1.08,
+      "players": [
+        {
+          "name": "Merlin♡",
+          "hashtag": "JG2U0C98G",
+          "alliance": "Los más capito",
+          "alliancehashtag": "LVGCQLJL",
+          "badge": 16000046,
+          "stars": 1,
+          "score": 6001,
+          "timestamp": 1760483132,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Merlin♡",
+                "tag": "JG2U0C98G"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Volro",
+                "tag": "V0VQJQQUU"
+              }
+            ],
+            "replayTag": "#02JPRQV0RRV9"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Chicken.",
+          "hashtag": "C9PRPRLLR",
+          "alliance": "305 Underworld",
+          "alliancehashtag": "YUCURGJY",
+          "badge": 16000038,
+          "stars": 2,
+          "score": 5972,
+          "timestamp": 1760101564,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Chicken.",
+                "tag": "C9PRPRLLR"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "skiffedz",
+                "tag": "V0JG9PRUL"
+              }
+            ],
+            "replayTag": "#00VPJ89CYV09"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "EnzoskR",
+          "hashtag": "22YGVYCJ0",
+          "stars": 3,
+          "score": 5961,
+          "timestamp": 1759935301,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "EnzoskR",
+                "tag": "22YGVYCJ0"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "牛逼",
+                "tag": "V2VCY0VQL"
+              }
+            ],
+            "replayTag": "#08PPQUL2Y0Q9"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.75
+    }
+  },
+  {
+    "tag": "VQQJ22U8Q",
+    "trophies": 6042,
+    "name": "jett",
+    "source_arena": 16,
+    "target_arena": 18,
+    "iteration": 1
+  },
+  {
+    "tag": "C920CY8G0",
+    "trophies": 6060,
+    "name": "^_^",
+    "source_arena": 16,
+    "target_arena": 18,
+    "iteration": 2
+  },
+  {
+    "tag": "2VVQ00RYV",
+    "trophies": 6507,
+    "name": "Kadir_PvP",
+    "deck": {
+      "highestTrophies": 6507,
+      "deckId": [
+        "28000004",
+        "26000055",
+        "26000007",
+        "26000011",
+        "26000037",
+        "26000012",
+        "26000049",
+        "28000011"
+      ],
+      "challengeWins": {},
+      "winRate": 66.67,
+      "count": 180,
+      "wins": 120,
+      "stars": 213,
+      "avgStars": 1.18,
+      "players": [
+        {
+          "name": "Kadir_PvP",
+          "hashtag": "2VVQ00RYV",
+          "alliance": "24 436",
+          "alliancehashtag": "8Y02PLPQ",
+          "badge": 16000162,
+          "stars": 0,
+          "score": 6507,
+          "timestamp": 1760363375,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Kadir_PvP",
+                "tag": "2VVQ00RYV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "serioeryk",
+                "tag": "UYQPCV2GP"
+              }
+            ],
+            "replayTag": "#000PU800GQQR"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "theDuck",
+          "hashtag": "U9YGCGUCQ",
+          "alliance": "sup",
+          "alliancehashtag": "GRPG8Q2R",
+          "badge": 16000128,
+          "stars": 1,
+          "score": 6499,
+          "timestamp": 1759897296,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "theDuck",
+                "tag": "U9YGCGUCQ"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Waterycomet",
+                "tag": "UG2JULYPU"
+              }
+            ],
+            "replayTag": "#08U9JUYR80Q2"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "cattegate",
+          "hashtag": "RG0RUC2VQ",
+          "alliance": "Les angel demon",
+          "alliancehashtag": "8PQRRLJ",
+          "badge": 16000005,
+          "stars": 1,
+          "score": 6494,
+          "timestamp": 1760526821,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "cattegate",
+                "tag": "RG0RUC2VQ"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "bro",
+                "tag": "CVLRUGQYQ"
+              }
+            ],
+            "replayTag": "#00RPJPU0Y82V"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 3.75
+    }
+  },
+  {
+    "tag": "Q0GRJ2Y0U",
+    "trophies": 6533,
+    "name": "DanielTheGuard",
+    "source_arena": 17,
+    "target_arena": 19,
+    "iteration": 1
+  },
+  {
+    "tag": "J2CQG8GJL",
+    "trophies": 6559,
+    "name": "emo n199az",
+    "source_arena": 17,
+    "target_arena": 19,
+    "iteration": 2
+  },
+  {
+    "tag": "UJ9LL8VYL",
+    "trophies": 6850,
+    "name": "SHAXOW",
+    "source_arena": 17,
+    "target_arena": 19,
+    "iteration": 3
+  },
+  {
+    "tag": "UULLU2Y2R",
+    "trophies": 6956,
+    "name": "Mhi_Joker",
+    "source_arena": 17,
+    "target_arena": 19,
+    "iteration": 4
+  },
+  {
+    "tag": "JYVPP8RLY",
+    "trophies": 6988,
+    "name": "Fat Neek",
+    "source_arena": 17,
+    "target_arena": 19,
+    "iteration": 5
+  },
+  {
+    "tag": "QVRJRGLVP",
+    "trophies": 7000,
+    "name": "Bebrik",
+    "deck": {
+      "highestTrophies": 7000,
+      "deckId": [
+        "26000059",
+        "26000072",
+        "26000010",
+        "26000030",
+        "27000000",
+        "28000011",
+        "28000014",
+        "28000018"
+      ],
+      "challengeWins": {},
+      "winRate": 54.27,
+      "count": 433,
+      "wins": 235,
+      "stars": 389,
+      "avgStars": 0.9,
+      "players": [
+        {
+          "name": "Bebrik",
+          "hashtag": "QVRJRGLVP",
+          "alliance": "шихазаны",
+          "alliancehashtag": "GPC292GC",
+          "badge": 16000177,
+          "stars": 1,
+          "score": 7000,
+          "timestamp": 1760594661,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Bebrik",
+                "tag": "QVRJRGLVP"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "StarChai$",
+                "tag": "V9V9QCRQV"
+              }
+            ],
+            "replayTag": "#08LPG8PYPPR8"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "CrysRmz",
+          "hashtag": "2YL9RR2C9",
+          "stars": 0,
+          "score": 6969,
+          "timestamp": 1759978906,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "CrysRmz",
+                "tag": "2YL9RR2C9"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "ぜふぁー",
+                "tag": "UPG9V9RCU"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Mostrino",
+          "hashtag": "8029J0QPR",
+          "stars": 1,
+          "score": 6952,
+          "timestamp": 1760154901,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Mostrino",
+                "tag": "8029J0QPR"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "gildo",
+                "tag": "V90G0Q9L8"
+              }
+            ],
+            "replayTag": "#0909C0U882CJ"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  },
+  {
+    "tag": "20228VU8UJ",
+    "trophies": 7296,
+    "name": "mm",
+    "source_arena": 18,
+    "target_arena": 20,
+    "iteration": 1
+  },
+  {
+    "tag": "R2VURL8LY",
+    "trophies": 7330,
+    "name": "minusoop",
+    "source_arena": 18,
+    "target_arena": 20,
+    "iteration": 2
+  },
+  {
+    "tag": "VURJY022Y",
+    "trophies": 7505,
+    "name": "DaCostinhaa",
+    "deck": {
+      "highestTrophies": 7505,
+      "deckId": [
+        "28000004",
+        "26000000",
+        "26000026",
+        "26000040",
+        "26000041",
+        "26000030",
+        "27000003",
+        "28000011"
+      ],
+      "challengeWins": {},
+      "winRate": 62.19,
+      "count": 611,
+      "wins": 380,
+      "stars": 607,
+      "avgStars": 0.99,
+      "players": [
+        {
+          "name": "DaCostinhaa",
+          "hashtag": "VURJY022Y",
+          "alliance": "Vasco amem",
+          "alliancehashtag": "G2Y0Q2JG",
+          "badge": 16000139,
+          "stars": 1,
+          "score": 7505,
+          "timestamp": 1760235071,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "DaCostinhaa",
+                "tag": "VURJY022Y"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Spinneriscool",
+                "tag": "2UV8LGUVV"
+              }
+            ],
+            "replayTag": "#08CPYJL0Q0R0"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "StealthSh0ts",
+          "hashtag": "9UUJ0PGLY",
+          "alliance": "saffys a noob",
+          "alliancehashtag": "RRYG92CQ",
+          "badge": 16000076,
+          "stars": 1,
+          "score": 7503,
+          "timestamp": 1760370271,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "StealthSh0ts",
+                "tag": "9UUJ0PGLY"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "grzin_passa_nd",
+                "tag": "2CVYJRJ9P"
+              }
+            ],
+            "replayTag": "#020PJ9LJQRCC"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "sceleton army",
+          "hashtag": "98QQC00JU",
+          "alliance": "MadeInHungary",
+          "alliancehashtag": "PJCJYGCR",
+          "badge": 16000081,
+          "stars": 2,
+          "score": 7501,
+          "timestamp": 1760300811,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "sceleton army",
+                "tag": "98QQC00JU"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "dsniel3",
+                "tag": "UR8J98J0Q"
+              }
+            ],
+            "replayTag": "#022PCPQCJ8JR"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  },
+  {
+    "tag": "LQC89PJG9",
+    "trophies": 8009,
+    "name": "yellow machine",
+    "deck": {
+      "highestTrophies": 8009,
+      "deckId": [
+        "26000032",
+        "26000058",
+        "26000062",
+        "26000000",
+        "26000019",
+        "27000004",
+        "28000011",
+        "28000012"
+      ],
+      "challengeWins": {},
+      "winRate": 55.09,
+      "count": 697,
+      "wins": 384,
+      "stars": 579,
+      "avgStars": 0.83,
+      "players": [
+        {
+          "name": "yellow machine",
+          "hashtag": "LQC89PJG9",
+          "alliance": "OMEGA",
+          "alliancehashtag": "G99P29QU",
+          "badge": 16000029,
+          "stars": 2,
+          "score": 8009,
+          "timestamp": 1759868385,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "yellow machine",
+                "tag": "LQC89PJG9"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Clap_TrunKs✝",
+                "tag": "V8YU2GGYC"
+              }
+            ],
+            "replayTag": "#0929JUQV9VPV"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "cyborg",
+          "hashtag": "QJUGPURPC",
+          "alliance": "TeseBaBys",
+          "alliancehashtag": "RUC0YQ80",
+          "badge": 16000037,
+          "stars": 0,
+          "score": 8005,
+          "timestamp": 1760318109,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "cyborg",
+                "tag": "QJUGPURPC"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Nish",
+                "tag": "VGG9PVJYY"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Nova I Slooper",
+          "hashtag": "YRLY9Q98G",
+          "alliance": "slooper es gel",
+          "alliancehashtag": "QC0808Y2",
+          "badge": 16000139,
+          "stars": 0,
+          "score": 7996,
+          "timestamp": 1760493298,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Nova I Slooper",
+                "tag": "YRLY9Q98G"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Guilherme416",
+                "tag": "8U9JGL9GL"
+              }
+            ],
+            "replayTag": "#02PPJJQLLUGV"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  },
+  {
+    "tag": "VV9J9UYGJ",
+    "trophies": 8468,
+    "name": "روكس",
+    "source_arena": 20,
+    "target_arena": 22,
+    "iteration": 1
+  },
+  {
+    "tag": "LQC89PJG9",
+    "trophies": 8478,
+    "name": "Unknown",
+    "source_arena": 20,
+    "target_arena": 22,
+    "iteration": 2
+  },
+  {
+    "tag": "G0GJYUVL",
+    "trophies": 8512,
+    "name": "Vourest#2",
+    "deck": {
+      "highestTrophies": 8512,
+      "deckId": [
+        "28000004",
+        "26000000",
+        "26000026",
+        "26000040",
+        "26000041",
+        "26000030",
+        "27000003",
+        "28000011"
+      ],
+      "challengeWins": {},
+      "winRate": 58.97,
+      "count": 641,
+      "wins": 378,
+      "stars": 596,
+      "avgStars": 0.93,
+      "players": [
+        {
+          "name": "Vourest#2",
+          "hashtag": "G0GJYUVL",
+          "alliance": "Elitarna Polska",
+          "alliancehashtag": "Y829ULVR",
+          "badge": 16000009,
+          "stars": 1,
+          "score": 8512,
+          "timestamp": 1760732935,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Vourest#2",
+                "tag": "G0GJYUVL"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "00l.nt",
+                "tag": "VV8Q8PLGC"
+              }
+            ],
+            "replayTag": "#08GPYUGCPJQY"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Milan",
+          "hashtag": "2RJYRLUCG",
+          "stars": 1,
+          "score": 8511,
+          "timestamp": 1760176045,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Milan",
+                "tag": "2RJYRLUCG"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "willi rex",
+                "tag": "JGR0CPU8P"
+              }
+            ],
+            "replayTag": "#08PPG09PG9Q2"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "sparticus300",
+          "hashtag": "Y8RGRRYY",
+          "alliance": "peroni palace",
+          "alliancehashtag": "GP8Q9QQ0",
+          "badge": 16000106,
+          "stars": 1,
+          "score": 8503,
+          "timestamp": 1760452094,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "sparticus300",
+                "tag": "Y8RGRRYY"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "vally",
+                "tag": "8L90V8C"
+              }
+            ],
+            "replayTag": "#00QPJYJGGC08"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  },
+  {
+    "tag": "PGCQG8LVV",
+    "trophies": 8957,
+    "name": "pedroca pipoca",
+    "source_arena": 21,
+    "target_arena": 23,
+    "iteration": 1
+  },
+  {
+    "tag": "92QGY98VJ",
+    "trophies": 8975,
+    "name": "DigioJunior",
+    "source_arena": 21,
+    "target_arena": 23,
+    "iteration": 2
+  },
+  {
+    "tag": "LP0UY2C0V",
+    "trophies": 9018,
+    "name": "Der cheater 1",
+    "deck": {
+      "highestTrophies": 9018,
+      "deckId": [
+        "37000000",
+        "26000059",
+        "26000072",
+        "26000010",
+        "26000030",
+        "28000011",
+        "28000014",
+        "28000018"
+      ],
+      "challengeWins": {},
+      "winRate": 57.58,
+      "count": 719,
+      "wins": 414,
+      "stars": 628,
+      "avgStars": 0.87,
+      "players": [
+        {
+          "name": "Der cheater 1",
+          "hashtag": "LP0UY2C0V",
+          "alliance": "SICARIUS",
+          "alliancehashtag": "Q88PY822",
+          "badge": 16000001,
+          "stars": 1,
+          "score": 9018,
+          "timestamp": 1759791699,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Der cheater 1",
+                "tag": "LP0UY2C0V"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Wkanda",
+                "tag": "22CYGPLJL"
+              }
+            ],
+            "replayTag": "#0909JU9G28VY"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "Filip",
+          "hashtag": "YYRQPPLGP",
+          "alliance": "1.Aostredky",
+          "alliancehashtag": "QV2L80CL",
+          "badge": 16000036,
+          "stars": 1,
+          "score": 9011,
+          "timestamp": 1760210500,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "Filip",
+                "tag": "YYRQPPLGP"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "withaswitcheren",
+                "tag": "RQJ2CJRJ2"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "kongosong7",
+          "hashtag": "JQ0GPLQJV",
+          "alliance": "tm clan big coo",
+          "alliancehashtag": "Q9L2L8CG",
+          "badge": 16000125,
+          "stars": 1,
+          "score": 9010,
+          "timestamp": 1760154573,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "kongosong7",
+                "tag": "JQ0GPLQJV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "Bruh✡",
+                "tag": "202LQQYCJ0"
+              }
+            ],
+            "replayTag": "#00YPJ888L02L"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  },
+  {
+    "tag": "YR80RUJ99",
+    "trophies": 9039,
+    "name": "the god",
+    "source_arena": 22,
+    "target_arena": 24,
+    "iteration": 1
+  },
+  {
+    "tag": "CQV2PVR20",
+    "trophies": 9495,
+    "name": "テコテコfool",
+    "source_arena": 22,
+    "target_arena": 24,
+    "iteration": 2
+  },
+  {
+    "tag": "RUQRCLL0",
+    "trophies": 9515,
+    "name": "DARK SKELETRIN",
+    "deck": {
+      "highestTrophies": 9515,
+      "deckId": [
+        "36000010",
+        "37000000",
+        "26000059",
+        "26000072",
+        "26000030",
+        "28000011",
+        "28000014",
+        "28000018"
+      ],
+      "challengeWins": {},
+      "winRate": 59.89,
+      "count": 1117,
+      "wins": 669,
+      "stars": 994,
+      "avgStars": 0.89,
+      "players": [
+        {
+          "name": "DARK SKELETRIN",
+          "hashtag": "RUQRCLL0",
+          "alliance": "de stefano",
+          "alliancehashtag": "QC008U9P",
+          "badge": 16000163,
+          "stars": 1,
+          "score": 9515,
+          "timestamp": 1759764996,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "DARK SKELETRIN",
+                "tag": "RUQRCLL0"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "har",
+                "tag": "RJYLPYJ0R"
+              }
+            ]
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "DavidGigaGoat54",
+          "hashtag": "RU0YQ909Y",
+          "alliance": "RESPECTFULLY",
+          "alliancehashtag": "QRQ9QJPC",
+          "badge": 16000015,
+          "stars": 0,
+          "score": 9508,
+          "timestamp": 1759815787,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "DavidGigaGoat54",
+                "tag": "RU0YQ909Y"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "YoungLegend_37",
+                "tag": "822YYVYGQ"
+              }
+            ],
+            "replayTag": "#02YPJYPJQ2LG"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        },
+        {
+          "name": "cheesecake",
+          "hashtag": "9GQCRJCCV",
+          "alliance": "ultime suisse",
+          "alliancehashtag": "LU2YPV0G",
+          "badge": 16000044,
+          "stars": 0,
+          "score": 9505,
+          "timestamp": 1759944656,
+          "battleinfo": {
+            "team": [
+              {
+                "name": "cheesecake",
+                "tag": "9GQCRJCCV"
+              }
+            ],
+            "opponent": [
+              {
+                "name": "FR DDV",
+                "tag": "GGV8Q8RYJ"
+              }
+            ],
+            "replayTag": "#02LPR8Q9PVVC"
+          },
+          "supportCards": [
+            {
+              "id": 159000000
+            }
+          ]
+        }
+      ],
+      "manaCost": 2.88
+    }
+  }
+]
