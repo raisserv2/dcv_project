@@ -1,0 +1,4 @@
+# Ignore everything in scrapped_data except semi_data_trail.csv
+scrapped_data/*
+!scrapped_data/
+!scrapped_data/semi_data_trail.csv

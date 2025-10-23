@@ -5,22 +5,23 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict
 import time
 
-def flatten_dict(d, parent_key='', sep='_'):
+
+def flatten_dict(d, parent_key="", sep="_"):
     """
     Flatten a nested dictionary.
-    
+
     Args:
         d: Dictionary to flatten
         parent_key: String to prepend to dictionary keys
         sep: Separator between parent and child keys
-    
+
     Returns:
         Flattened dictionary
     """
     items = []
     for k, v in d.items():
         new_key = f"{parent_key}{sep}{k}" if parent_key else k
-        
+
         if isinstance(v, dict):
             # Recursively flatten nested dictionaries
             items.extend(flatten_dict(v, new_key, sep=sep).items())
@@ -29,8 +30,8 @@ def flatten_dict(d, parent_key='', sep='_'):
     return dict(items)
 
 
-def flatter_battle_log(dict_battle:dict)->dict:
-    new_dict= {}
+def flatter_battle_log(dict_battle: dict) -> dict:
+    new_dict = {}
 
     dict_keys = ["game_config"]
     list_keys = ["players"]
@@ -43,13 +44,14 @@ def flatter_battle_log(dict_battle:dict)->dict:
             for i in range(len(dict_battle[key])):
                 flattened = flatten_dict(dict_battle[key][i], parent_key=f"{key}_{i}")
                 new_dict.update(flattened)
-        
+
         elif key in remove_keys:
             continue
         else:
             new_dict[key] = dict_battle[key]
 
     return new_dict
+
 
 def fetch_api_data(
     id: str,
@@ -66,14 +68,14 @@ def fetch_api_data(
         #     matches = response.json()['matches']
         #     flattened_matches = [flatten_dict(match) for match in matches]
         #     return {"id": id, "flat_matches": flattened_matches, "status": "success"}
-        matches = response.json()['matches']
+        matches = response.json()["matches"]
         flattened_matches = [flatter_battle_log(match) for match in matches]
         df_matches = pd.DataFrame(flattened_matches)
 
-        return id,"success",df_matches
+        return id, "success", df_matches
 
     except requests.exceptions.RequestException as e:
-        print("error",e)
+        print("error", e)
         return "failed", None
 
 
@@ -101,8 +103,8 @@ def parallel_api_calls(
         # Process completed tasks
         for future in as_completed(future_to_id):
             result = future.result()
-            results = pd.concat([results,result[2]],ignore_index=True)
-            time.sleep(0.05)  # Slight delay to avoid overwhelming the server
+            results = pd.concat([results, result[2]], ignore_index=True)
+            time.sleep(0.2)  # Slight delay to avoid overwhelming the server
             print(f"Completed: {result[0]} - Status: {result[1]}")
             completed += 1
             if completed % 10 == 0 or completed == len(ids):
@@ -110,32 +112,41 @@ def parallel_api_calls(
     df = pd.DataFrame(results)
     return df
 
+
 def save_to_csv(data: pd.DataFrame, filename: str):
     """Save DataFrame to CSV file"""
     data.to_csv(filename, index=False)
     print(f"Data saved to {filename}")
 
-def battle_log_from_json(json_file_path: str , csv_file_path: str,index_tuple:tuple=None):
+
+def battle_log_from_json(
+    json_file_path: str, csv_file_path: str, index_tuple: tuple = None
+):
     """Load battle log data from a JSON file and save to CSV"""
-    with open(json_file_path, 'r',errors='ignore') as file:
+    with open(json_file_path, "r", errors="ignore") as file:
         data = json.load(file)
-    
+
     players_json_unpacked = data["players"]
     # players_json_unpacked is a list of dicts with each dict with details of players with id being with the key "tag"
 
-    players_json_unpacked_ids = [player['tag'] for player in players_json_unpacked]
+    players_json_unpacked_ids = [player["tag"] for player in players_json_unpacked]
     if index_tuple:
-        players_json_unpacked_ids = players_json_unpacked_ids[index_tuple[0]:index_tuple[1]]
+        players_json_unpacked_ids = players_json_unpacked_ids[
+            index_tuple[0] : index_tuple[1]
+        ]
     else:
         print(len(players_json_unpacked_ids))
-        players_json_unpacked_ids = players_json_unpacked_ids[:100]  # Limit to first 100 IDs for testing
+        players_json_unpacked_ids = players_json_unpacked_ids[
+            :100
+        ]  # Limit to first 100 IDs for testing
 
     # Make parallel API calls
     results_df = parallel_api_calls(players_json_unpacked_ids, max_workers=30)
     # Save to CSV
 
     save_to_csv(results_df, csv_file_path)
- 
+
+
 if __name__ == "__main__":
     # Define your Player ids
     # ids = ["2G2L9PRUP"]
