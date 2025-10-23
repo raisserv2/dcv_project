@@ -92,6 +92,7 @@ def parallel_api_calls(
         List of results from all API calls
     """
     df = pd.DataFrame()
+    completed = 0
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         # Submit all tasks
@@ -101,10 +102,11 @@ def parallel_api_calls(
         for future in as_completed(future_to_id):
             result = future.result()
             results = pd.concat([results,result[2]],ignore_index=True)
-            time.sleep(0.2)  # Slight delay to avoid overwhelming the server
+            time.sleep(0.05)  # Slight delay to avoid overwhelming the server
             print(f"Completed: {result[0]} - Status: {result[1]}")
-            
-
+            completed += 1
+            if completed % 10 == 0 or completed == len(ids):
+                print(f"Progress: {completed}/{len(ids)} completed")
     df = pd.DataFrame(results)
     return df
 
@@ -113,17 +115,20 @@ def save_to_csv(data: pd.DataFrame, filename: str):
     data.to_csv(filename, index=False)
     print(f"Data saved to {filename}")
 
-def battle_log_from_json(json_file_path: str , csv_file_path: str):
+def battle_log_from_json(json_file_path: str , csv_file_path: str,index_tuple:tuple=None):
     """Load battle log data from a JSON file and save to CSV"""
-    with open(json_file_path, 'r') as file:
+    with open(json_file_path, 'r',errors='ignore') as file:
         data = json.load(file)
     
     players_json_unpacked = data["players"]
     # players_json_unpacked is a list of dicts with each dict with details of players with id being with the key "tag"
 
     players_json_unpacked_ids = [player['tag'] for player in players_json_unpacked]
-
-    players_json_unpacked_ids = players_json_unpacked_ids[:1000]  # Limit to first 1000 IDs for testing
+    if index_tuple:
+        players_json_unpacked_ids = players_json_unpacked_ids[index_tuple[0]:index_tuple[1]]
+    else:
+        print(len(players_json_unpacked_ids))
+        players_json_unpacked_ids = players_json_unpacked_ids[:100]  # Limit to first 100 IDs for testing
 
     # Make parallel API calls
     results_df = parallel_api_calls(players_json_unpacked_ids, max_workers=30)
@@ -133,15 +138,17 @@ def battle_log_from_json(json_file_path: str , csv_file_path: str):
  
 if __name__ == "__main__":
     # Define your Player ids
-    ids = ["2G2L9PRUP"]
+    # ids = ["2G2L9PRUP"]
 
-    # Optional: Add headers if needed (e.g., API key)
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
-    }
+    # # Optional: Add headers if needed (e.g., API key)
+    # headers = {
+    #     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
+    # }
 
-    # Make parallel API calls
-    results_df = parallel_api_calls(ids, max_workers=10, headers=headers)
+    # # Make parallel API calls
+    # results_df = parallel_api_calls(ids, max_workers=10, headers=headers)
 
-    # Save to CSV
-    save_to_csv(results_df, "battle_log_data_neo.csv")
+    # # Save to CSV
+    # save_to_csv(results_df, "battle_log_data_neo.csv")
+    json_path = r"./scraped_ids/clash_royale_uniform.json"
+    battle_log_from_json(json_path, "battle_log_full_batch_trail.csv")
