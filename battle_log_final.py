@@ -95,6 +95,7 @@ def parallel_api_calls(
     """
     df = pd.DataFrame()
     completed = 0
+    failed_id = []
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         # Submit all tasks
@@ -103,6 +104,11 @@ def parallel_api_calls(
         # Process completed tasks
         for future in as_completed(future_to_id):
             result = future.result()
+            if result[1] == "failed":
+                print(f"Failed to fetch data for ID: {future_to_id[future]}")
+                failed_id.append(future_to_id[future])
+                continue
+                
             results = pd.concat([results, result[2]], ignore_index=True)
             time.sleep(0.2)  # Slight delay to avoid overwhelming the server
             print(f"Completed: {result[0]} - Status: {result[1]}")
@@ -110,7 +116,7 @@ def parallel_api_calls(
             if completed % 10 == 0 or completed == len(ids):
                 print(f"Progress: {completed}/{len(ids)} completed")
     df = pd.DataFrame(results)
-    return df
+    return df, failed_id
 
 
 def save_to_csv(data: pd.DataFrame, filename: str):
@@ -120,7 +126,7 @@ def save_to_csv(data: pd.DataFrame, filename: str):
 
 
 def battle_log_from_json(
-    json_file_path: str, csv_file_path: str, index_tuple: tuple = None
+    json_file_path: str, csv_file_path: str, index_tuple: tuple = None, csv_file_path_failed: str = "failed_ids.csv"
 ):
     """Load battle log data from a JSON file and save to CSV"""
     with open(json_file_path, "r", errors="ignore") as file:
@@ -141,10 +147,14 @@ def battle_log_from_json(
         ]  # Limit to first 100 IDs for testing
 
     # Make parallel API calls
-    results_df = parallel_api_calls(players_json_unpacked_ids, max_workers=30)
+    results_df , failed_ids = parallel_api_calls(players_json_unpacked_ids, max_workers=30)
     # Save to CSV
 
     save_to_csv(results_df, csv_file_path)
+
+    if failed_ids:
+        print(f"Failed to fetch data for IDs: {failed_ids}")
+    save_to_csv(results_df, csv_file_path_failed)
 
 
 if __name__ == "__main__":
