@@ -74,7 +74,7 @@ def fetch_api_data(
 
         return id, "success", df_matches
 
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         print("error", e)
         return id, "failed", None
 
@@ -159,9 +159,16 @@ def battle_log_from_json(
 
     if failed_ids:
         print(f"Failed to fetch data for IDs: {failed_ids}")
-        with open(csv_file_path_failed, "w") as f:
-            for item in failed_ids:
-                f.write("%s\n" % item)
+    # Append new failed ids to file, avoid writing duplicates already present
+        try:
+            with open(csv_file_path_failed, "a+", encoding="utf-8") as f:
+                f.seek(0)
+                existing = {line.strip() for line in f if line.strip()}
+                to_write = [str(i) for i in failed_ids if str(i) not in existing]
+                if to_write:
+                    f.write("\n".join(to_write) + "\n")
+        except Exception as e:
+            print("Could not write failed ids:", e)
 
 
 if __name__ == "__main__":
