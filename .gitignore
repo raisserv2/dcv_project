@@ -1,5 +1,3 @@
 # Ignore everything in scrapped_data except semi_data_trail.csv
 /#2\ Data\ Storage/scrapped_data/*
 !/#2\ Data\ Storage/scrapped_data/semi_data_trail.csv
-/#2\ Data\ Storage/Processed\ Data/*
-!/#2\ Data\ Storage/Processed\ Data/preprocessed_battle_log.csv
