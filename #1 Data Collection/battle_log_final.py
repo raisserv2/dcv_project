@@ -56,7 +56,7 @@ def flatter_battle_log(dict_battle: dict) -> dict:
 def fetch_api_data(
     id: str,
     url: str = "https://stats-royale-api-js-beta-z2msk5bu3q-uk.a.run.app/profile/",
-    headers: Dict = None,
+    headers: Dict = None, # type: ignore # type: ignore
 ) -> Dict:
     """Fetch data from a single API endpoint"""
     try:
@@ -72,15 +72,15 @@ def fetch_api_data(
         flattened_matches = [flatter_battle_log(match) for match in matches]
         df_matches = pd.DataFrame(flattened_matches)
 
-        return id, "success", df_matches
+        return id, "success", df_matches # type: ignore
 
     except Exception as e:
         print("error", e)
-        return id, "failed", None
+        return id, "failed", None # type: ignore
 
 
 def parallel_api_calls(
-    ids: List[str], max_workers: int = 5, headers: Dict = None
+    ids: List[str], max_workers: int = 5, headers: Dict = None # type: ignore
 ) -> pd.DataFrame:
     """
     Make parallel API calls
@@ -116,7 +116,7 @@ def parallel_api_calls(
             if completed % 10 == 0 or completed == len(ids):
                 print(f"Progress: {completed}/{len(ids)} completed")
     df = pd.DataFrame(results)
-    return df, failed_id
+    return df, failed_id # type: ignore
 
 
 def save_to_csv(data: pd.DataFrame, filename: str):
@@ -128,7 +128,7 @@ def save_to_csv(data: pd.DataFrame, filename: str):
 def battle_log_from_json(
     json_file_path: str,
     csv_file_path: str,
-    index_tuple: tuple = None,
+    index_tuple: tuple = None, # type: ignore
     csv_file_path_failed: str = "failed_ids.csv",
 ):
     """Load battle log data from a JSON file and save to CSV"""
@@ -155,7 +155,7 @@ def battle_log_from_json(
     )
     # Save to CSV
 
-    save_to_csv(results_df, csv_file_path)
+    save_to_csv(results_df, csv_file_path) # type: ignore
 
     if failed_ids:
         print(f"Failed to fetch data for IDs: {failed_ids}")
@@ -164,7 +164,7 @@ def battle_log_from_json(
             with open(csv_file_path_failed, "a+", encoding="utf-8") as f:
                 f.seek(0)
                 existing = {line.strip() for line in f if line.strip()}
-                to_write = [str(i) for i in failed_ids if str(i) not in existing]
+                to_write = [str(i) for i in failed_ids if str(i) not in existing] # type: ignore
                 if to_write:
                     f.write("\n".join(to_write) + "\n")
         except Exception as e:
