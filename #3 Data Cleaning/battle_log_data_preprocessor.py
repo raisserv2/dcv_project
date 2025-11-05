@@ -8,7 +8,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=pd.errors.DtypeWarning)
 
 # Specify the input and output filenames
-input_filename = "#1 Data Collection/battle_log_data.csv"
+input_filename = "../#2 Data Storage/scrapped_data/semi_data_trail.csv"
 output_filename = "preprocessed_battle_log.csv"
 
 rarity_increase = {
@@ -112,7 +112,7 @@ try:
         results_df['players_1_spells'] = results_df['players_1_spells'].apply(parse_spells)
         print("Processed 'players_1_spells'.")
 
-    # 4. Apply Support Cards Transformation (NEW STEP)
+    # Apply Support Cards Transformation
     if 'players_0_supportCards' in results_df.columns:
         results_df['players_0_supportCards'] = results_df['players_0_supportCards'].apply(parse_support_cards)
         print("Processed 'players_0_supportCards'.")
@@ -121,8 +121,8 @@ try:
         results_df['players_1_supportCards'] = results_df['players_1_supportCards'].apply(parse_support_cards)
         print("Processed 'players_1_supportCards'.")
 
-    # 5. Save the preprocessed data
-    results_df.to_csv(output_filename, index=False)
+    # Save the preprocessed data
+    results_df.to_csv(f"../Processed Data/{output_filename}", index=False)
     print(f"\nSuccessfully preprocessed all data and saved to '{output_filename}'")
 
     # Optional: Display info and head to verify the new columns
