@@ -11,7 +11,7 @@ card_total_plays_counter = defaultdict(int)  # Total times card was played (for 
 player_deck_combinations = set()
 
 # Read the CSV file
-with open('../Processed Data/preprocessed_battle_log.csv', 'r', encoding='utf-8') as file:
+with open('../#2 Data Storage/Processed Data/preprocessed_battle_log.csv', 'r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     
     for row in reader:
