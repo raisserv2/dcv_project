@@ -8,16 +8,13 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=pd.errors.DtypeWarning)
 
 # Specify the input and output filenames
-input_filename = "../#2 Data Storage/scrapped_data/semi_data_trail.csv"
-output_filename = "preprocessed_battle_log.csv"
-
 rarity_increase = {
-    "common": 0,
-    "rare": 2,
-    "epic": 5,
-    "legendary": 8,
-    "champion": 10
-}
+        "common": 0,
+        "rare": 2,
+        "epic": 5,
+        "legendary": 8,
+        "champion": 10
+    }
 
 # --- Function to Parse Spells ---
 def parse_spells(spells_str):
@@ -77,64 +74,67 @@ def parse_support_cards(support_cards_str):
         return []
 
 # --- Main Processing ---
-try:
-    # Load the dataframe
-    df = pd.read_csv(input_filename, low_memory=False)
-    print(f"Successfully loaded '{input_filename}'.")
+def main(input_filename = "../#2 Data Storage/scrapped_data/semi_data_trail.csv",
+         output_filename = "preprocessed_battle_log.csv"):
 
-    # 1. Define the columns you want to keep
-    columns_to_keep = [
-        "replayTag", "arena", "game_config_name", "players_0_avgManaCost", "players_0_hashtag", "players_0_score",
-        "players_0_stars", "players_0_winner", "players_0_elixirLeaked", "players_0_supportCards",
-        'players_0_spells', "players_0_kingTowerHitPoints", "players_0_princessTowersHitPoints",
-        "players_1_avgManaCost", "players_1_hashtag", "players_1_score", "players_1_stars",
-        "players_1_winner", "players_1_elixirLeaked", "players_1_spells", 'players_1_supportCards',
-        "players_1_kingTowerHitPoints", "players_1_princessTowersHitPoints"
-    ]
+    try:
+        # Load the dataframe
+        df = pd.read_csv(input_filename, low_memory=False)
+        print(f"Successfully loaded '{input_filename}'.")
 
-    # Filter out any columns that don't exist in the loaded CSV
-    existing_columns_to_keep = [col for col in columns_to_keep if col in df.columns]
-    
-    # Create the new dataframe
-    results_df = df[existing_columns_to_keep].copy()
+        # 1. Define the columns you want to keep
+        columns_to_keep = [
+            "replayTag", "arena", "game_config_name", "players_0_avgManaCost", "players_0_hashtag", "players_0_score",
+            "players_0_stars", "players_0_winner", "players_0_elixirLeaked", "players_0_supportCards",
+            'players_0_spells', "players_0_kingTowerHitPoints", "players_0_princessTowersHitPoints",
+            "players_1_avgManaCost", "players_1_hashtag", "players_1_score", "players_1_stars",
+            "players_1_winner", "players_1_elixirLeaked", "players_1_spells", 'players_1_supportCards',
+            "players_1_kingTowerHitPoints", "players_1_princessTowersHitPoints"
+        ]
 
-    # 2. Filter out "TeamVsTeam" rows
-    if "game_config_name" in results_df.columns:
-        results_df = results_df[results_df["game_config_name"] != "TeamVsTeam"].copy()
-        print("Filtered out 'TeamVsTeam' rows.")
+        # Filter out any columns that don't exist in the loaded CSV
+        existing_columns_to_keep = [col for col in columns_to_keep if col in df.columns]
+        
+        # Create the new dataframe
+        results_df = df[existing_columns_to_keep].copy()
 
-    # 3. Apply Spells Transformation (from previous step)
-    if 'players_0_spells' in results_df.columns:
-        results_df['players_0_spells'] = results_df['players_0_spells'].apply(parse_spells)
-        print("Processed 'players_0_spells'.")
+        # 2. Filter out "TeamVsTeam" rows
+        if "game_config_name" in results_df.columns:
+            results_df = results_df[results_df["game_config_name"] != "TeamVsTeam"].copy()
+            print("Filtered out 'TeamVsTeam' rows.")
 
-    if 'players_1_spells' in results_df.columns:
-        results_df['players_1_spells'] = results_df['players_1_spells'].apply(parse_spells)
-        print("Processed 'players_1_spells'.")
+        # 3. Apply Spells Transformation (from previous step)
+        if 'players_0_spells' in results_df.columns:
+            results_df['players_0_spells'] = results_df['players_0_spells'].apply(parse_spells)
+            print("Processed 'players_0_spells'.")
 
-    # Apply Support Cards Transformation
-    if 'players_0_supportCards' in results_df.columns:
-        results_df['players_0_supportCards'] = results_df['players_0_supportCards'].apply(parse_support_cards)
-        print("Processed 'players_0_supportCards'.")
+        if 'players_1_spells' in results_df.columns:
+            results_df['players_1_spells'] = results_df['players_1_spells'].apply(parse_spells)
+            print("Processed 'players_1_spells'.")
 
-    if 'players_1_supportCards' in results_df.columns:
-        results_df['players_1_supportCards'] = results_df['players_1_supportCards'].apply(parse_support_cards)
-        print("Processed 'players_1_supportCards'.")
+        # Apply Support Cards Transformation
+        if 'players_0_supportCards' in results_df.columns:
+            results_df['players_0_supportCards'] = results_df['players_0_supportCards'].apply(parse_support_cards)
+            print("Processed 'players_0_supportCards'.")
 
-    # Save the preprocessed data
-    results_df.to_csv(f"../Processed Data/{output_filename}", index=False)
-    print(f"\nSuccessfully preprocessed all data and saved to '{output_filename}'")
+        if 'players_1_supportCards' in results_df.columns:
+            results_df['players_1_supportCards'] = results_df['players_1_supportCards'].apply(parse_support_cards)
+            print("Processed 'players_1_supportCards'.")
 
-    # Optional: Display info and head to verify the new columns
-    print("\n--- DataFrame Info after All Preprocessing ---")
-    results_df.info()
-    
-    print("\n--- Head of Transformed 'supportCards' Columns ---")
-    support_cols_to_show = [col for col in ['players_0_supportCards', 'players_1_supportCards'] if col in results_df.columns]
-    if support_cols_to_show:
-        print(results_df[support_cols_to_show].head())
+        # Save the preprocessed data
+        results_df.to_csv(f"../Processed Data/{output_filename}", index=False)
+        print(f"\nSuccessfully preprocessed all data and saved to '{output_filename}'")
 
-except FileNotFoundError:
-    print(f"Error: The file '{input_filename}' was not found.")
-except Exception as e:
-    print(f"An error occurred: {e}")
+        # Optional: Display info and head to verify the new columns
+        print("\n--- DataFrame Info after All Preprocessing ---")
+        results_df.info()
+        
+        print("\n--- Head of Transformed 'supportCards' Columns ---")
+        support_cols_to_show = [col for col in ['players_0_supportCards', 'players_1_supportCards'] if col in results_df.columns]
+        if support_cols_to_show:
+            print(results_df[support_cols_to_show].head())
+
+    except FileNotFoundError:
+        print(f"Error: The file '{input_filename}' was not found.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
