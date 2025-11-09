@@ -26,6 +26,25 @@ haven't defined something.
     font-style: normal;
     font-display: swap;
 }
+html, body, #_dash-app-content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure the main container fills viewport */
+._dash-bootstrap .container-fluid {
+  min-height: 100vh;
+  padding: 16px 24px;
+}
+
+/* Optional: Remove unnecessary scrollbars */
+body {
+  overflow-y: auto;
+}
+
 body {
   font-family: 'Clash Regular','Clash Bold', Arial, sans-serif;
   background-color: #fbfdff; /* subtle background, still keeps Bootstrap colors */
@@ -34,6 +53,7 @@ body {
 /* Navbar tweaks: only change what you want */
 .navbar {
   box-shadow: 0 2px 6px rgba(20, 20, 40, 0.06);
+  width: 100%;
 }
 .navbar-brand {
   font-weight: 700;
@@ -51,6 +71,7 @@ body {
   background-image: linear-gradient(180deg, #0069d9, #0056b3);
   border-color: #004085;
 }
+
 
 /* If you use a fixed-top navbar, ensure the body has enough padding so
    content isn't hidden underneath the navbar. Adjust the px value if your
