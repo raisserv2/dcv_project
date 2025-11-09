@@ -22,7 +22,7 @@ troop_list = troop_df['Troop_name'].unique()
 troop_set = set(troop_list) 
 
 # Load Battle Log Data
-file_name = '../#2 Data Storage/preprocessed_battle_log.csv' 
+file_name = '../#2 Data Storage/Processed Data/preprocessed_battle_log.csv' 
 df = pd.read_csv(file_name)
 
 # Process data for ALL troops
