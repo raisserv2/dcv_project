@@ -131,7 +131,7 @@ layout = dbc.Container(
                                 html.Label("Select Troop 1:"),
                                 dcc.Dropdown(
                                     id="combo-dropdown-1",
-                                    options=all_troop_options,
+                                    options=all_troop_options, # type: ignore
                                     placeholder="Select a troop...",
                                     searchable=True,
                                     clearable=True,
@@ -149,7 +149,7 @@ layout = dbc.Container(
                                 html.Label("Select Troop 2:"),
                                 dcc.Dropdown(
                                     id="combo-dropdown-2",
-                                    options=all_troop_options,
+                                    options=all_troop_options, # type: ignore
                                     placeholder="Select a troop...",
                                     searchable=True,
                                     clearable=True,

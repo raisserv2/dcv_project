@@ -164,7 +164,7 @@ layout = dbc.Container(
                                         html.Label("Select Troop:"),
                                         dcc.Dropdown(
                                             id="troop-dropdown-1",
-                                            options=troop_dropdown_options,
+                                            options=troop_dropdown_options, # type: ignore
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
@@ -208,7 +208,7 @@ layout = dbc.Container(
                                         html.Label("Select Troop:"),
                                         dcc.Dropdown(
                                             id="troop-dropdown-2",
-                                            options=troop_dropdown_options,
+                                            options=troop_dropdown_options, # type: ignore
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
