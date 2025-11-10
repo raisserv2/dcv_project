@@ -1,6 +1,6 @@
-# app.py
+
 import dash
-from dash import html
+from dash import html,dcc, Input, Output
 import dash_bootstrap_components as dbc
 
 external = [
@@ -35,13 +35,42 @@ navbar = dbc.NavbarSimple(
 # Main layout
 app.layout = dbc.Container(
     [
+        dcc.Location(id="url"),
         navbar,
         html.Br(),
-        dash.page_container  # renders each registered page
+        dash.page_container
     ],
     fluid=True,
+    id="main-app-container"  # <-- MAKE SURE THIS ID IS HERE
 )
 
+
+@app.callback(
+    Output("main-app-container", "className"),
+    Input("url", "pathname")
+)
+def update_page_class(pathname):
+    # This function adds a CSS class to your main container
+    # based on the URL, allowing you to style it in CSS.
+    if pathname == "/evo":
+        return "page-evo-background"
+    elif pathname == "/deck":
+        return "page-deck-background"
+    elif pathname == "/troop":
+        return "page-troop-background"
+    elif pathname == "/builder":
+        return "page-builder-background"
+    elif pathname == "/rarity":
+        return "page-rarity-background"
+    elif pathname == "/combined":
+        return "page-combined-background"
+    elif pathname == "/arena":
+        return "page-arena-background"
+    
+    
+    else:
+        # Default background for homepage ("/") or any other page
+        return "page-default-background"
 
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
