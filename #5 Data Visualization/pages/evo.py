@@ -37,7 +37,7 @@ def create_win_rate_subplot(evo_df, non_evo_df, min_plays=100):
 
     for i, (title, data, x_axis_key) in enumerate(categories):
         col = i + 1
-        color = "#C118D4" if "EVO" in title else "#2E7DE4"
+        color = "#2E7DE4" if "NON" in title else "#C118D4"
         x_title = "Win Rate (%)"
         text_template = "%{x:.1f}%"
 
@@ -89,7 +89,7 @@ def create_usage_subplot(evo_df, non_evo_df):
 
     for i, (title, data, x_axis_key) in enumerate(categories):
         col = i + 1
-        color = "#C118D4" if "EVO" in title else "#2E7DE4"
+        color = "#2E7DE4" if "NON" in title else "#C118D4"
         x_title = "Usage Count"
         text_template = "%{x:,}"
 
@@ -159,12 +159,13 @@ def create_evo_impact_analysis(evo_df, non_evo_df):
         color="has_improvement",
         title="EVO Impact: Win Rate Change vs NON-EVO Version",
         labels={"win_rate_change": "Win Rate Change (%)", "card": "Card"},
-        color_discrete_map={True: "#2E7DE4", False: "#C118D4"},
+        color_discrete_map={True: "#4ECDC4", False: "#FF6B6B"},
     )
 
     fig.update_layout(
         xaxis_tickangle=-60, # Changed from -45 for longer names
         showlegend=False,
+        height=700,
         template="plotly_dark",
         paper_bgcolor="rgba(0,0,0,0)", # <-- ADDED
         plot_bgcolor="rgba(0,0,0,0)",  # <-- ADDED
@@ -195,7 +196,7 @@ def create_evo_comparison_bubble(combined_df, min_plays=50):
         x="usage_count",
         y="win_percentage",
         color="card_type",
-        size="total_plays",
+        size="elixir_cost",
         hover_name="card",
         title="EVO vs NON-EVO Card Performance",
         labels={"usage_count": "Usage Count", "win_percentage": "Win Rate (%)"},
@@ -203,8 +204,13 @@ def create_evo_comparison_bubble(combined_df, min_plays=50):
     )
 
     # --- MODIFICATIONS START ---
+    avg_usage = df_filtered['usage_count'].mean()
+    avg_win = df_filtered['win_percentage'].mean()
+    fig.add_hline(y=avg_win, line_dash="dash", line_color="red")
+    fig.add_vline(x=avg_usage, line_dash="dash", line_color="red")
     fig.update_layout(
         height=600,
+        xaxis_type="log",
         template="plotly_dark",
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
