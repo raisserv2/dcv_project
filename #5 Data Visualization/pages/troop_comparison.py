@@ -259,6 +259,12 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
             img_component = None
             if "card" in troop_data and pd.notna(troop_data["card"]):
                 img_path = f"../assets/2_icon_scrpaing/card_icons/{troop_data['card']}.webp"
+                if troop_data['card'] == "Mini P.E.K.K.A":
+                    img_path = "../assets/2_icon_scrpaing/card_icons/Mini PEKKA.webp"
+                if troop_data['card'] == "P.E.K.K.A":
+                    img_path = "../assets/2_icon_scrpaing/card_icons/PEKKA.webp"
+                print(img_path)
+
                 img_component = html.Img(
                     id=f"img-{selected_troop}-{evo_type}",
                     src=img_path,
@@ -296,6 +302,9 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
             img_component = None
             if "card" in troop_data and pd.notna(troop_data["card"]):
                 img_path = f"../assets/2_icon_scrpaing/evo_card_icons/{troop_data['card']}.webp"
+         
+                if troop_data['card'] == "P.E.K.K.A":
+                    img_path = f"../assets/2_icon_scrpaing/evo_card_icons/PEKKA.webp"
                 img_component = html.Img(
                     id=f"img-{selected_troop}-{evo_type}",
                     src=img_path,
