@@ -23,9 +23,9 @@ navbar = dbc.NavbarSimple(
     dark=True,
     children=[
         dbc.NavItem(dbc.NavLink("Troop A vs Troop B", href="/troop")),
-        dbc.NavItem(dbc.NavLink("Arena Comparison", href="/arena")),
+        dbc.NavItem(dbc.NavLink("Arena Stats", href="/arena")),
         dbc.NavItem(dbc.NavLink("Builder", href="/builder")),
-        dbc.NavItem(dbc.NavLink("Combined Strength", href="/combined")),
+        dbc.NavItem(dbc.NavLink("Combos", href="/combined")),
     ],
 )
 

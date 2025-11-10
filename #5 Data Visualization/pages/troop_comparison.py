@@ -53,7 +53,9 @@ def create_troop_figure(selected_troop, evo_type):
             layout={
                 "title": "Please select a troop", 
                 "template": "plotly_dark",
-                "font": {"family": "'Clash Regular', Arial, sans-serif"}
+                "font": {"family": "'Clash Regular', Arial, sans-serif"},
+                "xaxis":{"showgrid": False, "visible": False},
+                "yaxis":{"showgrid": False, "visible": False},
             }
         )
     
@@ -75,7 +77,9 @@ def create_troop_figure(selected_troop, evo_type):
                 "template": "plotly_dark",
                 "font": {"family": "'Clash Regular', Arial, sans-serif"},
                 "paper_bgcolor": "rgba(0,0,0,0)",
-                "plot_bgcolor": "rgba(0,0,0,0)"
+                "plot_bgcolor": "rgba(0,0,0,0)",
+                "xaxis":{"showgrid": False, "visible": False},
+                "yaxis":{"showgrid": False, "visible": False},
             }
         )
     
@@ -114,7 +118,7 @@ def create_troop_figure(selected_troop, evo_type):
         title_text=f"{selected_troop} ({evo_type.capitalize()}) Usage: Win vs. Loss",
         xaxis_title="Arena",
         yaxis_title="Usage Count",
-        barmode="relative", # 'relative' is good for stacked, 'overlay' is what you had
+        barmode="group", # 'relative' is good for stacked, 'overlay' is what you had
         paper_bgcolor= "rgba(0,0,0,0)",
         plot_bgcolor= "rgba(0,0,0,0)", 
         font=dict(
@@ -150,16 +154,13 @@ layout = dbc.Container(
                     [
                         dbc.Card(
                             [
-                                dbc.CardHeader("Troop Comparison"),
+                                dbc.CardHeader("Troop 1"),
                                 dbc.CardBody(
                                     [
                                         html.Label("Select Troop:"),
                                         dcc.Dropdown(
                                             id="troop-dropdown-1",
-                                            options=[
-                                                {"label": troop, "value": troop}
-                                                for troop in df_troops_name
-                                            ],
+                                            options=troop_dropdown_options,
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
@@ -191,16 +192,13 @@ layout = dbc.Container(
                     [
                         dbc.Card(
                             [
-                                dbc.CardHeader("Troop Comparison"),
+                                dbc.CardHeader("Troop 2"),
                                 dbc.CardBody(
                                     [
                                         html.Label("Select Troop:"),
                                         dcc.Dropdown(
                                             id="troop-dropdown-2",
-                                            options=[
-                                                {"label": troop, "value": troop}
-                                                for troop in df_troops_name
-                                            ],
+                                            options=troop_dropdown_options,
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,

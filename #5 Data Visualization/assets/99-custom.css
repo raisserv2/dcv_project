@@ -64,6 +64,52 @@ body {
   border-radius: 6px;
 }
 
+/* This targets the main box of the dropdown */
+.Select-control {
+    background-color: #2a2a2a !important; /* Dark background */
+    border: 1px solid #555555 !important; /* Light border */
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+
+/* This targets the text of the *selected* item (e.g., "Archers") */
+.Select-value-label {
+    color: #EEEEEE !important; /* Light text */
+}
+
+/* This targets the text you are *typing* into the box */
+.Select-control input[role="combobox"] {
+    color: #EEEEEE !important; /* Light text for typing */
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+
+/* This targets the placeholder text (e.g., "Select a troop...") */
+.Select-placeholder {
+    color: #AAAAAA !important; /* A dimmer light text for placeholder */
+}
+
+/* This targets the dropdown *menu* that appears */
+.Select-menu-outer {
+    background-color: #333333 !important;
+    border: 1px solid #555555 !important;
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+
+/* This targets an *option* in the dropdown list */
+.Select-option {
+    background-color: #333333;
+    color: #EEEEEE;
+}
+
+/* This targets an option you are *hovering* over */
+.Select-option.is-focused {
+    background-color: #555555 !important; /* Highlight on hover */
+    color: #FFFFFF !important;
+}
+
+/* This targets the little dropdown arrow */
+.Select-arrow {
+    border-color: #EEEEEE transparent transparent !important;
+}
 
 
 
