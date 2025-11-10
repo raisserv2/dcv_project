@@ -4,8 +4,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
 import networkx as nx
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
 import pickle
 import json
 from collections import defaultdict
