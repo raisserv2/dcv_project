@@ -1,0 +1,152 @@
+/* 99-custom.css
+
+Place only the rules you want to override here. Dash will load external stylesheets
+(e.g. Bootstrap) first, then files in `assets/` alphabetically. Naming this file
+with a high prefix (99-) makes it load near the end so your rules override
+Bootstrap defaults where selectors match.
+
+Keep rules limited and specific so Bootstrap classes still apply where you
+haven't defined something.
+*/
+
+/* Example: set your custom font (we created assets/custom_fonts.css earlier).
+   If you have local fonts loaded via @font-face use that family name here. */
+/* --- Custom Font Definitions --- */
+/* --- Custom Font Definitions --- */
+@font-face {
+    font-family: 'Clash Bold';
+    src: url('fonts/Clash_Bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Regular';
+    src: url('fonts/Clash_Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* --- General Page Layout --- */
+html, #_dash-app-content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure the main container fills viewport */
+._dash-bootstrap .container-fluid {
+  min-height: 100vh;
+  padding: 16px 24px;
+  background-color: transparent !important; /* Make app container transparent */
+}
+
+body {
+  overflow-y: auto;
+  font-family: 'Clash Regular','Clash Bold', Arial, sans-serif;
+  
+  /* --- NEW: Background Image Rules --- */
+  background-image: url('mueseum.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; /* Keeps the background still while scrolling */
+  background-repeat: no-repeat;
+}
+
+/* --- Navbar tweaks --- */
+.navbar {
+  box-shadow: 0 2px 6px ;
+  width: 100%;
+  
+  /* --- NEW: Make Navbar semi-transparent --- */
+  background-color: rgba(30, 30, 30, 0.8) !important; 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* --- NEW: Page Title Container --- */
+.page-title-container {
+    background-color: rgba(0, 0, 0, 0.85); /* Opaque black background */
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem; /* Replaces the <hr> */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.page-title-container h2 {
+    margin-bottom: 0; /* Remove default h2 margin */
+    color: #FFFFFF;
+}
+
+/* --- dcc.Dropdown Dark Theme Styling --- */
+.Select-control {
+    background-color: #2a2a2a !important; 
+    border: 1px solid #555555 !important; 
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+.Select-value-label, .Select-placeholder {
+    color: #EEEEEE !important; 
+}
+.Select-control input[role="combobox"] {
+    color: #EEEEEE !important; 
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+.Select-placeholder {
+    color: #AAAAAA !important; 
+}
+.Select-menu-outer {
+    background-color: #333333 !important;
+    border: 1px solid #555555 !important;
+    font-family: 'Clash Regular', Arial, sans-serif !important;
+}
+.Select-option {
+    background-color: #333333;
+    color: #EEEEEE;
+}
+.Select-option.is-focused {
+    background-color: #555555 !important; 
+    color: #FFFFFF !important;
+}
+.Select-arrow {
+    border-color: #EEEEEE transparent transparent !important;
+}
+
+/* --- NEW: "Frosted Glass" Card Styling --- */
+.card {
+  background-color: rgba(40, 40, 40, 0.8) !important; 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.card-header {
+  background-color: rgba(50, 50, 50, 0.85) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Make RadioItems text readable */
+.dbc .form-check-label {
+    color: #EEEEEE;
+}
+
+/* If you use a fixed-top navbar, ensure the body has enough padding so
+   content isn't hidden underneath the navbar. Adjust the px value if your
+   navbar has custom height. */
+/* body.fixed-top-padding {
+  padding-top: 70px; /* change to match your navbar height */
+
+
+/* Utility: stronger specificity rules if needed (avoid !important)
+.header .navbar-brand {
+  font-size: 1.15rem; */
+
