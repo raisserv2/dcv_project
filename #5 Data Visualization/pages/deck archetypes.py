@@ -202,7 +202,10 @@ def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_
         # 1. Load and prepare data
 # This step is now separate from the visualization functions.
 
-df = load_example_data()
+card_db_path = "../#2 Data Storage/Visualization Data/card_database.csv"
+battle_data_path = "../#2 Data Storage/Visualization Data/clash_royale_data_separated.pkl"
+
+df = load_example_data(card_db_path, battle_data_path)
 if df is not None:
     # 2. Create visualizations
     Archetype_Sunburst = create_archetype_sunburst(df)
