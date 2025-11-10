@@ -70,7 +70,7 @@ def create_troop_figure(selected_troop):
         xaxis_title="Arena",
         yaxis_title="Usage Count",
         barmode="overlay",
-        plotly_template="plotly_dark",
+        template="plotly_dark",
     )
 
     # Apply sorting fix
@@ -103,6 +103,7 @@ layout = dbc.Container(
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
+                                            value=troops_with_data[0],
                                         ),
                                         html.Br(),
                                         html.Label("Evolution:"),
@@ -143,6 +144,7 @@ layout = dbc.Container(
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
+                                            value=troops_with_data[1],
                                         ),
                                         html.Br(),
                                         html.Label("Evolution:"),
