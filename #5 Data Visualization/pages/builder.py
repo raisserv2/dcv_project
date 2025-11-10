@@ -144,6 +144,15 @@ def update_arena_plot(selected_cards, selected_metric):
             plot_bgcolor="rgba(0,0,0,0)",
             xaxis=dict(showgrid=False, visible=False),
             yaxis=dict(showgrid=False, visible=False),
+            font=dict(
+                family="'Clash Regular', Arial, sans-serif",
+                size=14,
+                color="#FFFFFF"
+            ),
+            title_font=dict(
+                family="'Clash Bold', Arial, sans-serif",
+                size=20
+            ),
         )
         return fig
 

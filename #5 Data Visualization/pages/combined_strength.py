@@ -130,7 +130,7 @@ layout = dbc.Container(
                             [
                                 html.Label("Select Troop 1:"),
                                 dcc.Dropdown(
-                                    id="troop-dropdown-1",
+                                    id="combo-dropdown-1",
                                     options=all_troop_options,
                                     placeholder="Select a troop...",
                                     searchable=True,
@@ -148,7 +148,7 @@ layout = dbc.Container(
                             [
                                 html.Label("Select Troop 2:"),
                                 dcc.Dropdown(
-                                    id="troop-dropdown-2",
+                                    id="combo-dropdown-2",
                                     options=all_troop_options,
                                     placeholder="Select a troop...",
                                     searchable=True,
@@ -192,8 +192,8 @@ layout = dbc.Container(
 
 # Callback 1: Updates dropdown 2's OPTIONS when 1 changes
 @dash.callback(
-    Output("troop-dropdown-2", "options"),
-    Input("troop-dropdown-1", "value"),
+    Output("combo-dropdown-2", "options"),
+    Input("combo-dropdown-1", "value"),
     prevent_initial_call=True
 )
 def update_dropdown_2_options(selected_troop_1):
@@ -207,8 +207,8 @@ def update_dropdown_2_options(selected_troop_1):
 
 # Callback 2: Updates dropdown 1's OPTIONS when 2 changes
 @dash.callback(
-    Output("troop-dropdown-1", "options"),
-    Input("troop-dropdown-2", "value"),
+    Output("combo-dropdown-1", "options"),
+    Input("combo-dropdown-2", "value"),
     prevent_initial_call=True
 )
 def update_dropdown_1_options(selected_troop_2):
@@ -227,11 +227,11 @@ def update_dropdown_1_options(selected_troop_2):
     Output("total-strength", "children"),
     Output("avg-strength", "children"),
     Output({"type": "strength-chart", "index": 0}, "figure"), 
-    Input("troop-dropdown-1", "value"),
-    Input("troop-dropdown-2", "value"),
-    # Input("recalc-button", "n_clicks") # Uncomment if you want to use the button
+    Input("combo-dropdown-1", "value"),
+    Input("combo-dropdown-2", "value"),
+    Input("recalc-button", "n_clicks") # Uncomment if you want to use the button
 )
-def update_strength(troop1, troop2): #, n_clicks):
+def update_strength(troop1, troop2, n_clicks):
     usuage_count = 0
     win_rate_percent = 0.0
     
