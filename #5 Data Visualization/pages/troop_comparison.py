@@ -11,43 +11,78 @@ dash.register_page(__name__, path="/troop", name="Troop Comparison")
 TROOP_PATH = "../#2 Data Storage/Utils/troop_name.csv"
 TROOP_STATS_PATH_NON_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_non_evo.csv"
 TROOP_STATS_PATH_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_evo.csv"
-df_troops_stats_non_evo = pd.read_csv(TROOP_STATS_PATH_NON_EVO)
-df_troops_stats_evo = pd.read_csv(TROOP_STATS_PATH_EVO)
-df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
+WIN_LOSS_PATH = "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
 
-grouped_df = pd.read_csv(
-    "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
-)
-grouped_df["arena"] = grouped_df["arena"].str.replace("Arena ", "")
-
-# Create master arena order and dropdown options
-arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x))
-troops_with_data = sorted(grouped_df["card_name"].unique())
-troop_dropdown_options = [
-    {"label": troop, "value": troop} for troop in troops_with_data
-]
+# --- Load Data ---
+try:
+    df_troops_stats_non_evo = pd.read_csv(TROOP_STATS_PATH_NON_EVO)
+    df_troops_stats_evo = pd.read_csv(TROOP_STATS_PATH_EVO)
+    df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
+    grouped_df = pd.read_csv(WIN_LOSS_PATH)
+    
+    # --- Data Prep ---
+    # Convert "Arena 1" to "1"
+    grouped_df["arena"] = grouped_df["arena"].str.replace("Arena ", "")
+    # Create master arena order
+    arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x))
+    # Create dropdown options
+    troops_with_data = sorted(grouped_df["card_name"].unique())
+    troop_dropdown_options = [
+        {"label": troop, "value": troop} for troop in troops_with_data
+    ]
+except FileNotFoundError as e:
+    print(f"Error loading data: {e}")
+    # Create empty dataframes/lists as fallbacks
+    df_troops_stats_non_evo = pd.DataFrame()
+    df_troops_stats_evo = pd.DataFrame()
+    df_troops_name = pd.Series(["No Troops Found"])
+    grouped_df = pd.DataFrame(columns=['arena', 'card_name', 'outcome', 'evo', 'count'])
+    arena_order = []
+    troops_with_data = ["No Data"]
+    troop_dropdown_options = []
 
 
 # --- REUSABLE FIGURE FUNCTION ---
-def create_troop_figure(selected_troop):
+def create_troop_figure(selected_troop, evo_type):
     """
     Filters the global grouped_df and returns a Plotly figure
-    for the selected troop.
+    for the selected troop AND evolution status.
     """
     if not selected_troop:
         return go.Figure(
             layout={
                 "title": "Please select a troop", 
                 "template": "plotly_dark",
-                "font": {"family": "'Clash Regular', Arial, sans-serif"}                 
+                "font": {"family": "'Clash Regular', Arial, sans-serif"}
             }
         )
-
-    fig = go.Figure()
-    df_troop = grouped_df[grouped_df["card_name"] == selected_troop]
-
+    
+    # Map the radio button value to the 'evo' column value (0 or 1)
+    evo_filter = 1 if evo_type == "evo" else 0
+    
+    # Filter by both card name AND evolution status
+    df_troop = grouped_df[
+        (grouped_df["card_name"] == selected_troop) &
+        (grouped_df["evo"] == evo_filter)
+    ]
+    
+    if df_troop.empty:
+        title_message = f"No {evo_type.capitalize()} data found for {selected_troop}"
+        # Return a blank figure with a message
+        return go.Figure(
+            layout={
+                "title": title_message, 
+                "template": "plotly_dark",
+                "font": {"family": "'Clash Regular', Arial, sans-serif"},
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)"
+            }
+        )
+    
     df_won = df_troop[df_troop["outcome"] == "Won"]
     df_lost = df_troop[df_troop["outcome"] == "Lost"]
+
+    fig = go.Figure()
 
     # Add Won Trace
     fig.add_trace(
@@ -56,8 +91,9 @@ def create_troop_figure(selected_troop):
             y=df_won["count"],
             name="Won",
             marker_color="#1343E1",
-            hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
-            opacity=0.75,
+            # Updated hovertemplate
+            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
+            opacity=1,
         )
     )
     # Add Lost Trace
@@ -66,30 +102,30 @@ def create_troop_figure(selected_troop):
             x=df_lost["arena"],
             y=df_lost["count"],
             name="Lost",
-            marker_color="#EE0EC1",
-            hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
-            opacity=0.75,
+            marker_color="#E61C23",
+            # Updated hovertemplate
+            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
+            opacity=1,
         )
     )
 
     fig.update_layout(
-        title_text=f"{selected_troop} Usage: Win vs. Loss",
+        # Updated title
+        title_text=f"{selected_troop} ({evo_type.capitalize()}) Usage: Win vs. Loss",
         xaxis_title="Arena",
         yaxis_title="Usage Count",
-        barmode="overlay",
-        paper_bgcolor= "rgba(0,0,0,0)", # Transparent background
-        plot_bgcolor= "rgba(0,0,0,0)",  # Transparent background
+        barmode="relative", # 'relative' is good for stacked, 'overlay' is what you had
+        paper_bgcolor= "rgba(0,0,0,0)",
+        plot_bgcolor= "rgba(0,0,0,0)", 
         font=dict(
             family="'Clash Regular', Arial, sans-serif",
             size=14,
             color="#FFFFFF"
         ),
-        # This overrides just the main title to use the 'Clash Bold' font
         title_font=dict(
             family="'Clash Bold', Arial, sans-serif",
             size=20
         ),
-        # This makes the axis titles bold as well
         xaxis_title_font=dict(
             family="'Clash Bold', Arial, sans-serif"
         ),
@@ -102,7 +138,6 @@ def create_troop_figure(selected_troop):
     fig.update_xaxes(categoryorder="array", categoryarray=arena_order, tickmode='array', tickvals=arena_order, tickangle=-60)
 
     return fig
-
 
 layout = dbc.Container(
     [
@@ -294,6 +329,6 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
     return (
         render_troop_card(troop1, evo1),
         render_troop_card(troop2, evo2),
-        create_troop_figure(troop1),
-        create_troop_figure(troop2),
+        create_troop_figure(troop1, evo1),
+        create_troop_figure(troop2, evo2),
     )
