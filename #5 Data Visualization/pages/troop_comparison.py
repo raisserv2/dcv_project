@@ -276,7 +276,12 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
                     },
                 )
 
-            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+            stat_items = []
+            for k,v in troop_data.items():
+                k = k.replace("_", " ").capitalize()
+                if v == "NON_EVO":
+                    v = "Normal"
+                stat_items.append(html.Li(f"{k}: {v}")) 
 
             # Single component: card containing image and stats, wrapped in Loading
             card = dbc.Card(
@@ -316,7 +321,12 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
                     },
                 )
 
-            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+            stat_items = []
+            for k,v in troop_data.items():
+                k = k.replace("_", " ").capitalize()
+                if v == "EVO":
+                    v = "Evolution"
+                stat_items.append(html.Li(f"{k}: {v}")) 
 
             # Single component: card containing image and stats, wrapped in Loading
             card = dbc.Card(
