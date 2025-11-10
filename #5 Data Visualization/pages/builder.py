@@ -18,7 +18,7 @@ usage_rate_data = {}
 all_cards_list = []
 card_options = []
 
-JSON_FILE = "card_percentage_dict.json" # <-- FIX: Simplified path
+JSON_FILE = "../#2 Data Storage/Visualization Data/card_percentage_dict.json" # <-- FIX: Simplified path
 try:
     with open(JSON_FILE, 'r') as f:
         # <-- FIX: Load into 'usage_rate_data' to match the callback -->
@@ -35,7 +35,7 @@ except Exception as e:
     
 # --- 2. Load and Prepare Win Rate Data (CSV) ---
 # <-- FIX: Simplified path -->
-WINLOSS_CSV_PATH = "arenawise_card_win_loss.csv"
+WINLOSS_CSV_PATH = "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
 win_rate_data = defaultdict(dict) # Structure: {'CardName': {'1': 50.5, '2': 51.2, ...}}
 try:
     df_winloss = pd.read_csv(WINLOSS_CSV_PATH)
