@@ -10,7 +10,7 @@ import json
 dash.register_page(__name__, path="/builder", name="Card & Arena Analysis")
 
 # --- 1. Load and Prepare Data ---
-JSON_FILE = "card_percentage_dict.json" #<-- CHECK THIS PATH
+JSON_FILE = "../#2 Data Storage/Visualization Data/card_percentage_dict.json" #<-- CHECK THIS PATH
 try:
     with open(JSON_FILE, 'r') as f:
         card_data = json.load(f)

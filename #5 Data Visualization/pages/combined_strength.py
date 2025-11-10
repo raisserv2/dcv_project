@@ -9,7 +9,7 @@ import plotly.io as pio
 from dash import Output, Input
 dash.register_page(__name__, path="/combined", name="Combined Strength")
 
-INPUT_FILE = "../#2 Data Storage/Data Visualization Data/card_pair_data.csv"
+INPUT_FILE = "../#2 Data Storage/Visualization Data/card_pair_data.csv"
 TROOP_PATH = "../#2 Data Storage/Utils/troop_name.csv"
 df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
 

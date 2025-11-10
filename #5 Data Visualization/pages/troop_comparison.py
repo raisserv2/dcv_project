@@ -9,14 +9,14 @@ import plotly.graph_objects as go
 dash.register_page(__name__, path="/troop", name="Troop Comparison")
 
 TROOP_PATH = "../#2 Data Storage/Utils/troop_name.csv"
-TROOP_STATS_PATH_NON_EVO = "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats_non_evo.csv"
-TROOP_STATS_PATH_EVO = "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats_evo.csv"
+TROOP_STATS_PATH_NON_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_non_evo.csv"
+TROOP_STATS_PATH_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_evo.csv"
 df_troops_stats_non_evo = pd.read_csv(TROOP_STATS_PATH_NON_EVO)
 df_troops_stats_evo = pd.read_csv(TROOP_STATS_PATH_EVO)
 df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
 
 grouped_df = pd.read_csv(
-    "../#2 Data Storage/Visualized Data/arenawise_card_win_loss.csv"
+    "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
 )
 
 # Create master arena order and dropdown options

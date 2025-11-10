@@ -10,7 +10,7 @@ from collections import defaultdict
 dash.register_page(__name__, path="/arena", name="Arena Comparison")
 
 # --- 1. Load and Process Data (from your ipywidgets code) ---
-JSON_FILE_PATH = "../#2 Data Storage/Visualized Data/card_percentage_dict.json" # Assumed path
+JSON_FILE_PATH = "../#2 Data Storage/Visualization Data/card_percentage_dict.json" # Assumed path
 print(f"Loading data from {JSON_FILE_PATH}...")
 
 try:
