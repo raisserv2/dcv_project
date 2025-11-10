@@ -1,53 +1,45 @@
+# pages/rarity comparison.py
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import numpy as np
-import networkx as nx
 import pickle
-import json
 from collections import defaultdict
-import ast
-from typing import Dict, List, Optional
-import pickle
-import json
-from collections import defaultdict
-import ast
 import dash
-from dash import html, dcc, callback, Input, Output
+from dash import html, dcc
 import dash_bootstrap_components as dbc
-import plotly.graph_objects as go
-import json
-import pandas as pd
-from collections import defaultdict
 
 dash.register_page(__name__, path="/rarity", name="Rarity Analysis")
 
-# Custom color map for rarities
+# --- MODIFIED: Updated with your requested colors in dark-mode shades ---
 RARITY_COLORS = {
-    "Common": "blue",
-    "Rare": "orange",
-    "Epic": "purple",
-    "Legendary": "green",
-    "Champion": "red"
+    "Common": "#5DADE2",    # Light Blue
+    "Rare": "#F39C12",      # Orange
+    "Epic": "#AF7AC5",      # Purple
+    "Legendary": "#2ECC71", # Green
+    "Champion": "#E74C3C"   # Red
 }
-DEFAULT_ARCHETYPE_MAPPING = {
-    'Beatdown': ['Golem', 'Lava Hound', 'Giant', 'Electro Giant', 'Royal Giant'],
-    'Control': ['X-Bow', 'Mortar', 'Tesla', 'Bomb Tower', 'Inferno Tower'],
-    'Cycle': ['Hog Rider', 'Miner', 'Wall Breakers', 'Skeletons', 'Ice Spirit'],
-    'Spell Bait': ['Goblin Barrel', 'Princess', 'Dart Goblin', 'Goblin Gang'],
-    'Bridge Spam': ['Bandit', 'Royal Ghost', 'Battle Ram', 'Dark Prince'],
-    'Siege': ['X-Bow', 'Mortar', 'Bomb Tower'],
-    'Spawner': ['Goblin Hut', 'Furnace', 'Barbarian Hut', 'Tombstone']
-}
+
+# --- UNUSED: Removed DEFAULT_ARCHETYPE_MAPPING ---
+
 # 13. Rarity Performance Violin Plot
 def create_rarity_violin_plot(df: pd.DataFrame) -> go.Figure:
     """Violin plot showing win rate distribution by rarity"""
     fig = px.violin(df, x='rarity', y='win_percentage',
-                    color='rarity', box=True, points="all",
+                    color='rarity', box=True,
                     title='Win Rate Distribution by Rarity',
                     color_discrete_map=RARITY_COLORS)
     
+    # --- MODIFICATION: Apply Theme ---
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="'Clash Regular', Arial, sans-serif", size=14, color="#FFFFFF"),
+        title_font=dict(family="'Clash Bold', Arial, sans-serif", size=20),
+        xaxis_title_font=dict(family="'Clash Bold', Arial, sans-serif"),
+        yaxis_title_font=dict(family="'Clash Bold', Arial, sans-serif")
+    )
     return fig
 
 
@@ -57,10 +49,18 @@ def create_rarity_meta_share(df: pd.DataFrame) -> go.Figure:
     rarity_share = df.groupby('rarity')['usage_count'].sum().reset_index()
     
     fig = px.pie(rarity_share, values='usage_count', names='rarity',
-                 title='Rarity Distribution in Current Meta (by Usage Count)',
+                 title='Rarity Distribution in Current Meta',
                  hole=0.4, color='rarity',
                  color_discrete_map=RARITY_COLORS)
     
+    # --- MODIFICATION: Apply Theme ---
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="'Clash Regular', Arial, sans-serif", size=14, color="#FFFFFF"),
+        title_font=dict(family="'Clash Bold', Arial, sans-serif", size=20)
+    )
     return fig
 
 # 1. Interactive Card Win Rate vs Usage Bubble Chart
@@ -85,45 +85,32 @@ def create_win_rate_usage_bubble(df: pd.DataFrame, min_plays: int = 100) -> go.F
     avg_usage = df_filtered['usage_count'].mean()
     avg_win = df_filtered['win_percentage'].mean()
     
-    fig.add_hline(y=avg_win, line_dash="dash", line_color="red")
-    fig.add_vline(x=avg_usage, line_dash="dash", line_color="red")
+    fig.add_hline(y=avg_win, line_dash="dash", line_color="#E74C3C") # Red
+    fig.add_vline(x=avg_usage, line_dash="dash", line_color="#E74C3C") # Red
     
-    fig.update_layout(height=600, xaxis_type="log")
+    # --- MODIFICATION: Apply Theme ---
+    fig.update_layout(
+        height=600, 
+        xaxis_type="log",
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(family="'Clash Regular', Arial, sans-serif", size=14, color="#FFFFFF"),
+        title_font=dict(family="'Clash Bold', Arial, sans-serif", size=20),
+        xaxis_title_font=dict(family="'Clash Bold', Arial, sans-serif"),
+        yaxis_title_font=dict(family="'Clash Bold', Arial, sans-serif")
+    )
     return fig
 
+# --- UNUSED: Removed prepare_archetype_data function ---
 
-def prepare_archetype_data(df: pd.DataFrame, mapping: Dict = DEFAULT_ARCHETYPE_MAPPING) -> pd.DataFrame:
-    """
-    Assigns archetypes to cards in the DataFrame based on a mapping.
-    
-    Args:
-        df: The input DataFrame (must contain a 'card' column).
-        mapping: A dictionary defining which cards belong to which archetype.
-        
-    Returns:
-        A new DataFrame with an 'archetype' column added.
-    """
-    df_out = df.copy()
-    df_out['archetype'] = 'Utility'  # Default value
-    for archetype, cards in mapping.items():
-        mask = df_out['card'].isin(cards)
-        df_out.loc[mask, 'archetype'] = archetype
-    return df_out
-
-# --- Visualization Functions ---
-
-
-def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_royale_data_separated.pkl') -> Optional[pd.DataFrame]:
+def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_royale_data_separated.pkl') -> pd.DataFrame | None:
     """
     Loads and merges the example data for visualization.
-    This demonstrates the data structure the functions expect.
     """
-
-    
     try:
         # Load card database
         card_db = pd.read_csv(card_db_path)
-
         
         # Load battle data
         with open(battle_data_path, 'rb') as f:
@@ -161,25 +148,23 @@ def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_
         
         # Create combined DataFrame
         combined_df = pd.concat([evo_df, non_evo_df], ignore_index=True)
-
         
-        # Prepare archetype data
-        combined_df = prepare_archetype_data(combined_df, DEFAULT_ARCHETYPE_MAPPING)
+        # --- MODIFICATION: Corrected path assumption ---
+        print("✓ Rarity data loaded successfully.")
         return combined_df
         
     except Exception as e:
-        print(f"❌ Error loading data: {e}")
-        print("Please make sure 'card_database.csv' and 'clash_royale_data_separated.pkl' are present in the same directory.")
-        return 
+        print(f"❌ Error loading data for Rarity page: {e}")
+        return None
 
-
-        # 1. Load and prepare data
-# This step is now separate from the visualization functions.
-
+# --- 1. Load and prepare data ---
+# --- MODIFICATION: Corrected paths to be relative to app.py ---
 card_db_path = "../#2 Data Storage/Visualization Data/card_database.csv"
 battle_data_path = "../#2 Data Storage/Visualization Data/clash_royale_data_separated.pkl"
 
 df = load_example_data(card_db_path, battle_data_path)
+
+# --- 2. Create Layout ---
 if df is not None:
     # 2. Create visualizations
     Rarity_Violin = create_rarity_violin_plot(df)
@@ -187,53 +172,69 @@ if df is not None:
     Win_Rate_Usage_Bubble = create_win_rate_usage_bubble(df, min_plays=100)
 
     layout = dbc.Container(
-            [
-                dbc.Row(
-                    [
-                        dbc.Col(
-                            [
-                                html.H2("Rarity Analysis Dashboard"),
-                                html.P("Explore how card rarity impacts performance and usage in the current meta."),
-                                dcc.Markdown("""
-                                    This dashboard provides insights into the performance of cards based on their rarity.
-                                    Analyze win rate distributions, meta share, and the relationship between usage and win rates.
-                                """),
-                            ],
-                            width=12,
-                            className="mb-4"
-                        )
-                    ]
-                ),
-                dbc.Row(
-                    [
-                        dbc.Col(
-                            dcc.Graph(figure=Rarity_Violin),
-                            width=6
-                        ),
-                        dbc.Col(
-                            dcc.Graph(figure=Rarity_Meta_Share),
-                            width=6
-                        )
-                    ],
-                    className="mb-4"
-                ),
-                dbc.Row(
-                    [
-                        dbc.Col(
-                            dcc.Graph(figure=Win_Rate_Usage_Bubble),
-                            width=12
-                        )
-                    ]
-                )
-            ],
-            fluid=True
-        )
+        [
+            # --- MODIFICATION: Added page-title-container ---
+            html.Div(
+                [
+                    html.H2("Rarity Analysis")
+                ],
+                className="page-title-container"
+            ),
+            
+            # --- MODIFICATION: Wrapped graphs in Cards ---
+            dbc.Row(
+                [
+                    dbc.Col(
+                        dbc.Card([
+                            dbc.CardHeader("Win Rate Distribution by Rarity"),
+                            dbc.CardBody([
+                                dcc.Graph(figure=Rarity_Violin)
+                            ])
+                        ]),
+                        width=6
+                    ),
+                    dbc.Col(
+                        dbc.Card([
+                            dbc.CardHeader("Rarity Distribution in Current Meta"),
+                            dbc.CardBody([
+                                dcc.Graph(figure=Rarity_Meta_Share)
+                            ])
+                        ]),
+                        width=6
+                    )
+                ],
+                className="mb-4"
+            ),
+            dbc.Row(
+                [
+                    dbc.Col(
+                        dbc.Card([
+                            dbc.CardHeader("Card Performance: Win Rate vs Usage"),
+                            dbc.CardBody([
+                                dcc.Graph(figure=Win_Rate_Usage_Bubble)
+                            ])
+                        ]),
+                        width=12
+                    )
+                ]
+            )
+        ],
+        fluid=True
+    )
 
 else:
+    # Error layout
     layout = dbc.Container(
         [
-            html.H2("Rarity Analysis Dashboard"),
-            html.P("Data could not be loaded. Please ensure the required data files are present."),
+            html.Div(
+                html.H2("Rarity Analysis Dashboard"),
+                className="page-title-container"
+            ),
+            dbc.Alert(
+                "Data could not be loaded. Please ensure 'card_database.csv' and 'clash_royale_data_separated.pkl' are present in the correct folder.",
+                color="danger",
+                className="mt-4"
+            )
         ],
         fluid=True
     )
