@@ -70,6 +70,7 @@ def create_troop_figure(selected_troop):
         xaxis_title="Arena",
         yaxis_title="Usage Count",
         barmode="overlay",
+        plotly_template="plotly_dark",
     )
 
     # Apply sorting fix
