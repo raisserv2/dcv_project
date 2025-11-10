@@ -3,7 +3,7 @@ import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
 
-dash.register_page(__name__, path="/builder", name="Custom Builder")
+dash.register_page(__name__, path="/custom_builder", name="Custom Builder")
 
 troop_options = [f"Troop {i}" for i in range(1, 21)]
 

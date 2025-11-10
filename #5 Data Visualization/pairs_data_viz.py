@@ -87,6 +87,6 @@ def create_meta_map(csv_path, output_html_path="meta_map.html"):
 
 # --- How to Run ---
 if __name__ == "__main__":
-    INPUT_FILE = "card_pairs_data.csv"
+    INPUT_FILE = "card_pair_data.csv"
     
     create_meta_map(INPUT_FILE)
