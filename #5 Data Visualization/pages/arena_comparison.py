@@ -8,48 +8,7 @@ import ast
 
 dash.register_page(__name__, path="/arena", name="Arena Comparison")
 
-# --- 1. ARENA DICTIONARY (Runs once) ---
-arenas_df = pd.read_csv("../#2 Data Storage/Utils/arenas.csv")
-arenas_dict = {}
-
-for row in arenas_df.itertuples():
-    arenas_dict[row.Arena_ID] = row.Arena_Name
-
-# Load Troop Names
-troop_file_name = '../#2 Data Storage/Utils/troop_name.csv' 
-troop_df = pd.read_csv(troop_file_name)
-troop_list = troop_df['Troop_name'].unique()
-troop_set = set(troop_list) 
-
-# Load Battle Log Data
-file_name = '../#2 Data Storage/Processed Data/preprocessed_battle_log.csv' 
-df = pd.read_csv(file_name)
-
-# Process data for ALL troops
-card_data = [] 
-for row in df.itertuples(index=False):
-    try:
-        player_0_cards = {card[0] for card in ast.literal_eval(row.players_0_spells) if isinstance(card, tuple) and len(card) > 0}
-    except (ValueError, SyntaxError, TypeError):
-        player_0_cards = set()
-    try:
-        player_1_cards = {card[0] for card in ast.literal_eval(row.players_1_spells) if isinstance(card, tuple) and len(card) > 0}
-    except (ValueError, SyntaxError, TypeError):
-        player_1_cards = set()
-
-    player_0_troops_used = player_0_cards.intersection(troop_set)
-    player_1_troops_used = player_1_cards.intersection(troop_set)
-
-    for troop_name in player_0_troops_used:
-        card_data.append({'arena': row.arena, 'outcome': 'Won' if row.players_0_winner == 1 else 'Lost', 'card_name': troop_name})
-    for troop_name in player_1_troops_used:
-        card_data.append({'arena': row.arena, 'outcome': 'Won' if row.players_1_winner == 1 else 'Lost', 'card_name': troop_name})
-
-# Create and Group the master DataFrame
-all_data_df = pd.DataFrame(card_data)
-grouped_df = all_data_df.groupby(['arena', 'card_name', 'outcome']).size().reset_index(name='count')
-grouped_df['arena'] = grouped_df['arena'].map(arenas_dict)
-grouped_df = grouped_df.dropna(subset=['arena'])
+grouped_df = pd.read_csv("../#2 Data Storage/Visualized Data/arenawise_card_win_loss.csv")
 
 # Create master arena order and dropdown options
 arena_order = sorted(list(set(grouped_df['arena'])), key=lambda x: int(x.split(' ')[1]))
@@ -58,7 +17,7 @@ troop_dropdown_options = [{'label': troop, 'value': troop} for troop in troops_w
 
 print("Data processing complete. Dash app is ready.")
 
-# --- 3. REUSABLE FIGURE FUNCTION ---
+# --- REUSABLE FIGURE FUNCTION ---
 def create_troop_figure(selected_troop):
     """
     Filters the global grouped_df and returns a Plotly figure
@@ -76,16 +35,16 @@ def create_troop_figure(selected_troop):
     # Add Won Trace
     fig.add_trace(go.Bar(
         x=df_won['arena'], y=df_won['count'], name='Won',
-        marker_color='blue', 
+        marker_color="#1343E1", 
         hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
-        opacity=0.5 
+        opacity=0.45
     ))
     # Add Lost Trace
     fig.add_trace(go.Bar(
         x=df_lost['arena'], y=df_lost['count'], name='Lost',
-        marker_color='red', 
+        marker_color="#EE0EC1", 
         hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
-        opacity=0.5
+        opacity=0.45
     ))
     
     fig.update_layout(
