@@ -328,9 +328,6 @@ if not card_db.empty:
         left_on='card', right_on='englishName', how='left'
     ).drop('englishName', axis=1)
 combined_df = pd.concat([ evo_df,  non_evo_df], ignore_index=True)
-print(f"✓ Loaded battle data: {len( combined_df)} card entries")
-print(f"  - EVO cards: {len( evo_df)}")
-print(f"  - NON-EVO cards: {len( non_evo_df)}")
 
 
 # --- 4. Create Static Figures (Runs once on startup) ---
