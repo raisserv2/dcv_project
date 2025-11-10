@@ -1,7 +1,7 @@
 /* 99-custom.css
 
 Place only the rules you want to override here. Dash will load external stylesheets
-(e.g. Bootstrap) first, then files in `assets/` alphabetically. Naming this file
+(e.g. Bootstrap) first, then files in assets/ alphabetically. Naming this file
 with a high prefix (99-) makes it load near the end so your rules override
 Bootstrap defaults where selectors match.
 
@@ -49,14 +49,81 @@ body {
   overflow-y: auto;
   font-family: 'Clash Regular','Clash Bold', Arial, sans-serif;
   
-  /* --- NEW: Background Image Rules --- */
-  background-image: url('mueseum.jpg');
+  /* --- 1. REMOVE THE BACKGROUND IMAGE FROM HERE --- */
+  /* background-image: url('clash_royale_wallpaper.webp'); <-- DELETE THIS */
+  
+  /* --- 2. ADD A SOLID BACKGROUND COLOR AS A FALLBACK --- */
+  background-color: #111111;
+}
+/* Default background (for homepage, etc.) */
+#main-app-container.page-default-background {
+  background-image: url('clash_royale_wallpaper.webp'); /* Your default image */
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed; /* Keeps the background still while scrolling */
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
+/* Background for the EVO page */
+#main-app-container.page-evo-background {
+  background-image: url('campfire.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Background for the ARENA page */
+#main-app-container.page-arena-background {
+  background-image: url('campfire.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Background for the TROOP page */
+#main-app-container.page-troop-background {
+  background-image: url('monk.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#main-app-container.page-builder-background {
+  background-image: url('larry.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Background for the ARENA page */
+#main-app-container.page-deck-background {
+  background-image: url('mueseum.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Background for the TROOP page */
+#main-app-container.page-combined-background {
+  background-image: url('fisherman.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Background for the TROOP page */
+#main-app-container.page-rarity-background {
+  background-image: url('11240.jpg'); /* <-- Change this */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 /* --- Navbar tweaks --- */
 .navbar {
   box-shadow: 0 2px 6px ;
@@ -149,4 +216,3 @@ body {
 /* Utility: stronger specificity rules if needed (avoid !important)
 .header .navbar-brand {
   font-size: 1.15rem; */
-
