@@ -1,0 +1,143 @@
+englishName,id,is_evo,elixir_cost,rarity,icon_file
+Knight,26000000,1,3.0,Common,knight
+Archers,26000001,1,3.0,Common,archer
+Goblins,26000002,0,2.0,Common,goblins
+Giant,26000003,0,5.0,Rare,giant
+P.E.K.K.A,26000004,1,7.0,Epic,pekka
+Minions,26000005,0,3.0,Common,minion
+Balloon,26000006,0,5.0,Epic,chr_balloon
+Witch,26000007,1,5.0,Epic,witch
+Barbarians,26000008,1,5.0,Common,barbarian_card
+Golem,26000009,0,8.0,Epic,chr_golem
+Skeletons,26000010,1,1.0,Common,skeletons_card
+Valkyrie,26000011,1,4.0,Rare,valkyrie
+Skeleton Army,26000012,1,3.0,Epic,skeleton_horde
+Bomber,26000013,1,2.0,Common,bomber
+Musketeer,26000014,1,4.0,Rare,musketeer_card
+Baby Dragon,26000015,1,4.0,Epic,baby_dragon
+Prince,26000016,0,5.0,Epic,prince
+Wizard,26000017,1,5.0,Rare,wizard
+Mini P.E.K.K.A,26000018,0,4.0,Rare,minipekka
+Spear Goblins,26000019,0,2.0,Common,goblin_archer
+Giant Skeleton,26000020,0,6.0,Epic,giant_skeleton
+Hog Rider,26000021,0,4.0,Rare,hog_rider
+Minion Horde,26000022,0,5.0,Common,minion_horde
+Ice Wizard,26000023,0,3.0,Legendary,ice_wizard
+Royal Giant,26000024,1,6.0,Common,royalgiant
+Guards,26000025,0,3.0,Epic,skeleton_warriors
+Princess,26000026,0,3.0,Legendary,princess
+Dark Prince,26000027,0,4.0,Epic,dark_prince
+Three Musketeers,26000028,0,9.0,Rare,three_musketeer_card
+Lava Hound,26000029,0,7.0,Legendary,lava_hound
+Ice Spirit,26000030,1,1.0,Common,snow_spirits
+Fire Spirit,26000031,0,1.0,Common,fire_spirits
+Miner,26000032,0,3.0,Legendary,miner
+Sparky,26000033,0,6.0,Legendary,zapMachine
+Bowler,26000034,0,5.0,Epic,bowler
+Lumberjack,26000035,1,4.0,Legendary,rage_barbarian
+Battle Ram,26000036,1,4.0,Rare,battle_ram
+Inferno Dragon,26000037,1,4.0,Legendary,inferno_dragon
+Ice Golem,26000038,0,2.0,Rare,icegolem
+Mega Minion,26000039,0,3.0,Rare,mega_minion
+Dart Goblin,26000040,1,3.0,Rare,blowdart_goblin
+Goblin Gang,26000041,0,3.0,Common,goblin_gang
+Electro Wizard,26000042,0,4.0,Legendary,electro_wizard
+Elite Barbarians,26000043,0,6.0,Common,angry_barbarian
+Hunter,26000044,1,4.0,Epic,hunter
+Executioner,26000045,1,5.0,Epic,executioner
+Bandit,26000046,0,3.0,Legendary,bandit
+Royal Recruits,26000047,1,7.0,Common,royal_recruits
+Night Witch,26000048,0,4.0,Legendary,nightwitch
+Bats,26000049,1,2.0,Common,bats
+Royal Ghost,26000050,1,3.0,Legendary,ghost
+Ram Rider,26000051,0,5.0,Legendary,ram_rider
+Zappies,26000052,0,4.0,Rare,zappies
+Rascals,26000053,0,5.0,Common,rascals
+Cannon Cart,26000054,0,5.0,Epic,cannon_cart
+Mega Knight,26000055,1,7.0,Legendary,mega_knight
+Skeleton Barrel,26000056,1,3.0,Common,skeleton_balloon
+Flying Machine,26000057,0,4.0,Rare,flying_machine
+Wall Breakers,26000058,1,2.0,Epic,wallbreaker
+Royal Hogs,26000059,1,5.0,Rare,royal_hog
+Goblin Giant,26000060,1,6.0,Epic,goblin_giant
+Fisherman,26000061,0,3.0,Legendary,fisherman
+Magic Archer,26000062,0,4.0,Legendary,magic_archer
+Electro Dragon,26000063,1,5.0,Epic,electro_dragon
+Firecracker,26000064,1,3.0,Common,firecracker
+Mighty Miner,26000065,0,4.0,Champion,mightyminer
+Super Witch,26000066,0,6.0,Legendary,superwitch
+Elixir Golem,26000067,0,3.0,Rare,elixir_golem
+Battle Healer,26000068,0,4.0,Rare,battle_healer
+Skeleton King,26000069,0,4.0,Champion,skeletonking
+Super Lava Hound,26000070,0,8.0,Legendary,super_lava_hound
+Super Magic Archer,26000071,0,5.0,Legendary,supermagicarcher
+Archer Queen,26000072,0,5.0,Champion,archerqueen
+Santa Hog Rider,26000073,0,5.0,Legendary,superhogrider
+Golden Knight,26000074,0,4.0,Champion,goldenknight
+Super Ice Golem,26000075,0,4.0,Legendary,supericegolem
+Monk,26000077,0,5.0,Champion,monk
+Super Archers,26000078,0,3.0,Legendary,superarcher
+Skeleton Dragons,26000080,0,4.0,Common,skeletondragon
+Terry,26000081,0,4.0,Champion,hogrider_champion
+Super Mini P.E.K.K.A,26000082,0,5.0,Legendary,superminipekka
+Mother Witch,26000083,0,4.0,Legendary,motherwitch
+Electro Spirit,26000084,0,1.0,Common,electrospirit
+Electro Giant,26000085,0,7.0,Epic,electrogiant
+Raging Prince,26000086,0,5.0,Epic,prince
+Phoenix,26000087,0,4.0,Legendary,phoenix
+Little Prince,26000093,0,3.0,Champion,LittlePrince
+Wizard Trio,26000094,0,7.0,Legendary,triwizards
+Goblin Demolisher,26000095,0,4.0,Rare,goblindemolisher
+Goblin Machine,26000096,0,5.0,Legendary,goblinmachine
+Suspicious Bush,26000097,0,2.0,Rare,suspicious_bush
+Super Knight,26000098,0,4.0,Legendary,superknight
+Goblinstein,26000099,0,5.0,Champion,goblinstein_card
+Rune Giant,26000101,0,4.0,Epic,buff_giant_card
+Berserker,26000102,0,2.0,Common,berserker_card
+Boss Bandit,26000103,0,6.0,Champion,bossbandit_card
+Spirit Empress (Ground),26000104,0,3.0,Legendary,mergemaiden_card
+Spirit Empress,26000105,0,6.0,Legendary,mergemaiden_dragon_card
+Cannon,27000000,1,3.0,Common,chaos_cannon
+Goblin Hut,27000001,0,4.0,Rare,goblin_hut_rework_card
+Mortar,27000002,1,4.0,Common,building_mortar
+Inferno Tower,27000003,0,5.0,Rare,building_inferno
+Bomb Tower,27000004,0,4.0,Rare,bomb_tower
+Barbarian Hut,27000005,0,6.0,Rare,barbarian_hut
+Tesla,27000006,1,4.0,Common,building_tesla
+Elixir Collector,27000007,0,6.0,Rare,building_elixir_collector
+X-Bow,27000008,0,6.0,Epic,building_xbow
+Tombstone,27000009,0,3.0,Rare,tombstone
+Furnace,27000010,1,4.0,Rare,furnace_card
+Barbarian Launcher,27000011,0,5.0,Common,barbarian_launcher
+Goblin Cage,27000012,1,4.0,Rare,goblin_cage
+Goblin Drill,27000013,1,4.0,Epic,goblindrill
+Party Hut,27000014,0,5.0,Legendary,PartyHut
+Rocket Silo,27000017,0,7.0,Legendary,PartyRocket
+Fireball,28000000,0,4.0,Rare,fire_fireball
+Arrows,28000001,0,3.0,Common,order_volley
+Rage,28000002,0,2.0,Epic,rage
+Rocket,28000003,0,6.0,Rare,rocket
+Goblin Barrel,28000004,1,3.0,Epic,goblin_barrel
+Freeze,28000005,0,4.0,Epic,freeze
+Mirror,28000006,0,1.0,Epic,mirror
+Lightning,28000007,0,6.0,Epic,lightning
+Zap,28000008,1,2.0,Common,zap
+Poison,28000009,0,4.0,Epic,poison
+Graveyard,28000010,0,5.0,Legendary,graveyard
+The Log,28000011,0,2.0,Legendary,the_log
+Tornado,28000012,0,3.0,Epic,tornado
+Clone,28000013,0,3.0,Epic,copy
+Earthquake,28000014,0,3.0,Rare,earthquake
+Barbarian Barrel,28000015,0,2.0,Epic,barb_barrel
+Heal Spirit,28000016,0,1.0,Rare,healspirit
+Giant Snowball,28000017,1,2.0,Common,snowball
+Royal Delivery,28000018,0,3.0,Common,royal_delivery
+Party Rocket,28000020,0,5.0,Legendary,PartyRocket_v2
+Warmth,28000021,0,1.0,Common,warmth_spell
+Void,28000023,0,3.0,Epic,darkspell
+Goblin Curse,28000024,0,2.0,Epic,goblincurse
+Vines,28000026,0,3.0,Epic,vines_spell
+Tower Princess,159000000,0,,Common,support_card_princess
+Cannoneer,159000001,0,,Epic,support_card_cannoneer
+Dagger Duchess,159000002,0,,Legendary,support_card_knife_thrower
+Royal Chef,159000004,0,,Legendary,support_card_royal_chef
