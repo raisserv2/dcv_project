@@ -34,7 +34,14 @@ def create_troop_figure(selected_troop):
     for the selected troop.
     """
     if not selected_troop:
-        return go.Figure(layout={"title": "Please select a troop"})
+        return go.Figure(
+            layout={
+                "title": "Please select a troop", 
+                "template": "plotly_dark",
+                "paper_bgcolor": "rgba(0,0,0,0)", # Transparent background
+                "plot_bgcolor": "rgba(0,0,0,0)"  # Transparent background
+            }
+        )
 
     fig = go.Figure()
     df_troop = grouped_df[grouped_df["card_name"] == selected_troop]
@@ -70,7 +77,8 @@ def create_troop_figure(selected_troop):
         xaxis_title="Arena",
         yaxis_title="Usage Count",
         barmode="overlay",
-        plotly_template="plotly_dark",
+        paper_bgcolor= "rgba(0,0,0,0)", # Transparent background
+        plot_bgcolor= "rgba(0,0,0,0)"  # Transparent background
     )
 
     # Apply sorting fix
