@@ -147,7 +147,7 @@ def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_
     try:
         # Load card database
         card_db = pd.read_csv(card_db_path)
-        print(f"✓ Loaded card database: {len(card_db)} cards")
+
         
         # Load battle data
         with open(battle_data_path, 'rb') as f:
@@ -185,11 +185,10 @@ def load_example_data(card_db_path='card_database.csv', battle_data_path='clash_
         
         # Create combined DataFrame
         combined_df = pd.concat([evo_df, non_evo_df], ignore_index=True)
-        print(f"✓ Loaded battle data: {len(combined_df)} card entries")
-        
+
         # Prepare archetype data
         combined_df = prepare_archetype_data(combined_df, DEFAULT_ARCHETYPE_MAPPING)
-        print("✓ Prepared archetype data")
+
         
         return combined_df
         
