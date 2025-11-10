@@ -1,0 +1,6131 @@
+arena,card_name,outcome,evo,count
+Arena 1,Archers,Lost,0,10753
+Arena 1,Archers,Won,0,10420
+Arena 1,Arrows,Lost,0,11561
+Arena 1,Arrows,Won,0,10452
+Arena 1,Baby Dragon,Lost,0,4
+Arena 1,Baby Dragon,Won,0,35
+Arena 1,Barbarians,Won,0,3
+Arena 1,Bomber,Lost,0,2
+Arena 1,Bomber,Won,0,8
+Arena 1,Dart Goblin,Won,0,1
+Arena 1,Electro Dragon,Lost,0,1
+Arena 1,Electro Wizard,Won,0,1
+Arena 1,Executioner,Lost,0,3
+Arena 1,Fireball,Lost,0,12435
+Arena 1,Fireball,Won,0,12075
+Arena 1,Firecracker,Lost,1,1
+Arena 1,Giant,Lost,0,12433
+Arena 1,Giant,Won,0,12563
+Arena 1,Goblin Barrel,Lost,0,2
+Arena 1,Goblin Barrel,Won,0,7
+Arena 1,Goblin Cage,Lost,0,3106
+Arena 1,Goblin Cage,Won,0,3165
+Arena 1,Goblin Drill,Lost,0,1
+Arena 1,Goblin Gang,Lost,0,1
+Arena 1,Goblin Hut,Lost,0,3097
+Arena 1,Goblin Hut,Won,0,3290
+Arena 1,Goblin Machine,Won,0,1
+Arena 1,Goblins,Lost,0,2913
+Arena 1,Goblins,Won,0,2869
+Arena 1,Hog Rider,Lost,0,2
+Arena 1,Hog Rider,Won,0,22
+Arena 1,Hunter,Won,0,3
+Arena 1,Inferno Dragon,Lost,0,1
+Arena 1,Knight,Lost,0,11463
+Arena 1,Knight,Won,0,11627
+Arena 1,Mega Knight,Lost,0,1
+Arena 1,Mega Knight,Won,0,2
+Arena 1,Mini P.E.K.K.A,Lost,0,12415
+Arena 1,Mini P.E.K.K.A,Won,0,12828
+Arena 1,Minions,Lost,0,10532
+Arena 1,Minions,Won,0,9669
+Arena 1,Musketeer,Lost,0,10917
+Arena 1,Musketeer,Won,0,11194
+Arena 1,P.E.K.K.A,Lost,0,1
+Arena 1,P.E.K.K.A,Won,0,3
+Arena 1,Prince,Lost,0,7
+Arena 1,Prince,Won,0,53
+Arena 1,Princess,Lost,0,1
+Arena 1,Princess,Won,0,1
+Arena 1,Royal Ghost,Lost,0,13
+Arena 1,Royal Ghost,Won,0,7
+Arena 1,Skeleton Army,Lost,0,27
+Arena 1,Skeleton Army,Won,0,28
+Arena 1,Skeleton Dragons,Won,0,1
+Arena 1,Spear Goblins,Lost,0,3207
+Arena 1,Spear Goblins,Won,0,4459
+Arena 1,Tesla,Lost,0,1
+Arena 1,Tesla,Lost,1,2
+Arena 1,Valkyrie,Won,0,12
+Arena 1,Wall Breakers,Won,0,8
+Arena 1,Witch,Lost,0,14
+Arena 1,Witch,Won,0,7
+Arena 1,Wizard,Lost,0,2
+Arena 1,Wizard,Lost,1,1
+Arena 1,Wizard,Won,0,74
+Arena 2,Archers,Lost,0,3175
+Arena 2,Archers,Won,0,6119
+Arena 2,Arrows,Lost,0,4435
+Arena 2,Arrows,Won,0,6989
+Arena 2,Baby Dragon,Lost,0,30
+Arena 2,Baby Dragon,Won,0,88
+Arena 2,Baby Dragon,Won,1,1
+Arena 2,Barbarians,Lost,0,1
+Arena 2,Barbarians,Won,0,1
+Arena 2,Bats,Won,0,1
+Arena 2,Bomber,Lost,0,6468
+Arena 2,Bomber,Won,0,5064
+Arena 2,Electro Dragon,Lost,1,23
+Arena 2,Electro Dragon,Won,1,8
+Arena 2,Electro Wizard,Lost,0,1
+Arena 2,Electro Wizard,Won,0,5
+Arena 2,Executioner,Lost,0,22
+Arena 2,Executioner,Won,0,8
+Arena 2,Fireball,Lost,0,13054
+Arena 2,Fireball,Won,0,11948
+Arena 2,Furnace,Won,0,1
+Arena 2,Furnace,Won,1,1
+Arena 2,Giant,Lost,0,14613
+Arena 2,Giant,Won,0,13861
+Arena 2,Giant Skeleton,Lost,0,1
+Arena 2,Giant Skeleton,Won,0,1
+Arena 2,Goblin Barrel,Lost,0,10
+Arena 2,Goblin Barrel,Won,0,24
+Arena 2,Goblin Cage,Lost,0,10268
+Arena 2,Goblin Cage,Won,0,7474
+Arena 2,Goblin Hut,Lost,0,11208
+Arena 2,Goblin Hut,Won,0,8302
+Arena 2,Goblin Machine,Lost,0,1
+Arena 2,Goblin Machine,Won,0,5
+Arena 2,Goblins,Lost,0,6731
+Arena 2,Goblins,Won,0,4429
+Arena 2,Hog Rider,Lost,0,3
+Arena 2,Hog Rider,Won,0,37
+Arena 2,Hunter,Lost,0,1
+Arena 2,Hunter,Won,0,4
+Arena 2,Ice Spirit,Won,0,1
+Arena 2,Inferno Dragon,Lost,0,23
+Arena 2,Inferno Dragon,Won,0,9
+Arena 2,Knight,Lost,0,6915
+Arena 2,Knight,Won,0,9570
+Arena 2,Mega Knight,Lost,0,1
+Arena 2,Mega Knight,Won,0,5
+Arena 2,Mini P.E.K.K.A,Lost,0,14696
+Arena 2,Mini P.E.K.K.A,Won,0,14514
+Arena 2,Minions,Lost,0,3353
+Arena 2,Minions,Won,0,6287
+Arena 2,Musketeer,Lost,0,4787
+Arena 2,Musketeer,Won,0,8020
+Arena 2,P.E.K.K.A,Lost,0,1
+Arena 2,P.E.K.K.A,Won,0,12
+Arena 2,P.E.K.K.A,Won,1,3
+Arena 2,Prince,Lost,0,39
+Arena 2,Prince,Won,0,139
+Arena 2,Princess,Lost,0,1
+Arena 2,Princess,Won,0,10
+Arena 2,Royal Ghost,Lost,0,27
+Arena 2,Royal Ghost,Won,0,34
+Arena 2,Skeleton Army,Lost,0,38
+Arena 2,Skeleton Army,Won,0,72
+Arena 2,Skeletons,Lost,0,1887
+Arena 2,Skeletons,Won,0,1967
+Arena 2,Spear Goblins,Lost,0,9829
+Arena 2,Spear Goblins,Won,0,7233
+Arena 2,Tesla,Won,0,1
+Arena 2,Tesla,Won,1,1
+Arena 2,Tombstone,Lost,0,2432
+Arena 2,Tombstone,Won,0,2376
+Arena 2,Valkyrie,Lost,0,6019
+Arena 2,Valkyrie,Won,0,5377
+Arena 2,Wall Breakers,Lost,0,4
+Arena 2,Wall Breakers,Won,0,19
+Arena 2,Witch,Lost,0,26
+Arena 2,Witch,Won,0,30
+Arena 2,Wizard,Lost,0,5
+Arena 2,Wizard,Won,0,76
+Arena 2,Wizard,Won,1,1
+Arena 3,Archers,Lost,0,2743
+Arena 3,Archers,Lost,1,7
+Arena 3,Archers,Won,0,4861
+Arena 3,Archers,Won,1,13
+Arena 3,Arrows,Lost,0,5733
+Arena 3,Arrows,Won,0,6990
+Arena 3,Baby Dragon,Lost,0,24
+Arena 3,Baby Dragon,Won,0,146
+Arena 3,Barbarian Barrel,Lost,0,1
+Arena 3,Barbarian Barrel,Won,0,4
+Arena 3,Barbarians,Lost,0,7339
+Arena 3,Barbarians,Lost,1,1
+Arena 3,Barbarians,Won,0,8614
+Arena 3,Barbarians,Won,1,2
+Arena 3,Bats,Lost,0,2
+Arena 3,Battle Ram,Lost,0,6199
+Arena 3,Battle Ram,Won,0,5799
+Arena 3,Bomb Tower,Lost,0,1
+Arena 3,Bomb Tower,Won,0,1
+Arena 3,Bomber,Lost,0,5292
+Arena 3,Bomber,Won,0,4789
+Arena 3,Cannon,Lost,0,4007
+Arena 3,Cannon,Won,0,3851
+Arena 3,Dark Prince,Won,0,1
+Arena 3,Dart Goblin,Lost,0,1
+Arena 3,Electro Dragon,Lost,0,2
+Arena 3,Electro Dragon,Lost,1,10
+Arena 3,Electro Dragon,Won,0,22
+Arena 3,Electro Dragon,Won,1,33
+Arena 3,Executioner,Lost,0,6
+Arena 3,Executioner,Won,0,8
+Arena 3,Fireball,Lost,0,13437
+Arena 3,Fireball,Won,0,12268
+Arena 3,Firecracker,Lost,0,1
+Arena 3,Firecracker,Lost,1,18
+Arena 3,Firecracker,Won,1,13
+Arena 3,Freeze,Lost,0,18
+Arena 3,Freeze,Won,0,13
+Arena 3,Furnace,Won,1,1
+Arena 3,Giant,Lost,0,15585
+Arena 3,Giant,Won,0,14240
+Arena 3,Giant Skeleton,Lost,0,4
+Arena 3,Giant Skeleton,Won,0,4
+Arena 3,Goblin Barrel,Lost,0,6
+Arena 3,Goblin Barrel,Won,0,26
+Arena 3,Goblin Cage,Lost,0,7177
+Arena 3,Goblin Cage,Won,0,5524
+Arena 3,Goblin Hut,Lost,0,9898
+Arena 3,Goblin Hut,Won,0,7466
+Arena 3,Goblin Machine,Won,0,1
+Arena 3,Goblins,Lost,0,2919
+Arena 3,Goblins,Won,0,3151
+Arena 3,Golem,Won,0,4
+Arena 3,Hog Rider,Lost,0,12
+Arena 3,Hog Rider,Won,0,37
+Arena 3,Hunter,Lost,0,9
+Arena 3,Hunter,Won,0,18
+Arena 3,Ice Spirit,Lost,0,18
+Arena 3,Ice Spirit,Won,0,13
+Arena 3,Inferno Dragon,Lost,0,15
+Arena 3,Inferno Dragon,Won,0,126
+Arena 3,Inferno Tower,Won,0,1
+Arena 3,Knight,Lost,0,6990
+Arena 3,Knight,Won,0,8336
+Arena 3,Knight,Won,1,2
+Arena 3,Mega Knight,Lost,0,1
+Arena 3,Mega Knight,Won,0,2
+Arena 3,Mega Minion,Lost,0,4234
+Arena 3,Mega Minion,Won,0,4222
+Arena 3,Mini P.E.K.K.A,Lost,0,17727
+Arena 3,Mini P.E.K.K.A,Won,0,17460
+Arena 3,Minions,Lost,0,4508
+Arena 3,Minions,Won,0,6442
+Arena 3,Mortar,Lost,1,1
+Arena 3,Musketeer,Lost,0,6225
+Arena 3,Musketeer,Won,0,7340
+Arena 3,P.E.K.K.A,Won,0,1
+Arena 3,P.E.K.K.A,Won,1,3
+Arena 3,Prince,Lost,0,35
+Arena 3,Prince,Won,0,238
+Arena 3,Princess,Lost,0,1
+Arena 3,Princess,Won,0,3
+Arena 3,Royal Ghost,Lost,0,151
+Arena 3,Royal Ghost,Won,0,705
+Arena 3,Royal Giant,Won,0,2
+Arena 3,Skeleton Army,Lost,0,222
+Arena 3,Skeleton Army,Lost,1,2
+Arena 3,Skeleton Army,Won,0,923
+Arena 3,Skeleton Army,Won,1,7
+Arena 3,Skeleton Dragons,Lost,0,1
+Arena 3,Skeleton Dragons,Won,0,1
+Arena 3,Skeletons,Lost,0,1706
+Arena 3,Skeletons,Won,0,2006
+Arena 3,Spear Goblins,Lost,0,8252
+Arena 3,Spear Goblins,Won,0,6191
+Arena 3,Tesla,Lost,1,1
+Arena 3,Tesla,Won,0,2
+Arena 3,Tesla,Won,1,6
+Arena 3,The Log,Lost,0,1
+Arena 3,Tombstone,Lost,0,2855
+Arena 3,Tombstone,Won,0,3175
+Arena 3,Valkyrie,Lost,0,13961
+Arena 3,Valkyrie,Lost,1,19
+Arena 3,Valkyrie,Won,0,11729
+Arena 3,Valkyrie,Won,1,13
+Arena 3,Wall Breakers,Lost,0,6
+Arena 3,Wall Breakers,Won,0,18
+Arena 3,Witch,Lost,0,106
+Arena 3,Witch,Won,0,504
+Arena 3,Witch,Won,1,1
+Arena 3,Wizard,Lost,0,34
+Arena 3,Wizard,Lost,1,2
+Arena 3,Wizard,Won,0,117
+Arena 3,Wizard,Won,1,10
+Arena 3,Zap,Lost,0,18
+Arena 3,Zap,Won,0,13
+Arena 4,Archers,Lost,0,2255
+Arena 4,Archers,Lost,1,41
+Arena 4,Archers,Won,0,2947
+Arena 4,Archers,Won,1,88
+Arena 4,Arrows,Lost,0,5808
+Arena 4,Arrows,Won,0,5106
+Arena 4,Baby Dragon,Lost,0,51
+Arena 4,Baby Dragon,Won,0,241
+Arena 4,Baby Dragon,Won,1,2
+Arena 4,Balloon,Lost,0,1
+Arena 4,Barbarian Barrel,Won,0,5
+Arena 4,Barbarians,Lost,0,8904
+Arena 4,Barbarians,Won,0,9903
+Arena 4,Barbarians,Won,1,2
+Arena 4,Bats,Won,0,1
+Arena 4,Battle Ram,Lost,0,9617
+Arena 4,Battle Ram,Won,0,8210
+Arena 4,Battle Ram,Won,1,1
+Arena 4,Bomb Tower,Lost,0,944
+Arena 4,Bomb Tower,Won,0,1182
+Arena 4,Bomber,Lost,0,1879
+Arena 4,Bomber,Won,0,2403
+Arena 4,Cannon,Lost,0,4869
+Arena 4,Cannon,Won,0,3187
+Arena 4,Dark Prince,Won,0,5
+Arena 4,Electro Dragon,Lost,0,6
+Arena 4,Electro Dragon,Lost,1,15
+Arena 4,Electro Dragon,Won,0,27
+Arena 4,Electro Dragon,Won,1,53
+Arena 4,Electro Spirit,Lost,0,1251
+Arena 4,Electro Spirit,Won,0,1161
+Arena 4,Executioner,Lost,0,10
+Arena 4,Executioner,Won,0,24
+Arena 4,Fire Spirit,Lost,0,744
+Arena 4,Fire Spirit,Won,0,884
+Arena 4,Fireball,Lost,0,10462
+Arena 4,Fireball,Won,0,9587
+Arena 4,Firecracker,Lost,0,1
+Arena 4,Firecracker,Won,0,5
+Arena 4,Giant,Lost,0,9905
+Arena 4,Giant,Won,0,9502
+Arena 4,Giant Skeleton,Lost,0,9
+Arena 4,Giant Skeleton,Won,0,24
+Arena 4,Goblin Barrel,Lost,0,6
+Arena 4,Goblin Barrel,Won,0,39
+Arena 4,Goblin Cage,Lost,0,3075
+Arena 4,Goblin Cage,Won,0,2551
+Arena 4,Goblin Hut,Lost,0,4274
+Arena 4,Goblin Hut,Won,0,4004
+Arena 4,Goblins,Lost,0,1122
+Arena 4,Goblins,Won,0,1823
+Arena 4,Golem,Lost,0,6
+Arena 4,Golem,Won,0,16
+Arena 4,Hog Rider,Lost,0,21
+Arena 4,Hog Rider,Won,0,59
+Arena 4,Hunter,Lost,0,4
+Arena 4,Hunter,Won,0,10
+Arena 4,Ice Spirit,Lost,0,1
+Arena 4,Inferno Dragon,Lost,0,152
+Arena 4,Inferno Dragon,Won,0,520
+Arena 4,Inferno Tower,Lost,0,3079
+Arena 4,Inferno Tower,Won,0,3294
+Arena 4,Knight,Lost,0,6166
+Arena 4,Knight,Lost,1,1
+Arena 4,Knight,Won,0,5888
+Arena 4,Knight,Won,1,2
+Arena 4,Lava Hound,Won,0,1
+Arena 4,Mega Knight,Won,0,1
+Arena 4,Mega Minion,Lost,0,5244
+Arena 4,Mega Minion,Won,0,4491
+Arena 4,Miner,Won,0,2
+Arena 4,Mini P.E.K.K.A,Lost,0,14597
+Arena 4,Mini P.E.K.K.A,Won,0,15029
+Arena 4,Minions,Lost,0,3775
+Arena 4,Minions,Won,0,4318
+Arena 4,Musketeer,Lost,0,5604
+Arena 4,Musketeer,Won,0,5140
+Arena 4,P.E.K.K.A,Lost,0,2
+Arena 4,P.E.K.K.A,Won,0,11
+Arena 4,P.E.K.K.A,Won,1,3
+Arena 4,Prince,Lost,0,74
+Arena 4,Prince,Won,0,292
+Arena 4,Royal Delivery,Lost,0,1
+Arena 4,Royal Ghost,Lost,0,569
+Arena 4,Royal Ghost,Won,0,1927
+Arena 4,Royal Giant,Lost,0,2
+Arena 4,Royal Giant,Won,0,2
+Arena 4,Royal Hogs,Won,0,1
+Arena 4,Skeleton Army,Lost,0,731
+Arena 4,Skeleton Army,Lost,1,7
+Arena 4,Skeleton Army,Won,0,2350
+Arena 4,Skeleton Army,Won,1,25
+Arena 4,Skeleton Barrel,Lost,0,1
+Arena 4,Skeleton Dragons,Lost,0,2379
+Arena 4,Skeleton Dragons,Won,0,2630
+Arena 4,Skeletons,Lost,0,3698
+Arena 4,Skeletons,Won,0,1980
+Arena 4,Skeletons,Won,1,3
+Arena 4,Spear Goblins,Lost,0,4702
+Arena 4,Spear Goblins,Won,0,4155
+Arena 4,Tesla,Lost,0,6
+Arena 4,Tesla,Lost,1,5
+Arena 4,Tesla,Won,0,22
+Arena 4,Tesla,Won,1,26
+Arena 4,Tombstone,Lost,0,1103
+Arena 4,Tombstone,Won,0,1546
+Arena 4,Valkyrie,Lost,0,9468
+Arena 4,Valkyrie,Won,0,8858
+Arena 4,Valkyrie,Won,1,5
+Arena 4,Wall Breakers,Lost,0,2
+Arena 4,Wall Breakers,Won,0,5
+Arena 4,Witch,Lost,0,436
+Arena 4,Witch,Lost,1,1
+Arena 4,Witch,Won,0,1410
+Arena 4,Witch,Won,1,1
+Arena 4,Wizard,Lost,0,4624
+Arena 4,Wizard,Lost,1,1090
+Arena 4,Wizard,Won,0,5386
+Arena 4,Wizard,Won,1,392
+Arena 5,Archers,Lost,0,1990
+Arena 5,Archers,Lost,1,27
+Arena 5,Archers,Won,0,2230
+Arena 5,Archers,Won,1,78
+Arena 5,Arrows,Lost,0,5620
+Arena 5,Arrows,Won,0,4409
+Arena 5,Baby Dragon,Lost,0,163
+Arena 5,Baby Dragon,Lost,1,2
+Arena 5,Baby Dragon,Won,0,525
+Arena 5,Baby Dragon,Won,1,11
+Arena 5,Balloon,Lost,0,2
+Arena 5,Barbarian Barrel,Lost,0,3
+Arena 5,Barbarian Barrel,Won,0,44
+Arena 5,Barbarian Hut,Lost,0,1
+Arena 5,Barbarians,Lost,0,9114
+Arena 5,Barbarians,Lost,1,2
+Arena 5,Barbarians,Won,0,9443
+Arena 5,Barbarians,Won,1,14
+Arena 5,Bats,Lost,0,1453
+Arena 5,Bats,Won,0,1749
+Arena 5,Battle Ram,Lost,0,9423
+Arena 5,Battle Ram,Won,0,7597
+Arena 5,Bomb Tower,Lost,0,969
+Arena 5,Bomb Tower,Won,0,1186
+Arena 5,Bomber,Lost,0,1437
+Arena 5,Bomber,Won,0,1946
+Arena 5,Cannon,Lost,0,3574
+Arena 5,Cannon,Won,0,2656
+Arena 5,Dark Prince,Won,0,6
+Arena 5,Dart Goblin,Won,0,5
+Arena 5,Dart Goblin,Won,1,1
+Arena 5,Electro Dragon,Lost,0,13
+Arena 5,Electro Dragon,Lost,1,27
+Arena 5,Electro Dragon,Won,0,37
+Arena 5,Electro Dragon,Won,1,59
+Arena 5,Electro Spirit,Lost,0,2308
+Arena 5,Electro Spirit,Won,0,1373
+Arena 5,Electro Wizard,Won,0,2
+Arena 5,Executioner,Lost,0,32
+Arena 5,Executioner,Lost,1,2
+Arena 5,Executioner,Won,0,65
+Arena 5,Executioner,Won,1,2
+Arena 5,Fire Spirit,Lost,0,1420
+Arena 5,Fire Spirit,Won,0,881
+Arena 5,Fireball,Lost,0,8992
+Arena 5,Fireball,Won,0,8283
+Arena 5,Firecracker,Lost,0,3
+Arena 5,Firecracker,Won,0,7
+Arena 5,Firecracker,Won,1,1
+Arena 5,Flying Machine,Lost,0,331
+Arena 5,Flying Machine,Won,0,405
+Arena 5,Furnace,Won,0,3
+Arena 5,Furnace,Won,1,2
+Arena 5,Giant,Lost,0,7684
+Arena 5,Giant,Won,0,6657
+Arena 5,Giant Skeleton,Lost,0,15
+Arena 5,Giant Skeleton,Won,0,27
+Arena 5,Giant Snowball,Lost,0,1
+Arena 5,Goblin Barrel,Lost,0,32
+Arena 5,Goblin Barrel,Won,0,94
+Arena 5,Goblin Cage,Lost,0,1719
+Arena 5,Goblin Cage,Won,0,1661
+Arena 5,Goblin Gang,Won,0,1
+Arena 5,Goblin Giant,Won,1,1
+Arena 5,Goblin Hut,Lost,0,2760
+Arena 5,Goblin Hut,Won,0,2715
+Arena 5,Goblin Machine,Won,0,1
+Arena 5,Goblins,Lost,0,1301
+Arena 5,Goblins,Won,0,1587
+Arena 5,Golem,Lost,0,5
+Arena 5,Golem,Won,0,6
+Arena 5,Hog Rider,Lost,0,4390
+Arena 5,Hog Rider,Won,0,4496
+Arena 5,Hunter,Lost,0,18
+Arena 5,Hunter,Won,0,52
+Arena 5,Ice Spirit,Won,0,1
+Arena 5,Inferno Dragon,Lost,0,358
+Arena 5,Inferno Dragon,Won,0,856
+Arena 5,Inferno Tower,Lost,0,4926
+Arena 5,Inferno Tower,Won,0,3866
+Arena 5,Knight,Lost,0,4829
+Arena 5,Knight,Lost,1,9
+Arena 5,Knight,Won,0,4648
+Arena 5,Knight,Won,1,15
+Arena 5,Lightning,Lost,0,1
+Arena 5,Magic Archer,Lost,0,1
+Arena 5,Mega Knight,Won,0,4
+Arena 5,Mega Minion,Lost,0,3038
+Arena 5,Mega Minion,Won,0,2620
+Arena 5,Miner,Lost,0,1
+Arena 5,Miner,Won,0,16
+Arena 5,Mini P.E.K.K.A,Lost,0,13602
+Arena 5,Mini P.E.K.K.A,Won,0,15130
+Arena 5,Minion Horde,Lost,0,3
+Arena 5,Minion Horde,Won,0,1
+Arena 5,Minions,Lost,0,3338
+Arena 5,Minions,Won,0,3293
+Arena 5,Mortar,Lost,0,353
+Arena 5,Mortar,Won,0,468
+Arena 5,Musketeer,Lost,0,4511
+Arena 5,Musketeer,Won,0,3841
+Arena 5,Musketeer,Won,1,1
+Arena 5,P.E.K.K.A,Lost,0,10
+Arena 5,P.E.K.K.A,Lost,1,11
+Arena 5,P.E.K.K.A,Won,0,34
+Arena 5,P.E.K.K.A,Won,1,46
+Arena 5,Prince,Lost,0,189
+Arena 5,Prince,Won,0,556
+Arena 5,Princess,Won,0,5
+Arena 5,Rage,Lost,0,1
+Arena 5,Ram Rider,Won,0,1
+Arena 5,Rascals,Won,0,1
+Arena 5,Rocket,Lost,0,2085
+Arena 5,Rocket,Won,0,1460
+Arena 5,Royal Delivery,Won,0,1
+Arena 5,Royal Ghost,Lost,0,1887
+Arena 5,Royal Ghost,Won,0,4308
+Arena 5,Royal Giant,Lost,0,2
+Arena 5,Royal Giant,Won,0,10
+Arena 5,Royal Recruits,Won,1,5
+Arena 5,Skeleton Army,Lost,0,2263
+Arena 5,Skeleton Army,Lost,1,22
+Arena 5,Skeleton Army,Won,0,5013
+Arena 5,Skeleton Army,Won,1,81
+Arena 5,Skeleton Barrel,Won,1,1
+Arena 5,Skeleton Dragons,Lost,0,3603
+Arena 5,Skeleton Dragons,Won,0,3202
+Arena 5,Skeletons,Lost,0,3233
+Arena 5,Skeletons,Lost,1,1
+Arena 5,Skeletons,Won,0,1905
+Arena 5,Skeletons,Won,1,8
+Arena 5,Spear Goblins,Lost,0,3458
+Arena 5,Spear Goblins,Won,0,3255
+Arena 5,Tesla,Lost,0,9
+Arena 5,Tesla,Lost,1,17
+Arena 5,Tesla,Won,0,23
+Arena 5,Tesla,Won,1,50
+Arena 5,Tombstone,Lost,0,1055
+Arena 5,Tombstone,Won,0,1307
+Arena 5,Valkyrie,Lost,0,8177
+Arena 5,Valkyrie,Lost,1,3
+Arena 5,Valkyrie,Won,0,7919
+Arena 5,Valkyrie,Won,1,18
+Arena 5,Wall Breakers,Lost,0,3
+Arena 5,Wall Breakers,Won,0,10
+Arena 5,Witch,Lost,0,1326
+Arena 5,Witch,Won,0,2940
+Arena 5,Witch,Won,1,3
+Arena 5,Wizard,Lost,0,8758
+Arena 5,Wizard,Lost,1,1320
+Arena 5,Wizard,Won,0,9053
+Arena 5,Wizard,Won,1,510
+Arena 5,Zap,Lost,0,1604
+Arena 5,Zap,Won,0,1973
+Arena 6,Archers,Lost,0,2374
+Arena 6,Archers,Lost,1,58
+Arena 6,Archers,Won,0,2174
+Arena 6,Archers,Won,1,172
+Arena 6,Arrows,Lost,0,6433
+Arena 6,Arrows,Won,0,5860
+Arena 6,Baby Dragon,Lost,0,4874
+Arena 6,Baby Dragon,Lost,1,2
+Arena 6,Baby Dragon,Won,0,5961
+Arena 6,Baby Dragon,Won,1,3
+Arena 6,Balloon,Lost,0,4
+Arena 6,Balloon,Won,0,6
+Arena 6,Barbarian Barrel,Lost,0,29
+Arena 6,Barbarian Barrel,Won,0,85
+Arena 6,Barbarian Hut,Lost,0,1
+Arena 6,Barbarian Hut,Won,0,5
+Arena 6,Barbarians,Lost,0,10814
+Arena 6,Barbarians,Lost,1,28
+Arena 6,Barbarians,Won,0,10115
+Arena 6,Barbarians,Won,1,41
+Arena 6,Bats,Lost,0,3562
+Arena 6,Bats,Lost,1,2
+Arena 6,Bats,Won,0,2996
+Arena 6,Battle Ram,Lost,0,7441
+Arena 6,Battle Ram,Won,0,6079
+Arena 6,Battle Ram,Won,1,1
+Arena 6,Bomb Tower,Lost,0,1061
+Arena 6,Bomb Tower,Won,0,1053
+Arena 6,Bomber,Lost,0,2457
+Arena 6,Bomber,Lost,1,2
+Arena 6,Bomber,Won,0,2051
+Arena 6,Bomber,Won,1,2
+Arena 6,Cannon,Lost,0,3693
+Arena 6,Cannon,Won,0,3547
+Arena 6,Dark Prince,Lost,0,2
+Arena 6,Dark Prince,Won,0,17
+Arena 6,Dart Goblin,Lost,0,2
+Arena 6,Dart Goblin,Won,0,3
+Arena 6,Electro Dragon,Lost,0,13
+Arena 6,Electro Dragon,Lost,1,64
+Arena 6,Electro Dragon,Won,0,34
+Arena 6,Electro Dragon,Won,1,119
+Arena 6,Electro Spirit,Lost,0,2999
+Arena 6,Electro Spirit,Won,0,1628
+Arena 6,Electro Wizard,Lost,0,1
+Arena 6,Electro Wizard,Won,0,9
+Arena 6,Executioner,Lost,0,29
+Arena 6,Executioner,Won,0,77
+Arena 6,Fire Spirit,Lost,0,2017
+Arena 6,Fire Spirit,Won,0,1010
+Arena 6,Fireball,Lost,0,9261
+Arena 6,Fireball,Won,0,9101
+Arena 6,Firecracker,Lost,0,2
+Arena 6,Firecracker,Won,0,14
+Arena 6,Firecracker,Won,1,6
+Arena 6,Fisherman,Lost,0,1
+Arena 6,Flying Machine,Lost,0,235
+Arena 6,Flying Machine,Won,0,385
+Arena 6,Freeze,Lost,0,2
+Arena 6,Freeze,Won,0,1
+Arena 6,Furnace,Lost,0,2
+Arena 6,Furnace,Lost,1,6
+Arena 6,Furnace,Won,0,8
+Arena 6,Furnace,Won,1,9
+Arena 6,Giant,Lost,0,5391
+Arena 6,Giant,Won,0,3713
+Arena 6,Giant Skeleton,Lost,0,9
+Arena 6,Giant Skeleton,Won,0,27
+Arena 6,Giant Snowball,Lost,0,1
+Arena 6,Goblin Barrel,Lost,0,4565
+Arena 6,Goblin Barrel,Won,0,5763
+Arena 6,Goblin Cage,Lost,0,1420
+Arena 6,Goblin Cage,Won,0,1322
+Arena 6,Goblin Drill,Lost,0,1
+Arena 6,Goblin Drill,Won,0,10
+Arena 6,Goblin Gang,Lost,0,9
+Arena 6,Goblin Gang,Won,0,22
+Arena 6,Goblin Giant,Lost,0,1
+Arena 6,Goblin Giant,Won,0,1
+Arena 6,Goblin Giant,Won,1,1
+Arena 6,Goblin Hut,Lost,0,2202
+Arena 6,Goblin Hut,Won,0,2017
+Arena 6,Goblin Machine,Won,0,9
+Arena 6,Goblins,Lost,0,2353
+Arena 6,Goblins,Won,0,1565
+Arena 6,Golem,Lost,0,2
+Arena 6,Golem,Won,0,11
+Arena 6,Guards,Lost,0,2786
+Arena 6,Guards,Won,0,3224
+Arena 6,Hog Rider,Lost,0,11563
+Arena 6,Hog Rider,Won,0,11512
+Arena 6,Hunter,Lost,0,55
+Arena 6,Hunter,Won,0,127
+Arena 6,Hunter,Won,1,1
+Arena 6,Ice Spirit,Won,0,1
+Arena 6,Inferno Dragon,Lost,0,969
+Arena 6,Inferno Dragon,Won,0,1786
+Arena 6,Inferno Dragon,Won,1,1
+Arena 6,Inferno Tower,Lost,0,3574
+Arena 6,Inferno Tower,Won,0,3089
+Arena 6,Knight,Lost,0,5008
+Arena 6,Knight,Lost,1,9
+Arena 6,Knight,Won,0,4452
+Arena 6,Knight,Won,1,22
+Arena 6,Lava Hound,Lost,0,1
+Arena 6,Lava Hound,Won,0,1
+Arena 6,Lightning,Won,0,1
+Arena 6,Magic Archer,Lost,0,1
+Arena 6,Magic Archer,Won,0,5
+Arena 6,Mega Knight,Lost,0,3
+Arena 6,Mega Knight,Won,0,16
+Arena 6,Mega Knight,Won,1,1
+Arena 6,Mega Minion,Lost,0,2042
+Arena 6,Mega Minion,Won,0,1657
+Arena 6,Miner,Lost,0,12
+Arena 6,Miner,Won,0,73
+Arena 6,Mini P.E.K.K.A,Lost,0,16860
+Arena 6,Mini P.E.K.K.A,Won,0,17892
+Arena 6,Minion Horde,Lost,0,10
+Arena 6,Minion Horde,Won,0,17
+Arena 6,Minions,Lost,0,3087
+Arena 6,Minions,Won,0,2856
+Arena 6,Mirror,Won,0,1
+Arena 6,Mortar,Lost,0,258
+Arena 6,Mortar,Won,0,348
+Arena 6,Musketeer,Lost,0,3939
+Arena 6,Musketeer,Won,0,3609
+Arena 6,P.E.K.K.A,Lost,0,5063
+Arena 6,P.E.K.K.A,Lost,1,19
+Arena 6,P.E.K.K.A,Won,0,4969
+Arena 6,P.E.K.K.A,Won,1,31
+Arena 6,Poison,Lost,0,3
+Arena 6,Poison,Won,0,1
+Arena 6,Prince,Lost,0,480
+Arena 6,Prince,Won,0,1102
+Arena 6,Princess,Lost,0,3
+Arena 6,Princess,Won,0,26
+Arena 6,Rage,Won,0,5
+Arena 6,Ram Rider,Lost,0,2
+Arena 6,Ram Rider,Won,0,1
+Arena 6,Rascals,Lost,0,1
+Arena 6,Rascals,Won,0,6
+Arena 6,Rocket,Lost,0,2625
+Arena 6,Rocket,Won,0,1636
+Arena 6,Royal Delivery,Won,0,1
+Arena 6,Royal Ghost,Lost,0,4619
+Arena 6,Royal Ghost,Won,0,8091
+Arena 6,Royal Giant,Lost,0,5
+Arena 6,Royal Giant,Won,0,19
+Arena 6,Royal Giant,Won,1,1
+Arena 6,Royal Recruits,Lost,0,1
+Arena 6,Royal Recruits,Lost,1,2
+Arena 6,Royal Recruits,Won,0,2
+Arena 6,Royal Recruits,Won,1,7
+Arena 6,Skeleton Army,Lost,0,9727
+Arena 6,Skeleton Army,Lost,1,67
+Arena 6,Skeleton Army,Won,0,13946
+Arena 6,Skeleton Army,Won,1,191
+Arena 6,Skeleton Barrel,Lost,1,1
+Arena 6,Skeleton Barrel,Won,0,1
+Arena 6,Skeleton Barrel,Won,1,8
+Arena 6,Skeleton Dragons,Lost,0,2527
+Arena 6,Skeleton Dragons,Won,0,2371
+Arena 6,Skeletons,Lost,0,3448
+Arena 6,Skeletons,Lost,1,5
+Arena 6,Skeletons,Won,0,1965
+Arena 6,Skeletons,Won,1,8
+Arena 6,Spear Goblins,Lost,0,3107
+Arena 6,Spear Goblins,Won,0,2781
+Arena 6,Tesla,Lost,0,15
+Arena 6,Tesla,Lost,1,34
+Arena 6,Tesla,Won,0,30
+Arena 6,Tesla,Won,1,93
+Arena 6,The Log,Lost,0,1
+Arena 6,The Log,Won,0,1
+Arena 6,Tombstone,Lost,0,1807
+Arena 6,Tombstone,Won,0,1743
+Arena 6,Tornado,Lost,0,2
+Arena 6,Tornado,Won,0,1
+Arena 6,Valkyrie,Lost,0,8815
+Arena 6,Valkyrie,Lost,1,8
+Arena 6,Valkyrie,Won,0,8176
+Arena 6,Valkyrie,Won,1,29
+Arena 6,Wall Breakers,Lost,0,23
+Arena 6,Wall Breakers,Won,0,50
+Arena 6,Witch,Lost,0,8685
+Arena 6,Witch,Lost,1,5
+Arena 6,Witch,Won,0,11008
+Arena 6,Witch,Won,1,27
+Arena 6,Wizard,Lost,0,10359
+Arena 6,Wizard,Lost,1,1519
+Arena 6,Wizard,Won,0,10535
+Arena 6,Wizard,Won,1,512
+Arena 6,X-Bow,Lost,0,1
+Arena 6,X-Bow,Won,0,3
+Arena 6,Zap,Lost,0,3619
+Arena 6,Zap,Won,0,3018
+Arena 10,Archers,Lost,0,2162
+Arena 10,Archers,Lost,1,426
+Arena 10,Archers,Won,0,2360
+Arena 10,Archers,Won,1,663
+Arena 10,Arrows,Lost,0,11133
+Arena 10,Arrows,Won,0,10478
+Arena 10,Baby Dragon,Lost,0,11972
+Arena 10,Baby Dragon,Lost,1,128
+Arena 10,Baby Dragon,Won,0,11757
+Arena 10,Baby Dragon,Won,1,172
+Arena 10,Balloon,Lost,0,1862
+Arena 10,Balloon,Won,0,1776
+Arena 10,Bandit,Lost,0,7
+Arena 10,Bandit,Won,0,21
+Arena 10,Barbarian Barrel,Lost,0,3705
+Arena 10,Barbarian Barrel,Won,0,3416
+Arena 10,Barbarian Hut,Lost,0,432
+Arena 10,Barbarian Hut,Won,0,172
+Arena 10,Barbarians,Lost,0,5196
+Arena 10,Barbarians,Lost,1,93
+Arena 10,Barbarians,Won,0,4616
+Arena 10,Barbarians,Won,1,180
+Arena 10,Bats,Lost,0,2754
+Arena 10,Bats,Won,0,2640
+Arena 10,Bats,Won,1,1
+Arena 10,Battle Healer,Lost,0,293
+Arena 10,Battle Healer,Won,0,335
+Arena 10,Battle Ram,Lost,0,1344
+Arena 10,Battle Ram,Lost,1,2
+Arena 10,Battle Ram,Won,0,1589
+Arena 10,Battle Ram,Won,1,6
+Arena 10,Berserker,Lost,0,730
+Arena 10,Berserker,Won,0,782
+Arena 10,Bomb Tower,Lost,0,875
+Arena 10,Bomb Tower,Won,0,999
+Arena 10,Bomber,Lost,0,2481
+Arena 10,Bomber,Lost,1,29
+Arena 10,Bomber,Won,0,2247
+Arena 10,Bomber,Won,1,62
+Arena 10,Bowler,Lost,0,1
+Arena 10,Bowler,Won,0,5
+Arena 10,Cannon,Lost,0,5451
+Arena 10,Cannon,Lost,1,1
+Arena 10,Cannon,Won,0,5635
+Arena 10,Cannon,Won,1,2
+Arena 10,Clone,Lost,0,2
+Arena 10,Clone,Won,0,4
+Arena 10,Dark Prince,Lost,0,3620
+Arena 10,Dark Prince,Won,0,3241
+Arena 10,Dart Goblin,Lost,0,5803
+Arena 10,Dart Goblin,Lost,1,20
+Arena 10,Dart Goblin,Won,0,6265
+Arena 10,Dart Goblin,Won,1,35
+Arena 10,Electro Dragon,Lost,0,35
+Arena 10,Electro Dragon,Lost,1,264
+Arena 10,Electro Dragon,Won,0,57
+Arena 10,Electro Dragon,Won,1,383
+Arena 10,Electro Giant,Won,0,1
+Arena 10,Electro Spirit,Lost,0,2286
+Arena 10,Electro Spirit,Won,0,2486
+Arena 10,Electro Wizard,Lost,0,14
+Arena 10,Electro Wizard,Won,0,40
+Arena 10,Elite Barbarians,Lost,0,1668
+Arena 10,Elite Barbarians,Won,0,2189
+Arena 10,Elixir Collector,Won,0,2
+Arena 10,Elixir Golem,Won,0,3
+Arena 10,Executioner,Lost,0,297
+Arena 10,Executioner,Lost,1,65
+Arena 10,Executioner,Won,0,493
+Arena 10,Executioner,Won,1,96
+Arena 10,Fire Spirit,Lost,0,774
+Arena 10,Fire Spirit,Won,0,792
+Arena 10,Fireball,Lost,0,7389
+Arena 10,Fireball,Won,0,7382
+Arena 10,Firecracker,Lost,0,17
+Arena 10,Firecracker,Lost,1,9
+Arena 10,Firecracker,Won,0,40
+Arena 10,Firecracker,Won,1,23
+Arena 10,Fisherman,Lost,0,2
+Arena 10,Fisherman,Won,0,2
+Arena 10,Flying Machine,Lost,0,1053
+Arena 10,Flying Machine,Won,0,403
+Arena 10,Freeze,Lost,0,2368
+Arena 10,Freeze,Won,0,1761
+Arena 10,Furnace,Lost,0,982
+Arena 10,Furnace,Lost,1,4
+Arena 10,Furnace,Won,0,1161
+Arena 10,Furnace,Won,1,6
+Arena 10,Giant,Lost,0,1593
+Arena 10,Giant,Won,0,1044
+Arena 10,Giant Skeleton,Lost,0,728
+Arena 10,Giant Skeleton,Won,0,647
+Arena 10,Giant Snowball,Lost,0,3507
+Arena 10,Giant Snowball,Lost,1,1
+Arena 10,Giant Snowball,Won,0,2624
+Arena 10,Giant Snowball,Won,1,2
+Arena 10,Goblin Barrel,Lost,0,13615
+Arena 10,Goblin Barrel,Lost,1,4
+Arena 10,Goblin Barrel,Won,0,13574
+Arena 10,Goblin Barrel,Won,1,12
+Arena 10,Goblin Cage,Lost,0,1245
+Arena 10,Goblin Cage,Won,0,805
+Arena 10,Goblin Cage,Won,1,1
+Arena 10,Goblin Drill,Lost,0,10
+Arena 10,Goblin Drill,Lost,1,1
+Arena 10,Goblin Drill,Won,0,9
+Arena 10,Goblin Gang,Lost,0,4345
+Arena 10,Goblin Gang,Won,0,3614
+Arena 10,Goblin Giant,Lost,0,1032
+Arena 10,Goblin Giant,Lost,1,4
+Arena 10,Goblin Giant,Won,0,439
+Arena 10,Goblin Giant,Won,1,6
+Arena 10,Goblin Hut,Lost,0,1370
+Arena 10,Goblin Hut,Won,0,1221
+Arena 10,Goblin Machine,Lost,0,1
+Arena 10,Goblin Machine,Won,0,3
+Arena 10,Goblins,Lost,0,827
+Arena 10,Goblins,Won,0,605
+Arena 10,Golem,Lost,0,1127
+Arena 10,Golem,Won,0,1033
+Arena 10,Graveyard,Lost,0,1
+Arena 10,Graveyard,Won,0,3
+Arena 10,Guards,Lost,0,3909
+Arena 10,Guards,Won,0,3258
+Arena 10,Hog Rider,Lost,0,9809
+Arena 10,Hog Rider,Won,0,11246
+Arena 10,Hunter,Lost,0,1057
+Arena 10,Hunter,Lost,1,1
+Arena 10,Hunter,Won,0,897
+Arena 10,Hunter,Won,1,3
+Arena 10,Ice Golem,Lost,0,1407
+Arena 10,Ice Golem,Won,0,888
+Arena 10,Ice Spirit,Lost,0,3449
+Arena 10,Ice Spirit,Lost,1,1
+Arena 10,Ice Spirit,Won,0,3068
+Arena 10,Ice Wizard,Lost,0,13
+Arena 10,Ice Wizard,Won,0,35
+Arena 10,Inferno Dragon,Lost,0,3849
+Arena 10,Inferno Dragon,Lost,1,1634
+Arena 10,Inferno Dragon,Won,0,4921
+Arena 10,Inferno Dragon,Won,1,1919
+Arena 10,Inferno Tower,Lost,0,1976
+Arena 10,Inferno Tower,Won,0,1395
+Arena 10,Knight,Lost,0,4900
+Arena 10,Knight,Lost,1,80
+Arena 10,Knight,Won,0,5878
+Arena 10,Knight,Won,1,102
+Arena 10,Lava Hound,Lost,0,2
+Arena 10,Lava Hound,Won,0,11
+Arena 10,Lightning,Lost,0,1637
+Arena 10,Lightning,Won,0,505
+Arena 10,Lumberjack,Lost,0,57
+Arena 10,Lumberjack,Lost,1,1
+Arena 10,Lumberjack,Won,0,77
+Arena 10,Lumberjack,Won,1,5
+Arena 10,Magic Archer,Lost,0,46
+Arena 10,Magic Archer,Won,0,89
+Arena 10,Mega Knight,Lost,0,51
+Arena 10,Mega Knight,Won,0,146
+Arena 10,Mega Minion,Lost,0,1323
+Arena 10,Mega Minion,Won,0,652
+Arena 10,Miner,Lost,0,128
+Arena 10,Miner,Won,0,255
+Arena 10,Mini P.E.K.K.A,Lost,0,15967
+Arena 10,Mini P.E.K.K.A,Won,0,17014
+Arena 10,Minion Horde,Lost,0,908
+Arena 10,Minion Horde,Won,0,968
+Arena 10,Minions,Lost,0,2330
+Arena 10,Minions,Won,0,2233
+Arena 10,Mirror,Lost,0,18
+Arena 10,Mirror,Won,0,21
+Arena 10,Mortar,Lost,0,361
+Arena 10,Mortar,Lost,1,2
+Arena 10,Mortar,Won,0,300
+Arena 10,Mortar,Won,1,14
+Arena 10,Mother Witch,Lost,0,1
+Arena 10,Mother Witch,Won,0,1
+Arena 10,Musketeer,Lost,0,3148
+Arena 10,Musketeer,Lost,1,1
+Arena 10,Musketeer,Won,0,3020
+Arena 10,Musketeer,Won,1,5
+Arena 10,Night Witch,Won,0,8
+Arena 10,P.E.K.K.A,Lost,0,3150
+Arena 10,P.E.K.K.A,Lost,1,21
+Arena 10,P.E.K.K.A,Won,0,2798
+Arena 10,P.E.K.K.A,Won,1,27
+Arena 10,Poison,Lost,0,1710
+Arena 10,Poison,Won,0,988
+Arena 10,Prince,Lost,0,8787
+Arena 10,Prince,Won,0,8015
+Arena 10,Princess,Lost,0,94
+Arena 10,Princess,Won,0,246
+Arena 10,Rage,Lost,0,33
+Arena 10,Rage,Won,0,37
+Arena 10,Ram Rider,Lost,0,34
+Arena 10,Ram Rider,Won,0,68
+Arena 10,Rascals,Lost,0,5
+Arena 10,Rascals,Won,0,7
+Arena 10,Rocket,Lost,0,954
+Arena 10,Rocket,Won,0,450
+Arena 10,Royal Delivery,Lost,0,1
+Arena 10,Royal Delivery,Won,0,3
+Arena 10,Royal Ghost,Lost,0,6137
+Arena 10,Royal Ghost,Won,0,8737
+Arena 10,Royal Ghost,Won,1,1
+Arena 10,Royal Giant,Lost,0,535
+Arena 10,Royal Giant,Lost,1,6
+Arena 10,Royal Giant,Won,0,651
+Arena 10,Royal Giant,Won,1,8
+Arena 10,Royal Hogs,Lost,0,2536
+Arena 10,Royal Hogs,Won,0,2323
+Arena 10,Royal Recruits,Lost,0,1012
+Arena 10,Royal Recruits,Lost,1,2
+Arena 10,Royal Recruits,Won,0,773
+Arena 10,Royal Recruits,Won,1,4
+Arena 10,Rune Giant,Lost,0,182
+Arena 10,Rune Giant,Won,0,194
+Arena 10,Skeleton Army,Lost,0,19538
+Arena 10,Skeleton Army,Lost,1,676
+Arena 10,Skeleton Army,Won,0,20815
+Arena 10,Skeleton Army,Won,1,1185
+Arena 10,Skeleton Barrel,Lost,0,1324
+Arena 10,Skeleton Barrel,Won,0,1055
+Arena 10,Skeleton Barrel,Won,1,3
+Arena 10,Skeleton Dragons,Lost,0,816
+Arena 10,Skeleton Dragons,Won,0,716
+Arena 10,Skeletons,Lost,0,3043
+Arena 10,Skeletons,Lost,1,34
+Arena 10,Skeletons,Won,0,2788
+Arena 10,Skeletons,Won,1,44
+Arena 10,Sparky,Lost,0,3
+Arena 10,Sparky,Won,0,3
+Arena 10,Spear Goblins,Lost,0,1978
+Arena 10,Spear Goblins,Won,0,1635
+Arena 10,Tesla,Lost,0,1674
+Arena 10,Tesla,Lost,1,312
+Arena 10,Tesla,Won,0,1729
+Arena 10,Tesla,Won,1,397
+Arena 10,The Log,Lost,0,82
+Arena 10,The Log,Won,0,204
+Arena 10,Three Musketeers,Lost,0,232
+Arena 10,Three Musketeers,Won,0,175
+Arena 10,Tombstone,Lost,0,1606
+Arena 10,Tombstone,Won,0,1382
+Arena 10,Tornado,Lost,0,11
+Arena 10,Tornado,Won,0,22
+Arena 10,Valkyrie,Lost,0,9487
+Arena 10,Valkyrie,Lost,1,83
+Arena 10,Valkyrie,Won,0,10395
+Arena 10,Valkyrie,Won,1,139
+Arena 10,Vines,Lost,0,2448
+Arena 10,Vines,Won,0,2898
+Arena 10,Wall Breakers,Lost,0,97
+Arena 10,Wall Breakers,Lost,1,1
+Arena 10,Wall Breakers,Won,0,175
+Arena 10,Wall Breakers,Won,1,2
+Arena 10,Witch,Lost,0,16256
+Arena 10,Witch,Lost,1,466
+Arena 10,Witch,Won,0,17906
+Arena 10,Witch,Won,1,738
+Arena 10,Wizard,Lost,0,9871
+Arena 10,Wizard,Lost,1,1733
+Arena 10,Wizard,Won,0,10304
+Arena 10,Wizard,Won,1,1203
+Arena 10,X-Bow,Lost,0,1160
+Arena 10,X-Bow,Won,0,985
+Arena 10,Zap,Lost,0,5593
+Arena 10,Zap,Won,0,5368
+Arena 10,Zap,Won,1,1
+Arena 10,Zappies,Lost,0,867
+Arena 10,Zappies,Won,0,816
+Arena 7,Archers,Lost,0,2140
+Arena 7,Archers,Lost,1,81
+Arena 7,Archers,Won,0,1824
+Arena 7,Archers,Won,1,170
+Arena 7,Arrows,Lost,0,7888
+Arena 7,Arrows,Won,0,6470
+Arena 7,Baby Dragon,Lost,0,8003
+Arena 7,Baby Dragon,Lost,1,12
+Arena 7,Baby Dragon,Won,0,8440
+Arena 7,Baby Dragon,Won,1,28
+Arena 7,Balloon,Lost,0,802
+Arena 7,Balloon,Won,0,1000
+Arena 7,Bandit,Lost,0,1
+Arena 7,Bandit,Won,0,1
+Arena 7,Barbarian Barrel,Lost,0,33
+Arena 7,Barbarian Barrel,Won,0,91
+Arena 7,Barbarian Hut,Lost,0,2
+Arena 7,Barbarian Hut,Won,0,2
+Arena 7,Barbarians,Lost,0,7156
+Arena 7,Barbarians,Lost,1,48
+Arena 7,Barbarians,Won,0,6871
+Arena 7,Barbarians,Won,1,78
+Arena 7,Bats,Lost,0,2765
+Arena 7,Bats,Lost,1,1
+Arena 7,Bats,Won,0,2551
+Arena 7,Battle Ram,Lost,0,3483
+Arena 7,Battle Ram,Lost,1,1
+Arena 7,Battle Ram,Won,0,2952
+Arena 7,Battle Ram,Won,1,2
+Arena 7,Bomb Tower,Lost,0,983
+Arena 7,Bomb Tower,Won,0,988
+Arena 7,Bomber,Lost,0,2269
+Arena 7,Bomber,Lost,1,4
+Arena 7,Bomber,Won,0,1748
+Arena 7,Bomber,Won,1,3
+Arena 7,Cannon,Lost,0,3979
+Arena 7,Cannon,Won,0,3419
+Arena 7,Dark Prince,Lost,0,1602
+Arena 7,Dark Prince,Won,0,2024
+Arena 7,Dart Goblin,Lost,0,1
+Arena 7,Dart Goblin,Won,0,8
+Arena 7,Dart Goblin,Won,1,1
+Arena 7,Electro Dragon,Lost,0,16
+Arena 7,Electro Dragon,Lost,1,59
+Arena 7,Electro Dragon,Won,0,13
+Arena 7,Electro Dragon,Won,1,147
+Arena 7,Electro Giant,Won,0,1
+Arena 7,Electro Spirit,Lost,0,3687
+Arena 7,Electro Spirit,Won,0,1754
+Arena 7,Electro Wizard,Lost,0,1
+Arena 7,Electro Wizard,Won,0,12
+Arena 7,Elite Barbarians,Won,0,2
+Arena 7,Executioner,Lost,0,70
+Arena 7,Executioner,Lost,1,2
+Arena 7,Executioner,Won,0,135
+Arena 7,Executioner,Won,1,1
+Arena 7,Fire Spirit,Lost,0,1832
+Arena 7,Fire Spirit,Won,0,862
+Arena 7,Fireball,Lost,0,7736
+Arena 7,Fireball,Won,0,7334
+Arena 7,Firecracker,Lost,0,23
+Arena 7,Firecracker,Lost,1,2
+Arena 7,Firecracker,Won,0,44
+Arena 7,Firecracker,Won,1,11
+Arena 7,Flying Machine,Lost,0,198
+Arena 7,Flying Machine,Won,0,226
+Arena 7,Freeze,Won,0,3
+Arena 7,Furnace,Lost,0,6
+Arena 7,Furnace,Lost,1,8
+Arena 7,Furnace,Won,0,25
+Arena 7,Furnace,Won,1,11
+Arena 7,Giant,Lost,0,2047
+Arena 7,Giant,Won,0,1403
+Arena 7,Giant Skeleton,Lost,0,34
+Arena 7,Giant Skeleton,Won,0,70
+Arena 7,Giant Snowball,Lost,0,1
+Arena 7,Giant Snowball,Won,0,2
+Arena 7,Goblin Barrel,Lost,0,8124
+Arena 7,Goblin Barrel,Won,0,9053
+Arena 7,Goblin Barrel,Won,1,2
+Arena 7,Goblin Cage,Lost,0,863
+Arena 7,Goblin Cage,Won,0,670
+Arena 7,Goblin Drill,Lost,0,4
+Arena 7,Goblin Drill,Won,0,15
+Arena 7,Goblin Drill,Won,1,1
+Arena 7,Goblin Gang,Lost,0,15
+Arena 7,Goblin Gang,Won,0,38
+Arena 7,Goblin Giant,Lost,0,1
+Arena 7,Goblin Giant,Won,0,2
+Arena 7,Goblin Hut,Lost,0,1071
+Arena 7,Goblin Hut,Won,0,1204
+Arena 7,Goblin Machine,Lost,0,1
+Arena 7,Goblin Machine,Won,0,11
+Arena 7,Goblins,Lost,0,1548
+Arena 7,Goblins,Won,0,1065
+Arena 7,Golem,Lost,0,27
+Arena 7,Golem,Won,0,29
+Arena 7,Guards,Lost,0,3370
+Arena 7,Guards,Won,0,3389
+Arena 7,Hog Rider,Lost,0,9056
+Arena 7,Hog Rider,Won,0,9250
+Arena 7,Hunter,Lost,0,50
+Arena 7,Hunter,Lost,1,1
+Arena 7,Hunter,Won,0,85
+Arena 7,Ice Golem,Lost,0,1
+Arena 7,Ice Spirit,Won,0,1
+Arena 7,Inferno Dragon,Lost,0,1580
+Arena 7,Inferno Dragon,Lost,1,9
+Arena 7,Inferno Dragon,Won,0,2320
+Arena 7,Inferno Dragon,Won,1,14
+Arena 7,Inferno Tower,Lost,0,1975
+Arena 7,Inferno Tower,Won,0,1895
+Arena 7,Knight,Lost,0,4709
+Arena 7,Knight,Lost,1,332
+Arena 7,Knight,Won,0,3332
+Arena 7,Knight,Won,1,83
+Arena 7,Lava Hound,Lost,0,3
+Arena 7,Lava Hound,Won,0,1
+Arena 7,Lightning,Lost,0,1
+Arena 7,Lightning,Won,0,4
+Arena 7,Lumberjack,Lost,0,2
+Arena 7,Magic Archer,Lost,0,2
+Arena 7,Magic Archer,Won,0,12
+Arena 7,Mega Knight,Lost,0,4
+Arena 7,Mega Knight,Won,0,20
+Arena 7,Mega Minion,Lost,0,992
+Arena 7,Mega Minion,Won,0,804
+Arena 7,Miner,Lost,0,46
+Arena 7,Miner,Won,0,99
+Arena 7,Mini P.E.K.K.A,Lost,0,12757
+Arena 7,Mini P.E.K.K.A,Won,0,14367
+Arena 7,Minion Horde,Lost,0,15
+Arena 7,Minion Horde,Won,0,24
+Arena 7,Minions,Lost,0,2668
+Arena 7,Minions,Won,0,2327
+Arena 7,Mirror,Lost,0,2
+Arena 7,Mirror,Won,0,3
+Arena 7,Mortar,Lost,0,187
+Arena 7,Mortar,Lost,1,1
+Arena 7,Mortar,Won,0,256
+Arena 7,Mortar,Won,1,2
+Arena 7,Mother Witch,Won,0,1
+Arena 7,Musketeer,Lost,0,3421
+Arena 7,Musketeer,Won,0,2778
+Arena 7,P.E.K.K.A,Lost,0,6603
+Arena 7,P.E.K.K.A,Lost,1,13
+Arena 7,P.E.K.K.A,Won,0,5698
+Arena 7,P.E.K.K.A,Won,1,22
+Arena 7,Poison,Lost,0,3
+Arena 7,Poison,Won,0,1
+Arena 7,Prince,Lost,0,2968
+Arena 7,Prince,Won,0,3898
+Arena 7,Princess,Lost,0,15
+Arena 7,Princess,Won,0,36
+Arena 7,Rage,Lost,0,2
+Arena 7,Rage,Won,0,7
+Arena 7,Ram Rider,Lost,0,4
+Arena 7,Ram Rider,Won,0,7
+Arena 7,Rascals,Lost,0,3
+Arena 7,Rascals,Won,0,18
+Arena 7,Rocket,Lost,0,948
+Arena 7,Rocket,Won,0,720
+Arena 7,Royal Delivery,Won,0,1
+Arena 7,Royal Ghost,Lost,0,4814
+Arena 7,Royal Ghost,Won,0,7690
+Arena 7,Royal Giant,Lost,0,1323
+Arena 7,Royal Giant,Won,0,1427
+Arena 7,Royal Giant,Won,1,2
+Arena 7,Royal Hogs,Lost,0,1445
+Arena 7,Royal Hogs,Won,0,1662
+Arena 7,Royal Recruits,Lost,0,1586
+Arena 7,Royal Recruits,Lost,1,2
+Arena 7,Royal Recruits,Won,0,1729
+Arena 7,Skeleton Army,Lost,0,13078
+Arena 7,Skeleton Army,Lost,1,157
+Arena 7,Skeleton Army,Won,0,15365
+Arena 7,Skeleton Army,Won,1,335
+Arena 7,Skeleton Barrel,Lost,1,2
+Arena 7,Skeleton Barrel,Won,0,1
+Arena 7,Skeleton Barrel,Won,1,3
+Arena 7,Skeleton Dragons,Lost,0,1247
+Arena 7,Skeleton Dragons,Won,0,1475
+Arena 7,Skeletons,Lost,0,3803
+Arena 7,Skeletons,Lost,1,20
+Arena 7,Skeletons,Won,0,1893
+Arena 7,Skeletons,Won,1,35
+Arena 7,Spear Goblins,Lost,0,2366
+Arena 7,Spear Goblins,Won,0,2135
+Arena 7,Tesla,Lost,0,19
+Arena 7,Tesla,Lost,1,74
+Arena 7,Tesla,Won,0,48
+Arena 7,Tesla,Won,1,138
+Arena 7,The Log,Lost,0,3
+Arena 7,The Log,Won,0,6
+Arena 7,Three Musketeers,Lost,0,464
+Arena 7,Three Musketeers,Won,0,515
+Arena 7,Tombstone,Lost,0,1473
+Arena 7,Tombstone,Won,0,1198
+Arena 7,Tornado,Lost,0,2
+Arena 7,Tornado,Won,0,5
+Arena 7,Valkyrie,Lost,0,6169
+Arena 7,Valkyrie,Lost,1,33
+Arena 7,Valkyrie,Won,0,6705
+Arena 7,Valkyrie,Won,1,41
+Arena 7,Wall Breakers,Lost,0,13
+Arena 7,Wall Breakers,Won,0,35
+Arena 7,Witch,Lost,0,11729
+Arena 7,Witch,Lost,1,44
+Arena 7,Witch,Won,0,13003
+Arena 7,Witch,Won,1,80
+Arena 7,Wizard,Lost,0,7784
+Arena 7,Wizard,Lost,1,1210
+Arena 7,Wizard,Won,0,8801
+Arena 7,Wizard,Won,1,435
+Arena 7,X-Bow,Lost,0,3
+Arena 7,X-Bow,Won,0,1
+Arena 7,Zap,Lost,0,3595
+Arena 7,Zap,Lost,1,1
+Arena 7,Zap,Won,0,3729
+Arena 8,Archers,Lost,0,2021
+Arena 8,Archers,Lost,1,193
+Arena 8,Archers,Won,0,1909
+Arena 8,Archers,Won,1,303
+Arena 8,Arrows,Lost,0,7677
+Arena 8,Arrows,Won,0,6911
+Arena 8,Baby Dragon,Lost,0,9465
+Arena 8,Baby Dragon,Lost,1,27
+Arena 8,Baby Dragon,Won,0,9478
+Arena 8,Baby Dragon,Won,1,60
+Arena 8,Balloon,Lost,0,1885
+Arena 8,Balloon,Won,0,1826
+Arena 8,Bandit,Lost,0,1
+Arena 8,Bandit,Won,0,6
+Arena 8,Barbarian Barrel,Lost,0,48
+Arena 8,Barbarian Barrel,Won,0,136
+Arena 8,Barbarian Hut,Won,0,2
+Arena 8,Barbarians,Lost,0,6096
+Arena 8,Barbarians,Lost,1,87
+Arena 8,Barbarians,Won,0,5482
+Arena 8,Barbarians,Won,1,130
+Arena 8,Bats,Lost,0,2979
+Arena 8,Bats,Lost,1,1
+Arena 8,Bats,Won,0,2748
+Arena 8,Bats,Won,1,1
+Arena 8,Battle Healer,Lost,0,761
+Arena 8,Battle Healer,Won,0,774
+Arena 8,Battle Ram,Lost,0,2452
+Arena 8,Battle Ram,Won,0,2184
+Arena 8,Battle Ram,Won,1,2
+Arena 8,Bomb Tower,Lost,0,815
+Arena 8,Bomb Tower,Won,0,876
+Arena 8,Bomber,Lost,0,2277
+Arena 8,Bomber,Lost,1,2
+Arena 8,Bomber,Won,0,1824
+Arena 8,Bomber,Won,1,3
+Arena 8,Cannon,Lost,0,3818
+Arena 8,Cannon,Lost,1,7
+Arena 8,Cannon,Won,0,4023
+Arena 8,Cannon,Won,1,13
+Arena 8,Clone,Won,0,1
+Arena 8,Dark Prince,Lost,0,3403
+Arena 8,Dark Prince,Won,0,3266
+Arena 8,Dart Goblin,Lost,0,7
+Arena 8,Dart Goblin,Lost,1,1
+Arena 8,Dart Goblin,Won,0,21
+Arena 8,Dart Goblin,Won,1,2
+Arena 8,Electro Dragon,Lost,0,30
+Arena 8,Electro Dragon,Lost,1,150
+Arena 8,Electro Dragon,Won,0,49
+Arena 8,Electro Dragon,Won,1,268
+Arena 8,Electro Giant,Won,0,1
+Arena 8,Electro Spirit,Lost,0,2858
+Arena 8,Electro Spirit,Won,0,1551
+Arena 8,Electro Wizard,Won,0,4
+Arena 8,Elite Barbarians,Won,0,1
+Arena 8,Elixir Collector,Won,0,1
+Arena 8,Elixir Golem,Lost,0,1
+Arena 8,Elixir Golem,Won,0,2
+Arena 8,Executioner,Lost,0,107
+Arena 8,Executioner,Lost,1,2
+Arena 8,Executioner,Won,0,208
+Arena 8,Executioner,Won,1,6
+Arena 8,Fire Spirit,Lost,0,1926
+Arena 8,Fire Spirit,Won,0,710
+Arena 8,Fireball,Lost,0,7091
+Arena 8,Fireball,Won,0,6699
+Arena 8,Firecracker,Lost,0,15
+Arena 8,Firecracker,Lost,1,6
+Arena 8,Firecracker,Won,0,14
+Arena 8,Firecracker,Won,1,10
+Arena 8,Fisherman,Won,0,3
+Arena 8,Flying Machine,Lost,0,350
+Arena 8,Flying Machine,Won,0,211
+Arena 8,Freeze,Lost,0,1012
+Arena 8,Freeze,Won,0,1019
+Arena 8,Furnace,Lost,0,2
+Arena 8,Furnace,Lost,1,5
+Arena 8,Furnace,Won,0,13
+Arena 8,Furnace,Won,1,12
+Arena 8,Giant,Lost,0,1832
+Arena 8,Giant,Won,0,1242
+Arena 8,Giant Skeleton,Lost,0,635
+Arena 8,Giant Skeleton,Won,0,644
+Arena 8,Giant Snowball,Lost,0,1969
+Arena 8,Giant Snowball,Lost,1,1
+Arena 8,Giant Snowball,Won,0,2112
+Arena 8,Goblin Barrel,Lost,0,9601
+Arena 8,Goblin Barrel,Lost,1,1
+Arena 8,Goblin Barrel,Won,0,10019
+Arena 8,Goblin Barrel,Won,1,2
+Arena 8,Goblin Cage,Lost,0,1105
+Arena 8,Goblin Cage,Won,0,735
+Arena 8,Goblin Cage,Won,1,2
+Arena 8,Goblin Drill,Lost,0,5
+Arena 8,Goblin Drill,Won,0,8
+Arena 8,Goblin Gang,Lost,0,16
+Arena 8,Goblin Gang,Won,0,36
+Arena 8,Goblin Giant,Lost,0,1
+Arena 8,Goblin Giant,Won,1,1
+Arena 8,Goblin Hut,Lost,0,832
+Arena 8,Goblin Hut,Won,0,1125
+Arena 8,Goblin Machine,Won,0,3
+Arena 8,Goblins,Lost,0,1629
+Arena 8,Goblins,Won,0,1073
+Arena 8,Golem,Lost,0,15
+Arena 8,Golem,Won,0,20
+Arena 8,Guards,Lost,0,2878
+Arena 8,Guards,Won,0,2793
+Arena 8,Heal Spirit,Lost,0,1
+Arena 8,Hog Rider,Lost,0,8315
+Arena 8,Hog Rider,Won,0,9078
+Arena 8,Hunter,Lost,0,57
+Arena 8,Hunter,Won,0,75
+Arena 8,Ice Golem,Lost,0,935
+Arena 8,Ice Golem,Won,0,862
+Arena 8,Ice Spirit,Lost,0,1840
+Arena 8,Ice Spirit,Won,0,2054
+Arena 8,Ice Spirit,Won,1,1
+Arena 8,Ice Wizard,Lost,0,1
+Arena 8,Ice Wizard,Won,0,9
+Arena 8,Inferno Dragon,Lost,0,2677
+Arena 8,Inferno Dragon,Lost,1,91
+Arena 8,Inferno Dragon,Won,0,3495
+Arena 8,Inferno Dragon,Won,1,102
+Arena 8,Inferno Tower,Lost,0,1925
+Arena 8,Inferno Tower,Won,0,1668
+Arena 8,Knight,Lost,0,3591
+Arena 8,Knight,Lost,1,688
+Arena 8,Knight,Won,0,3586
+Arena 8,Knight,Won,1,197
+Arena 8,Lava Hound,Lost,0,2
+Arena 8,Lava Hound,Won,0,2
+Arena 8,Lightning,Lost,0,330
+Arena 8,Lightning,Won,0,336
+Arena 8,Lumberjack,Lost,0,1
+Arena 8,Lumberjack,Won,0,4
+Arena 8,Magic Archer,Lost,0,19
+Arena 8,Magic Archer,Won,0,37
+Arena 8,Mega Knight,Lost,0,5
+Arena 8,Mega Knight,Won,0,34
+Arena 8,Mega Minion,Lost,0,882
+Arena 8,Mega Minion,Won,0,608
+Arena 8,Miner,Lost,0,36
+Arena 8,Miner,Won,0,98
+Arena 8,Mini P.E.K.K.A,Lost,0,13455
+Arena 8,Mini P.E.K.K.A,Won,0,14736
+Arena 8,Minion Horde,Lost,0,16
+Arena 8,Minion Horde,Won,0,23
+Arena 8,Minions,Lost,0,2822
+Arena 8,Minions,Won,0,2371
+Arena 8,Mirror,Lost,0,2
+Arena 8,Mirror,Won,0,5
+Arena 8,Mortar,Lost,0,261
+Arena 8,Mortar,Lost,1,1
+Arena 8,Mortar,Won,0,278
+Arena 8,Mortar,Won,1,4
+Arena 8,Mother Witch,Lost,0,1
+Arena 8,Musketeer,Lost,0,3432
+Arena 8,Musketeer,Lost,1,2
+Arena 8,Musketeer,Won,0,3114
+Arena 8,Night Witch,Lost,0,3
+Arena 8,Night Witch,Won,0,3
+Arena 8,P.E.K.K.A,Lost,0,4177
+Arena 8,P.E.K.K.A,Lost,1,23
+Arena 8,P.E.K.K.A,Won,0,4004
+Arena 8,P.E.K.K.A,Won,1,32
+Arena 8,Poison,Lost,0,4
+Arena 8,Poison,Won,0,3
+Arena 8,Prince,Lost,0,5904
+Arena 8,Prince,Won,0,6131
+Arena 8,Princess,Lost,0,16
+Arena 8,Princess,Won,0,65
+Arena 8,Rage,Lost,0,8
+Arena 8,Rage,Won,0,6
+Arena 8,Ram Rider,Lost,0,7
+Arena 8,Ram Rider,Won,0,7
+Arena 8,Rascals,Lost,0,7
+Arena 8,Rascals,Won,0,10
+Arena 8,Rocket,Lost,0,382
+Arena 8,Rocket,Won,0,402
+Arena 8,Royal Delivery,Lost,0,1
+Arena 8,Royal Delivery,Won,0,3
+Arena 8,Royal Ghost,Lost,0,5840
+Arena 8,Royal Ghost,Won,0,8263
+Arena 8,Royal Giant,Lost,0,948
+Arena 8,Royal Giant,Lost,1,3
+Arena 8,Royal Giant,Won,0,904
+Arena 8,Royal Giant,Won,1,2
+Arena 8,Royal Hogs,Lost,0,2448
+Arena 8,Royal Hogs,Won,0,2218
+Arena 8,Royal Recruits,Lost,0,918
+Arena 8,Royal Recruits,Won,0,874
+Arena 8,Royal Recruits,Won,1,4
+Arena 8,Skeleton Army,Lost,0,15505
+Arena 8,Skeleton Army,Lost,1,264
+Arena 8,Skeleton Army,Won,0,16538
+Arena 8,Skeleton Army,Won,1,499
+Arena 8,Skeleton Barrel,Lost,0,2
+Arena 8,Skeleton Barrel,Lost,1,3
+Arena 8,Skeleton Barrel,Won,0,3
+Arena 8,Skeleton Barrel,Won,1,2
+Arena 8,Skeleton Dragons,Lost,0,1296
+Arena 8,Skeleton Dragons,Won,0,1191
+Arena 8,Skeletons,Lost,0,3206
+Arena 8,Skeletons,Lost,1,10
+Arena 8,Skeletons,Won,0,1970
+Arena 8,Skeletons,Won,1,19
+Arena 8,Spear Goblins,Lost,0,2791
+Arena 8,Spear Goblins,Won,0,2108
+Arena 8,Tesla,Lost,0,32
+Arena 8,Tesla,Lost,1,138
+Arena 8,Tesla,Won,0,63
+Arena 8,Tesla,Won,1,220
+Arena 8,The Log,Lost,0,10
+Arena 8,The Log,Won,0,27
+Arena 8,Three Musketeers,Lost,0,305
+Arena 8,Three Musketeers,Won,0,396
+Arena 8,Tombstone,Lost,0,1783
+Arena 8,Tombstone,Won,0,1274
+Arena 8,Tornado,Lost,0,4
+Arena 8,Tornado,Won,0,5
+Arena 8,Valkyrie,Lost,0,6186
+Arena 8,Valkyrie,Lost,1,37
+Arena 8,Valkyrie,Won,0,7139
+Arena 8,Valkyrie,Won,1,36
+Arena 8,Vines,Lost,0,1558
+Arena 8,Vines,Won,0,1811
+Arena 8,Wall Breakers,Lost,0,28
+Arena 8,Wall Breakers,Won,0,61
+Arena 8,Wall Breakers,Won,1,1
+Arena 8,Witch,Lost,0,12813
+Arena 8,Witch,Lost,1,56
+Arena 8,Witch,Won,0,14479
+Arena 8,Witch,Won,1,103
+Arena 8,Wizard,Lost,0,8269
+Arena 8,Wizard,Lost,1,1056
+Arena 8,Wizard,Won,0,9174
+Arena 8,Wizard,Won,1,634
+Arena 8,X-Bow,Lost,0,10
+Arena 8,X-Bow,Won,0,31
+Arena 8,Zap,Lost,0,4487
+Arena 8,Zap,Won,0,3938
+Arena 9,Archers,Lost,0,2373
+Arena 9,Archers,Lost,1,317
+Arena 9,Archers,Won,0,2407
+Arena 9,Archers,Won,1,488
+Arena 9,Arrows,Lost,0,10218
+Arena 9,Arrows,Won,0,9333
+Arena 9,Baby Dragon,Lost,0,12132
+Arena 9,Baby Dragon,Lost,1,70
+Arena 9,Baby Dragon,Won,0,11565
+Arena 9,Baby Dragon,Won,1,115
+Arena 9,Balloon,Lost,0,2660
+Arena 9,Balloon,Won,0,2203
+Arena 9,Bandit,Lost,0,6
+Arena 9,Bandit,Won,0,13
+Arena 9,Barbarian Barrel,Lost,0,1392
+Arena 9,Barbarian Barrel,Won,0,1596
+Arena 9,Barbarian Hut,Lost,0,418
+Arena 9,Barbarian Hut,Won,0,318
+Arena 9,Barbarians,Lost,0,6431
+Arena 9,Barbarians,Lost,1,76
+Arena 9,Barbarians,Won,0,5765
+Arena 9,Barbarians,Won,1,148
+Arena 9,Bats,Lost,0,3586
+Arena 9,Bats,Won,0,3238
+Arena 9,Bats,Won,1,2
+Arena 9,Battle Healer,Lost,0,380
+Arena 9,Battle Healer,Won,0,412
+Arena 9,Battle Ram,Lost,0,1923
+Arena 9,Battle Ram,Lost,1,5
+Arena 9,Battle Ram,Won,0,1924
+Arena 9,Battle Ram,Won,1,3
+Arena 9,Berserker,Lost,0,914
+Arena 9,Berserker,Won,0,982
+Arena 9,Bomb Tower,Lost,0,1196
+Arena 9,Bomb Tower,Won,0,1257
+Arena 9,Bomber,Lost,0,2410
+Arena 9,Bomber,Lost,1,8
+Arena 9,Bomber,Won,0,2330
+Arena 9,Bomber,Won,1,21
+Arena 9,Bowler,Lost,0,1
+Arena 9,Cannon,Lost,0,4920
+Arena 9,Cannon,Won,0,5332
+Arena 9,Cannon,Won,1,3
+Arena 9,Dark Prince,Lost,0,3953
+Arena 9,Dark Prince,Won,0,3594
+Arena 9,Dart Goblin,Lost,0,4328
+Arena 9,Dart Goblin,Lost,1,4
+Arena 9,Dart Goblin,Won,0,4897
+Arena 9,Dart Goblin,Won,1,11
+Arena 9,Electro Dragon,Lost,0,48
+Arena 9,Electro Dragon,Lost,1,205
+Arena 9,Electro Dragon,Won,0,80
+Arena 9,Electro Dragon,Won,1,319
+Arena 9,Electro Giant,Lost,0,1
+Arena 9,Electro Giant,Won,0,2
+Arena 9,Electro Spirit,Lost,0,2287
+Arena 9,Electro Spirit,Won,0,1876
+Arena 9,Electro Wizard,Lost,0,3
+Arena 9,Electro Wizard,Won,0,10
+Arena 9,Elite Barbarians,Won,0,1
+Arena 9,Elixir Collector,Won,0,2
+Arena 9,Elixir Golem,Won,0,2
+Arena 9,Executioner,Lost,0,309
+Arena 9,Executioner,Lost,1,18
+Arena 9,Executioner,Won,0,496
+Arena 9,Executioner,Won,1,19
+Arena 9,Fire Spirit,Lost,0,1020
+Arena 9,Fire Spirit,Won,0,765
+Arena 9,Fireball,Lost,0,7460
+Arena 9,Fireball,Won,0,7663
+Arena 9,Firecracker,Lost,0,12
+Arena 9,Firecracker,Lost,1,5
+Arena 9,Firecracker,Won,0,34
+Arena 9,Firecracker,Won,1,23
+Arena 9,Fisherman,Won,0,1
+Arena 9,Flying Machine,Lost,0,566
+Arena 9,Flying Machine,Won,0,215
+Arena 9,Freeze,Lost,0,2384
+Arena 9,Freeze,Won,0,2043
+Arena 9,Furnace,Lost,0,10
+Arena 9,Furnace,Lost,1,19
+Arena 9,Furnace,Won,0,17
+Arena 9,Furnace,Won,1,25
+Arena 9,Giant,Lost,0,2469
+Arena 9,Giant,Won,0,1241
+Arena 9,Giant Skeleton,Lost,0,1200
+Arena 9,Giant Skeleton,Won,0,905
+Arena 9,Giant Snowball,Lost,0,2475
+Arena 9,Giant Snowball,Won,0,2176
+Arena 9,Goblin Barrel,Lost,0,13060
+Arena 9,Goblin Barrel,Lost,1,2
+Arena 9,Goblin Barrel,Won,0,12911
+Arena 9,Goblin Barrel,Won,1,3
+Arena 9,Goblin Cage,Lost,0,1000
+Arena 9,Goblin Cage,Lost,1,3
+Arena 9,Goblin Cage,Won,0,712
+Arena 9,Goblin Cage,Won,1,1
+Arena 9,Goblin Drill,Lost,0,7
+Arena 9,Goblin Drill,Won,0,20
+Arena 9,Goblin Gang,Lost,0,3023
+Arena 9,Goblin Gang,Won,0,2677
+Arena 9,Goblin Giant,Lost,0,736
+Arena 9,Goblin Giant,Won,0,499
+Arena 9,Goblin Giant,Won,1,1
+Arena 9,Goblin Hut,Lost,0,1231
+Arena 9,Goblin Hut,Won,0,1364
+Arena 9,Goblin Machine,Lost,0,5
+Arena 9,Goblin Machine,Won,0,11
+Arena 9,Goblins,Lost,0,1420
+Arena 9,Goblins,Won,0,888
+Arena 9,Goblinstein,Won,0,1
+Arena 9,Golem,Lost,0,12
+Arena 9,Golem,Won,0,35
+Arena 9,Graveyard,Lost,0,3
+Arena 9,Graveyard,Won,0,1
+Arena 9,Guards,Lost,0,3147
+Arena 9,Guards,Won,0,3135
+Arena 9,Hog Rider,Lost,0,8942
+Arena 9,Hog Rider,Won,0,10941
+Arena 9,Hunter,Lost,0,53
+Arena 9,Hunter,Won,0,83
+Arena 9,Hunter,Won,1,1
+Arena 9,Ice Golem,Lost,0,1178
+Arena 9,Ice Golem,Won,0,772
+Arena 9,Ice Spirit,Lost,0,2609
+Arena 9,Ice Spirit,Lost,1,1
+Arena 9,Ice Spirit,Won,0,2402
+Arena 9,Ice Wizard,Lost,0,4
+Arena 9,Ice Wizard,Won,0,17
+Arena 9,Inferno Dragon,Lost,0,4020
+Arena 9,Inferno Dragon,Lost,1,710
+Arena 9,Inferno Dragon,Won,0,5166
+Arena 9,Inferno Dragon,Won,1,847
+Arena 9,Inferno Tower,Lost,0,2214
+Arena 9,Inferno Tower,Won,0,1823
+Arena 9,Knight,Lost,0,4087
+Arena 9,Knight,Lost,1,22
+Arena 9,Knight,Won,0,4963
+Arena 9,Knight,Won,1,41
+Arena 9,Lava Hound,Lost,0,1
+Arena 9,Lava Hound,Won,0,4
+Arena 9,Lightning,Lost,0,883
+Arena 9,Lightning,Won,0,546
+Arena 9,Lumberjack,Lost,0,32
+Arena 9,Lumberjack,Lost,1,1
+Arena 9,Lumberjack,Won,0,43
+Arena 9,Magic Archer,Lost,0,27
+Arena 9,Magic Archer,Won,0,54
+Arena 9,Mega Knight,Lost,0,29
+Arena 9,Mega Knight,Won,0,89
+Arena 9,Mega Minion,Lost,0,1369
+Arena 9,Mega Minion,Won,0,695
+Arena 9,Miner,Lost,0,78
+Arena 9,Miner,Won,0,164
+Arena 9,Mini P.E.K.K.A,Lost,0,16672
+Arena 9,Mini P.E.K.K.A,Won,0,17602
+Arena 9,Minion Horde,Lost,0,53
+Arena 9,Minion Horde,Won,0,85
+Arena 9,Minions,Lost,0,2921
+Arena 9,Minions,Won,0,2609
+Arena 9,Mirror,Lost,0,11
+Arena 9,Mirror,Won,0,10
+Arena 9,Monk,Lost,0,1
+Arena 9,Monk,Won,0,1
+Arena 9,Mortar,Lost,0,334
+Arena 9,Mortar,Lost,1,2
+Arena 9,Mortar,Won,0,323
+Arena 9,Mortar,Won,1,3
+Arena 9,Mother Witch,Won,0,1
+Arena 9,Musketeer,Lost,0,3775
+Arena 9,Musketeer,Won,0,3316
+Arena 9,Musketeer,Won,1,4
+Arena 9,Night Witch,Lost,0,4
+Arena 9,Night Witch,Won,0,1
+Arena 9,P.E.K.K.A,Lost,0,3704
+Arena 9,P.E.K.K.A,Lost,1,19
+Arena 9,P.E.K.K.A,Won,0,3398
+Arena 9,P.E.K.K.A,Won,1,47
+Arena 9,Poison,Lost,0,737
+Arena 9,Poison,Won,0,685
+Arena 9,Prince,Lost,0,9752
+Arena 9,Prince,Won,0,8363
+Arena 9,Princess,Lost,0,72
+Arena 9,Princess,Won,0,213
+Arena 9,Rage,Lost,0,13
+Arena 9,Rage,Won,0,14
+Arena 9,Ram Rider,Lost,0,17
+Arena 9,Ram Rider,Won,0,33
+Arena 9,Rascals,Lost,0,5
+Arena 9,Rascals,Won,0,5
+Arena 9,Rocket,Lost,0,623
+Arena 9,Rocket,Won,0,507
+Arena 9,Royal Delivery,Lost,0,1
+Arena 9,Royal Delivery,Won,0,1
+Arena 9,Royal Ghost,Lost,0,6815
+Arena 9,Royal Ghost,Won,0,9798
+Arena 9,Royal Giant,Lost,0,720
+Arena 9,Royal Giant,Lost,1,5
+Arena 9,Royal Giant,Won,0,859
+Arena 9,Royal Giant,Won,1,4
+Arena 9,Royal Hogs,Lost,0,3006
+Arena 9,Royal Hogs,Won,0,2568
+Arena 9,Royal Recruits,Lost,0,854
+Arena 9,Royal Recruits,Lost,1,1
+Arena 9,Royal Recruits,Won,0,743
+Arena 9,Royal Recruits,Won,1,5
+Arena 9,Rune Giant,Lost,0,228
+Arena 9,Rune Giant,Won,0,252
+Arena 9,Skeleton Army,Lost,0,19853
+Arena 9,Skeleton Army,Lost,1,481
+Arena 9,Skeleton Army,Won,0,20216
+Arena 9,Skeleton Army,Won,1,919
+Arena 9,Skeleton Barrel,Lost,0,975
+Arena 9,Skeleton Barrel,Lost,1,2
+Arena 9,Skeleton Barrel,Won,0,1032
+Arena 9,Skeleton Dragons,Lost,0,1301
+Arena 9,Skeleton Dragons,Won,0,1129
+Arena 9,Skeletons,Lost,0,2603
+Arena 9,Skeletons,Lost,1,31
+Arena 9,Skeletons,Won,0,2381
+Arena 9,Skeletons,Won,1,41
+Arena 9,Sparky,Lost,0,1
+Arena 9,Sparky,Won,0,4
+Arena 9,Spear Goblins,Lost,0,2265
+Arena 9,Spear Goblins,Won,0,1911
+Arena 9,Tesla,Lost,0,85
+Arena 9,Tesla,Lost,1,207
+Arena 9,Tesla,Won,0,149
+Arena 9,Tesla,Won,1,320
+Arena 9,The Log,Lost,0,36
+Arena 9,The Log,Won,0,86
+Arena 9,Three Musketeers,Lost,0,236
+Arena 9,Three Musketeers,Won,0,258
+Arena 9,Tombstone,Lost,0,1759
+Arena 9,Tombstone,Won,0,1548
+Arena 9,Tornado,Lost,0,3
+Arena 9,Tornado,Won,0,10
+Arena 9,Valkyrie,Lost,0,9214
+Arena 9,Valkyrie,Lost,1,48
+Arena 9,Valkyrie,Won,0,9370
+Arena 9,Valkyrie,Won,1,69
+Arena 9,Vines,Lost,0,2390
+Arena 9,Vines,Won,0,2853
+Arena 9,Wall Breakers,Lost,0,56
+Arena 9,Wall Breakers,Lost,1,1
+Arena 9,Wall Breakers,Won,0,108
+Arena 9,Wall Breakers,Won,1,2
+Arena 9,Witch,Lost,0,16246
+Arena 9,Witch,Lost,1,242
+Arena 9,Witch,Won,0,17593
+Arena 9,Witch,Won,1,409
+Arena 9,Wizard,Lost,0,11061
+Arena 9,Wizard,Lost,1,1417
+Arena 9,Wizard,Won,0,11543
+Arena 9,Wizard,Won,1,824
+Arena 9,X-Bow,Lost,0,15
+Arena 9,X-Bow,Won,0,24
+Arena 9,Zap,Lost,0,5326
+Arena 9,Zap,Won,0,5272
+Arena 9,Zap,Won,1,1
+Arena 12,Archer Queen,Lost,0,2
+Arena 12,Archer Queen,Won,0,8
+Arena 12,Archers,Lost,0,1806
+Arena 12,Archers,Lost,1,557
+Arena 12,Archers,Won,0,1594
+Arena 12,Archers,Won,1,881
+Arena 12,Arrows,Lost,0,10336
+Arena 12,Arrows,Won,0,8944
+Arena 12,Baby Dragon,Lost,0,8737
+Arena 12,Baby Dragon,Lost,1,152
+Arena 12,Baby Dragon,Won,0,8849
+Arena 12,Baby Dragon,Won,1,272
+Arena 12,Balloon,Lost,0,2036
+Arena 12,Balloon,Won,0,1341
+Arena 12,Bandit,Lost,0,47
+Arena 12,Bandit,Won,0,90
+Arena 12,Barbarian Barrel,Lost,0,3256
+Arena 12,Barbarian Barrel,Won,0,2649
+Arena 12,Barbarian Hut,Lost,0,99
+Arena 12,Barbarian Hut,Won,0,56
+Arena 12,Barbarians,Lost,0,2514
+Arena 12,Barbarians,Lost,1,131
+Arena 12,Barbarians,Won,0,2328
+Arena 12,Barbarians,Won,1,195
+Arena 12,Bats,Lost,0,2836
+Arena 12,Bats,Lost,1,4
+Arena 12,Bats,Won,0,2538
+Arena 12,Bats,Won,1,5
+Arena 12,Battle Healer,Lost,0,106
+Arena 12,Battle Healer,Won,0,96
+Arena 12,Battle Ram,Lost,0,723
+Arena 12,Battle Ram,Lost,1,21
+Arena 12,Battle Ram,Won,0,943
+Arena 12,Battle Ram,Won,1,25
+Arena 12,Berserker,Lost,0,444
+Arena 12,Berserker,Won,0,521
+Arena 12,Bomb Tower,Lost,0,1047
+Arena 12,Bomb Tower,Won,0,783
+Arena 12,Bomber,Lost,0,1339
+Arena 12,Bomber,Lost,1,67
+Arena 12,Bomber,Won,0,1608
+Arena 12,Bomber,Won,1,112
+Arena 12,Boss Bandit,Lost,0,62
+Arena 12,Boss Bandit,Won,0,119
+Arena 12,Bowler,Lost,0,7
+Arena 12,Bowler,Won,0,11
+Arena 12,Cannon,Lost,0,3996
+Arena 12,Cannon,Lost,1,14
+Arena 12,Cannon,Won,0,4897
+Arena 12,Cannon,Won,1,17
+Arena 12,Cannon Cart,Won,0,5
+Arena 12,Clone,Lost,0,25
+Arena 12,Clone,Won,0,24
+Arena 12,Dark Prince,Lost,0,2089
+Arena 12,Dark Prince,Won,0,1961
+Arena 12,Dart Goblin,Lost,0,4553
+Arena 12,Dart Goblin,Lost,1,27
+Arena 12,Dart Goblin,Won,0,5557
+Arena 12,Dart Goblin,Won,1,50
+Arena 12,Earthquake,Lost,0,181
+Arena 12,Earthquake,Won,0,124
+Arena 12,Electro Dragon,Lost,0,504
+Arena 12,Electro Dragon,Lost,1,263
+Arena 12,Electro Dragon,Won,0,463
+Arena 12,Electro Dragon,Won,1,383
+Arena 12,Electro Giant,Lost,0,4
+Arena 12,Electro Giant,Won,0,4
+Arena 12,Electro Spirit,Lost,0,2017
+Arena 12,Electro Spirit,Won,0,1725
+Arena 12,Electro Wizard,Lost,0,3017
+Arena 12,Electro Wizard,Won,0,3761
+Arena 12,Elite Barbarians,Lost,0,798
+Arena 12,Elite Barbarians,Won,0,1004
+Arena 12,Elixir Collector,Lost,0,3
+Arena 12,Elixir Collector,Won,0,2
+Arena 12,Elixir Golem,Lost,0,41
+Arena 12,Elixir Golem,Won,0,30
+Arena 12,Executioner,Lost,0,335
+Arena 12,Executioner,Lost,1,268
+Arena 12,Executioner,Won,0,494
+Arena 12,Executioner,Won,1,396
+Arena 12,Fire Spirit,Lost,0,460
+Arena 12,Fire Spirit,Won,0,497
+Arena 12,Fireball,Lost,0,6841
+Arena 12,Fireball,Won,0,6246
+Arena 12,Firecracker,Lost,0,1814
+Arena 12,Firecracker,Lost,1,41
+Arena 12,Firecracker,Won,0,1875
+Arena 12,Firecracker,Won,1,62
+Arena 12,Fisherman,Lost,0,2
+Arena 12,Fisherman,Won,0,10
+Arena 12,Flying Machine,Lost,0,798
+Arena 12,Flying Machine,Won,0,378
+Arena 12,Freeze,Lost,0,2171
+Arena 12,Freeze,Won,0,1293
+Arena 12,Furnace,Lost,0,522
+Arena 12,Furnace,Lost,1,25
+Arena 12,Furnace,Won,0,557
+Arena 12,Furnace,Won,1,28
+Arena 12,Giant,Lost,0,1978
+Arena 12,Giant,Won,0,803
+Arena 12,Giant Skeleton,Lost,0,780
+Arena 12,Giant Skeleton,Won,0,538
+Arena 12,Giant Snowball,Lost,0,3467
+Arena 12,Giant Snowball,Lost,1,11
+Arena 12,Giant Snowball,Won,0,1936
+Arena 12,Giant Snowball,Won,1,19
+Arena 12,Goblin Barrel,Lost,0,10525
+Arena 12,Goblin Barrel,Lost,1,5
+Arena 12,Goblin Barrel,Won,0,11399
+Arena 12,Goblin Barrel,Won,1,11
+Arena 12,Goblin Cage,Lost,0,1189
+Arena 12,Goblin Cage,Lost,1,3
+Arena 12,Goblin Cage,Won,0,720
+Arena 12,Goblin Cage,Won,1,4
+Arena 12,Goblin Demolisher,Lost,0,206
+Arena 12,Goblin Demolisher,Won,0,167
+Arena 12,Goblin Drill,Lost,0,11
+Arena 12,Goblin Drill,Won,0,18
+Arena 12,Goblin Gang,Lost,0,3120
+Arena 12,Goblin Gang,Won,0,3281
+Arena 12,Goblin Giant,Lost,0,556
+Arena 12,Goblin Giant,Won,0,261
+Arena 12,Goblin Giant,Won,1,1
+Arena 12,Goblin Hut,Lost,0,1110
+Arena 12,Goblin Hut,Won,0,973
+Arena 12,Goblin Machine,Lost,0,16
+Arena 12,Goblin Machine,Won,0,21
+Arena 12,Goblins,Lost,0,508
+Arena 12,Goblins,Won,0,476
+Arena 12,Goblinstein,Lost,0,9
+Arena 12,Goblinstein,Won,0,19
+Arena 12,Golden Knight,Lost,0,10
+Arena 12,Golden Knight,Won,0,21
+Arena 12,Golem,Lost,0,664
+Arena 12,Golem,Won,0,508
+Arena 12,Graveyard,Lost,0,433
+Arena 12,Graveyard,Won,0,328
+Arena 12,Guards,Lost,0,2803
+Arena 12,Guards,Won,0,2533
+Arena 12,Heal Spirit,Lost,0,5
+Arena 12,Heal Spirit,Won,0,4
+Arena 12,Hog Rider,Lost,0,7173
+Arena 12,Hog Rider,Won,0,8454
+Arena 12,Hunter,Lost,0,719
+Arena 12,Hunter,Lost,1,2
+Arena 12,Hunter,Won,0,541
+Arena 12,Hunter,Won,1,2
+Arena 12,Ice Golem,Lost,0,1519
+Arena 12,Ice Golem,Won,0,1025
+Arena 12,Ice Spirit,Lost,0,3450
+Arena 12,Ice Spirit,Lost,1,2
+Arena 12,Ice Spirit,Won,0,3394
+Arena 12,Ice Spirit,Won,1,5
+Arena 12,Ice Wizard,Lost,0,750
+Arena 12,Ice Wizard,Won,0,698
+Arena 12,Inferno Dragon,Lost,0,3467
+Arena 12,Inferno Dragon,Lost,1,1543
+Arena 12,Inferno Dragon,Won,0,3939
+Arena 12,Inferno Dragon,Won,1,1881
+Arena 12,Inferno Tower,Lost,0,1300
+Arena 12,Inferno Tower,Won,0,1298
+Arena 12,Knight,Lost,0,5379
+Arena 12,Knight,Lost,1,64
+Arena 12,Knight,Won,0,5996
+Arena 12,Knight,Won,1,127
+Arena 12,Lava Hound,Lost,0,22
+Arena 12,Lava Hound,Won,0,28
+Arena 12,Lightning,Lost,0,1373
+Arena 12,Lightning,Won,0,403
+Arena 12,Little Prince,Lost,0,182
+Arena 12,Little Prince,Won,0,301
+Arena 12,Lumberjack,Lost,0,117
+Arena 12,Lumberjack,Lost,1,9
+Arena 12,Lumberjack,Won,0,201
+Arena 12,Lumberjack,Won,1,16
+Arena 12,Magic Archer,Lost,0,73
+Arena 12,Magic Archer,Won,0,118
+Arena 12,Mega Knight,Lost,0,4842
+Arena 12,Mega Knight,Lost,1,70
+Arena 12,Mega Knight,Won,0,6791
+Arena 12,Mega Knight,Won,1,145
+Arena 12,Mega Minion,Lost,0,1345
+Arena 12,Mega Minion,Won,0,496
+Arena 12,Mighty Miner,Lost,0,1
+Arena 12,Mighty Miner,Won,0,2
+Arena 12,Miner,Lost,0,2345
+Arena 12,Miner,Won,0,1737
+Arena 12,Mini P.E.K.K.A,Lost,0,12132
+Arena 12,Mini P.E.K.K.A,Won,0,13199
+Arena 12,Minion Horde,Lost,0,1128
+Arena 12,Minion Horde,Won,0,893
+Arena 12,Minions,Lost,0,1873
+Arena 12,Minions,Won,0,1944
+Arena 12,Mirror,Lost,0,30
+Arena 12,Mirror,Won,0,36
+Arena 12,Monk,Lost,0,16
+Arena 12,Monk,Won,0,33
+Arena 12,Mortar,Lost,0,107
+Arena 12,Mortar,Lost,1,7
+Arena 12,Mortar,Won,0,141
+Arena 12,Mortar,Won,1,6
+Arena 12,Mother Witch,Lost,0,3
+Arena 12,Mother Witch,Won,0,13
+Arena 12,Musketeer,Lost,0,2724
+Arena 12,Musketeer,Lost,1,22
+Arena 12,Musketeer,Won,0,2581
+Arena 12,Musketeer,Won,1,42
+Arena 12,Night Witch,Lost,0,11
+Arena 12,Night Witch,Won,0,15
+Arena 12,P.E.K.K.A,Lost,0,1772
+Arena 12,P.E.K.K.A,Lost,1,38
+Arena 12,P.E.K.K.A,Won,0,1884
+Arena 12,P.E.K.K.A,Won,1,65
+Arena 12,Phoenix,Lost,0,52
+Arena 12,Phoenix,Won,0,52
+Arena 12,Poison,Lost,0,1804
+Arena 12,Poison,Won,0,876
+Arena 12,Prince,Lost,0,6671
+Arena 12,Prince,Won,0,5401
+Arena 12,Princess,Lost,0,3146
+Arena 12,Princess,Won,0,3872
+Arena 12,Rage,Lost,0,77
+Arena 12,Rage,Won,0,96
+Arena 12,Ram Rider,Lost,0,1347
+Arena 12,Ram Rider,Won,0,1767
+Arena 12,Rascals,Lost,0,9
+Arena 12,Rascals,Won,0,9
+Arena 12,Rocket,Lost,0,1275
+Arena 12,Rocket,Won,0,428
+Arena 12,Royal Delivery,Lost,0,6
+Arena 12,Royal Delivery,Won,0,5
+Arena 12,Royal Ghost,Lost,0,3981
+Arena 12,Royal Ghost,Lost,1,52
+Arena 12,Royal Ghost,Won,0,5485
+Arena 12,Royal Ghost,Won,1,62
+Arena 12,Royal Giant,Lost,0,392
+Arena 12,Royal Giant,Lost,1,45
+Arena 12,Royal Giant,Won,0,436
+Arena 12,Royal Giant,Won,1,51
+Arena 12,Royal Hogs,Lost,0,1597
+Arena 12,Royal Hogs,Won,0,1317
+Arena 12,Royal Recruits,Lost,0,1052
+Arena 12,Royal Recruits,Lost,1,6
+Arena 12,Royal Recruits,Won,0,646
+Arena 12,Royal Recruits,Won,1,19
+Arena 12,Rune Giant,Lost,0,56
+Arena 12,Rune Giant,Won,0,58
+Arena 12,Skeleton Army,Lost,0,14783
+Arena 12,Skeleton Army,Lost,1,818
+Arena 12,Skeleton Army,Won,0,15530
+Arena 12,Skeleton Army,Won,1,1450
+Arena 12,Skeleton Barrel,Lost,0,1048
+Arena 12,Skeleton Barrel,Lost,1,11
+Arena 12,Skeleton Barrel,Won,0,995
+Arena 12,Skeleton Barrel,Won,1,13
+Arena 12,Skeleton Dragons,Lost,0,357
+Arena 12,Skeleton Dragons,Won,0,306
+Arena 12,Skeleton King,Lost,0,2
+Arena 12,Skeleton King,Won,0,2
+Arena 12,Skeletons,Lost,0,4082
+Arena 12,Skeletons,Lost,1,114
+Arena 12,Skeletons,Won,0,3515
+Arena 12,Skeletons,Won,1,143
+Arena 12,Sparky,Lost,0,2117
+Arena 12,Sparky,Won,0,2154
+Arena 12,Spear Goblins,Lost,0,1366
+Arena 12,Spear Goblins,Won,0,1110
+Arena 12,Spirit Empress,Lost,0,2
+Arena 12,Spirit Empress,Won,0,1
+Arena 12,Tesla,Lost,0,2613
+Arena 12,Tesla,Lost,1,486
+Arena 12,Tesla,Won,0,2360
+Arena 12,Tesla,Won,1,580
+Arena 12,The Log,Lost,0,5909
+Arena 12,The Log,Won,0,7597
+Arena 12,Three Musketeers,Lost,0,173
+Arena 12,Three Musketeers,Won,0,119
+Arena 12,Tombstone,Lost,0,810
+Arena 12,Tombstone,Won,0,1028
+Arena 12,Tornado,Lost,0,29
+Arena 12,Tornado,Won,0,51
+Arena 12,Valkyrie,Lost,0,8952
+Arena 12,Valkyrie,Lost,1,391
+Arena 12,Valkyrie,Won,0,9167
+Arena 12,Valkyrie,Won,1,386
+Arena 12,Vines,Lost,0,1709
+Arena 12,Vines,Won,0,2195
+Arena 12,Wall Breakers,Lost,0,1715
+Arena 12,Wall Breakers,Lost,1,7
+Arena 12,Wall Breakers,Won,0,1941
+Arena 12,Wall Breakers,Won,1,4
+Arena 12,Witch,Lost,0,12542
+Arena 12,Witch,Lost,1,798
+Arena 12,Witch,Won,0,13703
+Arena 12,Witch,Won,1,1323
+Arena 12,Wizard,Lost,0,6453
+Arena 12,Wizard,Lost,1,1831
+Arena 12,Wizard,Won,0,6502
+Arena 12,Wizard,Won,1,1267
+Arena 12,X-Bow,Lost,0,1176
+Arena 12,X-Bow,Won,0,566
+Arena 12,Zap,Lost,0,5208
+Arena 12,Zap,Lost,1,7
+Arena 12,Zap,Won,0,4558
+Arena 12,Zap,Won,1,11
+Arena 12,Zappies,Lost,0,782
+Arena 12,Zappies,Won,0,477
+Arena 15,Archer Queen,Lost,0,27
+Arena 15,Archer Queen,Won,0,42
+Arena 15,Archers,Lost,0,1659
+Arena 15,Archers,Lost,1,2386
+Arena 15,Archers,Won,0,1874
+Arena 15,Archers,Won,1,3100
+Arena 15,Arrows,Lost,0,11139
+Arena 15,Arrows,Won,0,10018
+Arena 15,Baby Dragon,Lost,0,7939
+Arena 15,Baby Dragon,Lost,1,735
+Arena 15,Baby Dragon,Won,0,8479
+Arena 15,Baby Dragon,Won,1,1007
+Arena 15,Balloon,Lost,0,4275
+Arena 15,Balloon,Won,0,3034
+Arena 15,Bandit,Lost,0,4474
+Arena 15,Bandit,Won,0,3624
+Arena 15,Barbarian Barrel,Lost,0,5812
+Arena 15,Barbarian Barrel,Won,0,3593
+Arena 15,Barbarian Hut,Lost,0,52
+Arena 15,Barbarian Hut,Won,0,36
+Arena 15,Barbarians,Lost,0,2201
+Arena 15,Barbarians,Lost,1,435
+Arena 15,Barbarians,Won,0,2228
+Arena 15,Barbarians,Won,1,612
+Arena 15,Bats,Lost,0,6050
+Arena 15,Bats,Lost,1,29
+Arena 15,Bats,Won,0,5544
+Arena 15,Bats,Won,1,52
+Arena 15,Battle Healer,Lost,0,602
+Arena 15,Battle Healer,Won,0,276
+Arena 15,Battle Ram,Lost,0,2157
+Arena 15,Battle Ram,Lost,1,77
+Arena 15,Battle Ram,Won,0,1632
+Arena 15,Battle Ram,Won,1,113
+Arena 15,Berserker,Lost,0,932
+Arena 15,Berserker,Won,0,811
+Arena 15,Bomb Tower,Lost,0,716
+Arena 15,Bomb Tower,Won,0,623
+Arena 15,Bomber,Lost,0,2755
+Arena 15,Bomber,Lost,1,360
+Arena 15,Bomber,Won,0,1958
+Arena 15,Bomber,Won,1,306
+Arena 15,Boss Bandit,Lost,0,349
+Arena 15,Boss Bandit,Won,0,568
+Arena 15,Bowler,Lost,0,1664
+Arena 15,Bowler,Won,0,1126
+Arena 15,Cannon,Lost,0,5783
+Arena 15,Cannon,Lost,1,119
+Arena 15,Cannon,Won,0,6508
+Arena 15,Cannon,Won,1,138
+Arena 15,Cannon Cart,Lost,0,28
+Arena 15,Cannon Cart,Won,0,31
+Arena 15,Clone,Lost,0,1540
+Arena 15,Clone,Won,0,1188
+Arena 15,Dark Prince,Lost,0,2685
+Arena 15,Dark Prince,Won,0,2540
+Arena 15,Dart Goblin,Lost,0,5838
+Arena 15,Dart Goblin,Lost,1,382
+Arena 15,Dart Goblin,Won,0,7165
+Arena 15,Dart Goblin,Won,1,420
+Arena 15,Earthquake,Lost,0,258
+Arena 15,Earthquake,Won,0,194
+Arena 15,Electro Dragon,Lost,0,1511
+Arena 15,Electro Dragon,Lost,1,970
+Arena 15,Electro Dragon,Won,0,730
+Arena 15,Electro Dragon,Won,1,1170
+Arena 15,Electro Giant,Lost,0,499
+Arena 15,Electro Giant,Won,0,418
+Arena 15,Electro Spirit,Lost,0,2237
+Arena 15,Electro Spirit,Won,0,1981
+Arena 15,Electro Wizard,Lost,0,7616
+Arena 15,Electro Wizard,Won,0,7418
+Arena 15,Elite Barbarians,Lost,0,2417
+Arena 15,Elite Barbarians,Won,0,2085
+Arena 15,Elixir Collector,Lost,0,486
+Arena 15,Elixir Collector,Won,0,315
+Arena 15,Elixir Golem,Lost,0,1508
+Arena 15,Elixir Golem,Won,0,1144
+Arena 15,Executioner,Lost,0,2307
+Arena 15,Executioner,Lost,1,1370
+Arena 15,Executioner,Won,0,2740
+Arena 15,Executioner,Won,1,1762
+Arena 15,Fire Spirit,Lost,0,577
+Arena 15,Fire Spirit,Won,0,573
+Arena 15,Fireball,Lost,0,7014
+Arena 15,Fireball,Won,0,7294
+Arena 15,Firecracker,Lost,0,4690
+Arena 15,Firecracker,Lost,1,218
+Arena 15,Firecracker,Won,0,5425
+Arena 15,Firecracker,Won,1,338
+Arena 15,Fisherman,Lost,0,445
+Arena 15,Fisherman,Won,0,419
+Arena 15,Flying Machine,Lost,0,815
+Arena 15,Flying Machine,Won,0,440
+Arena 15,Freeze,Lost,0,2797
+Arena 15,Freeze,Won,0,1886
+Arena 15,Furnace,Lost,0,639
+Arena 15,Furnace,Lost,1,103
+Arena 15,Furnace,Won,0,778
+Arena 15,Furnace,Won,1,129
+Arena 15,Giant,Lost,0,1716
+Arena 15,Giant,Won,0,1023
+Arena 15,Giant Skeleton,Lost,0,838
+Arena 15,Giant Skeleton,Won,0,779
+Arena 15,Giant Snowball,Lost,0,2791
+Arena 15,Giant Snowball,Lost,1,37
+Arena 15,Giant Snowball,Won,0,2191
+Arena 15,Giant Snowball,Won,1,41
+Arena 15,Goblin Barrel,Lost,0,11439
+Arena 15,Goblin Barrel,Lost,1,161
+Arena 15,Goblin Barrel,Won,0,13843
+Arena 15,Goblin Barrel,Won,1,209
+Arena 15,Goblin Cage,Lost,0,1713
+Arena 15,Goblin Cage,Lost,1,44
+Arena 15,Goblin Cage,Won,0,1236
+Arena 15,Goblin Cage,Won,1,63
+Arena 15,Goblin Curse,Lost,0,2436
+Arena 15,Goblin Curse,Won,0,2025
+Arena 15,Goblin Demolisher,Lost,0,176
+Arena 15,Goblin Demolisher,Won,0,122
+Arena 15,Goblin Drill,Lost,0,456
+Arena 15,Goblin Drill,Lost,1,2
+Arena 15,Goblin Drill,Won,0,358
+Arena 15,Goblin Drill,Won,1,4
+Arena 15,Goblin Gang,Lost,0,5097
+Arena 15,Goblin Gang,Won,0,5208
+Arena 15,Goblin Giant,Lost,0,1638
+Arena 15,Goblin Giant,Lost,1,18
+Arena 15,Goblin Giant,Won,0,731
+Arena 15,Goblin Giant,Won,1,22
+Arena 15,Goblin Hut,Lost,0,1816
+Arena 15,Goblin Hut,Won,0,1329
+Arena 15,Goblin Machine,Lost,0,690
+Arena 15,Goblin Machine,Won,0,323
+Arena 15,Goblins,Lost,0,436
+Arena 15,Goblins,Won,0,490
+Arena 15,Goblinstein,Lost,0,46
+Arena 15,Goblinstein,Won,0,83
+Arena 15,Golden Knight,Lost,0,32
+Arena 15,Golden Knight,Won,0,47
+Arena 15,Golem,Lost,0,1131
+Arena 15,Golem,Won,0,824
+Arena 15,Graveyard,Lost,0,2097
+Arena 15,Graveyard,Won,0,1332
+Arena 15,Guards,Lost,0,3697
+Arena 15,Guards,Won,0,3785
+Arena 15,Heal Spirit,Lost,0,854
+Arena 15,Heal Spirit,Won,0,415
+Arena 15,Hog Rider,Lost,0,8580
+Arena 15,Hog Rider,Won,0,9979
+Arena 15,Hunter,Lost,0,644
+Arena 15,Hunter,Lost,1,54
+Arena 15,Hunter,Won,0,610
+Arena 15,Hunter,Won,1,40
+Arena 15,Ice Golem,Lost,0,1567
+Arena 15,Ice Golem,Won,0,1183
+Arena 15,Ice Spirit,Lost,0,5354
+Arena 15,Ice Spirit,Lost,1,14
+Arena 15,Ice Spirit,Won,0,5355
+Arena 15,Ice Spirit,Won,1,19
+Arena 15,Ice Wizard,Lost,0,3710
+Arena 15,Ice Wizard,Won,0,3351
+Arena 15,Inferno Dragon,Lost,0,6710
+Arena 15,Inferno Dragon,Lost,1,2152
+Arena 15,Inferno Dragon,Won,0,5655
+Arena 15,Inferno Dragon,Won,1,2503
+Arena 15,Inferno Tower,Lost,0,2594
+Arena 15,Inferno Tower,Won,0,2675
+Arena 15,Knight,Lost,0,9261
+Arena 15,Knight,Lost,1,389
+Arena 15,Knight,Won,0,9753
+Arena 15,Knight,Won,1,539
+Arena 15,Lava Hound,Lost,0,956
+Arena 15,Lava Hound,Won,0,347
+Arena 15,Lightning,Lost,0,1506
+Arena 15,Lightning,Won,0,668
+Arena 15,Little Prince,Lost,0,420
+Arena 15,Little Prince,Won,0,613
+Arena 15,Lumberjack,Lost,0,3040
+Arena 15,Lumberjack,Lost,1,583
+Arena 15,Lumberjack,Won,0,2798
+Arena 15,Lumberjack,Won,1,408
+Arena 15,Magic Archer,Lost,0,2311
+Arena 15,Magic Archer,Won,0,2054
+Arena 15,Mega Knight,Lost,0,12740
+Arena 15,Mega Knight,Lost,1,610
+Arena 15,Mega Knight,Won,0,16350
+Arena 15,Mega Knight,Won,1,895
+Arena 15,Mega Minion,Lost,0,2095
+Arena 15,Mega Minion,Won,0,923
+Arena 15,Mighty Miner,Lost,0,38
+Arena 15,Mighty Miner,Won,0,58
+Arena 15,Miner,Lost,0,3147
+Arena 15,Miner,Won,0,2008
+Arena 15,Mini P.E.K.K.A,Lost,0,13852
+Arena 15,Mini P.E.K.K.A,Won,0,16785
+Arena 15,Minion Horde,Lost,0,1655
+Arena 15,Minion Horde,Won,0,1677
+Arena 15,Minions,Lost,0,3160
+Arena 15,Minions,Won,0,3120
+Arena 15,Mirror,Lost,0,1735
+Arena 15,Mirror,Won,0,1611
+Arena 15,Monk,Lost,0,156
+Arena 15,Monk,Won,0,196
+Arena 15,Mortar,Lost,0,127
+Arena 15,Mortar,Lost,1,61
+Arena 15,Mortar,Won,0,139
+Arena 15,Mortar,Won,1,72
+Arena 15,Mother Witch,Lost,0,308
+Arena 15,Mother Witch,Won,0,350
+Arena 15,Musketeer,Lost,0,2830
+Arena 15,Musketeer,Lost,1,63
+Arena 15,Musketeer,Won,0,2776
+Arena 15,Musketeer,Won,1,96
+Arena 15,Night Witch,Lost,0,551
+Arena 15,Night Witch,Won,0,469
+Arena 15,P.E.K.K.A,Lost,0,4964
+Arena 15,P.E.K.K.A,Lost,1,229
+Arena 15,P.E.K.K.A,Won,0,3757
+Arena 15,P.E.K.K.A,Won,1,329
+Arena 15,Phoenix,Lost,0,334
+Arena 15,Phoenix,Won,0,196
+Arena 15,Poison,Lost,0,3703
+Arena 15,Poison,Won,0,1776
+Arena 15,Prince,Lost,0,5744
+Arena 15,Prince,Won,0,6129
+Arena 15,Princess,Lost,0,5361
+Arena 15,Princess,Won,0,6201
+Arena 15,Rage,Lost,0,4767
+Arena 15,Rage,Won,0,3751
+Arena 15,Ram Rider,Lost,0,2189
+Arena 15,Ram Rider,Won,0,2425
+Arena 15,Rascals,Lost,0,235
+Arena 15,Rascals,Won,0,254
+Arena 15,Rocket,Lost,0,1181
+Arena 15,Rocket,Won,0,851
+Arena 15,Royal Delivery,Lost,0,845
+Arena 15,Royal Delivery,Won,0,824
+Arena 15,Royal Ghost,Lost,0,5247
+Arena 15,Royal Ghost,Lost,1,84
+Arena 15,Royal Ghost,Won,0,5686
+Arena 15,Royal Ghost,Won,1,158
+Arena 15,Royal Giant,Lost,0,746
+Arena 15,Royal Giant,Lost,1,43
+Arena 15,Royal Giant,Won,0,698
+Arena 15,Royal Giant,Won,1,78
+Arena 15,Royal Hogs,Lost,0,1844
+Arena 15,Royal Hogs,Won,0,1500
+Arena 15,Royal Recruits,Lost,0,1461
+Arena 15,Royal Recruits,Lost,1,17
+Arena 15,Royal Recruits,Won,0,925
+Arena 15,Royal Recruits,Won,1,35
+Arena 15,Rune Giant,Lost,0,45
+Arena 15,Rune Giant,Won,0,41
+Arena 15,Skeleton Army,Lost,0,13571
+Arena 15,Skeleton Army,Lost,1,1680
+Arena 15,Skeleton Army,Won,0,16301
+Arena 15,Skeleton Army,Won,1,2770
+Arena 15,Skeleton Barrel,Lost,0,1918
+Arena 15,Skeleton Barrel,Lost,1,22
+Arena 15,Skeleton Barrel,Won,0,1519
+Arena 15,Skeleton Barrel,Won,1,40
+Arena 15,Skeleton Dragons,Lost,0,923
+Arena 15,Skeleton Dragons,Won,0,540
+Arena 15,Skeleton King,Lost,0,3
+Arena 15,Skeleton King,Won,0,3
+Arena 15,Skeletons,Lost,0,4856
+Arena 15,Skeletons,Lost,1,545
+Arena 15,Skeletons,Won,0,4982
+Arena 15,Skeletons,Won,1,604
+Arena 15,Sparky,Lost,0,2566
+Arena 15,Sparky,Won,0,2350
+Arena 15,Spear Goblins,Lost,0,2120
+Arena 15,Spear Goblins,Won,0,1340
+Arena 15,Spirit Empress,Lost,0,374
+Arena 15,Spirit Empress,Won,0,250
+Arena 15,Suspicious Bush,Lost,0,345
+Arena 15,Suspicious Bush,Won,0,354
+Arena 15,Tesla,Lost,0,3279
+Arena 15,Tesla,Lost,1,2134
+Arena 15,Tesla,Won,0,3768
+Arena 15,Tesla,Won,1,2630
+Arena 15,The Log,Lost,0,15202
+Arena 15,The Log,Won,0,18681
+Arena 15,Three Musketeers,Lost,0,506
+Arena 15,Three Musketeers,Won,0,218
+Arena 15,Tombstone,Lost,0,1817
+Arena 15,Tombstone,Won,0,1410
+Arena 15,Tornado,Lost,0,2150
+Arena 15,Tornado,Won,0,905
+Arena 15,Valkyrie,Lost,0,8106
+Arena 15,Valkyrie,Lost,1,882
+Arena 15,Valkyrie,Won,0,9493
+Arena 15,Valkyrie,Won,1,1064
+Arena 15,Vines,Lost,0,2797
+Arena 15,Vines,Won,0,3493
+Arena 15,Void,Lost,0,128
+Arena 15,Void,Won,0,93
+Arena 15,Wall Breakers,Lost,0,3946
+Arena 15,Wall Breakers,Lost,1,58
+Arena 15,Wall Breakers,Won,0,3487
+Arena 15,Wall Breakers,Won,1,72
+Arena 15,Witch,Lost,0,10941
+Arena 15,Witch,Lost,1,2784
+Arena 15,Witch,Won,0,13745
+Arena 15,Witch,Won,1,4014
+Arena 15,Wizard,Lost,0,4443
+Arena 15,Wizard,Lost,1,2716
+Arena 15,Wizard,Won,0,5270
+Arena 15,Wizard,Won,1,2619
+Arena 15,X-Bow,Lost,0,542
+Arena 15,X-Bow,Won,0,558
+Arena 15,Zap,Lost,0,8208
+Arena 15,Zap,Lost,1,7
+Arena 15,Zap,Won,0,6331
+Arena 15,Zap,Won,1,7
+Arena 15,Zappies,Lost,0,1021
+Arena 15,Zappies,Won,0,656
+Arena 16,Archer Queen,Lost,0,33
+Arena 16,Archer Queen,Won,0,46
+Arena 16,Archers,Lost,0,1584
+Arena 16,Archers,Lost,1,2810
+Arena 16,Archers,Won,0,1723
+Arena 16,Archers,Won,1,3428
+Arena 16,Arrows,Lost,0,10484
+Arena 16,Arrows,Won,0,9312
+Arena 16,Baby Dragon,Lost,0,6399
+Arena 16,Baby Dragon,Lost,1,1097
+Arena 16,Baby Dragon,Won,0,6471
+Arena 16,Baby Dragon,Won,1,1499
+Arena 16,Balloon,Lost,0,2850
+Arena 16,Balloon,Won,0,2392
+Arena 16,Bandit,Lost,0,3872
+Arena 16,Bandit,Won,0,3137
+Arena 16,Barbarian Barrel,Lost,0,5187
+Arena 16,Barbarian Barrel,Won,0,3195
+Arena 16,Barbarian Hut,Lost,0,25
+Arena 16,Barbarian Hut,Won,0,16
+Arena 16,Barbarians,Lost,0,1408
+Arena 16,Barbarians,Lost,1,494
+Arena 16,Barbarians,Won,0,1659
+Arena 16,Barbarians,Won,1,589
+Arena 16,Bats,Lost,0,4674
+Arena 16,Bats,Lost,1,28
+Arena 16,Bats,Won,0,4469
+Arena 16,Bats,Won,1,41
+Arena 16,Battle Healer,Lost,0,648
+Arena 16,Battle Healer,Won,0,278
+Arena 16,Battle Ram,Lost,0,1801
+Arena 16,Battle Ram,Lost,1,125
+Arena 16,Battle Ram,Won,0,1319
+Arena 16,Battle Ram,Won,1,170
+Arena 16,Berserker,Lost,0,836
+Arena 16,Berserker,Won,0,679
+Arena 16,Bomb Tower,Lost,0,800
+Arena 16,Bomb Tower,Won,0,618
+Arena 16,Bomber,Lost,0,1811
+Arena 16,Bomber,Lost,1,727
+Arena 16,Bomber,Won,0,1412
+Arena 16,Bomber,Won,1,499
+Arena 16,Boss Bandit,Lost,0,523
+Arena 16,Boss Bandit,Won,0,770
+Arena 16,Bowler,Lost,0,1252
+Arena 16,Bowler,Won,0,843
+Arena 16,Cannon,Lost,0,5109
+Arena 16,Cannon,Lost,1,183
+Arena 16,Cannon,Won,0,5558
+Arena 16,Cannon,Won,1,213
+Arena 16,Cannon Cart,Lost,0,102
+Arena 16,Cannon Cart,Won,0,102
+Arena 16,Clone,Lost,0,1423
+Arena 16,Clone,Won,0,1104
+Arena 16,Dark Prince,Lost,0,2203
+Arena 16,Dark Prince,Won,0,2093
+Arena 16,Dart Goblin,Lost,0,5591
+Arena 16,Dart Goblin,Lost,1,386
+Arena 16,Dart Goblin,Won,0,6440
+Arena 16,Dart Goblin,Won,1,464
+Arena 16,Earthquake,Lost,0,258
+Arena 16,Earthquake,Won,0,213
+Arena 16,Electro Dragon,Lost,0,1124
+Arena 16,Electro Dragon,Lost,1,955
+Arena 16,Electro Dragon,Won,0,484
+Arena 16,Electro Dragon,Won,1,1086
+Arena 16,Electro Giant,Lost,0,312
+Arena 16,Electro Giant,Won,0,286
+Arena 16,Electro Spirit,Lost,0,1887
+Arena 16,Electro Spirit,Won,0,1768
+Arena 16,Electro Wizard,Lost,0,7037
+Arena 16,Electro Wizard,Won,0,7246
+Arena 16,Elite Barbarians,Lost,0,2515
+Arena 16,Elite Barbarians,Won,0,1990
+Arena 16,Elixir Collector,Lost,0,438
+Arena 16,Elixir Collector,Won,0,294
+Arena 16,Elixir Golem,Lost,0,1337
+Arena 16,Elixir Golem,Won,0,827
+Arena 16,Executioner,Lost,0,1505
+Arena 16,Executioner,Lost,1,1437
+Arena 16,Executioner,Won,0,1869
+Arena 16,Executioner,Won,1,1729
+Arena 16,Fire Spirit,Lost,0,632
+Arena 16,Fire Spirit,Won,0,581
+Arena 16,Fireball,Lost,0,6427
+Arena 16,Fireball,Won,0,6613
+Arena 16,Firecracker,Lost,0,4633
+Arena 16,Firecracker,Lost,1,313
+Arena 16,Firecracker,Won,0,5137
+Arena 16,Firecracker,Won,1,487
+Arena 16,Fisherman,Lost,0,450
+Arena 16,Fisherman,Won,0,422
+Arena 16,Flying Machine,Lost,0,856
+Arena 16,Flying Machine,Won,0,403
+Arena 16,Freeze,Lost,0,1973
+Arena 16,Freeze,Won,0,1470
+Arena 16,Furnace,Lost,0,474
+Arena 16,Furnace,Lost,1,117
+Arena 16,Furnace,Won,0,614
+Arena 16,Furnace,Won,1,171
+Arena 16,Giant,Lost,0,1317
+Arena 16,Giant,Won,0,831
+Arena 16,Giant Skeleton,Lost,0,1062
+Arena 16,Giant Skeleton,Won,0,976
+Arena 16,Giant Snowball,Lost,0,2120
+Arena 16,Giant Snowball,Lost,1,137
+Arena 16,Giant Snowball,Won,0,1589
+Arena 16,Giant Snowball,Won,1,161
+Arena 16,Goblin Barrel,Lost,0,9828
+Arena 16,Goblin Barrel,Lost,1,219
+Arena 16,Goblin Barrel,Won,0,11922
+Arena 16,Goblin Barrel,Won,1,257
+Arena 16,Goblin Cage,Lost,0,1321
+Arena 16,Goblin Cage,Lost,1,39
+Arena 16,Goblin Cage,Won,0,882
+Arena 16,Goblin Cage,Won,1,69
+Arena 16,Goblin Curse,Lost,0,1906
+Arena 16,Goblin Curse,Won,0,1412
+Arena 16,Goblin Demolisher,Lost,0,87
+Arena 16,Goblin Demolisher,Won,0,57
+Arena 16,Goblin Drill,Lost,0,259
+Arena 16,Goblin Drill,Lost,1,2
+Arena 16,Goblin Drill,Won,0,204
+Arena 16,Goblin Drill,Won,1,1
+Arena 16,Goblin Gang,Lost,0,4666
+Arena 16,Goblin Gang,Won,0,4885
+Arena 16,Goblin Giant,Lost,0,1468
+Arena 16,Goblin Giant,Lost,1,21
+Arena 16,Goblin Giant,Won,0,645
+Arena 16,Goblin Giant,Won,1,23
+Arena 16,Goblin Hut,Lost,0,1105
+Arena 16,Goblin Hut,Won,0,961
+Arena 16,Goblin Machine,Lost,0,776
+Arena 16,Goblin Machine,Won,0,347
+Arena 16,Goblins,Lost,0,558
+Arena 16,Goblins,Won,0,465
+Arena 16,Goblinstein,Lost,0,80
+Arena 16,Goblinstein,Won,0,161
+Arena 16,Golden Knight,Lost,0,4412
+Arena 16,Golden Knight,Won,0,4712
+Arena 16,Golem,Lost,0,913
+Arena 16,Golem,Won,0,698
+Arena 16,Graveyard,Lost,0,2164
+Arena 16,Graveyard,Won,0,1133
+Arena 16,Guards,Lost,0,3071
+Arena 16,Guards,Won,0,3224
+Arena 16,Heal Spirit,Lost,0,886
+Arena 16,Heal Spirit,Won,0,433
+Arena 16,Hog Rider,Lost,0,7751
+Arena 16,Hog Rider,Won,0,8841
+Arena 16,Hunter,Lost,0,527
+Arena 16,Hunter,Lost,1,32
+Arena 16,Hunter,Won,0,537
+Arena 16,Hunter,Won,1,41
+Arena 16,Ice Golem,Lost,0,1438
+Arena 16,Ice Golem,Won,0,1099
+Arena 16,Ice Spirit,Lost,0,5139
+Arena 16,Ice Spirit,Lost,1,9
+Arena 16,Ice Spirit,Won,0,5028
+Arena 16,Ice Spirit,Won,1,10
+Arena 16,Ice Wizard,Lost,0,3606
+Arena 16,Ice Wizard,Won,0,2895
+Arena 16,Inferno Dragon,Lost,0,5237
+Arena 16,Inferno Dragon,Lost,1,1639
+Arena 16,Inferno Dragon,Won,0,4581
+Arena 16,Inferno Dragon,Won,1,1899
+Arena 16,Inferno Tower,Lost,0,2260
+Arena 16,Inferno Tower,Won,0,2554
+Arena 16,Knight,Lost,0,8427
+Arena 16,Knight,Lost,1,662
+Arena 16,Knight,Won,0,9041
+Arena 16,Knight,Won,1,932
+Arena 16,Lava Hound,Lost,0,497
+Arena 16,Lava Hound,Won,0,216
+Arena 16,Lightning,Lost,0,1148
+Arena 16,Lightning,Won,0,577
+Arena 16,Little Prince,Lost,0,431
+Arena 16,Little Prince,Won,0,614
+Arena 16,Lumberjack,Lost,0,2913
+Arena 16,Lumberjack,Lost,1,514
+Arena 16,Lumberjack,Won,0,2466
+Arena 16,Lumberjack,Won,1,553
+Arena 16,Magic Archer,Lost,0,2356
+Arena 16,Magic Archer,Won,0,1978
+Arena 16,Mega Knight,Lost,0,11715
+Arena 16,Mega Knight,Lost,1,957
+Arena 16,Mega Knight,Won,0,14390
+Arena 16,Mega Knight,Won,1,1259
+Arena 16,Mega Minion,Lost,0,1445
+Arena 16,Mega Minion,Won,0,811
+Arena 16,Mighty Miner,Lost,0,32
+Arena 16,Mighty Miner,Won,0,47
+Arena 16,Miner,Lost,0,2269
+Arena 16,Miner,Won,0,1891
+Arena 16,Mini P.E.K.K.A,Lost,0,12181
+Arena 16,Mini P.E.K.K.A,Won,0,14190
+Arena 16,Minion Horde,Lost,0,1344
+Arena 16,Minion Horde,Won,0,1365
+Arena 16,Minions,Lost,0,2884
+Arena 16,Minions,Won,0,2904
+Arena 16,Mirror,Lost,0,1256
+Arena 16,Mirror,Won,0,1164
+Arena 16,Monk,Lost,0,108
+Arena 16,Monk,Won,0,105
+Arena 16,Mortar,Lost,0,198
+Arena 16,Mortar,Lost,1,43
+Arena 16,Mortar,Won,0,206
+Arena 16,Mortar,Won,1,67
+Arena 16,Mother Witch,Lost,0,916
+Arena 16,Mother Witch,Won,0,794
+Arena 16,Musketeer,Lost,0,2551
+Arena 16,Musketeer,Lost,1,55
+Arena 16,Musketeer,Won,0,2549
+Arena 16,Musketeer,Won,1,69
+Arena 16,Night Witch,Lost,0,751
+Arena 16,Night Witch,Won,0,497
+Arena 16,P.E.K.K.A,Lost,0,4480
+Arena 16,P.E.K.K.A,Lost,1,278
+Arena 16,P.E.K.K.A,Won,0,3346
+Arena 16,P.E.K.K.A,Won,1,376
+Arena 16,Phoenix,Lost,0,519
+Arena 16,Phoenix,Won,0,247
+Arena 16,Poison,Lost,0,2862
+Arena 16,Poison,Won,0,1455
+Arena 16,Prince,Lost,0,4558
+Arena 16,Prince,Won,0,5113
+Arena 16,Princess,Lost,0,4992
+Arena 16,Princess,Won,0,6058
+Arena 16,Rage,Lost,0,4275
+Arena 16,Rage,Won,0,3277
+Arena 16,Ram Rider,Lost,0,2029
+Arena 16,Ram Rider,Won,0,2158
+Arena 16,Rascals,Lost,0,280
+Arena 16,Rascals,Won,0,219
+Arena 16,Rocket,Lost,0,1159
+Arena 16,Rocket,Won,0,916
+Arena 16,Royal Delivery,Lost,0,1115
+Arena 16,Royal Delivery,Won,0,1175
+Arena 16,Royal Ghost,Lost,0,4241
+Arena 16,Royal Ghost,Lost,1,133
+Arena 16,Royal Ghost,Won,0,4293
+Arena 16,Royal Ghost,Won,1,212
+Arena 16,Royal Giant,Lost,0,644
+Arena 16,Royal Giant,Lost,1,163
+Arena 16,Royal Giant,Won,0,677
+Arena 16,Royal Giant,Won,1,229
+Arena 16,Royal Hogs,Lost,0,1725
+Arena 16,Royal Hogs,Won,0,1259
+Arena 16,Royal Recruits,Lost,0,1047
+Arena 16,Royal Recruits,Lost,1,74
+Arena 16,Royal Recruits,Won,0,661
+Arena 16,Royal Recruits,Won,1,96
+Arena 16,Rune Giant,Lost,0,30
+Arena 16,Rune Giant,Won,0,27
+Arena 16,Skeleton Army,Lost,0,11640
+Arena 16,Skeleton Army,Lost,1,2158
+Arena 16,Skeleton Army,Won,0,13367
+Arena 16,Skeleton Army,Won,1,3017
+Arena 16,Skeleton Barrel,Lost,0,1737
+Arena 16,Skeleton Barrel,Lost,1,79
+Arena 16,Skeleton Barrel,Won,0,1451
+Arena 16,Skeleton Barrel,Won,1,112
+Arena 16,Skeleton Dragons,Lost,0,471
+Arena 16,Skeleton Dragons,Won,0,315
+Arena 16,Skeleton King,Lost,0,3998
+Arena 16,Skeleton King,Won,0,4121
+Arena 16,Skeletons,Lost,0,4539
+Arena 16,Skeletons,Lost,1,572
+Arena 16,Skeletons,Won,0,4714
+Arena 16,Skeletons,Won,1,686
+Arena 16,Sparky,Lost,0,2654
+Arena 16,Sparky,Won,0,2212
+Arena 16,Spear Goblins,Lost,0,1706
+Arena 16,Spear Goblins,Won,0,1368
+Arena 16,Spirit Empress,Lost,0,464
+Arena 16,Spirit Empress,Won,0,417
+Arena 16,Suspicious Bush,Lost,0,354
+Arena 16,Suspicious Bush,Won,0,410
+Arena 16,Tesla,Lost,0,3300
+Arena 16,Tesla,Lost,1,2561
+Arena 16,Tesla,Won,0,3570
+Arena 16,Tesla,Won,1,2813
+Arena 16,The Log,Lost,0,14657
+Arena 16,The Log,Won,0,17550
+Arena 16,Three Musketeers,Lost,0,449
+Arena 16,Three Musketeers,Won,0,261
+Arena 16,Tombstone,Lost,0,2009
+Arena 16,Tombstone,Won,0,1627
+Arena 16,Tornado,Lost,0,2660
+Arena 16,Tornado,Won,0,1027
+Arena 16,Valkyrie,Lost,0,6751
+Arena 16,Valkyrie,Lost,1,976
+Arena 16,Valkyrie,Won,0,7973
+Arena 16,Valkyrie,Won,1,1203
+Arena 16,Vines,Lost,0,2598
+Arena 16,Vines,Won,0,3126
+Arena 16,Void,Lost,0,174
+Arena 16,Void,Won,0,158
+Arena 16,Wall Breakers,Lost,0,2923
+Arena 16,Wall Breakers,Lost,1,75
+Arena 16,Wall Breakers,Won,0,2722
+Arena 16,Wall Breakers,Won,1,122
+Arena 16,Witch,Lost,0,9577
+Arena 16,Witch,Lost,1,2984
+Arena 16,Witch,Won,0,11657
+Arena 16,Witch,Won,1,3929
+Arena 16,Wizard,Lost,0,3534
+Arena 16,Wizard,Lost,1,2248
+Arena 16,Wizard,Won,0,4339
+Arena 16,Wizard,Won,1,2386
+Arena 16,X-Bow,Lost,0,528
+Arena 16,X-Bow,Won,0,485
+Arena 16,Zap,Lost,0,6939
+Arena 16,Zap,Lost,1,20
+Arena 16,Zap,Won,0,5810
+Arena 16,Zap,Won,1,25
+Arena 16,Zappies,Lost,0,1024
+Arena 16,Zappies,Won,0,538
+Arena 17,Archer Queen,Lost,0,1011
+Arena 17,Archer Queen,Won,0,862
+Arena 17,Archers,Lost,0,1490
+Arena 17,Archers,Lost,1,2966
+Arena 17,Archers,Won,0,1578
+Arena 17,Archers,Won,1,3498
+Arena 17,Arrows,Lost,0,10600
+Arena 17,Arrows,Won,0,9498
+Arena 17,Baby Dragon,Lost,0,5689
+Arena 17,Baby Dragon,Lost,1,1263
+Arena 17,Baby Dragon,Won,0,5123
+Arena 17,Baby Dragon,Won,1,1672
+Arena 17,Balloon,Lost,0,2957
+Arena 17,Balloon,Won,0,2469
+Arena 17,Bandit,Lost,0,3768
+Arena 17,Bandit,Won,0,2852
+Arena 17,Barbarian Barrel,Lost,0,5406
+Arena 17,Barbarian Barrel,Won,0,3091
+Arena 17,Barbarian Hut,Lost,0,36
+Arena 17,Barbarian Hut,Won,0,32
+Arena 17,Barbarians,Lost,0,1043
+Arena 17,Barbarians,Lost,1,822
+Arena 17,Barbarians,Won,0,1073
+Arena 17,Barbarians,Won,1,1036
+Arena 17,Bats,Lost,0,5186
+Arena 17,Bats,Lost,1,101
+Arena 17,Bats,Won,0,5024
+Arena 17,Bats,Won,1,70
+Arena 17,Battle Healer,Lost,0,803
+Arena 17,Battle Healer,Won,0,417
+Arena 17,Battle Ram,Lost,0,1788
+Arena 17,Battle Ram,Lost,1,224
+Arena 17,Battle Ram,Won,0,1315
+Arena 17,Battle Ram,Won,1,180
+Arena 17,Berserker,Lost,0,601
+Arena 17,Berserker,Won,0,593
+Arena 17,Bomb Tower,Lost,0,511
+Arena 17,Bomb Tower,Won,0,527
+Arena 17,Bomber,Lost,0,1472
+Arena 17,Bomber,Lost,1,1248
+Arena 17,Bomber,Won,0,1403
+Arena 17,Bomber,Won,1,723
+Arena 17,Boss Bandit,Lost,0,2455
+Arena 17,Boss Bandit,Won,0,2757
+Arena 17,Bowler,Lost,0,1134
+Arena 17,Bowler,Won,0,715
+Arena 17,Cannon,Lost,0,5174
+Arena 17,Cannon,Lost,1,249
+Arena 17,Cannon,Won,0,5595
+Arena 17,Cannon,Won,1,313
+Arena 17,Cannon Cart,Lost,0,79
+Arena 17,Cannon Cart,Won,0,83
+Arena 17,Clone,Lost,0,1107
+Arena 17,Clone,Won,0,859
+Arena 17,Dark Prince,Lost,0,2408
+Arena 17,Dark Prince,Won,0,2011
+Arena 17,Dart Goblin,Lost,0,4749
+Arena 17,Dart Goblin,Lost,1,612
+Arena 17,Dart Goblin,Won,0,5762
+Arena 17,Dart Goblin,Won,1,856
+Arena 17,Earthquake,Lost,0,373
+Arena 17,Earthquake,Won,0,324
+Arena 17,Electro Dragon,Lost,0,1161
+Arena 17,Electro Dragon,Lost,1,969
+Arena 17,Electro Dragon,Won,0,551
+Arena 17,Electro Dragon,Won,1,1170
+Arena 17,Electro Giant,Lost,0,531
+Arena 17,Electro Giant,Won,0,430
+Arena 17,Electro Spirit,Lost,0,1726
+Arena 17,Electro Spirit,Won,0,1649
+Arena 17,Electro Wizard,Lost,0,6607
+Arena 17,Electro Wizard,Won,0,6677
+Arena 17,Elite Barbarians,Lost,0,2703
+Arena 17,Elite Barbarians,Won,0,2404
+Arena 17,Elixir Collector,Lost,0,546
+Arena 17,Elixir Collector,Won,0,273
+Arena 17,Elixir Golem,Lost,0,1453
+Arena 17,Elixir Golem,Won,0,1063
+Arena 17,Executioner,Lost,0,1308
+Arena 17,Executioner,Lost,1,1416
+Arena 17,Executioner,Won,0,1414
+Arena 17,Executioner,Won,1,1665
+Arena 17,Fire Spirit,Lost,0,573
+Arena 17,Fire Spirit,Won,0,678
+Arena 17,Fireball,Lost,0,6081
+Arena 17,Fireball,Won,0,6498
+Arena 17,Firecracker,Lost,0,5043
+Arena 17,Firecracker,Lost,1,570
+Arena 17,Firecracker,Won,0,5605
+Arena 17,Firecracker,Won,1,867
+Arena 17,Fisherman,Lost,0,611
+Arena 17,Fisherman,Won,0,535
+Arena 17,Flying Machine,Lost,0,566
+Arena 17,Flying Machine,Won,0,327
+Arena 17,Freeze,Lost,0,2015
+Arena 17,Freeze,Won,0,1492
+Arena 17,Furnace,Lost,0,611
+Arena 17,Furnace,Lost,1,184
+Arena 17,Furnace,Won,0,691
+Arena 17,Furnace,Won,1,223
+Arena 17,Giant,Lost,0,1477
+Arena 17,Giant,Won,0,801
+Arena 17,Giant Skeleton,Lost,0,1060
+Arena 17,Giant Skeleton,Won,0,1013
+Arena 17,Giant Snowball,Lost,0,1943
+Arena 17,Giant Snowball,Lost,1,117
+Arena 17,Giant Snowball,Won,0,1517
+Arena 17,Giant Snowball,Won,1,132
+Arena 17,Goblin Barrel,Lost,0,9158
+Arena 17,Goblin Barrel,Lost,1,364
+Arena 17,Goblin Barrel,Won,0,11540
+Arena 17,Goblin Barrel,Won,1,389
+Arena 17,Goblin Cage,Lost,0,1381
+Arena 17,Goblin Cage,Lost,1,51
+Arena 17,Goblin Cage,Won,0,866
+Arena 17,Goblin Cage,Won,1,78
+Arena 17,Goblin Curse,Lost,0,1423
+Arena 17,Goblin Curse,Won,0,1105
+Arena 17,Goblin Demolisher,Lost,0,55
+Arena 17,Goblin Demolisher,Won,0,45
+Arena 17,Goblin Drill,Lost,0,171
+Arena 17,Goblin Drill,Lost,1,3
+Arena 17,Goblin Drill,Won,0,161
+Arena 17,Goblin Drill,Won,1,3
+Arena 17,Goblin Gang,Lost,0,4379
+Arena 17,Goblin Gang,Won,0,4916
+Arena 17,Goblin Giant,Lost,0,1246
+Arena 17,Goblin Giant,Lost,1,34
+Arena 17,Goblin Giant,Won,0,647
+Arena 17,Goblin Giant,Won,1,37
+Arena 17,Goblin Hut,Lost,0,813
+Arena 17,Goblin Hut,Won,0,785
+Arena 17,Goblin Machine,Lost,0,747
+Arena 17,Goblin Machine,Won,0,377
+Arena 17,Goblins,Lost,0,470
+Arena 17,Goblins,Won,0,448
+Arena 17,Goblinstein,Lost,0,80
+Arena 17,Goblinstein,Won,0,140
+Arena 17,Golden Knight,Lost,0,5236
+Arena 17,Golden Knight,Won,0,6135
+Arena 17,Golem,Lost,0,1185
+Arena 17,Golem,Won,0,915
+Arena 17,Graveyard,Lost,0,2701
+Arena 17,Graveyard,Won,0,1322
+Arena 17,Guards,Lost,0,2940
+Arena 17,Guards,Won,0,2946
+Arena 17,Heal Spirit,Lost,0,1045
+Arena 17,Heal Spirit,Won,0,524
+Arena 17,Hog Rider,Lost,0,7521
+Arena 17,Hog Rider,Won,0,8875
+Arena 17,Hunter,Lost,0,576
+Arena 17,Hunter,Lost,1,80
+Arena 17,Hunter,Won,0,480
+Arena 17,Hunter,Won,1,88
+Arena 17,Ice Golem,Lost,0,1453
+Arena 17,Ice Golem,Won,0,1193
+Arena 17,Ice Spirit,Lost,0,5517
+Arena 17,Ice Spirit,Lost,1,19
+Arena 17,Ice Spirit,Won,0,5520
+Arena 17,Ice Spirit,Won,1,38
+Arena 17,Ice Wizard,Lost,0,4300
+Arena 17,Ice Wizard,Won,0,3165
+Arena 17,Inferno Dragon,Lost,0,4386
+Arena 17,Inferno Dragon,Lost,1,1353
+Arena 17,Inferno Dragon,Won,0,3892
+Arena 17,Inferno Dragon,Won,1,1484
+Arena 17,Inferno Tower,Lost,0,2175
+Arena 17,Inferno Tower,Won,0,2369
+Arena 17,Knight,Lost,0,7768
+Arena 17,Knight,Lost,1,875
+Arena 17,Knight,Won,0,8734
+Arena 17,Knight,Won,1,1074
+Arena 17,Lava Hound,Lost,0,391
+Arena 17,Lava Hound,Won,0,175
+Arena 17,Lightning,Lost,0,1663
+Arena 17,Lightning,Won,0,617
+Arena 17,Little Prince,Lost,0,433
+Arena 17,Little Prince,Won,0,608
+Arena 17,Lumberjack,Lost,0,3236
+Arena 17,Lumberjack,Lost,1,560
+Arena 17,Lumberjack,Won,0,2707
+Arena 17,Lumberjack,Won,1,668
+Arena 17,Magic Archer,Lost,0,2205
+Arena 17,Magic Archer,Won,0,1958
+Arena 17,Mega Knight,Lost,0,10899
+Arena 17,Mega Knight,Lost,1,1648
+Arena 17,Mega Knight,Won,0,12990
+Arena 17,Mega Knight,Won,1,2109
+Arena 17,Mega Minion,Lost,0,1578
+Arena 17,Mega Minion,Won,0,867
+Arena 17,Mighty Miner,Lost,0,1053
+Arena 17,Mighty Miner,Won,0,1307
+Arena 17,Miner,Lost,0,2123
+Arena 17,Miner,Won,0,1825
+Arena 17,Mini P.E.K.K.A,Lost,0,10155
+Arena 17,Mini P.E.K.K.A,Won,0,12100
+Arena 17,Minion Horde,Lost,0,1457
+Arena 17,Minion Horde,Won,0,1516
+Arena 17,Minions,Lost,0,2849
+Arena 17,Minions,Won,0,3199
+Arena 17,Mirror,Lost,0,861
+Arena 17,Mirror,Won,0,905
+Arena 17,Monk,Lost,0,46
+Arena 17,Monk,Won,0,64
+Arena 17,Mortar,Lost,0,133
+Arena 17,Mortar,Lost,1,50
+Arena 17,Mortar,Won,0,154
+Arena 17,Mortar,Won,1,83
+Arena 17,Mother Witch,Lost,0,1315
+Arena 17,Mother Witch,Won,0,961
+Arena 17,Musketeer,Lost,0,2347
+Arena 17,Musketeer,Lost,1,129
+Arena 17,Musketeer,Won,0,2473
+Arena 17,Musketeer,Won,1,158
+Arena 17,Night Witch,Lost,0,928
+Arena 17,Night Witch,Won,0,656
+Arena 17,P.E.K.K.A,Lost,0,4076
+Arena 17,P.E.K.K.A,Lost,1,433
+Arena 17,P.E.K.K.A,Won,0,3283
+Arena 17,P.E.K.K.A,Won,1,566
+Arena 17,Phoenix,Lost,0,810
+Arena 17,Phoenix,Won,0,281
+Arena 17,Poison,Lost,0,3108
+Arena 17,Poison,Won,0,1496
+Arena 17,Prince,Lost,0,4001
+Arena 17,Prince,Won,0,4358
+Arena 17,Princess,Lost,0,4471
+Arena 17,Princess,Won,0,5356
+Arena 17,Rage,Lost,0,4022
+Arena 17,Rage,Won,0,3215
+Arena 17,Ram Rider,Lost,0,2278
+Arena 17,Ram Rider,Won,0,2162
+Arena 17,Rascals,Lost,0,274
+Arena 17,Rascals,Won,0,237
+Arena 17,Rocket,Lost,0,1132
+Arena 17,Rocket,Won,0,916
+Arena 17,Royal Delivery,Lost,0,1174
+Arena 17,Royal Delivery,Won,0,1301
+Arena 17,Royal Ghost,Lost,0,4232
+Arena 17,Royal Ghost,Lost,1,203
+Arena 17,Royal Ghost,Won,0,3764
+Arena 17,Royal Ghost,Won,1,271
+Arena 17,Royal Giant,Lost,0,787
+Arena 17,Royal Giant,Lost,1,200
+Arena 17,Royal Giant,Won,0,636
+Arena 17,Royal Giant,Won,1,277
+Arena 17,Royal Hogs,Lost,0,1222
+Arena 17,Royal Hogs,Won,0,975
+Arena 17,Royal Recruits,Lost,0,788
+Arena 17,Royal Recruits,Lost,1,75
+Arena 17,Royal Recruits,Won,0,562
+Arena 17,Royal Recruits,Won,1,100
+Arena 17,Rune Giant,Lost,0,46
+Arena 17,Rune Giant,Won,0,37
+Arena 17,Skeleton Army,Lost,0,10187
+Arena 17,Skeleton Army,Lost,1,2150
+Arena 17,Skeleton Army,Won,0,11993
+Arena 17,Skeleton Army,Won,1,2870
+Arena 17,Skeleton Barrel,Lost,0,1661
+Arena 17,Skeleton Barrel,Lost,1,148
+Arena 17,Skeleton Barrel,Won,0,1398
+Arena 17,Skeleton Barrel,Won,1,136
+Arena 17,Skeleton Dragons,Lost,0,374
+Arena 17,Skeleton Dragons,Won,0,264
+Arena 17,Skeleton King,Lost,0,4494
+Arena 17,Skeleton King,Won,0,4725
+Arena 17,Skeletons,Lost,0,4775
+Arena 17,Skeletons,Lost,1,736
+Arena 17,Skeletons,Won,0,4856
+Arena 17,Skeletons,Won,1,959
+Arena 17,Sparky,Lost,0,2260
+Arena 17,Sparky,Won,0,1866
+Arena 17,Spear Goblins,Lost,0,1650
+Arena 17,Spear Goblins,Won,0,1256
+Arena 17,Spirit Empress,Lost,0,387
+Arena 17,Spirit Empress,Won,0,369
+Arena 17,Suspicious Bush,Lost,0,271
+Arena 17,Suspicious Bush,Won,0,272
+Arena 17,Tesla,Lost,0,3260
+Arena 17,Tesla,Lost,1,3285
+Arena 17,Tesla,Won,0,3562
+Arena 17,Tesla,Won,1,3756
+Arena 17,The Log,Lost,0,15083
+Arena 17,The Log,Won,0,18505
+Arena 17,Three Musketeers,Lost,0,380
+Arena 17,Three Musketeers,Won,0,205
+Arena 17,Tombstone,Lost,0,2393
+Arena 17,Tombstone,Won,0,1552
+Arena 17,Tornado,Lost,0,3353
+Arena 17,Tornado,Won,0,1326
+Arena 17,Valkyrie,Lost,0,5856
+Arena 17,Valkyrie,Lost,1,1323
+Arena 17,Valkyrie,Won,0,7073
+Arena 17,Valkyrie,Won,1,1703
+Arena 17,Vines,Lost,0,2291
+Arena 17,Vines,Won,0,2650
+Arena 17,Void,Lost,0,137
+Arena 17,Void,Won,0,149
+Arena 17,Wall Breakers,Lost,0,2608
+Arena 17,Wall Breakers,Lost,1,117
+Arena 17,Wall Breakers,Won,0,2586
+Arena 17,Wall Breakers,Won,1,164
+Arena 17,Witch,Lost,0,7910
+Arena 17,Witch,Lost,1,3001
+Arena 17,Witch,Won,0,9763
+Arena 17,Witch,Won,1,3798
+Arena 17,Wizard,Lost,0,2981
+Arena 17,Wizard,Lost,1,2732
+Arena 17,Wizard,Won,0,3918
+Arena 17,Wizard,Won,1,2997
+Arena 17,X-Bow,Lost,0,523
+Arena 17,X-Bow,Won,0,495
+Arena 17,Zap,Lost,0,7196
+Arena 17,Zap,Lost,1,17
+Arena 17,Zap,Won,0,5912
+Arena 17,Zap,Won,1,28
+Arena 17,Zappies,Lost,0,833
+Arena 17,Zappies,Won,0,540
+Arena 18,Archer Queen,Lost,0,1300
+Arena 18,Archer Queen,Won,0,1067
+Arena 18,Archers,Lost,0,1795
+Arena 18,Archers,Lost,1,3172
+Arena 18,Archers,Won,0,1835
+Arena 18,Archers,Won,1,3656
+Arena 18,Arrows,Lost,0,10541
+Arena 18,Arrows,Won,0,9897
+Arena 18,Baby Dragon,Lost,0,5234
+Arena 18,Baby Dragon,Lost,1,1123
+Arena 18,Baby Dragon,Won,0,4737
+Arena 18,Baby Dragon,Won,1,1393
+Arena 18,Balloon,Lost,0,3200
+Arena 18,Balloon,Won,0,2825
+Arena 18,Bandit,Lost,0,3567
+Arena 18,Bandit,Won,0,2837
+Arena 18,Barbarian Barrel,Lost,0,5202
+Arena 18,Barbarian Barrel,Won,0,3197
+Arena 18,Barbarian Hut,Lost,0,21
+Arena 18,Barbarian Hut,Won,0,18
+Arena 18,Barbarians,Lost,0,828
+Arena 18,Barbarians,Lost,1,1029
+Arena 18,Barbarians,Won,0,833
+Arena 18,Barbarians,Won,1,1223
+Arena 18,Bats,Lost,0,5094
+Arena 18,Bats,Lost,1,94
+Arena 18,Bats,Won,0,5254
+Arena 18,Bats,Won,1,112
+Arena 18,Battle Healer,Lost,0,752
+Arena 18,Battle Healer,Won,0,386
+Arena 18,Battle Ram,Lost,0,1475
+Arena 18,Battle Ram,Lost,1,147
+Arena 18,Battle Ram,Won,0,1210
+Arena 18,Battle Ram,Won,1,172
+Arena 18,Berserker,Lost,0,675
+Arena 18,Berserker,Won,0,659
+Arena 18,Bomb Tower,Lost,0,382
+Arena 18,Bomb Tower,Won,0,393
+Arena 18,Bomber,Lost,0,1269
+Arena 18,Bomber,Lost,1,957
+Arena 18,Bomber,Won,0,1234
+Arena 18,Bomber,Won,1,630
+Arena 18,Boss Bandit,Lost,0,3620
+Arena 18,Boss Bandit,Won,0,3732
+Arena 18,Bowler,Lost,0,1087
+Arena 18,Bowler,Won,0,773
+Arena 18,Cannon,Lost,0,5361
+Arena 18,Cannon,Lost,1,370
+Arena 18,Cannon,Won,0,5539
+Arena 18,Cannon,Won,1,392
+Arena 18,Cannon Cart,Lost,0,72
+Arena 18,Cannon Cart,Won,0,69
+Arena 18,Clone,Lost,0,1160
+Arena 18,Clone,Won,0,924
+Arena 18,Dark Prince,Lost,0,1837
+Arena 18,Dark Prince,Won,0,1774
+Arena 18,Dart Goblin,Lost,0,4607
+Arena 18,Dart Goblin,Lost,1,810
+Arena 18,Dart Goblin,Won,0,5494
+Arena 18,Dart Goblin,Won,1,999
+Arena 18,Earthquake,Lost,0,515
+Arena 18,Earthquake,Won,0,485
+Arena 18,Electro Dragon,Lost,0,1204
+Arena 18,Electro Dragon,Lost,1,1090
+Arena 18,Electro Dragon,Won,0,579
+Arena 18,Electro Dragon,Won,1,1290
+Arena 18,Electro Giant,Lost,0,696
+Arena 18,Electro Giant,Won,0,480
+Arena 18,Electro Spirit,Lost,0,1806
+Arena 18,Electro Spirit,Won,0,1643
+Arena 18,Electro Wizard,Lost,0,5596
+Arena 18,Electro Wizard,Won,0,6111
+Arena 18,Elite Barbarians,Lost,0,2653
+Arena 18,Elite Barbarians,Won,0,2523
+Arena 18,Elixir Collector,Lost,0,502
+Arena 18,Elixir Collector,Won,0,330
+Arena 18,Elixir Golem,Lost,0,1479
+Arena 18,Elixir Golem,Won,0,1024
+Arena 18,Executioner,Lost,0,1447
+Arena 18,Executioner,Lost,1,1174
+Arena 18,Executioner,Won,0,1430
+Arena 18,Executioner,Won,1,1381
+Arena 18,Fire Spirit,Lost,0,582
+Arena 18,Fire Spirit,Won,0,651
+Arena 18,Fireball,Lost,0,6542
+Arena 18,Fireball,Won,0,6792
+Arena 18,Firecracker,Lost,0,4933
+Arena 18,Firecracker,Lost,1,990
+Arena 18,Firecracker,Won,0,5555
+Arena 18,Firecracker,Won,1,1380
+Arena 18,Fisherman,Lost,0,705
+Arena 18,Fisherman,Won,0,560
+Arena 18,Flying Machine,Lost,0,573
+Arena 18,Flying Machine,Won,0,364
+Arena 18,Freeze,Lost,0,2028
+Arena 18,Freeze,Won,0,1551
+Arena 18,Furnace,Lost,0,688
+Arena 18,Furnace,Lost,1,226
+Arena 18,Furnace,Won,0,765
+Arena 18,Furnace,Won,1,292
+Arena 18,Giant,Lost,0,937
+Arena 18,Giant,Won,0,727
+Arena 18,Giant Skeleton,Lost,0,1131
+Arena 18,Giant Skeleton,Won,0,1168
+Arena 18,Giant Snowball,Lost,0,2126
+Arena 18,Giant Snowball,Lost,1,138
+Arena 18,Giant Snowball,Won,0,1641
+Arena 18,Giant Snowball,Won,1,163
+Arena 18,Goblin Barrel,Lost,0,9396
+Arena 18,Goblin Barrel,Lost,1,399
+Arena 18,Goblin Barrel,Won,0,11181
+Arena 18,Goblin Barrel,Won,1,506
+Arena 18,Goblin Cage,Lost,0,1155
+Arena 18,Goblin Cage,Lost,1,74
+Arena 18,Goblin Cage,Won,0,863
+Arena 18,Goblin Cage,Won,1,62
+Arena 18,Goblin Curse,Lost,0,1393
+Arena 18,Goblin Curse,Won,0,1011
+Arena 18,Goblin Demolisher,Lost,0,64
+Arena 18,Goblin Demolisher,Won,0,45
+Arena 18,Goblin Drill,Lost,0,177
+Arena 18,Goblin Drill,Lost,1,13
+Arena 18,Goblin Drill,Won,0,146
+Arena 18,Goblin Drill,Won,1,13
+Arena 18,Goblin Gang,Lost,0,5074
+Arena 18,Goblin Gang,Won,0,5523
+Arena 18,Goblin Giant,Lost,0,1249
+Arena 18,Goblin Giant,Lost,1,80
+Arena 18,Goblin Giant,Won,0,624
+Arena 18,Goblin Giant,Won,1,72
+Arena 18,Goblin Hut,Lost,0,697
+Arena 18,Goblin Hut,Won,0,714
+Arena 18,Goblin Machine,Lost,0,1029
+Arena 18,Goblin Machine,Won,0,460
+Arena 18,Goblins,Lost,0,439
+Arena 18,Goblins,Won,0,491
+Arena 18,Goblinstein,Lost,0,399
+Arena 18,Goblinstein,Won,0,377
+Arena 18,Golden Knight,Lost,0,4563
+Arena 18,Golden Knight,Won,0,5317
+Arena 18,Golem,Lost,0,1252
+Arena 18,Golem,Won,0,952
+Arena 18,Graveyard,Lost,0,2131
+Arena 18,Graveyard,Won,0,1293
+Arena 18,Guards,Lost,0,2682
+Arena 18,Guards,Won,0,2666
+Arena 18,Heal Spirit,Lost,0,734
+Arena 18,Heal Spirit,Won,0,386
+Arena 18,Hog Rider,Lost,0,7829
+Arena 18,Hog Rider,Won,0,8860
+Arena 18,Hunter,Lost,0,475
+Arena 18,Hunter,Lost,1,97
+Arena 18,Hunter,Won,0,458
+Arena 18,Hunter,Won,1,100
+Arena 18,Ice Golem,Lost,0,1693
+Arena 18,Ice Golem,Won,0,1238
+Arena 18,Ice Spirit,Lost,0,6272
+Arena 18,Ice Spirit,Lost,1,64
+Arena 18,Ice Spirit,Won,0,6227
+Arena 18,Ice Spirit,Won,1,69
+Arena 18,Ice Wizard,Lost,0,4020
+Arena 18,Ice Wizard,Won,0,3153
+Arena 18,Inferno Dragon,Lost,0,4045
+Arena 18,Inferno Dragon,Lost,1,1112
+Arena 18,Inferno Dragon,Won,0,3332
+Arena 18,Inferno Dragon,Won,1,1236
+Arena 18,Inferno Tower,Lost,0,2222
+Arena 18,Inferno Tower,Won,0,2351
+Arena 18,Knight,Lost,0,7463
+Arena 18,Knight,Lost,1,1221
+Arena 18,Knight,Won,0,8163
+Arena 18,Knight,Won,1,1605
+Arena 18,Lava Hound,Lost,0,466
+Arena 18,Lava Hound,Won,0,281
+Arena 18,Lightning,Lost,0,1997
+Arena 18,Lightning,Won,0,1012
+Arena 18,Little Prince,Lost,0,737
+Arena 18,Little Prince,Won,0,933
+Arena 18,Lumberjack,Lost,0,3671
+Arena 18,Lumberjack,Lost,1,674
+Arena 18,Lumberjack,Won,0,3104
+Arena 18,Lumberjack,Won,1,795
+Arena 18,Magic Archer,Lost,0,1944
+Arena 18,Magic Archer,Won,0,1919
+Arena 18,Mega Knight,Lost,0,9757
+Arena 18,Mega Knight,Lost,1,2312
+Arena 18,Mega Knight,Won,0,11178
+Arena 18,Mega Knight,Won,1,2832
+Arena 18,Mega Minion,Lost,0,1602
+Arena 18,Mega Minion,Won,0,977
+Arena 18,Mighty Miner,Lost,0,1566
+Arena 18,Mighty Miner,Won,0,1718
+Arena 18,Miner,Lost,0,1780
+Arena 18,Miner,Won,0,1488
+Arena 18,Mini P.E.K.K.A,Lost,0,9001
+Arena 18,Mini P.E.K.K.A,Won,0,10334
+Arena 18,Minion Horde,Lost,0,1738
+Arena 18,Minion Horde,Won,0,1908
+Arena 18,Minions,Lost,0,2859
+Arena 18,Minions,Won,0,3197
+Arena 18,Mirror,Lost,0,889
+Arena 18,Mirror,Won,0,889
+Arena 18,Monk,Lost,0,202
+Arena 18,Monk,Won,0,201
+Arena 18,Mortar,Lost,0,238
+Arena 18,Mortar,Lost,1,76
+Arena 18,Mortar,Won,0,243
+Arena 18,Mortar,Won,1,107
+Arena 18,Mother Witch,Lost,0,1597
+Arena 18,Mother Witch,Won,0,1342
+Arena 18,Musketeer,Lost,0,2629
+Arena 18,Musketeer,Lost,1,186
+Arena 18,Musketeer,Won,0,2470
+Arena 18,Musketeer,Won,1,219
+Arena 18,Night Witch,Lost,0,1068
+Arena 18,Night Witch,Won,0,793
+Arena 18,P.E.K.K.A,Lost,0,4096
+Arena 18,P.E.K.K.A,Lost,1,655
+Arena 18,P.E.K.K.A,Won,0,3336
+Arena 18,P.E.K.K.A,Won,1,863
+Arena 18,Phoenix,Lost,0,366
+Arena 18,Phoenix,Won,0,174
+Arena 18,Poison,Lost,0,2477
+Arena 18,Poison,Won,0,1426
+Arena 18,Prince,Lost,0,3620
+Arena 18,Prince,Won,0,3829
+Arena 18,Princess,Lost,0,4888
+Arena 18,Princess,Won,0,5510
+Arena 18,Rage,Lost,0,3958
+Arena 18,Rage,Won,0,3133
+Arena 18,Ram Rider,Lost,0,2409
+Arena 18,Ram Rider,Won,0,2054
+Arena 18,Rascals,Lost,0,162
+Arena 18,Rascals,Won,0,175
+Arena 18,Rocket,Lost,0,1293
+Arena 18,Rocket,Won,0,1151
+Arena 18,Royal Delivery,Lost,0,1318
+Arena 18,Royal Delivery,Won,0,1391
+Arena 18,Royal Ghost,Lost,0,4311
+Arena 18,Royal Ghost,Lost,1,234
+Arena 18,Royal Ghost,Won,0,3596
+Arena 18,Royal Ghost,Won,1,306
+Arena 18,Royal Giant,Lost,0,748
+Arena 18,Royal Giant,Lost,1,291
+Arena 18,Royal Giant,Won,0,650
+Arena 18,Royal Giant,Won,1,306
+Arena 18,Royal Hogs,Lost,0,1346
+Arena 18,Royal Hogs,Won,0,1136
+Arena 18,Royal Recruits,Lost,0,867
+Arena 18,Royal Recruits,Lost,1,62
+Arena 18,Royal Recruits,Won,0,580
+Arena 18,Royal Recruits,Won,1,100
+Arena 18,Rune Giant,Lost,0,28
+Arena 18,Rune Giant,Won,0,20
+Arena 18,Skeleton Army,Lost,0,9343
+Arena 18,Skeleton Army,Lost,1,2221
+Arena 18,Skeleton Army,Won,0,10634
+Arena 18,Skeleton Army,Won,1,2789
+Arena 18,Skeleton Barrel,Lost,0,1370
+Arena 18,Skeleton Barrel,Lost,1,240
+Arena 18,Skeleton Barrel,Won,0,1289
+Arena 18,Skeleton Barrel,Won,1,286
+Arena 18,Skeleton Dragons,Lost,0,415
+Arena 18,Skeleton Dragons,Won,0,320
+Arena 18,Skeleton King,Lost,0,3780
+Arena 18,Skeleton King,Won,0,3751
+Arena 18,Skeletons,Lost,0,5159
+Arena 18,Skeletons,Lost,1,1153
+Arena 18,Skeletons,Won,0,5089
+Arena 18,Skeletons,Won,1,1224
+Arena 18,Sparky,Lost,0,2010
+Arena 18,Sparky,Won,0,1833
+Arena 18,Spear Goblins,Lost,0,1318
+Arena 18,Spear Goblins,Won,0,1178
+Arena 18,Spirit Empress,Lost,0,460
+Arena 18,Spirit Empress,Won,0,384
+Arena 18,Suspicious Bush,Lost,0,258
+Arena 18,Suspicious Bush,Won,0,259
+Arena 18,Tesla,Lost,0,3493
+Arena 18,Tesla,Lost,1,3860
+Arena 18,Tesla,Won,0,3877
+Arena 18,Tesla,Won,1,4420
+Arena 18,The Log,Lost,0,15938
+Arena 18,The Log,Won,0,18607
+Arena 18,Three Musketeers,Lost,0,236
+Arena 18,Three Musketeers,Won,0,119
+Arena 18,Tombstone,Lost,0,2581
+Arena 18,Tombstone,Won,0,1963
+Arena 18,Tornado,Lost,0,3288
+Arena 18,Tornado,Won,0,1608
+Arena 18,Valkyrie,Lost,0,5612
+Arena 18,Valkyrie,Lost,1,1696
+Arena 18,Valkyrie,Won,0,6747
+Arena 18,Valkyrie,Won,1,2098
+Arena 18,Vines,Lost,0,2562
+Arena 18,Vines,Won,0,2882
+Arena 18,Void,Lost,0,154
+Arena 18,Void,Won,0,136
+Arena 18,Wall Breakers,Lost,0,2482
+Arena 18,Wall Breakers,Lost,1,240
+Arena 18,Wall Breakers,Won,0,2637
+Arena 18,Wall Breakers,Won,1,284
+Arena 18,Witch,Lost,0,7295
+Arena 18,Witch,Lost,1,3198
+Arena 18,Witch,Won,0,8647
+Arena 18,Witch,Won,1,3907
+Arena 18,Wizard,Lost,0,2738
+Arena 18,Wizard,Lost,1,2798
+Arena 18,Wizard,Won,0,3342
+Arena 18,Wizard,Won,1,3041
+Arena 18,X-Bow,Lost,0,493
+Arena 18,X-Bow,Won,0,455
+Arena 18,Zap,Lost,0,6820
+Arena 18,Zap,Lost,1,34
+Arena 18,Zap,Won,0,6385
+Arena 18,Zap,Won,1,38
+Arena 18,Zappies,Lost,0,694
+Arena 18,Zappies,Won,0,548
+Arena 19,Archer Queen,Lost,0,1119
+Arena 19,Archer Queen,Won,0,1014
+Arena 19,Archers,Lost,0,1457
+Arena 19,Archers,Lost,1,3130
+Arena 19,Archers,Won,0,1376
+Arena 19,Archers,Won,1,3537
+Arena 19,Arrows,Lost,0,10867
+Arena 19,Arrows,Won,0,10235
+Arena 19,Baby Dragon,Lost,0,4991
+Arena 19,Baby Dragon,Lost,1,1132
+Arena 19,Baby Dragon,Won,0,4238
+Arena 19,Baby Dragon,Won,1,1260
+Arena 19,Balloon,Lost,0,3257
+Arena 19,Balloon,Won,0,2886
+Arena 19,Bandit,Lost,0,2731
+Arena 19,Bandit,Won,0,2457
+Arena 19,Barbarian Barrel,Lost,0,4325
+Arena 19,Barbarian Barrel,Won,0,2621
+Arena 19,Barbarian Hut,Lost,0,66
+Arena 19,Barbarian Hut,Won,0,41
+Arena 19,Barbarians,Lost,0,481
+Arena 19,Barbarians,Lost,1,2374
+Arena 19,Barbarians,Won,0,473
+Arena 19,Barbarians,Won,1,2540
+Arena 19,Bats,Lost,0,5335
+Arena 19,Bats,Lost,1,141
+Arena 19,Bats,Won,0,5602
+Arena 19,Bats,Won,1,171
+Arena 19,Battle Healer,Lost,0,668
+Arena 19,Battle Healer,Won,0,322
+Arena 19,Battle Ram,Lost,0,1104
+Arena 19,Battle Ram,Lost,1,237
+Arena 19,Battle Ram,Won,0,983
+Arena 19,Battle Ram,Won,1,282
+Arena 19,Berserker,Lost,0,628
+Arena 19,Berserker,Won,0,677
+Arena 19,Bomb Tower,Lost,0,477
+Arena 19,Bomb Tower,Won,0,490
+Arena 19,Bomber,Lost,0,1454
+Arena 19,Bomber,Lost,1,927
+Arena 19,Bomber,Won,0,1350
+Arena 19,Bomber,Won,1,716
+Arena 19,Boss Bandit,Lost,0,3718
+Arena 19,Boss Bandit,Won,0,4032
+Arena 19,Bowler,Lost,0,1094
+Arena 19,Bowler,Won,0,764
+Arena 19,Cannon,Lost,0,5347
+Arena 19,Cannon,Lost,1,418
+Arena 19,Cannon,Won,0,5672
+Arena 19,Cannon,Won,1,506
+Arena 19,Cannon Cart,Lost,0,91
+Arena 19,Cannon Cart,Won,0,131
+Arena 19,Clone,Lost,0,1096
+Arena 19,Clone,Won,0,861
+Arena 19,Dark Prince,Lost,0,2146
+Arena 19,Dark Prince,Won,0,1974
+Arena 19,Dart Goblin,Lost,0,4644
+Arena 19,Dart Goblin,Lost,1,1356
+Arena 19,Dart Goblin,Won,0,5364
+Arena 19,Dart Goblin,Won,1,1521
+Arena 19,Earthquake,Lost,0,555
+Arena 19,Earthquake,Won,0,473
+Arena 19,Electro Dragon,Lost,0,1116
+Arena 19,Electro Dragon,Lost,1,1009
+Arena 19,Electro Dragon,Won,0,521
+Arena 19,Electro Dragon,Won,1,1178
+Arena 19,Electro Giant,Lost,0,919
+Arena 19,Electro Giant,Won,0,568
+Arena 19,Electro Spirit,Lost,0,1896
+Arena 19,Electro Spirit,Won,0,1749
+Arena 19,Electro Wizard,Lost,0,5796
+Arena 19,Electro Wizard,Won,0,6058
+Arena 19,Elite Barbarians,Lost,0,2929
+Arena 19,Elite Barbarians,Won,0,2757
+Arena 19,Elixir Collector,Lost,0,564
+Arena 19,Elixir Collector,Won,0,308
+Arena 19,Elixir Golem,Lost,0,1500
+Arena 19,Elixir Golem,Won,0,1026
+Arena 19,Executioner,Lost,0,1281
+Arena 19,Executioner,Lost,1,1073
+Arena 19,Executioner,Won,0,1269
+Arena 19,Executioner,Won,1,1210
+Arena 19,Fire Spirit,Lost,0,776
+Arena 19,Fire Spirit,Won,0,681
+Arena 19,Fireball,Lost,0,6286
+Arena 19,Fireball,Won,0,6900
+Arena 19,Firecracker,Lost,0,6064
+Arena 19,Firecracker,Lost,1,1728
+Arena 19,Firecracker,Won,0,6683
+Arena 19,Firecracker,Won,1,2263
+Arena 19,Fisherman,Lost,0,465
+Arena 19,Fisherman,Won,0,389
+Arena 19,Flying Machine,Lost,0,601
+Arena 19,Flying Machine,Won,0,371
+Arena 19,Freeze,Lost,0,1819
+Arena 19,Freeze,Won,0,1525
+Arena 19,Furnace,Lost,0,714
+Arena 19,Furnace,Lost,1,313
+Arena 19,Furnace,Won,0,706
+Arena 19,Furnace,Won,1,377
+Arena 19,Giant,Lost,0,1080
+Arena 19,Giant,Won,0,695
+Arena 19,Giant Skeleton,Lost,0,1300
+Arena 19,Giant Skeleton,Won,0,1355
+Arena 19,Giant Snowball,Lost,0,1945
+Arena 19,Giant Snowball,Lost,1,344
+Arena 19,Giant Snowball,Won,0,1484
+Arena 19,Giant Snowball,Won,1,328
+Arena 19,Goblin Barrel,Lost,0,9845
+Arena 19,Goblin Barrel,Lost,1,690
+Arena 19,Goblin Barrel,Won,0,11089
+Arena 19,Goblin Barrel,Won,1,806
+Arena 19,Goblin Cage,Lost,0,1258
+Arena 19,Goblin Cage,Lost,1,107
+Arena 19,Goblin Cage,Won,0,812
+Arena 19,Goblin Cage,Won,1,113
+Arena 19,Goblin Curse,Lost,0,1206
+Arena 19,Goblin Curse,Won,0,831
+Arena 19,Goblin Demolisher,Lost,0,81
+Arena 19,Goblin Demolisher,Won,0,91
+Arena 19,Goblin Drill,Lost,0,215
+Arena 19,Goblin Drill,Lost,1,5
+Arena 19,Goblin Drill,Won,0,194
+Arena 19,Goblin Drill,Won,1,3
+Arena 19,Goblin Gang,Lost,0,5670
+Arena 19,Goblin Gang,Won,0,6263
+Arena 19,Goblin Giant,Lost,0,1085
+Arena 19,Goblin Giant,Lost,1,54
+Arena 19,Goblin Giant,Won,0,591
+Arena 19,Goblin Giant,Won,1,75
+Arena 19,Goblin Hut,Lost,0,690
+Arena 19,Goblin Hut,Won,0,621
+Arena 19,Goblin Machine,Lost,0,780
+Arena 19,Goblin Machine,Won,0,385
+Arena 19,Goblins,Lost,0,318
+Arena 19,Goblins,Won,0,405
+Arena 19,Goblinstein,Lost,0,691
+Arena 19,Goblinstein,Won,0,629
+Arena 19,Golden Knight,Lost,0,3870
+Arena 19,Golden Knight,Won,0,4309
+Arena 19,Golem,Lost,0,1157
+Arena 19,Golem,Won,0,920
+Arena 19,Graveyard,Lost,0,2124
+Arena 19,Graveyard,Won,0,1164
+Arena 19,Guards,Lost,0,2884
+Arena 19,Guards,Won,0,2756
+Arena 19,Heal Spirit,Lost,0,702
+Arena 19,Heal Spirit,Won,0,367
+Arena 19,Hog Rider,Lost,0,8463
+Arena 19,Hog Rider,Won,0,9602
+Arena 19,Hunter,Lost,0,338
+Arena 19,Hunter,Lost,1,167
+Arena 19,Hunter,Won,0,380
+Arena 19,Hunter,Won,1,174
+Arena 19,Ice Golem,Lost,0,1417
+Arena 19,Ice Golem,Won,0,1220
+Arena 19,Ice Spirit,Lost,0,6218
+Arena 19,Ice Spirit,Lost,1,126
+Arena 19,Ice Spirit,Won,0,6454
+Arena 19,Ice Spirit,Won,1,123
+Arena 19,Ice Wizard,Lost,0,3782
+Arena 19,Ice Wizard,Won,0,2924
+Arena 19,Inferno Dragon,Lost,0,3836
+Arena 19,Inferno Dragon,Lost,1,829
+Arena 19,Inferno Dragon,Won,0,3215
+Arena 19,Inferno Dragon,Won,1,885
+Arena 19,Inferno Tower,Lost,0,2452
+Arena 19,Inferno Tower,Won,0,2677
+Arena 19,Knight,Lost,0,7596
+Arena 19,Knight,Lost,1,1713
+Arena 19,Knight,Won,0,8194
+Arena 19,Knight,Won,1,2121
+Arena 19,Lava Hound,Lost,0,528
+Arena 19,Lava Hound,Won,0,293
+Arena 19,Lightning,Lost,0,1568
+Arena 19,Lightning,Won,0,886
+Arena 19,Little Prince,Lost,0,1175
+Arena 19,Little Prince,Won,0,1271
+Arena 19,Lumberjack,Lost,0,3180
+Arena 19,Lumberjack,Lost,1,879
+Arena 19,Lumberjack,Won,0,2678
+Arena 19,Lumberjack,Won,1,1024
+Arena 19,Magic Archer,Lost,0,2068
+Arena 19,Magic Archer,Won,0,2076
+Arena 19,Mega Knight,Lost,0,9263
+Arena 19,Mega Knight,Lost,1,3322
+Arena 19,Mega Knight,Won,0,10244
+Arena 19,Mega Knight,Won,1,4040
+Arena 19,Mega Minion,Lost,0,1513
+Arena 19,Mega Minion,Won,0,952
+Arena 19,Mighty Miner,Lost,0,1761
+Arena 19,Mighty Miner,Won,0,1910
+Arena 19,Miner,Lost,0,1946
+Arena 19,Miner,Won,0,1684
+Arena 19,Mini P.E.K.K.A,Lost,0,9432
+Arena 19,Mini P.E.K.K.A,Won,0,10601
+Arena 19,Minion Horde,Lost,0,1790
+Arena 19,Minion Horde,Won,0,1888
+Arena 19,Minions,Lost,0,3200
+Arena 19,Minions,Won,0,3414
+Arena 19,Mirror,Lost,0,904
+Arena 19,Mirror,Won,0,933
+Arena 19,Monk,Lost,0,280
+Arena 19,Monk,Won,0,310
+Arena 19,Mortar,Lost,0,228
+Arena 19,Mortar,Lost,1,185
+Arena 19,Mortar,Won,0,225
+Arena 19,Mortar,Won,1,229
+Arena 19,Mother Witch,Lost,0,1259
+Arena 19,Mother Witch,Won,0,1007
+Arena 19,Musketeer,Lost,0,2211
+Arena 19,Musketeer,Lost,1,150
+Arena 19,Musketeer,Won,0,2337
+Arena 19,Musketeer,Won,1,192
+Arena 19,Night Witch,Lost,0,914
+Arena 19,Night Witch,Won,0,577
+Arena 19,P.E.K.K.A,Lost,0,4011
+Arena 19,P.E.K.K.A,Lost,1,813
+Arena 19,P.E.K.K.A,Won,0,3544
+Arena 19,P.E.K.K.A,Won,1,923
+Arena 19,Phoenix,Lost,0,434
+Arena 19,Phoenix,Won,0,176
+Arena 19,Poison,Lost,0,2181
+Arena 19,Poison,Won,0,1402
+Arena 19,Prince,Lost,0,3504
+Arena 19,Prince,Won,0,3506
+Arena 19,Princess,Lost,0,5072
+Arena 19,Princess,Won,0,5583
+Arena 19,Rage,Lost,0,4026
+Arena 19,Rage,Won,0,3301
+Arena 19,Ram Rider,Lost,0,2024
+Arena 19,Ram Rider,Won,0,1862
+Arena 19,Rascals,Lost,0,242
+Arena 19,Rascals,Won,0,247
+Arena 19,Rocket,Lost,0,1465
+Arena 19,Rocket,Won,0,1426
+Arena 19,Royal Delivery,Lost,0,1340
+Arena 19,Royal Delivery,Won,0,1408
+Arena 19,Royal Ghost,Lost,0,3475
+Arena 19,Royal Ghost,Lost,1,193
+Arena 19,Royal Ghost,Won,0,3308
+Arena 19,Royal Ghost,Won,1,243
+Arena 19,Royal Giant,Lost,0,855
+Arena 19,Royal Giant,Lost,1,425
+Arena 19,Royal Giant,Won,0,760
+Arena 19,Royal Giant,Won,1,454
+Arena 19,Royal Hogs,Lost,0,1131
+Arena 19,Royal Hogs,Won,0,891
+Arena 19,Royal Recruits,Lost,0,752
+Arena 19,Royal Recruits,Lost,1,143
+Arena 19,Royal Recruits,Won,0,474
+Arena 19,Royal Recruits,Won,1,168
+Arena 19,Rune Giant,Lost,0,108
+Arena 19,Rune Giant,Won,0,66
+Arena 19,Skeleton Army,Lost,0,9182
+Arena 19,Skeleton Army,Lost,1,2325
+Arena 19,Skeleton Army,Won,0,9933
+Arena 19,Skeleton Army,Won,1,2711
+Arena 19,Skeleton Barrel,Lost,0,1734
+Arena 19,Skeleton Barrel,Lost,1,406
+Arena 19,Skeleton Barrel,Won,0,1639
+Arena 19,Skeleton Barrel,Won,1,469
+Arena 19,Skeleton Dragons,Lost,0,586
+Arena 19,Skeleton Dragons,Won,0,385
+Arena 19,Skeleton King,Lost,0,3293
+Arena 19,Skeleton King,Won,0,3243
+Arena 19,Skeletons,Lost,0,5246
+Arena 19,Skeletons,Lost,1,1153
+Arena 19,Skeletons,Won,0,5329
+Arena 19,Skeletons,Won,1,1271
+Arena 19,Sparky,Lost,0,1981
+Arena 19,Sparky,Won,0,1746
+Arena 19,Spear Goblins,Lost,0,1296
+Arena 19,Spear Goblins,Won,0,1159
+Arena 19,Spirit Empress,Lost,0,299
+Arena 19,Spirit Empress,Won,0,243
+Arena 19,Suspicious Bush,Lost,0,350
+Arena 19,Suspicious Bush,Won,0,316
+Arena 19,Tesla,Lost,0,4005
+Arena 19,Tesla,Lost,1,4390
+Arena 19,Tesla,Won,0,4505
+Arena 19,Tesla,Won,1,4883
+Arena 19,The Log,Lost,0,17213
+Arena 19,The Log,Won,0,19667
+Arena 19,Three Musketeers,Lost,0,224
+Arena 19,Three Musketeers,Won,0,114
+Arena 19,Tombstone,Lost,0,1985
+Arena 19,Tombstone,Won,0,1563
+Arena 19,Tornado,Lost,0,3180
+Arena 19,Tornado,Won,0,1558
+Arena 19,Valkyrie,Lost,0,6284
+Arena 19,Valkyrie,Lost,1,2378
+Arena 19,Valkyrie,Won,0,7088
+Arena 19,Valkyrie,Won,1,2954
+Arena 19,Vines,Lost,0,2702
+Arena 19,Vines,Won,0,2876
+Arena 19,Void,Lost,0,98
+Arena 19,Void,Won,0,101
+Arena 19,Wall Breakers,Lost,0,2698
+Arena 19,Wall Breakers,Lost,1,277
+Arena 19,Wall Breakers,Won,0,2632
+Arena 19,Wall Breakers,Won,1,306
+Arena 19,Witch,Lost,0,7490
+Arena 19,Witch,Lost,1,3537
+Arena 19,Witch,Won,0,8334
+Arena 19,Witch,Won,1,4230
+Arena 19,Wizard,Lost,0,2982
+Arena 19,Wizard,Lost,1,3015
+Arena 19,Wizard,Won,0,3612
+Arena 19,Wizard,Won,1,3246
+Arena 19,X-Bow,Lost,0,575
+Arena 19,X-Bow,Won,0,530
+Arena 19,Zap,Lost,0,7055
+Arena 19,Zap,Lost,1,26
+Arena 19,Zap,Won,0,6707
+Arena 19,Zap,Won,1,65
+Arena 19,Zappies,Lost,0,536
+Arena 19,Zappies,Won,0,365
+Arena 20,Archer Queen,Lost,0,970
+Arena 20,Archer Queen,Won,0,826
+Arena 20,Archers,Lost,0,1074
+Arena 20,Archers,Lost,1,2457
+Arena 20,Archers,Won,0,1192
+Arena 20,Archers,Won,1,2818
+Arena 20,Arrows,Lost,0,9822
+Arena 20,Arrows,Won,0,9147
+Arena 20,Baby Dragon,Lost,0,3867
+Arena 20,Baby Dragon,Lost,1,772
+Arena 20,Baby Dragon,Won,0,3305
+Arena 20,Baby Dragon,Won,1,883
+Arena 20,Balloon,Lost,0,2834
+Arena 20,Balloon,Won,0,2684
+Arena 20,Bandit,Lost,0,2506
+Arena 20,Bandit,Won,0,2215
+Arena 20,Barbarian Barrel,Lost,0,4003
+Arena 20,Barbarian Barrel,Won,0,2535
+Arena 20,Barbarian Hut,Lost,0,34
+Arena 20,Barbarian Hut,Won,0,25
+Arena 20,Barbarians,Lost,0,335
+Arena 20,Barbarians,Lost,1,1799
+Arena 20,Barbarians,Won,0,355
+Arena 20,Barbarians,Won,1,1868
+Arena 20,Bats,Lost,0,4672
+Arena 20,Bats,Lost,1,223
+Arena 20,Bats,Won,0,4883
+Arena 20,Bats,Won,1,291
+Arena 20,Battle Healer,Lost,0,731
+Arena 20,Battle Healer,Won,0,370
+Arena 20,Battle Ram,Lost,0,794
+Arena 20,Battle Ram,Lost,1,610
+Arena 20,Battle Ram,Won,0,753
+Arena 20,Battle Ram,Won,1,520
+Arena 20,Berserker,Lost,0,671
+Arena 20,Berserker,Won,0,578
+Arena 20,Bomb Tower,Lost,0,302
+Arena 20,Bomb Tower,Won,0,325
+Arena 20,Bomber,Lost,0,909
+Arena 20,Bomber,Lost,1,1223
+Arena 20,Bomber,Won,0,1025
+Arena 20,Bomber,Won,1,731
+Arena 20,Boss Bandit,Lost,0,2858
+Arena 20,Boss Bandit,Won,0,2951
+Arena 20,Bowler,Lost,0,937
+Arena 20,Bowler,Won,0,729
+Arena 20,Cannon,Lost,0,4591
+Arena 20,Cannon,Lost,1,653
+Arena 20,Cannon,Won,0,4664
+Arena 20,Cannon,Won,1,653
+Arena 20,Cannon Cart,Lost,0,92
+Arena 20,Cannon Cart,Won,0,99
+Arena 20,Clone,Lost,0,1065
+Arena 20,Clone,Won,0,836
+Arena 20,Dark Prince,Lost,0,1871
+Arena 20,Dark Prince,Won,0,1784
+Arena 20,Dart Goblin,Lost,0,4256
+Arena 20,Dart Goblin,Lost,1,1522
+Arena 20,Dart Goblin,Won,0,4709
+Arena 20,Dart Goblin,Won,1,1692
+Arena 20,Earthquake,Lost,0,690
+Arena 20,Earthquake,Won,0,700
+Arena 20,Electro Dragon,Lost,0,919
+Arena 20,Electro Dragon,Lost,1,791
+Arena 20,Electro Dragon,Won,0,468
+Arena 20,Electro Dragon,Won,1,771
+Arena 20,Electro Giant,Lost,0,771
+Arena 20,Electro Giant,Won,0,605
+Arena 20,Electro Spirit,Lost,0,1732
+Arena 20,Electro Spirit,Won,0,1704
+Arena 20,Electro Wizard,Lost,0,5260
+Arena 20,Electro Wizard,Won,0,5673
+Arena 20,Elite Barbarians,Lost,0,2828
+Arena 20,Elite Barbarians,Won,0,2906
+Arena 20,Elixir Collector,Lost,0,472
+Arena 20,Elixir Collector,Won,0,274
+Arena 20,Elixir Golem,Lost,0,1345
+Arena 20,Elixir Golem,Won,0,910
+Arena 20,Executioner,Lost,0,963
+Arena 20,Executioner,Lost,1,1004
+Arena 20,Executioner,Won,0,1148
+Arena 20,Executioner,Won,1,928
+Arena 20,Fire Spirit,Lost,0,726
+Arena 20,Fire Spirit,Won,0,716
+Arena 20,Fireball,Lost,0,6587
+Arena 20,Fireball,Won,0,7053
+Arena 20,Firecracker,Lost,0,5549
+Arena 20,Firecracker,Lost,1,2948
+Arena 20,Firecracker,Won,0,6187
+Arena 20,Firecracker,Won,1,3491
+Arena 20,Fisherman,Lost,0,529
+Arena 20,Fisherman,Won,0,528
+Arena 20,Flying Machine,Lost,0,569
+Arena 20,Flying Machine,Won,0,363
+Arena 20,Freeze,Lost,0,1490
+Arena 20,Freeze,Won,0,1340
+Arena 20,Furnace,Lost,0,524
+Arena 20,Furnace,Lost,1,371
+Arena 20,Furnace,Won,0,550
+Arena 20,Furnace,Won,1,401
+Arena 20,Giant,Lost,0,1003
+Arena 20,Giant,Won,0,669
+Arena 20,Giant Skeleton,Lost,0,1102
+Arena 20,Giant Skeleton,Won,0,1079
+Arena 20,Giant Snowball,Lost,0,1525
+Arena 20,Giant Snowball,Lost,1,651
+Arena 20,Giant Snowball,Won,0,1340
+Arena 20,Giant Snowball,Won,1,471
+Arena 20,Goblin Barrel,Lost,0,8372
+Arena 20,Goblin Barrel,Lost,1,720
+Arena 20,Goblin Barrel,Won,0,9255
+Arena 20,Goblin Barrel,Won,1,842
+Arena 20,Goblin Cage,Lost,0,1096
+Arena 20,Goblin Cage,Lost,1,124
+Arena 20,Goblin Cage,Won,0,819
+Arena 20,Goblin Cage,Won,1,124
+Arena 20,Goblin Curse,Lost,0,823
+Arena 20,Goblin Curse,Won,0,540
+Arena 20,Goblin Demolisher,Lost,0,32
+Arena 20,Goblin Demolisher,Won,0,35
+Arena 20,Goblin Drill,Lost,0,199
+Arena 20,Goblin Drill,Lost,1,7
+Arena 20,Goblin Drill,Won,0,151
+Arena 20,Goblin Drill,Won,1,7
+Arena 20,Goblin Gang,Lost,0,5477
+Arena 20,Goblin Gang,Won,0,6084
+Arena 20,Goblin Giant,Lost,0,886
+Arena 20,Goblin Giant,Lost,1,101
+Arena 20,Goblin Giant,Won,0,495
+Arena 20,Goblin Giant,Won,1,92
+Arena 20,Goblin Hut,Lost,0,509
+Arena 20,Goblin Hut,Won,0,478
+Arena 20,Goblin Machine,Lost,0,641
+Arena 20,Goblin Machine,Won,0,309
+Arena 20,Goblins,Lost,0,309
+Arena 20,Goblins,Won,0,310
+Arena 20,Goblinstein,Lost,0,465
+Arena 20,Goblinstein,Won,0,421
+Arena 20,Golden Knight,Lost,0,2808
+Arena 20,Golden Knight,Won,0,3054
+Arena 20,Golem,Lost,0,1206
+Arena 20,Golem,Won,0,848
+Arena 20,Graveyard,Lost,0,1839
+Arena 20,Graveyard,Won,0,1239
+Arena 20,Guards,Lost,0,2462
+Arena 20,Guards,Won,0,2219
+Arena 20,Heal Spirit,Lost,0,601
+Arena 20,Heal Spirit,Won,0,362
+Arena 20,Hog Rider,Lost,0,8308
+Arena 20,Hog Rider,Won,0,9251
+Arena 20,Hunter,Lost,0,331
+Arena 20,Hunter,Lost,1,195
+Arena 20,Hunter,Won,0,362
+Arena 20,Hunter,Won,1,203
+Arena 20,Ice Golem,Lost,0,1354
+Arena 20,Ice Golem,Won,0,1071
+Arena 20,Ice Spirit,Lost,0,6398
+Arena 20,Ice Spirit,Lost,1,87
+Arena 20,Ice Spirit,Won,0,6419
+Arena 20,Ice Spirit,Won,1,133
+Arena 20,Ice Wizard,Lost,0,2961
+Arena 20,Ice Wizard,Won,0,2293
+Arena 20,Inferno Dragon,Lost,0,3423
+Arena 20,Inferno Dragon,Lost,1,670
+Arena 20,Inferno Dragon,Won,0,2790
+Arena 20,Inferno Dragon,Won,1,681
+Arena 20,Inferno Tower,Lost,0,2375
+Arena 20,Inferno Tower,Won,0,2603
+Arena 20,Knight,Lost,0,6210
+Arena 20,Knight,Lost,1,2379
+Arena 20,Knight,Won,0,6970
+Arena 20,Knight,Won,1,2422
+Arena 20,Lava Hound,Lost,0,576
+Arena 20,Lava Hound,Won,0,249
+Arena 20,Lightning,Lost,0,1657
+Arena 20,Lightning,Won,0,823
+Arena 20,Little Prince,Lost,0,950
+Arena 20,Little Prince,Won,0,1097
+Arena 20,Lumberjack,Lost,0,2458
+Arena 20,Lumberjack,Lost,1,1114
+Arena 20,Lumberjack,Won,0,2217
+Arena 20,Lumberjack,Won,1,1037
+Arena 20,Magic Archer,Lost,0,1759
+Arena 20,Magic Archer,Won,0,1724
+Arena 20,Mega Knight,Lost,0,7116
+Arena 20,Mega Knight,Lost,1,3844
+Arena 20,Mega Knight,Won,0,8087
+Arena 20,Mega Knight,Won,1,4514
+Arena 20,Mega Minion,Lost,0,1643
+Arena 20,Mega Minion,Won,0,995
+Arena 20,Mighty Miner,Lost,0,1465
+Arena 20,Mighty Miner,Won,0,1599
+Arena 20,Miner,Lost,0,1891
+Arena 20,Miner,Won,0,1598
+Arena 20,Mini P.E.K.K.A,Lost,0,7623
+Arena 20,Mini P.E.K.K.A,Won,0,8682
+Arena 20,Minion Horde,Lost,0,1735
+Arena 20,Minion Horde,Won,0,1788
+Arena 20,Minions,Lost,0,2703
+Arena 20,Minions,Won,0,2840
+Arena 20,Mirror,Lost,0,935
+Arena 20,Mirror,Won,0,854
+Arena 20,Monk,Lost,0,280
+Arena 20,Monk,Won,0,276
+Arena 20,Mortar,Lost,0,194
+Arena 20,Mortar,Lost,1,191
+Arena 20,Mortar,Won,0,184
+Arena 20,Mortar,Won,1,216
+Arena 20,Mother Witch,Lost,0,934
+Arena 20,Mother Witch,Won,0,808
+Arena 20,Musketeer,Lost,0,2185
+Arena 20,Musketeer,Lost,1,216
+Arena 20,Musketeer,Won,0,2171
+Arena 20,Musketeer,Won,1,278
+Arena 20,Night Witch,Lost,0,903
+Arena 20,Night Witch,Won,0,535
+Arena 20,P.E.K.K.A,Lost,0,2809
+Arena 20,P.E.K.K.A,Lost,1,1327
+Arena 20,P.E.K.K.A,Won,0,2889
+Arena 20,P.E.K.K.A,Won,1,1231
+Arena 20,Phoenix,Lost,0,303
+Arena 20,Phoenix,Won,0,166
+Arena 20,Poison,Lost,0,2246
+Arena 20,Poison,Won,0,1558
+Arena 20,Prince,Lost,0,3185
+Arena 20,Prince,Won,0,3131
+Arena 20,Princess,Lost,0,4275
+Arena 20,Princess,Won,0,4773
+Arena 20,Rage,Lost,0,3501
+Arena 20,Rage,Won,0,2934
+Arena 20,Ram Rider,Lost,0,1710
+Arena 20,Ram Rider,Won,0,1571
+Arena 20,Rascals,Lost,0,206
+Arena 20,Rascals,Won,0,243
+Arena 20,Rocket,Lost,0,1622
+Arena 20,Rocket,Won,0,1534
+Arena 20,Royal Delivery,Lost,0,1354
+Arena 20,Royal Delivery,Won,0,1326
+Arena 20,Royal Ghost,Lost,0,2896
+Arena 20,Royal Ghost,Lost,1,225
+Arena 20,Royal Ghost,Won,0,2719
+Arena 20,Royal Ghost,Won,1,327
+Arena 20,Royal Giant,Lost,0,673
+Arena 20,Royal Giant,Lost,1,465
+Arena 20,Royal Giant,Won,0,685
+Arena 20,Royal Giant,Won,1,541
+Arena 20,Royal Hogs,Lost,0,1063
+Arena 20,Royal Hogs,Won,0,822
+Arena 20,Royal Recruits,Lost,0,661
+Arena 20,Royal Recruits,Lost,1,210
+Arena 20,Royal Recruits,Won,0,476
+Arena 20,Royal Recruits,Won,1,221
+Arena 20,Rune Giant,Lost,0,55
+Arena 20,Rune Giant,Won,0,26
+Arena 20,Skeleton Army,Lost,0,7492
+Arena 20,Skeleton Army,Lost,1,1712
+Arena 20,Skeleton Army,Won,0,8371
+Arena 20,Skeleton Army,Won,1,2056
+Arena 20,Skeleton Barrel,Lost,0,1551
+Arena 20,Skeleton Barrel,Lost,1,497
+Arena 20,Skeleton Barrel,Won,0,1445
+Arena 20,Skeleton Barrel,Won,1,481
+Arena 20,Skeleton Dragons,Lost,0,475
+Arena 20,Skeleton Dragons,Won,0,305
+Arena 20,Skeleton King,Lost,0,2899
+Arena 20,Skeleton King,Won,0,2758
+Arena 20,Skeletons,Lost,0,5633
+Arena 20,Skeletons,Lost,1,1055
+Arena 20,Skeletons,Won,0,5525
+Arena 20,Skeletons,Won,1,1151
+Arena 20,Sparky,Lost,0,1611
+Arena 20,Sparky,Won,0,1496
+Arena 20,Spear Goblins,Lost,0,1089
+Arena 20,Spear Goblins,Won,0,1000
+Arena 20,Spirit Empress,Lost,0,203
+Arena 20,Spirit Empress,Won,0,137
+Arena 20,Suspicious Bush,Lost,0,197
+Arena 20,Suspicious Bush,Won,0,222
+Arena 20,Tesla,Lost,0,3749
+Arena 20,Tesla,Lost,1,4473
+Arena 20,Tesla,Won,0,4142
+Arena 20,Tesla,Won,1,4845
+Arena 20,The Log,Lost,0,16380
+Arena 20,The Log,Won,0,18360
+Arena 20,Three Musketeers,Lost,0,114
+Arena 20,Three Musketeers,Won,0,70
+Arena 20,Tombstone,Lost,0,1972
+Arena 20,Tombstone,Won,0,1387
+Arena 20,Tornado,Lost,0,2838
+Arena 20,Tornado,Won,0,1559
+Arena 20,Valkyrie,Lost,0,5360
+Arena 20,Valkyrie,Lost,1,2896
+Arena 20,Valkyrie,Won,0,6330
+Arena 20,Valkyrie,Won,1,3402
+Arena 20,Vines,Lost,0,1920
+Arena 20,Vines,Won,0,2145
+Arena 20,Void,Lost,0,102
+Arena 20,Void,Won,0,100
+Arena 20,Wall Breakers,Lost,0,2071
+Arena 20,Wall Breakers,Lost,1,241
+Arena 20,Wall Breakers,Won,0,2033
+Arena 20,Wall Breakers,Won,1,276
+Arena 20,Witch,Lost,0,5920
+Arena 20,Witch,Lost,1,3030
+Arena 20,Witch,Won,0,6762
+Arena 20,Witch,Won,1,3488
+Arena 20,Wizard,Lost,0,2510
+Arena 20,Wizard,Lost,1,2634
+Arena 20,Wizard,Won,0,3126
+Arena 20,Wizard,Won,1,2960
+Arena 20,X-Bow,Lost,0,564
+Arena 20,X-Bow,Won,0,598
+Arena 20,Zap,Lost,0,6595
+Arena 20,Zap,Lost,1,136
+Arena 20,Zap,Won,0,6308
+Arena 20,Zap,Won,1,177
+Arena 20,Zappies,Lost,0,625
+Arena 20,Zappies,Won,0,461
+Arena 21,Archer Queen,Lost,0,760
+Arena 21,Archer Queen,Won,0,628
+Arena 21,Archers,Lost,0,962
+Arena 21,Archers,Lost,1,1880
+Arena 21,Archers,Won,0,1190
+Arena 21,Archers,Won,1,2037
+Arena 21,Arrows,Lost,0,9811
+Arena 21,Arrows,Won,0,9282
+Arena 21,Baby Dragon,Lost,0,3698
+Arena 21,Baby Dragon,Lost,1,675
+Arena 21,Baby Dragon,Won,0,2999
+Arena 21,Baby Dragon,Won,1,755
+Arena 21,Balloon,Lost,0,2848
+Arena 21,Balloon,Won,0,2731
+Arena 21,Bandit,Lost,0,2323
+Arena 21,Bandit,Won,0,2004
+Arena 21,Barbarian Barrel,Lost,0,3924
+Arena 21,Barbarian Barrel,Won,0,2203
+Arena 21,Barbarian Hut,Lost,0,27
+Arena 21,Barbarian Hut,Won,0,35
+Arena 21,Barbarians,Lost,0,357
+Arena 21,Barbarians,Lost,1,1222
+Arena 21,Barbarians,Won,0,405
+Arena 21,Barbarians,Won,1,1208
+Arena 21,Bats,Lost,0,4073
+Arena 21,Bats,Lost,1,261
+Arena 21,Bats,Won,0,4390
+Arena 21,Bats,Won,1,320
+Arena 21,Battle Healer,Lost,0,964
+Arena 21,Battle Healer,Won,0,405
+Arena 21,Battle Ram,Lost,0,632
+Arena 21,Battle Ram,Lost,1,586
+Arena 21,Battle Ram,Won,0,661
+Arena 21,Battle Ram,Won,1,506
+Arena 21,Berserker,Lost,0,517
+Arena 21,Berserker,Won,0,455
+Arena 21,Bomb Tower,Lost,0,328
+Arena 21,Bomb Tower,Won,0,416
+Arena 21,Bomber,Lost,0,1055
+Arena 21,Bomber,Lost,1,1046
+Arena 21,Bomber,Won,0,908
+Arena 21,Bomber,Won,1,724
+Arena 21,Boss Bandit,Lost,0,2155
+Arena 21,Boss Bandit,Won,0,2174
+Arena 21,Bowler,Lost,0,918
+Arena 21,Bowler,Won,0,730
+Arena 21,Cannon,Lost,0,4061
+Arena 21,Cannon,Lost,1,535
+Arena 21,Cannon,Won,0,4095
+Arena 21,Cannon,Won,1,630
+Arena 21,Cannon Cart,Lost,0,123
+Arena 21,Cannon Cart,Won,0,116
+Arena 21,Clone,Lost,0,948
+Arena 21,Clone,Won,0,779
+Arena 21,Dark Prince,Lost,0,1853
+Arena 21,Dark Prince,Won,0,1704
+Arena 21,Dart Goblin,Lost,0,3549
+Arena 21,Dart Goblin,Lost,1,1477
+Arena 21,Dart Goblin,Won,0,4046
+Arena 21,Dart Goblin,Won,1,1729
+Arena 21,Earthquake,Lost,0,643
+Arena 21,Earthquake,Won,0,777
+Arena 21,Electro Dragon,Lost,0,1091
+Arena 21,Electro Dragon,Lost,1,682
+Arena 21,Electro Dragon,Won,0,445
+Arena 21,Electro Dragon,Won,1,626
+Arena 21,Electro Giant,Lost,0,888
+Arena 21,Electro Giant,Won,0,552
+Arena 21,Electro Spirit,Lost,0,1352
+Arena 21,Electro Spirit,Won,0,1417
+Arena 21,Electro Wizard,Lost,0,4876
+Arena 21,Electro Wizard,Won,0,5408
+Arena 21,Elite Barbarians,Lost,0,3228
+Arena 21,Elite Barbarians,Won,0,3020
+Arena 21,Elixir Collector,Lost,0,457
+Arena 21,Elixir Collector,Won,0,278
+Arena 21,Elixir Golem,Lost,0,1630
+Arena 21,Elixir Golem,Won,0,957
+Arena 21,Executioner,Lost,0,787
+Arena 21,Executioner,Lost,1,997
+Arena 21,Executioner,Won,0,1007
+Arena 21,Executioner,Won,1,832
+Arena 21,Fire Spirit,Lost,0,784
+Arena 21,Fire Spirit,Won,0,747
+Arena 21,Fireball,Lost,0,6064
+Arena 21,Fireball,Won,0,6566
+Arena 21,Firecracker,Lost,0,5206
+Arena 21,Firecracker,Lost,1,3676
+Arena 21,Firecracker,Won,0,5856
+Arena 21,Firecracker,Won,1,4654
+Arena 21,Fisherman,Lost,0,641
+Arena 21,Fisherman,Won,0,505
+Arena 21,Flying Machine,Lost,0,637
+Arena 21,Flying Machine,Won,0,472
+Arena 21,Freeze,Lost,0,1423
+Arena 21,Freeze,Won,0,1273
+Arena 21,Furnace,Lost,0,573
+Arena 21,Furnace,Lost,1,352
+Arena 21,Furnace,Won,0,708
+Arena 21,Furnace,Won,1,419
+Arena 21,Giant,Lost,0,764
+Arena 21,Giant,Won,0,615
+Arena 21,Giant Skeleton,Lost,0,1020
+Arena 21,Giant Skeleton,Won,0,1164
+Arena 21,Giant Snowball,Lost,0,1331
+Arena 21,Giant Snowball,Lost,1,841
+Arena 21,Giant Snowball,Won,0,1227
+Arena 21,Giant Snowball,Won,1,570
+Arena 21,Goblin Barrel,Lost,0,7635
+Arena 21,Goblin Barrel,Lost,1,691
+Arena 21,Goblin Barrel,Won,0,9111
+Arena 21,Goblin Barrel,Won,1,886
+Arena 21,Goblin Cage,Lost,0,729
+Arena 21,Goblin Cage,Lost,1,408
+Arena 21,Goblin Cage,Won,0,458
+Arena 21,Goblin Cage,Won,1,302
+Arena 21,Goblin Curse,Lost,0,663
+Arena 21,Goblin Curse,Won,0,471
+Arena 21,Goblin Demolisher,Lost,0,55
+Arena 21,Goblin Demolisher,Won,0,44
+Arena 21,Goblin Drill,Lost,0,238
+Arena 21,Goblin Drill,Lost,1,26
+Arena 21,Goblin Drill,Won,0,177
+Arena 21,Goblin Drill,Won,1,30
+Arena 21,Goblin Gang,Lost,0,5230
+Arena 21,Goblin Gang,Won,0,6084
+Arena 21,Goblin Giant,Lost,0,801
+Arena 21,Goblin Giant,Lost,1,344
+Arena 21,Goblin Giant,Won,0,418
+Arena 21,Goblin Giant,Won,1,174
+Arena 21,Goblin Hut,Lost,0,603
+Arena 21,Goblin Hut,Won,0,479
+Arena 21,Goblin Machine,Lost,0,524
+Arena 21,Goblin Machine,Won,0,206
+Arena 21,Goblins,Lost,0,299
+Arena 21,Goblins,Won,0,346
+Arena 21,Goblinstein,Lost,0,506
+Arena 21,Goblinstein,Won,0,443
+Arena 21,Golden Knight,Lost,0,2159
+Arena 21,Golden Knight,Won,0,2207
+Arena 21,Golem,Lost,0,1399
+Arena 21,Golem,Won,0,941
+Arena 21,Graveyard,Lost,0,1751
+Arena 21,Graveyard,Won,0,1010
+Arena 21,Guards,Lost,0,2116
+Arena 21,Guards,Won,0,1958
+Arena 21,Heal Spirit,Lost,0,538
+Arena 21,Heal Spirit,Won,0,325
+Arena 21,Hog Rider,Lost,0,8152
+Arena 21,Hog Rider,Won,0,9439
+Arena 21,Hunter,Lost,0,361
+Arena 21,Hunter,Lost,1,180
+Arena 21,Hunter,Won,0,362
+Arena 21,Hunter,Won,1,201
+Arena 21,Ice Golem,Lost,0,1433
+Arena 21,Ice Golem,Won,0,1169
+Arena 21,Ice Spirit,Lost,0,5913
+Arena 21,Ice Spirit,Lost,1,123
+Arena 21,Ice Spirit,Won,0,6046
+Arena 21,Ice Spirit,Won,1,139
+Arena 21,Ice Wizard,Lost,0,2505
+Arena 21,Ice Wizard,Won,0,1738
+Arena 21,Inferno Dragon,Lost,0,2960
+Arena 21,Inferno Dragon,Lost,1,933
+Arena 21,Inferno Dragon,Won,0,2534
+Arena 21,Inferno Dragon,Won,1,697
+Arena 21,Inferno Tower,Lost,0,2233
+Arena 21,Inferno Tower,Won,0,2500
+Arena 21,Knight,Lost,0,5199
+Arena 21,Knight,Lost,1,2230
+Arena 21,Knight,Won,0,5957
+Arena 21,Knight,Won,1,2424
+Arena 21,Lava Hound,Lost,0,583
+Arena 21,Lava Hound,Won,0,284
+Arena 21,Lightning,Lost,0,2006
+Arena 21,Lightning,Won,0,940
+Arena 21,Little Prince,Lost,0,810
+Arena 21,Little Prince,Won,0,858
+Arena 21,Lumberjack,Lost,0,2537
+Arena 21,Lumberjack,Lost,1,1046
+Arena 21,Lumberjack,Won,0,2179
+Arena 21,Lumberjack,Won,1,953
+Arena 21,Magic Archer,Lost,0,1580
+Arena 21,Magic Archer,Won,0,1521
+Arena 21,Mega Knight,Lost,0,5294
+Arena 21,Mega Knight,Lost,1,4445
+Arena 21,Mega Knight,Won,0,6204
+Arena 21,Mega Knight,Won,1,5193
+Arena 21,Mega Minion,Lost,0,2009
+Arena 21,Mega Minion,Won,0,1177
+Arena 21,Mighty Miner,Lost,0,1067
+Arena 21,Mighty Miner,Won,0,1183
+Arena 21,Miner,Lost,0,1412
+Arena 21,Miner,Won,0,1287
+Arena 21,Mini P.E.K.K.A,Lost,0,6683
+Arena 21,Mini P.E.K.K.A,Won,0,7462
+Arena 21,Minion Horde,Lost,0,1508
+Arena 21,Minion Horde,Won,0,1587
+Arena 21,Minions,Lost,0,2530
+Arena 21,Minions,Won,0,2704
+Arena 21,Mirror,Lost,0,849
+Arena 21,Mirror,Won,0,803
+Arena 21,Monk,Lost,0,229
+Arena 21,Monk,Won,0,219
+Arena 21,Mortar,Lost,0,126
+Arena 21,Mortar,Lost,1,174
+Arena 21,Mortar,Won,0,132
+Arena 21,Mortar,Won,1,173
+Arena 21,Mother Witch,Lost,0,927
+Arena 21,Mother Witch,Won,0,635
+Arena 21,Musketeer,Lost,0,2106
+Arena 21,Musketeer,Lost,1,112
+Arena 21,Musketeer,Won,0,2109
+Arena 21,Musketeer,Won,1,151
+Arena 21,Night Witch,Lost,0,1040
+Arena 21,Night Witch,Won,0,603
+Arena 21,P.E.K.K.A,Lost,0,2196
+Arena 21,P.E.K.K.A,Lost,1,1853
+Arena 21,P.E.K.K.A,Won,0,2608
+Arena 21,P.E.K.K.A,Won,1,1531
+Arena 21,Phoenix,Lost,0,312
+Arena 21,Phoenix,Won,0,118
+Arena 21,Poison,Lost,0,1907
+Arena 21,Poison,Won,0,1210
+Arena 21,Prince,Lost,0,2412
+Arena 21,Prince,Won,0,2493
+Arena 21,Princess,Lost,0,3950
+Arena 21,Princess,Won,0,4463
+Arena 21,Rage,Lost,0,3580
+Arena 21,Rage,Won,0,2677
+Arena 21,Ram Rider,Lost,0,1361
+Arena 21,Ram Rider,Won,0,1258
+Arena 21,Rascals,Lost,0,131
+Arena 21,Rascals,Won,0,153
+Arena 21,Rocket,Lost,0,1508
+Arena 21,Rocket,Won,0,1614
+Arena 21,Royal Delivery,Lost,0,1006
+Arena 21,Royal Delivery,Won,0,1017
+Arena 21,Royal Ghost,Lost,0,2828
+Arena 21,Royal Ghost,Lost,1,308
+Arena 21,Royal Ghost,Won,0,2598
+Arena 21,Royal Ghost,Won,1,402
+Arena 21,Royal Giant,Lost,0,619
+Arena 21,Royal Giant,Lost,1,427
+Arena 21,Royal Giant,Won,0,609
+Arena 21,Royal Giant,Won,1,571
+Arena 21,Royal Hogs,Lost,0,1056
+Arena 21,Royal Hogs,Won,0,804
+Arena 21,Royal Recruits,Lost,0,301
+Arena 21,Royal Recruits,Lost,1,549
+Arena 21,Royal Recruits,Won,0,281
+Arena 21,Royal Recruits,Won,1,399
+Arena 21,Rune Giant,Lost,0,54
+Arena 21,Rune Giant,Won,0,16
+Arena 21,Skeleton Army,Lost,0,6896
+Arena 21,Skeleton Army,Lost,1,1343
+Arena 21,Skeleton Army,Won,0,7698
+Arena 21,Skeleton Army,Won,1,1644
+Arena 21,Skeleton Barrel,Lost,0,1107
+Arena 21,Skeleton Barrel,Lost,1,582
+Arena 21,Skeleton Barrel,Won,0,1144
+Arena 21,Skeleton Barrel,Won,1,547
+Arena 21,Skeleton Dragons,Lost,0,375
+Arena 21,Skeleton Dragons,Won,0,216
+Arena 21,Skeleton King,Lost,0,2345
+Arena 21,Skeleton King,Won,0,2161
+Arena 21,Skeletons,Lost,0,4861
+Arena 21,Skeletons,Lost,1,1002
+Arena 21,Skeletons,Won,0,4885
+Arena 21,Skeletons,Won,1,1146
+Arena 21,Sparky,Lost,0,1604
+Arena 21,Sparky,Won,0,1427
+Arena 21,Spear Goblins,Lost,0,890
+Arena 21,Spear Goblins,Won,0,843
+Arena 21,Spirit Empress,Lost,0,120
+Arena 21,Spirit Empress,Won,0,116
+Arena 21,Suspicious Bush,Lost,0,290
+Arena 21,Suspicious Bush,Won,0,240
+Arena 21,Tesla,Lost,0,3553
+Arena 21,Tesla,Lost,1,3834
+Arena 21,Tesla,Won,0,4122
+Arena 21,Tesla,Won,1,4498
+Arena 21,The Log,Lost,0,14402
+Arena 21,The Log,Won,0,16516
+Arena 21,Three Musketeers,Lost,0,39
+Arena 21,Three Musketeers,Won,0,28
+Arena 21,Tombstone,Lost,0,1859
+Arena 21,Tombstone,Won,0,1149
+Arena 21,Tornado,Lost,0,3272
+Arena 21,Tornado,Won,0,1639
+Arena 21,Valkyrie,Lost,0,4925
+Arena 21,Valkyrie,Lost,1,3306
+Arena 21,Valkyrie,Won,0,5938
+Arena 21,Valkyrie,Won,1,3956
+Arena 21,Vines,Lost,0,1932
+Arena 21,Vines,Won,0,2217
+Arena 21,Void,Lost,0,55
+Arena 21,Void,Won,0,56
+Arena 21,Wall Breakers,Lost,0,1916
+Arena 21,Wall Breakers,Lost,1,318
+Arena 21,Wall Breakers,Won,0,1840
+Arena 21,Wall Breakers,Won,1,366
+Arena 21,Witch,Lost,0,4857
+Arena 21,Witch,Lost,1,2650
+Arena 21,Witch,Won,0,5690
+Arena 21,Witch,Won,1,2874
+Arena 21,Wizard,Lost,0,2482
+Arena 21,Wizard,Lost,1,2313
+Arena 21,Wizard,Won,0,3049
+Arena 21,Wizard,Won,1,2598
+Arena 21,X-Bow,Lost,0,458
+Arena 21,X-Bow,Won,0,494
+Arena 21,Zap,Lost,0,6550
+Arena 21,Zap,Lost,1,125
+Arena 21,Zap,Won,0,6252
+Arena 21,Zap,Won,1,166
+Arena 21,Zappies,Lost,0,588
+Arena 21,Zappies,Won,0,350
+Arena 22,Archer Queen,Lost,0,714
+Arena 22,Archer Queen,Won,0,544
+Arena 22,Archers,Lost,0,947
+Arena 22,Archers,Lost,1,1803
+Arena 22,Archers,Won,0,1133
+Arena 22,Archers,Won,1,1909
+Arena 22,Arrows,Lost,0,10458
+Arena 22,Arrows,Won,0,9875
+Arena 22,Baby Dragon,Lost,0,3301
+Arena 22,Baby Dragon,Lost,1,505
+Arena 22,Baby Dragon,Won,0,2591
+Arena 22,Baby Dragon,Won,1,575
+Arena 22,Balloon,Lost,0,3208
+Arena 22,Balloon,Won,0,2938
+Arena 22,Bandit,Lost,0,2662
+Arena 22,Bandit,Won,0,2434
+Arena 22,Barbarian Barrel,Lost,0,3775
+Arena 22,Barbarian Barrel,Won,0,2362
+Arena 22,Barbarian Hut,Lost,0,38
+Arena 22,Barbarian Hut,Won,0,25
+Arena 22,Barbarians,Lost,0,352
+Arena 22,Barbarians,Lost,1,1248
+Arena 22,Barbarians,Won,0,414
+Arena 22,Barbarians,Won,1,1034
+Arena 22,Bats,Lost,0,4298
+Arena 22,Bats,Lost,1,232
+Arena 22,Bats,Won,0,4684
+Arena 22,Bats,Won,1,327
+Arena 22,Battle Healer,Lost,0,1144
+Arena 22,Battle Healer,Won,0,701
+Arena 22,Battle Ram,Lost,0,734
+Arena 22,Battle Ram,Lost,1,591
+Arena 22,Battle Ram,Won,0,805
+Arena 22,Battle Ram,Won,1,513
+Arena 22,Berserker,Lost,0,469
+Arena 22,Berserker,Won,0,310
+Arena 22,Bomb Tower,Lost,0,311
+Arena 22,Bomb Tower,Won,0,390
+Arena 22,Bomber,Lost,0,1227
+Arena 22,Bomber,Lost,1,1122
+Arena 22,Bomber,Won,0,1059
+Arena 22,Bomber,Won,1,750
+Arena 22,Boss Bandit,Lost,0,1819
+Arena 22,Boss Bandit,Won,0,1765
+Arena 22,Bowler,Lost,0,904
+Arena 22,Bowler,Won,0,705
+Arena 22,Cannon,Lost,0,3903
+Arena 22,Cannon,Lost,1,702
+Arena 22,Cannon,Won,0,3986
+Arena 22,Cannon,Won,1,710
+Arena 22,Cannon Cart,Lost,0,141
+Arena 22,Cannon Cart,Won,0,149
+Arena 22,Clone,Lost,0,789
+Arena 22,Clone,Won,0,677
+Arena 22,Dark Prince,Lost,0,1959
+Arena 22,Dark Prince,Won,0,1768
+Arena 22,Dart Goblin,Lost,0,3315
+Arena 22,Dart Goblin,Lost,1,1390
+Arena 22,Dart Goblin,Won,0,3978
+Arena 22,Dart Goblin,Won,1,1668
+Arena 22,Earthquake,Lost,0,729
+Arena 22,Earthquake,Won,0,743
+Arena 22,Electro Dragon,Lost,0,1027
+Arena 22,Electro Dragon,Lost,1,943
+Arena 22,Electro Dragon,Won,0,586
+Arena 22,Electro Dragon,Won,1,813
+Arena 22,Electro Giant,Lost,0,902
+Arena 22,Electro Giant,Won,0,604
+Arena 22,Electro Spirit,Lost,0,1351
+Arena 22,Electro Spirit,Won,0,1328
+Arena 22,Electro Wizard,Lost,0,5052
+Arena 22,Electro Wizard,Won,0,5520
+Arena 22,Elite Barbarians,Lost,0,3452
+Arena 22,Elite Barbarians,Won,0,3375
+Arena 22,Elixir Collector,Lost,0,555
+Arena 22,Elixir Collector,Won,0,388
+Arena 22,Elixir Golem,Lost,0,1622
+Arena 22,Elixir Golem,Won,0,1208
+Arena 22,Executioner,Lost,0,825
+Arena 22,Executioner,Lost,1,989
+Arena 22,Executioner,Won,0,1037
+Arena 22,Executioner,Won,1,903
+Arena 22,Fire Spirit,Lost,0,778
+Arena 22,Fire Spirit,Won,0,748
+Arena 22,Fireball,Lost,0,6630
+Arena 22,Fireball,Won,0,6991
+Arena 22,Firecracker,Lost,0,4162
+Arena 22,Firecracker,Lost,1,4936
+Arena 22,Firecracker,Won,0,4855
+Arena 22,Firecracker,Won,1,5729
+Arena 22,Fisherman,Lost,0,649
+Arena 22,Fisherman,Won,0,547
+Arena 22,Flying Machine,Lost,0,665
+Arena 22,Flying Machine,Won,0,527
+Arena 22,Freeze,Lost,0,1332
+Arena 22,Freeze,Won,0,1150
+Arena 22,Furnace,Lost,0,524
+Arena 22,Furnace,Lost,1,291
+Arena 22,Furnace,Won,0,610
+Arena 22,Furnace,Won,1,344
+Arena 22,Giant,Lost,0,936
+Arena 22,Giant,Won,0,712
+Arena 22,Giant Skeleton,Lost,0,997
+Arena 22,Giant Skeleton,Won,0,1063
+Arena 22,Giant Snowball,Lost,0,1147
+Arena 22,Giant Snowball,Lost,1,912
+Arena 22,Giant Snowball,Won,0,1154
+Arena 22,Giant Snowball,Won,1,597
+Arena 22,Goblin Barrel,Lost,0,6710
+Arena 22,Goblin Barrel,Lost,1,970
+Arena 22,Goblin Barrel,Won,0,7586
+Arena 22,Goblin Barrel,Won,1,1229
+Arena 22,Goblin Cage,Lost,0,554
+Arena 22,Goblin Cage,Lost,1,463
+Arena 22,Goblin Cage,Won,0,361
+Arena 22,Goblin Cage,Won,1,398
+Arena 22,Goblin Curse,Lost,0,695
+Arena 22,Goblin Curse,Won,0,484
+Arena 22,Goblin Demolisher,Lost,0,101
+Arena 22,Goblin Demolisher,Won,0,93
+Arena 22,Goblin Drill,Lost,0,307
+Arena 22,Goblin Drill,Lost,1,25
+Arena 22,Goblin Drill,Won,0,185
+Arena 22,Goblin Drill,Won,1,24
+Arena 22,Goblin Gang,Lost,0,4956
+Arena 22,Goblin Gang,Won,0,5811
+Arena 22,Goblin Giant,Lost,0,707
+Arena 22,Goblin Giant,Lost,1,501
+Arena 22,Goblin Giant,Won,0,472
+Arena 22,Goblin Giant,Won,1,251
+Arena 22,Goblin Hut,Lost,0,621
+Arena 22,Goblin Hut,Won,0,408
+Arena 22,Goblin Machine,Lost,0,502
+Arena 22,Goblin Machine,Won,0,256
+Arena 22,Goblins,Lost,0,293
+Arena 22,Goblins,Won,0,384
+Arena 22,Goblinstein,Lost,0,383
+Arena 22,Goblinstein,Won,0,290
+Arena 22,Golden Knight,Lost,0,1562
+Arena 22,Golden Knight,Won,0,1489
+Arena 22,Golem,Lost,0,1483
+Arena 22,Golem,Won,0,1087
+Arena 22,Graveyard,Lost,0,1388
+Arena 22,Graveyard,Won,0,840
+Arena 22,Guards,Lost,0,1956
+Arena 22,Guards,Won,0,1828
+Arena 22,Heal Spirit,Lost,0,567
+Arena 22,Heal Spirit,Won,0,368
+Arena 22,Hog Rider,Lost,0,8732
+Arena 22,Hog Rider,Won,0,9847
+Arena 22,Hunter,Lost,0,355
+Arena 22,Hunter,Lost,1,266
+Arena 22,Hunter,Won,0,376
+Arena 22,Hunter,Won,1,281
+Arena 22,Ice Golem,Lost,0,1539
+Arena 22,Ice Golem,Won,0,1183
+Arena 22,Ice Spirit,Lost,0,5982
+Arena 22,Ice Spirit,Lost,1,155
+Arena 22,Ice Spirit,Won,0,6012
+Arena 22,Ice Spirit,Won,1,184
+Arena 22,Ice Wizard,Lost,0,2180
+Arena 22,Ice Wizard,Won,0,1652
+Arena 22,Inferno Dragon,Lost,0,2583
+Arena 22,Inferno Dragon,Lost,1,1248
+Arena 22,Inferno Dragon,Won,0,2253
+Arena 22,Inferno Dragon,Won,1,946
+Arena 22,Inferno Tower,Lost,0,2378
+Arena 22,Inferno Tower,Won,0,2627
+Arena 22,Knight,Lost,0,4671
+Arena 22,Knight,Lost,1,2268
+Arena 22,Knight,Won,0,5229
+Arena 22,Knight,Won,1,2527
+Arena 22,Lava Hound,Lost,0,659
+Arena 22,Lava Hound,Won,0,352
+Arena 22,Lightning,Lost,0,2203
+Arena 22,Lightning,Won,0,1206
+Arena 22,Little Prince,Lost,0,755
+Arena 22,Little Prince,Won,0,814
+Arena 22,Lumberjack,Lost,0,2432
+Arena 22,Lumberjack,Lost,1,998
+Arena 22,Lumberjack,Won,0,2081
+Arena 22,Lumberjack,Won,1,933
+Arena 22,Magic Archer,Lost,0,1749
+Arena 22,Magic Archer,Won,0,1771
+Arena 22,Mega Knight,Lost,0,3999
+Arena 22,Mega Knight,Lost,1,4916
+Arena 22,Mega Knight,Won,0,4783
+Arena 22,Mega Knight,Won,1,5732
+Arena 22,Mega Minion,Lost,0,1902
+Arena 22,Mega Minion,Won,0,1230
+Arena 22,Mighty Miner,Lost,0,843
+Arena 22,Mighty Miner,Won,0,945
+Arena 22,Miner,Lost,0,1544
+Arena 22,Miner,Won,0,1422
+Arena 22,Mini P.E.K.K.A,Lost,0,6388
+Arena 22,Mini P.E.K.K.A,Won,0,7175
+Arena 22,Minion Horde,Lost,0,1608
+Arena 22,Minion Horde,Won,0,1637
+Arena 22,Minions,Lost,0,2465
+Arena 22,Minions,Won,0,2676
+Arena 22,Mirror,Lost,0,1156
+Arena 22,Mirror,Won,0,1178
+Arena 22,Monk,Lost,0,301
+Arena 22,Monk,Won,0,289
+Arena 22,Mortar,Lost,0,199
+Arena 22,Mortar,Lost,1,259
+Arena 22,Mortar,Won,0,227
+Arena 22,Mortar,Won,1,283
+Arena 22,Mother Witch,Lost,0,797
+Arena 22,Mother Witch,Won,0,588
+Arena 22,Musketeer,Lost,0,2269
+Arena 22,Musketeer,Lost,1,256
+Arena 22,Musketeer,Won,0,2039
+Arena 22,Musketeer,Won,1,301
+Arena 22,Night Witch,Lost,0,1204
+Arena 22,Night Witch,Won,0,819
+Arena 22,P.E.K.K.A,Lost,0,2063
+Arena 22,P.E.K.K.A,Lost,1,2126
+Arena 22,P.E.K.K.A,Won,0,2462
+Arena 22,P.E.K.K.A,Won,1,1852
+Arena 22,Phoenix,Lost,0,137
+Arena 22,Phoenix,Won,0,92
+Arena 22,Poison,Lost,0,1715
+Arena 22,Poison,Won,0,1290
+Arena 22,Prince,Lost,0,2870
+Arena 22,Prince,Won,0,2711
+Arena 22,Princess,Lost,0,3298
+Arena 22,Princess,Won,0,3813
+Arena 22,Rage,Lost,0,3705
+Arena 22,Rage,Won,0,2819
+Arena 22,Ram Rider,Lost,0,1440
+Arena 22,Ram Rider,Won,0,1371
+Arena 22,Rascals,Lost,0,174
+Arena 22,Rascals,Won,0,256
+Arena 22,Rocket,Lost,0,1659
+Arena 22,Rocket,Won,0,1756
+Arena 22,Royal Delivery,Lost,0,780
+Arena 22,Royal Delivery,Won,0,758
+Arena 22,Royal Ghost,Lost,0,2696
+Arena 22,Royal Ghost,Lost,1,219
+Arena 22,Royal Ghost,Won,0,2418
+Arena 22,Royal Ghost,Won,1,306
+Arena 22,Royal Giant,Lost,0,508
+Arena 22,Royal Giant,Lost,1,533
+Arena 22,Royal Giant,Won,0,532
+Arena 22,Royal Giant,Won,1,599
+Arena 22,Royal Hogs,Lost,0,1057
+Arena 22,Royal Hogs,Won,0,900
+Arena 22,Royal Recruits,Lost,0,217
+Arena 22,Royal Recruits,Lost,1,651
+Arena 22,Royal Recruits,Won,0,205
+Arena 22,Royal Recruits,Won,1,560
+Arena 22,Rune Giant,Lost,0,12
+Arena 22,Rune Giant,Won,0,21
+Arena 22,Skeleton Army,Lost,0,6533
+Arena 22,Skeleton Army,Lost,1,1327
+Arena 22,Skeleton Army,Won,0,7284
+Arena 22,Skeleton Army,Won,1,1665
+Arena 22,Skeleton Barrel,Lost,0,1075
+Arena 22,Skeleton Barrel,Lost,1,626
+Arena 22,Skeleton Barrel,Won,0,1192
+Arena 22,Skeleton Barrel,Won,1,648
+Arena 22,Skeleton Dragons,Lost,0,537
+Arena 22,Skeleton Dragons,Won,0,365
+Arena 22,Skeleton King,Lost,0,2012
+Arena 22,Skeleton King,Won,0,2056
+Arena 22,Skeletons,Lost,0,4666
+Arena 22,Skeletons,Lost,1,1073
+Arena 22,Skeletons,Won,0,4447
+Arena 22,Skeletons,Won,1,1242
+Arena 22,Sparky,Lost,0,1676
+Arena 22,Sparky,Won,0,1454
+Arena 22,Spear Goblins,Lost,0,975
+Arena 22,Spear Goblins,Won,0,1045
+Arena 22,Spirit Empress,Lost,0,142
+Arena 22,Spirit Empress,Won,0,141
+Arena 22,Suspicious Bush,Lost,0,235
+Arena 22,Suspicious Bush,Won,0,228
+Arena 22,Tesla,Lost,0,3469
+Arena 22,Tesla,Lost,1,3710
+Arena 22,Tesla,Won,0,4057
+Arena 22,Tesla,Won,1,4160
+Arena 22,The Log,Lost,0,13962
+Arena 22,The Log,Won,0,15811
+Arena 22,Three Musketeers,Lost,0,84
+Arena 22,Three Musketeers,Won,0,90
+Arena 22,Tombstone,Lost,0,1645
+Arena 22,Tombstone,Won,0,1095
+Arena 22,Tornado,Lost,0,3326
+Arena 22,Tornado,Won,0,2056
+Arena 22,Valkyrie,Lost,0,4593
+Arena 22,Valkyrie,Lost,1,3858
+Arena 22,Valkyrie,Won,0,5180
+Arena 22,Valkyrie,Won,1,4531
+Arena 22,Vines,Lost,0,1849
+Arena 22,Vines,Won,0,2023
+Arena 22,Void,Lost,0,166
+Arena 22,Void,Won,0,100
+Arena 22,Wall Breakers,Lost,0,1679
+Arena 22,Wall Breakers,Lost,1,322
+Arena 22,Wall Breakers,Won,0,1671
+Arena 22,Wall Breakers,Won,1,414
+Arena 22,Witch,Lost,0,4665
+Arena 22,Witch,Lost,1,2473
+Arena 22,Witch,Won,0,5324
+Arena 22,Witch,Won,1,2772
+Arena 22,Wizard,Lost,0,2369
+Arena 22,Wizard,Lost,1,2123
+Arena 22,Wizard,Won,0,2742
+Arena 22,Wizard,Won,1,2312
+Arena 22,X-Bow,Lost,0,533
+Arena 22,X-Bow,Won,0,539
+Arena 22,Zap,Lost,0,6953
+Arena 22,Zap,Lost,1,189
+Arena 22,Zap,Won,0,6933
+Arena 22,Zap,Won,1,217
+Arena 22,Zappies,Lost,0,681
+Arena 22,Zappies,Won,0,572
+Arena 23,Archer Queen,Lost,0,763
+Arena 23,Archer Queen,Won,0,680
+Arena 23,Archers,Lost,0,1000
+Arena 23,Archers,Lost,1,1931
+Arena 23,Archers,Won,0,1128
+Arena 23,Archers,Won,1,2036
+Arena 23,Arrows,Lost,0,11334
+Arena 23,Arrows,Won,0,11075
+Arena 23,Baby Dragon,Lost,0,2597
+Arena 23,Baby Dragon,Lost,1,678
+Arena 23,Baby Dragon,Won,0,2375
+Arena 23,Baby Dragon,Won,1,724
+Arena 23,Balloon,Lost,0,3541
+Arena 23,Balloon,Won,0,3277
+Arena 23,Bandit,Lost,0,2485
+Arena 23,Bandit,Won,0,2441
+Arena 23,Barbarian Barrel,Lost,0,2856
+Arena 23,Barbarian Barrel,Won,0,2076
+Arena 23,Barbarian Hut,Lost,0,20
+Arena 23,Barbarian Hut,Won,0,9
+Arena 23,Barbarians,Lost,0,382
+Arena 23,Barbarians,Lost,1,1037
+Arena 23,Barbarians,Won,0,411
+Arena 23,Barbarians,Won,1,960
+Arena 23,Bats,Lost,0,4841
+Arena 23,Bats,Lost,1,1037
+Arena 23,Bats,Won,0,5164
+Arena 23,Bats,Won,1,724
+Arena 23,Battle Healer,Lost,0,416
+Arena 23,Battle Healer,Won,0,314
+Arena 23,Battle Ram,Lost,0,775
+Arena 23,Battle Ram,Lost,1,831
+Arena 23,Battle Ram,Won,0,805
+Arena 23,Battle Ram,Won,1,788
+Arena 23,Berserker,Lost,0,527
+Arena 23,Berserker,Won,0,386
+Arena 23,Bomb Tower,Lost,0,635
+Arena 23,Bomb Tower,Won,0,521
+Arena 23,Bomber,Lost,0,1109
+Arena 23,Bomber,Lost,1,845
+Arena 23,Bomber,Won,0,1055
+Arena 23,Bomber,Won,1,564
+Arena 23,Boss Bandit,Lost,0,1959
+Arena 23,Boss Bandit,Won,0,1824
+Arena 23,Bowler,Lost,0,912
+Arena 23,Bowler,Won,0,779
+Arena 23,Cannon,Lost,0,3864
+Arena 23,Cannon,Lost,1,1327
+Arena 23,Cannon,Won,0,3880
+Arena 23,Cannon,Won,1,1198
+Arena 23,Cannon Cart,Lost,0,521
+Arena 23,Cannon Cart,Won,0,408
+Arena 23,Clone,Lost,0,742
+Arena 23,Clone,Won,0,652
+Arena 23,Dark Prince,Lost,0,1883
+Arena 23,Dark Prince,Won,0,1940
+Arena 23,Dart Goblin,Lost,0,4691
+Arena 23,Dart Goblin,Lost,1,2329
+Arena 23,Dart Goblin,Won,0,5050
+Arena 23,Dart Goblin,Won,1,2540
+Arena 23,Earthquake,Lost,0,1049
+Arena 23,Earthquake,Won,0,1054
+Arena 23,Electro Dragon,Lost,0,201
+Arena 23,Electro Dragon,Lost,1,1278
+Arena 23,Electro Dragon,Won,0,173
+Arena 23,Electro Dragon,Won,1,1056
+Arena 23,Electro Giant,Lost,0,757
+Arena 23,Electro Giant,Won,0,631
+Arena 23,Electro Spirit,Lost,0,1771
+Arena 23,Electro Spirit,Won,0,1613
+Arena 23,Electro Wizard,Lost,0,5513
+Arena 23,Electro Wizard,Won,0,6177
+Arena 23,Elite Barbarians,Lost,0,3314
+Arena 23,Elite Barbarians,Won,0,3543
+Arena 23,Elixir Collector,Lost,0,503
+Arena 23,Elixir Collector,Won,0,367
+Arena 23,Elixir Golem,Lost,0,1536
+Arena 23,Elixir Golem,Won,0,1226
+Arena 23,Executioner,Lost,0,1056
+Arena 23,Executioner,Lost,1,1058
+Arena 23,Executioner,Won,0,1180
+Arena 23,Executioner,Won,1,1074
+Arena 23,Fire Spirit,Lost,0,970
+Arena 23,Fire Spirit,Won,0,849
+Arena 23,Fireball,Lost,0,8793
+Arena 23,Fireball,Won,0,8894
+Arena 23,Firecracker,Lost,0,5336
+Arena 23,Firecracker,Lost,1,6967
+Arena 23,Firecracker,Won,0,5715
+Arena 23,Firecracker,Won,1,7871
+Arena 23,Fisherman,Lost,0,1078
+Arena 23,Fisherman,Won,0,717
+Arena 23,Flying Machine,Lost,0,615
+Arena 23,Flying Machine,Won,0,494
+Arena 23,Freeze,Lost,0,1577
+Arena 23,Freeze,Won,0,1492
+Arena 23,Furnace,Lost,0,711
+Arena 23,Furnace,Lost,1,461
+Arena 23,Furnace,Won,0,727
+Arena 23,Furnace,Won,1,495
+Arena 23,Giant,Lost,0,1037
+Arena 23,Giant,Won,0,850
+Arena 23,Giant Skeleton,Lost,0,1178
+Arena 23,Giant Skeleton,Won,0,1322
+Arena 23,Giant Snowball,Lost,0,1148
+Arena 23,Giant Snowball,Lost,1,943
+Arena 23,Giant Snowball,Won,0,979
+Arena 23,Giant Snowball,Won,1,560
+Arena 23,Goblin Barrel,Lost,0,8009
+Arena 23,Goblin Barrel,Lost,1,1232
+Arena 23,Goblin Barrel,Won,0,9013
+Arena 23,Goblin Barrel,Won,1,1417
+Arena 23,Goblin Cage,Lost,0,466
+Arena 23,Goblin Cage,Lost,1,694
+Arena 23,Goblin Cage,Won,0,467
+Arena 23,Goblin Cage,Won,1,457
+Arena 23,Goblin Curse,Lost,0,777
+Arena 23,Goblin Curse,Won,0,510
+Arena 23,Goblin Demolisher,Lost,0,246
+Arena 23,Goblin Demolisher,Won,0,71
+Arena 23,Goblin Drill,Lost,0,498
+Arena 23,Goblin Drill,Lost,1,16
+Arena 23,Goblin Drill,Won,0,268
+Arena 23,Goblin Drill,Won,1,25
+Arena 23,Goblin Gang,Lost,0,7165
+Arena 23,Goblin Gang,Won,0,7598
+Arena 23,Goblin Giant,Lost,0,182
+Arena 23,Goblin Giant,Lost,1,454
+Arena 23,Goblin Giant,Won,0,151
+Arena 23,Goblin Giant,Won,1,343
+Arena 23,Goblin Hut,Lost,0,905
+Arena 23,Goblin Hut,Won,0,545
+Arena 23,Goblin Machine,Lost,0,324
+Arena 23,Goblin Machine,Won,0,199
+Arena 23,Goblins,Lost,0,403
+Arena 23,Goblins,Won,0,504
+Arena 23,Goblinstein,Lost,0,488
+Arena 23,Goblinstein,Won,0,420
+Arena 23,Golden Knight,Lost,0,1840
+Arena 23,Golden Knight,Won,0,1689
+Arena 23,Golem,Lost,0,1250
+Arena 23,Golem,Won,0,1026
+Arena 23,Graveyard,Lost,0,1321
+Arena 23,Graveyard,Won,0,1023
+Arena 23,Guards,Lost,0,2578
+Arena 23,Guards,Won,0,2211
+Arena 23,Heal Spirit,Lost,0,205
+Arena 23,Heal Spirit,Won,0,215
+Arena 23,Hog Rider,Lost,0,10593
+Arena 23,Hog Rider,Won,0,11529
+Arena 23,Hunter,Lost,0,354
+Arena 23,Hunter,Lost,1,704
+Arena 23,Hunter,Won,0,419
+Arena 23,Hunter,Won,1,426
+Arena 23,Ice Golem,Lost,0,1421
+Arena 23,Ice Golem,Won,0,1221
+Arena 23,Ice Spirit,Lost,0,6692
+Arena 23,Ice Spirit,Lost,1,294
+Arena 23,Ice Spirit,Won,0,7130
+Arena 23,Ice Spirit,Won,1,336
+Arena 23,Ice Wizard,Lost,0,2024
+Arena 23,Ice Wizard,Won,0,1785
+Arena 23,Inferno Dragon,Lost,0,2751
+Arena 23,Inferno Dragon,Lost,1,812
+Arena 23,Inferno Dragon,Won,0,2629
+Arena 23,Inferno Dragon,Won,1,759
+Arena 23,Inferno Tower,Lost,0,3087
+Arena 23,Inferno Tower,Won,0,3428
+Arena 23,Knight,Lost,0,5298
+Arena 23,Knight,Lost,1,2856
+Arena 23,Knight,Won,0,5717
+Arena 23,Knight,Won,1,3002
+Arena 23,Lava Hound,Lost,0,760
+Arena 23,Lava Hound,Won,0,388
+Arena 23,Lightning,Lost,0,1912
+Arena 23,Lightning,Won,0,1168
+Arena 23,Little Prince,Lost,0,767
+Arena 23,Little Prince,Won,0,832
+Arena 23,Lumberjack,Lost,0,1836
+Arena 23,Lumberjack,Lost,1,1608
+Arena 23,Lumberjack,Won,0,1803
+Arena 23,Lumberjack,Won,1,1409
+Arena 23,Magic Archer,Lost,0,1917
+Arena 23,Magic Archer,Won,0,1914
+Arena 23,Mega Knight,Lost,0,4220
+Arena 23,Mega Knight,Lost,1,6677
+Arena 23,Mega Knight,Won,0,4942
+Arena 23,Mega Knight,Won,1,7361
+Arena 23,Mega Minion,Lost,0,1076
+Arena 23,Mega Minion,Won,0,735
+Arena 23,Mighty Miner,Lost,0,1200
+Arena 23,Mighty Miner,Won,0,1037
+Arena 23,Miner,Lost,0,2804
+Arena 23,Miner,Won,0,2025
+Arena 23,Mini P.E.K.K.A,Lost,0,6732
+Arena 23,Mini P.E.K.K.A,Won,0,7682
+Arena 23,Minion Horde,Lost,0,2105
+Arena 23,Minion Horde,Won,0,2079
+Arena 23,Minions,Lost,0,2838
+Arena 23,Minions,Won,0,2776
+Arena 23,Mirror,Lost,0,1338
+Arena 23,Mirror,Won,0,1255
+Arena 23,Monk,Lost,0,559
+Arena 23,Monk,Won,0,374
+Arena 23,Mortar,Lost,0,158
+Arena 23,Mortar,Lost,1,672
+Arena 23,Mortar,Won,0,158
+Arena 23,Mortar,Won,1,531
+Arena 23,Mother Witch,Lost,0,850
+Arena 23,Mother Witch,Won,0,710
+Arena 23,Musketeer,Lost,0,2160
+Arena 23,Musketeer,Lost,1,487
+Arena 23,Musketeer,Won,0,2198
+Arena 23,Musketeer,Won,1,388
+Arena 23,Night Witch,Lost,0,924
+Arena 23,Night Witch,Won,0,698
+Arena 23,P.E.K.K.A,Lost,0,2848
+Arena 23,P.E.K.K.A,Lost,1,2609
+Arena 23,P.E.K.K.A,Won,0,3076
+Arena 23,P.E.K.K.A,Won,1,2413
+Arena 23,Phoenix,Lost,0,297
+Arena 23,Phoenix,Won,0,166
+Arena 23,Poison,Lost,0,2032
+Arena 23,Poison,Won,0,1541
+Arena 23,Prince,Lost,0,3083
+Arena 23,Prince,Won,0,3139
+Arena 23,Princess,Lost,0,4233
+Arena 23,Princess,Won,0,4662
+Arena 23,Rage,Lost,0,3159
+Arena 23,Rage,Won,0,2780
+Arena 23,Ram Rider,Lost,0,1498
+Arena 23,Ram Rider,Won,0,1389
+Arena 23,Rascals,Lost,0,308
+Arena 23,Rascals,Won,0,304
+Arena 23,Rocket,Lost,0,1928
+Arena 23,Rocket,Won,0,2017
+Arena 23,Royal Delivery,Lost,0,951
+Arena 23,Royal Delivery,Won,0,967
+Arena 23,Royal Ghost,Lost,0,2668
+Arena 23,Royal Ghost,Lost,1,461
+Arena 23,Royal Ghost,Won,0,2614
+Arena 23,Royal Ghost,Won,1,563
+Arena 23,Royal Giant,Lost,0,587
+Arena 23,Royal Giant,Lost,1,1363
+Arena 23,Royal Giant,Won,0,626
+Arena 23,Royal Giant,Won,1,1112
+Arena 23,Royal Hogs,Lost,0,1045
+Arena 23,Royal Hogs,Won,0,937
+Arena 23,Royal Recruits,Lost,0,308
+Arena 23,Royal Recruits,Lost,1,800
+Arena 23,Royal Recruits,Won,0,269
+Arena 23,Royal Recruits,Won,1,696
+Arena 23,Rune Giant,Lost,0,22
+Arena 23,Rune Giant,Won,0,26
+Arena 23,Skeleton Army,Lost,0,7139
+Arena 23,Skeleton Army,Lost,1,1672
+Arena 23,Skeleton Army,Won,0,7782
+Arena 23,Skeleton Army,Won,1,1958
+Arena 23,Skeleton Barrel,Lost,0,1520
+Arena 23,Skeleton Barrel,Lost,1,866
+Arena 23,Skeleton Barrel,Won,0,1478
+Arena 23,Skeleton Barrel,Won,1,782
+Arena 23,Skeleton Dragons,Lost,0,777
+Arena 23,Skeleton Dragons,Won,0,431
+Arena 23,Skeleton King,Lost,0,2737
+Arena 23,Skeleton King,Won,0,2641
+Arena 23,Skeletons,Lost,0,5649
+Arena 23,Skeletons,Lost,1,1580
+Arena 23,Skeletons,Won,0,5479
+Arena 23,Skeletons,Won,1,1465
+Arena 23,Sparky,Lost,0,1073
+Arena 23,Sparky,Won,0,1164
+Arena 23,Spear Goblins,Lost,0,1361
+Arena 23,Spear Goblins,Won,0,1079
+Arena 23,Spirit Empress,Lost,0,373
+Arena 23,Spirit Empress,Won,0,253
+Arena 23,Suspicious Bush,Lost,0,285
+Arena 23,Suspicious Bush,Won,0,274
+Arena 23,Tesla,Lost,0,4115
+Arena 23,Tesla,Lost,1,4437
+Arena 23,Tesla,Won,0,4647
+Arena 23,Tesla,Won,1,4834
+Arena 23,The Log,Lost,0,16168
+Arena 23,The Log,Won,0,17927
+Arena 23,Three Musketeers,Lost,0,89
+Arena 23,Three Musketeers,Won,0,90
+Arena 23,Tombstone,Lost,0,1387
+Arena 23,Tombstone,Won,0,1093
+Arena 23,Tornado,Lost,0,2708
+Arena 23,Tornado,Won,0,1737
+Arena 23,Valkyrie,Lost,0,5571
+Arena 23,Valkyrie,Lost,1,5580
+Arena 23,Valkyrie,Won,0,6038
+Arena 23,Valkyrie,Won,1,5996
+Arena 23,Vines,Lost,0,1953
+Arena 23,Vines,Won,0,1997
+Arena 23,Void,Lost,0,85
+Arena 23,Void,Won,0,66
+Arena 23,Wall Breakers,Lost,0,2048
+Arena 23,Wall Breakers,Lost,1,1057
+Arena 23,Wall Breakers,Won,0,2035
+Arena 23,Wall Breakers,Won,1,872
+Arena 23,Witch,Lost,0,5099
+Arena 23,Witch,Lost,1,3077
+Arena 23,Witch,Won,0,5584
+Arena 23,Witch,Won,1,3385
+Arena 23,Wizard,Lost,0,2941
+Arena 23,Wizard,Lost,1,2940
+Arena 23,Wizard,Won,0,3076
+Arena 23,Wizard,Won,1,3255
+Arena 23,X-Bow,Lost,0,540
+Arena 23,X-Bow,Won,0,612
+Arena 23,Zap,Lost,0,7003
+Arena 23,Zap,Lost,1,786
+Arena 23,Zap,Won,0,7321
+Arena 23,Zap,Won,1,626
+Arena 23,Zappies,Lost,0,479
+Arena 23,Zappies,Won,0,407
+Arena 11,Archer Queen,Won,0,2
+Arena 11,Archers,Lost,0,1981
+Arena 11,Archers,Lost,1,499
+Arena 11,Archers,Won,0,1950
+Arena 11,Archers,Won,1,715
+Arena 11,Arrows,Lost,0,9534
+Arena 11,Arrows,Won,0,9543
+Arena 11,Baby Dragon,Lost,0,8571
+Arena 11,Baby Dragon,Lost,1,118
+Arena 11,Baby Dragon,Won,0,9036
+Arena 11,Baby Dragon,Won,1,196
+Arena 11,Balloon,Lost,0,1299
+Arena 11,Balloon,Won,0,1296
+Arena 11,Bandit,Lost,0,17
+Arena 11,Bandit,Won,0,50
+Arena 11,Barbarian Barrel,Lost,0,3495
+Arena 11,Barbarian Barrel,Won,0,3151
+Arena 11,Barbarian Hut,Lost,0,48
+Arena 11,Barbarian Hut,Won,0,32
+Arena 11,Barbarians,Lost,0,3534
+Arena 11,Barbarians,Lost,1,134
+Arena 11,Barbarians,Won,0,3044
+Arena 11,Barbarians,Won,1,218
+Arena 11,Bats,Lost,0,2749
+Arena 11,Bats,Won,0,2619
+Arena 11,Bats,Won,1,2
+Arena 11,Battle Healer,Lost,0,97
+Arena 11,Battle Healer,Won,0,94
+Arena 11,Battle Ram,Lost,0,808
+Arena 11,Battle Ram,Lost,1,10
+Arena 11,Battle Ram,Won,0,1127
+Arena 11,Battle Ram,Won,1,27
+Arena 11,Berserker,Lost,0,491
+Arena 11,Berserker,Won,0,522
+Arena 11,Bomb Tower,Lost,0,634
+Arena 11,Bomb Tower,Won,0,625
+Arena 11,Bomber,Lost,0,2437
+Arena 11,Bomber,Lost,1,42
+Arena 11,Bomber,Won,0,2102
+Arena 11,Bomber,Won,1,79
+Arena 11,Boss Bandit,Lost,0,33
+Arena 11,Boss Bandit,Won,0,78
+Arena 11,Bowler,Lost,0,1
+Arena 11,Bowler,Won,0,6
+Arena 11,Cannon,Lost,0,4140
+Arena 11,Cannon,Lost,1,3
+Arena 11,Cannon,Won,0,4801
+Arena 11,Cannon,Won,1,2
+Arena 11,Cannon Cart,Lost,0,2
+Arena 11,Cannon Cart,Won,0,9
+Arena 11,Clone,Lost,0,12
+Arena 11,Clone,Won,0,5
+Arena 11,Dark Prince,Lost,0,2569
+Arena 11,Dark Prince,Won,0,2268
+Arena 11,Dart Goblin,Lost,0,6374
+Arena 11,Dart Goblin,Lost,1,16
+Arena 11,Dart Goblin,Won,0,6141
+Arena 11,Dart Goblin,Won,1,28
+Arena 11,Earthquake,Lost,0,1
+Arena 11,Electro Dragon,Lost,0,51
+Arena 11,Electro Dragon,Lost,1,252
+Arena 11,Electro Dragon,Won,0,61
+Arena 11,Electro Dragon,Won,1,397
+Arena 11,Electro Giant,Won,0,1
+Arena 11,Electro Spirit,Lost,0,2093
+Arena 11,Electro Spirit,Won,0,1775
+Arena 11,Electro Wizard,Lost,0,1643
+Arena 11,Electro Wizard,Won,0,2113
+Arena 11,Elite Barbarians,Lost,0,731
+Arena 11,Elite Barbarians,Won,0,974
+Arena 11,Elixir Collector,Lost,0,4
+Arena 11,Elixir Collector,Won,0,2
+Arena 11,Elixir Golem,Lost,0,5
+Arena 11,Elixir Golem,Won,0,6
+Arena 11,Executioner,Lost,0,314
+Arena 11,Executioner,Lost,1,182
+Arena 11,Executioner,Won,0,450
+Arena 11,Executioner,Won,1,260
+Arena 11,Fire Spirit,Lost,0,504
+Arena 11,Fire Spirit,Won,0,670
+Arena 11,Fireball,Lost,0,6210
+Arena 11,Fireball,Won,0,6416
+Arena 11,Firecracker,Lost,0,45
+Arena 11,Firecracker,Lost,1,26
+Arena 11,Firecracker,Won,0,70
+Arena 11,Firecracker,Won,1,49
+Arena 11,Fisherman,Lost,0,12
+Arena 11,Fisherman,Won,0,14
+Arena 11,Flying Machine,Lost,0,567
+Arena 11,Flying Machine,Won,0,242
+Arena 11,Freeze,Lost,0,1414
+Arena 11,Freeze,Won,0,1423
+Arena 11,Furnace,Lost,0,584
+Arena 11,Furnace,Lost,1,6
+Arena 11,Furnace,Won,0,648
+Arena 11,Furnace,Won,1,7
+Arena 11,Giant,Lost,0,1796
+Arena 11,Giant,Won,0,909
+Arena 11,Giant Skeleton,Lost,0,667
+Arena 11,Giant Skeleton,Won,0,594
+Arena 11,Giant Snowball,Lost,0,2583
+Arena 11,Giant Snowball,Lost,1,2
+Arena 11,Giant Snowball,Won,0,2142
+Arena 11,Giant Snowball,Won,1,9
+Arena 11,Goblin Barrel,Lost,0,12201
+Arena 11,Goblin Barrel,Lost,1,20
+Arena 11,Goblin Barrel,Won,0,12159
+Arena 11,Goblin Barrel,Won,1,26
+Arena 11,Goblin Cage,Lost,0,1442
+Arena 11,Goblin Cage,Lost,1,2
+Arena 11,Goblin Cage,Won,0,750
+Arena 11,Goblin Cage,Won,1,1
+Arena 11,Goblin Drill,Lost,0,14
+Arena 11,Goblin Drill,Won,0,26
+Arena 11,Goblin Gang,Lost,0,5137
+Arena 11,Goblin Gang,Won,0,3440
+Arena 11,Goblin Giant,Lost,0,907
+Arena 11,Goblin Giant,Lost,1,6
+Arena 11,Goblin Giant,Won,0,316
+Arena 11,Goblin Giant,Won,1,15
+Arena 11,Goblin Hut,Lost,0,1527
+Arena 11,Goblin Hut,Won,0,1123
+Arena 11,Goblin Machine,Lost,0,13
+Arena 11,Goblin Machine,Won,0,24
+Arena 11,Goblins,Lost,0,1110
+Arena 11,Goblins,Won,0,562
+Arena 11,Goblinstein,Lost,0,1
+Arena 11,Goblinstein,Won,0,3
+Arena 11,Golden Knight,Lost,0,1
+Arena 11,Golem,Lost,0,1036
+Arena 11,Golem,Won,0,773
+Arena 11,Graveyard,Lost,0,2
+Arena 11,Graveyard,Won,0,3
+Arena 11,Guards,Lost,0,2998
+Arena 11,Guards,Won,0,2633
+Arena 11,Heal Spirit,Lost,0,2
+Arena 11,Heal Spirit,Won,0,5
+Arena 11,Hog Rider,Lost,0,7406
+Arena 11,Hog Rider,Won,0,8786
+Arena 11,Hunter,Lost,0,1090
+Arena 11,Hunter,Lost,1,1
+Arena 11,Hunter,Won,0,900
+Arena 11,Hunter,Won,1,1
+Arena 11,Ice Golem,Lost,0,1388
+Arena 11,Ice Golem,Won,0,784
+Arena 11,Ice Spirit,Lost,0,3787
+Arena 11,Ice Spirit,Lost,1,6
+Arena 11,Ice Spirit,Won,0,3065
+Arena 11,Ice Spirit,Won,1,10
+Arena 11,Ice Wizard,Lost,0,43
+Arena 11,Ice Wizard,Won,0,90
+Arena 11,Inferno Dragon,Lost,0,3009
+Arena 11,Inferno Dragon,Lost,1,1537
+Arena 11,Inferno Dragon,Won,0,3912
+Arena 11,Inferno Dragon,Won,1,1788
+Arena 11,Inferno Tower,Lost,0,2076
+Arena 11,Inferno Tower,Won,0,1301
+Arena 11,Knight,Lost,0,4964
+Arena 11,Knight,Lost,1,61
+Arena 11,Knight,Won,0,5200
+Arena 11,Knight,Won,1,130
+Arena 11,Lava Hound,Lost,0,8
+Arena 11,Lava Hound,Won,0,16
+Arena 11,Lightning,Lost,0,981
+Arena 11,Lightning,Won,0,344
+Arena 11,Little Prince,Lost,0,100
+Arena 11,Little Prince,Won,0,216
+Arena 11,Lumberjack,Lost,0,93
+Arena 11,Lumberjack,Lost,1,21
+Arena 11,Lumberjack,Won,0,143
+Arena 11,Lumberjack,Won,1,21
+Arena 11,Magic Archer,Lost,0,45
+Arena 11,Magic Archer,Won,0,75
+Arena 11,Mega Knight,Lost,0,2301
+Arena 11,Mega Knight,Lost,1,23
+Arena 11,Mega Knight,Won,0,3246
+Arena 11,Mega Knight,Won,1,53
+Arena 11,Mega Minion,Lost,0,1618
+Arena 11,Mega Minion,Won,0,663
+Arena 11,Miner,Lost,0,1206
+Arena 11,Miner,Won,0,1143
+Arena 11,Mini P.E.K.K.A,Lost,0,11724
+Arena 11,Mini P.E.K.K.A,Won,0,13561
+Arena 11,Minion Horde,Lost,0,791
+Arena 11,Minion Horde,Won,0,631
+Arena 11,Minions,Lost,0,1955
+Arena 11,Minions,Won,0,2055
+Arena 11,Mirror,Lost,0,18
+Arena 11,Mirror,Won,0,23
+Arena 11,Monk,Lost,0,16
+Arena 11,Monk,Won,0,17
+Arena 11,Mortar,Lost,0,101
+Arena 11,Mortar,Lost,1,7
+Arena 11,Mortar,Won,0,114
+Arena 11,Mortar,Won,1,10
+Arena 11,Mother Witch,Lost,0,5
+Arena 11,Mother Witch,Won,0,22
+Arena 11,Musketeer,Lost,0,2695
+Arena 11,Musketeer,Lost,1,14
+Arena 11,Musketeer,Won,0,2812
+Arena 11,Musketeer,Won,1,18
+Arena 11,Night Witch,Lost,0,14
+Arena 11,Night Witch,Won,0,16
+Arena 11,P.E.K.K.A,Lost,0,1903
+Arena 11,P.E.K.K.A,Lost,1,52
+Arena 11,P.E.K.K.A,Won,0,1979
+Arena 11,P.E.K.K.A,Won,1,95
+Arena 11,Poison,Lost,0,1264
+Arena 11,Poison,Won,0,885
+Arena 11,Prince,Lost,0,7314
+Arena 11,Prince,Won,0,6124
+Arena 11,Princess,Lost,0,2355
+Arena 11,Princess,Won,0,2174
+Arena 11,Rage,Lost,0,35
+Arena 11,Rage,Won,0,52
+Arena 11,Ram Rider,Lost,0,776
+Arena 11,Ram Rider,Won,0,1108
+Arena 11,Rascals,Lost,0,8
+Arena 11,Rascals,Won,0,7
+Arena 11,Rocket,Lost,0,1144
+Arena 11,Rocket,Won,0,417
+Arena 11,Royal Delivery,Lost,0,7
+Arena 11,Royal Delivery,Won,0,7
+Arena 11,Royal Ghost,Lost,0,4881
+Arena 11,Royal Ghost,Lost,1,25
+Arena 11,Royal Ghost,Won,0,6850
+Arena 11,Royal Ghost,Won,1,50
+Arena 11,Royal Giant,Lost,0,460
+Arena 11,Royal Giant,Lost,1,6
+Arena 11,Royal Giant,Won,0,466
+Arena 11,Royal Giant,Won,1,19
+Arena 11,Royal Hogs,Lost,0,1500
+Arena 11,Royal Hogs,Won,0,1545
+Arena 11,Royal Recruits,Lost,0,800
+Arena 11,Royal Recruits,Lost,1,4
+Arena 11,Royal Recruits,Won,0,493
+Arena 11,Royal Recruits,Won,1,6
+Arena 11,Rune Giant,Lost,0,56
+Arena 11,Rune Giant,Won,0,64
+Arena 11,Skeleton Army,Lost,0,15414
+Arena 11,Skeleton Army,Lost,1,533
+Arena 11,Skeleton Army,Won,0,16943
+Arena 11,Skeleton Army,Won,1,1076
+Arena 11,Skeleton Barrel,Lost,0,1961
+Arena 11,Skeleton Barrel,Lost,1,7
+Arena 11,Skeleton Barrel,Won,0,1210
+Arena 11,Skeleton Barrel,Won,1,20
+Arena 11,Skeleton Dragons,Lost,0,445
+Arena 11,Skeleton Dragons,Won,0,393
+Arena 11,Skeletons,Lost,0,3616
+Arena 11,Skeletons,Lost,1,57
+Arena 11,Skeletons,Won,0,2852
+Arena 11,Skeletons,Won,1,87
+Arena 11,Sparky,Lost,0,1155
+Arena 11,Sparky,Won,0,1251
+Arena 11,Spear Goblins,Lost,0,2180
+Arena 11,Spear Goblins,Won,0,1262
+Arena 11,Tesla,Lost,0,2303
+Arena 11,Tesla,Lost,1,356
+Arena 11,Tesla,Won,0,2098
+Arena 11,Tesla,Won,1,470
+Arena 11,The Log,Lost,0,3309
+Arena 11,The Log,Won,0,3209
+Arena 11,Three Musketeers,Lost,0,65
+Arena 11,Three Musketeers,Won,0,88
+Arena 11,Tombstone,Lost,0,966
+Arena 11,Tombstone,Won,0,1280
+Arena 11,Tornado,Lost,0,8
+Arena 11,Tornado,Won,0,8
+Arena 11,Valkyrie,Lost,0,8815
+Arena 11,Valkyrie,Lost,1,139
+Arena 11,Valkyrie,Won,0,9364
+Arena 11,Valkyrie,Won,1,237
+Arena 11,Vines,Lost,0,1794
+Arena 11,Vines,Won,0,2344
+Arena 11,Wall Breakers,Lost,0,156
+Arena 11,Wall Breakers,Lost,1,2
+Arena 11,Wall Breakers,Won,0,276
+Arena 11,Wall Breakers,Won,1,1
+Arena 11,Witch,Lost,0,13144
+Arena 11,Witch,Lost,1,544
+Arena 11,Witch,Won,0,15092
+Arena 11,Witch,Won,1,913
+Arena 11,Wizard,Lost,0,7407
+Arena 11,Wizard,Lost,1,1320
+Arena 11,Wizard,Won,0,8022
+Arena 11,Wizard,Won,1,1298
+Arena 11,X-Bow,Lost,0,1385
+Arena 11,X-Bow,Won,0,856
+Arena 11,Zap,Lost,0,5276
+Arena 11,Zap,Won,0,4969
+Arena 11,Zap,Won,1,1
+Arena 11,Zappies,Lost,0,726
+Arena 11,Zappies,Won,0,550
+Arena 24,Archer Queen,Lost,0,644
+Arena 24,Archer Queen,Won,0,617
+Arena 24,Archers,Lost,0,934
+Arena 24,Archers,Lost,1,1802
+Arena 24,Archers,Won,0,1071
+Arena 24,Archers,Won,1,1853
+Arena 24,Arrows,Lost,0,12183
+Arena 24,Arrows,Won,0,12322
+Arena 24,Baby Dragon,Lost,0,2385
+Arena 24,Baby Dragon,Lost,1,594
+Arena 24,Baby Dragon,Won,0,2177
+Arena 24,Baby Dragon,Won,1,569
+Arena 24,Balloon,Lost,0,3425
+Arena 24,Balloon,Won,0,3338
+Arena 24,Bandit,Lost,0,2301
+Arena 24,Bandit,Won,0,2380
+Arena 24,Barbarian Barrel,Lost,0,2938
+Arena 24,Barbarian Barrel,Won,0,2343
+Arena 24,Barbarian Hut,Lost,0,47
+Arena 24,Barbarian Hut,Won,0,33
+Arena 24,Barbarians,Lost,0,351
+Arena 24,Barbarians,Lost,1,958
+Arena 24,Barbarians,Won,0,353
+Arena 24,Barbarians,Won,1,831
+Arena 24,Bats,Lost,0,4682
+Arena 24,Bats,Lost,1,997
+Arena 24,Bats,Won,0,4981
+Arena 24,Bats,Won,1,827
+Arena 24,Battle Healer,Lost,0,375
+Arena 24,Battle Healer,Won,0,305
+Arena 24,Battle Ram,Lost,0,656
+Arena 24,Battle Ram,Lost,1,770
+Arena 24,Battle Ram,Won,0,756
+Arena 24,Battle Ram,Won,1,784
+Arena 24,Berserker,Lost,0,547
+Arena 24,Berserker,Won,0,485
+Arena 24,Bomb Tower,Lost,0,554
+Arena 24,Bomb Tower,Won,0,420
+Arena 24,Bomber,Lost,0,1133
+Arena 24,Bomber,Lost,1,795
+Arena 24,Bomber,Won,0,999
+Arena 24,Bomber,Won,1,529
+Arena 24,Boss Bandit,Lost,0,1742
+Arena 24,Boss Bandit,Won,0,1607
+Arena 24,Bowler,Lost,0,863
+Arena 24,Bowler,Won,0,684
+Arena 24,Cannon,Lost,0,4007
+Arena 24,Cannon,Lost,1,1698
+Arena 24,Cannon,Won,0,4038
+Arena 24,Cannon,Won,1,1480
+Arena 24,Cannon Cart,Lost,0,588
+Arena 24,Cannon Cart,Won,0,494
+Arena 24,Clone,Lost,0,633
+Arena 24,Clone,Won,0,593
+Arena 24,Dark Prince,Lost,0,1789
+Arena 24,Dark Prince,Won,0,1854
+Arena 24,Dart Goblin,Lost,0,5105
+Arena 24,Dart Goblin,Lost,1,2850
+Arena 24,Dart Goblin,Won,0,5535
+Arena 24,Dart Goblin,Won,1,2884
+Arena 24,Earthquake,Lost,0,1160
+Arena 24,Earthquake,Won,0,1091
+Arena 24,Electro Dragon,Lost,0,159
+Arena 24,Electro Dragon,Lost,1,1185
+Arena 24,Electro Dragon,Won,0,136
+Arena 24,Electro Dragon,Won,1,989
+Arena 24,Electro Giant,Lost,0,834
+Arena 24,Electro Giant,Won,0,755
+Arena 24,Electro Spirit,Lost,0,1991
+Arena 24,Electro Spirit,Won,0,1700
+Arena 24,Electro Wizard,Lost,0,5109
+Arena 24,Electro Wizard,Won,0,5545
+Arena 24,Elite Barbarians,Lost,0,3117
+Arena 24,Elite Barbarians,Won,0,3373
+Arena 24,Elixir Collector,Lost,0,498
+Arena 24,Elixir Collector,Won,0,428
+Arena 24,Elixir Golem,Lost,0,1640
+Arena 24,Elixir Golem,Won,0,1423
+Arena 24,Executioner,Lost,0,985
+Arena 24,Executioner,Lost,1,1056
+Arena 24,Executioner,Won,0,1042
+Arena 24,Executioner,Won,1,1080
+Arena 24,Fire Spirit,Lost,0,1019
+Arena 24,Fire Spirit,Won,0,874
+Arena 24,Fireball,Lost,0,9556
+Arena 24,Fireball,Won,0,9460
+Arena 24,Firecracker,Lost,0,4497
+Arena 24,Firecracker,Lost,1,8561
+Arena 24,Firecracker,Won,0,4824
+Arena 24,Firecracker,Won,1,9217
+Arena 24,Fisherman,Lost,0,1082
+Arena 24,Fisherman,Won,0,779
+Arena 24,Flying Machine,Lost,0,658
+Arena 24,Flying Machine,Won,0,595
+Arena 24,Freeze,Lost,0,1424
+Arena 24,Freeze,Won,0,1340
+Arena 24,Furnace,Lost,0,876
+Arena 24,Furnace,Lost,1,513
+Arena 24,Furnace,Won,0,931
+Arena 24,Furnace,Won,1,592
+Arena 24,Giant,Lost,0,996
+Arena 24,Giant,Won,0,789
+Arena 24,Giant Skeleton,Lost,0,1265
+Arena 24,Giant Skeleton,Won,0,1285
+Arena 24,Giant Snowball,Lost,0,999
+Arena 24,Giant Snowball,Lost,1,881
+Arena 24,Giant Snowball,Won,0,964
+Arena 24,Giant Snowball,Won,1,551
+Arena 24,Goblin Barrel,Lost,0,7132
+Arena 24,Goblin Barrel,Lost,1,1649
+Arena 24,Goblin Barrel,Won,0,7743
+Arena 24,Goblin Barrel,Won,1,1834
+Arena 24,Goblin Cage,Lost,0,391
+Arena 24,Goblin Cage,Lost,1,679
+Arena 24,Goblin Cage,Won,0,422
+Arena 24,Goblin Cage,Won,1,516
+Arena 24,Goblin Curse,Lost,0,586
+Arena 24,Goblin Curse,Won,0,466
+Arena 24,Goblin Demolisher,Lost,0,284
+Arena 24,Goblin Demolisher,Won,0,106
+Arena 24,Goblin Drill,Lost,0,456
+Arena 24,Goblin Drill,Lost,1,61
+Arena 24,Goblin Drill,Won,0,270
+Arena 24,Goblin Drill,Won,1,53
+Arena 24,Goblin Gang,Lost,0,7499
+Arena 24,Goblin Gang,Won,0,7837
+Arena 24,Goblin Giant,Lost,0,146
+Arena 24,Goblin Giant,Lost,1,444
+Arena 24,Goblin Giant,Won,0,148
+Arena 24,Goblin Giant,Won,1,360
+Arena 24,Goblin Hut,Lost,0,775
+Arena 24,Goblin Hut,Won,0,577
+Arena 24,Goblin Machine,Lost,0,320
+Arena 24,Goblin Machine,Won,0,220
+Arena 24,Goblins,Lost,0,458
+Arena 24,Goblins,Won,0,470
+Arena 24,Goblinstein,Lost,0,413
+Arena 24,Goblinstein,Won,0,335
+Arena 24,Golden Knight,Lost,0,1683
+Arena 24,Golden Knight,Won,0,1525
+Arena 24,Golem,Lost,0,1219
+Arena 24,Golem,Won,0,991
+Arena 24,Graveyard,Lost,0,1043
+Arena 24,Graveyard,Won,0,867
+Arena 24,Guards,Lost,0,2510
+Arena 24,Guards,Won,0,2110
+Arena 24,Heal Spirit,Lost,0,214
+Arena 24,Heal Spirit,Won,0,214
+Arena 24,Hog Rider,Lost,0,11919
+Arena 24,Hog Rider,Won,0,12749
+Arena 24,Hunter,Lost,0,344
+Arena 24,Hunter,Lost,1,575
+Arena 24,Hunter,Won,0,403
+Arena 24,Hunter,Won,1,329
+Arena 24,Ice Golem,Lost,0,1667
+Arena 24,Ice Golem,Won,0,1539
+Arena 24,Ice Spirit,Lost,0,7491
+Arena 24,Ice Spirit,Lost,1,310
+Arena 24,Ice Spirit,Won,0,7693
+Arena 24,Ice Spirit,Won,1,383
+Arena 24,Ice Wizard,Lost,0,1753
+Arena 24,Ice Wizard,Won,0,1570
+Arena 24,Inferno Dragon,Lost,0,2393
+Arena 24,Inferno Dragon,Lost,1,673
+Arena 24,Inferno Dragon,Won,0,2289
+Arena 24,Inferno Dragon,Won,1,640
+Arena 24,Inferno Tower,Lost,0,3299
+Arena 24,Inferno Tower,Won,0,3611
+Arena 24,Knight,Lost,0,5580
+Arena 24,Knight,Lost,1,2990
+Arena 24,Knight,Won,0,5913
+Arena 24,Knight,Won,1,3199
+Arena 24,Lava Hound,Lost,0,691
+Arena 24,Lava Hound,Won,0,394
+Arena 24,Lightning,Lost,0,1968
+Arena 24,Lightning,Won,0,1137
+Arena 24,Little Prince,Lost,0,558
+Arena 24,Little Prince,Won,0,645
+Arena 24,Lumberjack,Lost,0,1673
+Arena 24,Lumberjack,Lost,1,1941
+Arena 24,Lumberjack,Won,0,1698
+Arena 24,Lumberjack,Won,1,1831
+Arena 24,Magic Archer,Lost,0,1864
+Arena 24,Magic Archer,Won,0,1776
+Arena 24,Mega Knight,Lost,0,3272
+Arena 24,Mega Knight,Lost,1,7730
+Arena 24,Mega Knight,Won,0,3644
+Arena 24,Mega Knight,Won,1,8462
+Arena 24,Mega Minion,Lost,0,1127
+Arena 24,Mega Minion,Won,0,829
+Arena 24,Mighty Miner,Lost,0,1167
+Arena 24,Mighty Miner,Won,0,994
+Arena 24,Miner,Lost,0,2346
+Arena 24,Miner,Won,0,1825
+Arena 24,Mini P.E.K.K.A,Lost,0,6993
+Arena 24,Mini P.E.K.K.A,Won,0,7618
+Arena 24,Minion Horde,Lost,0,1942
+Arena 24,Minion Horde,Won,0,1926
+Arena 24,Minions,Lost,0,2927
+Arena 24,Minions,Won,0,2990
+Arena 24,Mirror,Lost,0,1456
+Arena 24,Mirror,Won,0,1415
+Arena 24,Monk,Lost,0,612
+Arena 24,Monk,Won,0,428
+Arena 24,Mortar,Lost,0,179
+Arena 24,Mortar,Lost,1,824
+Arena 24,Mortar,Won,0,171
+Arena 24,Mortar,Won,1,655
+Arena 24,Mother Witch,Lost,0,797
+Arena 24,Mother Witch,Won,0,706
+Arena 24,Musketeer,Lost,0,2245
+Arena 24,Musketeer,Lost,1,754
+Arena 24,Musketeer,Won,0,2396
+Arena 24,Musketeer,Won,1,690
+Arena 24,Night Witch,Lost,0,830
+Arena 24,Night Witch,Won,0,620
+Arena 24,P.E.K.K.A,Lost,0,2635
+Arena 24,P.E.K.K.A,Lost,1,2337
+Arena 24,P.E.K.K.A,Won,0,2807
+Arena 24,P.E.K.K.A,Won,1,2352
+Arena 24,Phoenix,Lost,0,292
+Arena 24,Phoenix,Won,0,163
+Arena 24,Poison,Lost,0,1868
+Arena 24,Poison,Won,0,1589
+Arena 24,Prince,Lost,0,3253
+Arena 24,Prince,Won,0,3307
+Arena 24,Princess,Lost,0,3971
+Arena 24,Princess,Won,0,4332
+Arena 24,Rage,Lost,0,3280
+Arena 24,Rage,Won,0,3018
+Arena 24,Ram Rider,Lost,0,1445
+Arena 24,Ram Rider,Won,0,1354
+Arena 24,Rascals,Lost,0,331
+Arena 24,Rascals,Won,0,413
+Arena 24,Rocket,Lost,0,2259
+Arena 24,Rocket,Won,0,2353
+Arena 24,Royal Delivery,Lost,0,924
+Arena 24,Royal Delivery,Won,0,976
+Arena 24,Royal Ghost,Lost,0,2297
+Arena 24,Royal Ghost,Lost,1,519
+Arena 24,Royal Ghost,Won,0,2240
+Arena 24,Royal Ghost,Won,1,558
+Arena 24,Royal Giant,Lost,0,515
+Arena 24,Royal Giant,Lost,1,1531
+Arena 24,Royal Giant,Won,0,508
+Arena 24,Royal Giant,Won,1,1259
+Arena 24,Royal Hogs,Lost,0,1051
+Arena 24,Royal Hogs,Won,0,1059
+Arena 24,Royal Recruits,Lost,0,232
+Arena 24,Royal Recruits,Lost,1,773
+Arena 24,Royal Recruits,Won,0,239
+Arena 24,Royal Recruits,Won,1,829
+Arena 24,Rune Giant,Lost,0,8
+Arena 24,Rune Giant,Won,0,8
+Arena 24,Skeleton Army,Lost,0,6904
+Arena 24,Skeleton Army,Lost,1,1644
+Arena 24,Skeleton Army,Won,0,7434
+Arena 24,Skeleton Army,Won,1,1861
+Arena 24,Skeleton Barrel,Lost,0,1741
+Arena 24,Skeleton Barrel,Lost,1,918
+Arena 24,Skeleton Barrel,Won,0,1803
+Arena 24,Skeleton Barrel,Won,1,913
+Arena 24,Skeleton Dragons,Lost,0,621
+Arena 24,Skeleton Dragons,Won,0,384
+Arena 24,Skeleton King,Lost,0,2477
+Arena 24,Skeleton King,Won,0,2168
+Arena 24,Skeletons,Lost,0,5838
+Arena 24,Skeletons,Lost,1,1774
+Arena 24,Skeletons,Won,0,5574
+Arena 24,Skeletons,Won,1,1759
+Arena 24,Sparky,Lost,0,1089
+Arena 24,Sparky,Won,0,1114
+Arena 24,Spear Goblins,Lost,0,1266
+Arena 24,Spear Goblins,Won,0,932
+Arena 24,Spirit Empress,Lost,0,300
+Arena 24,Spirit Empress,Won,0,187
+Arena 24,Suspicious Bush,Lost,0,354
+Arena 24,Suspicious Bush,Won,0,360
+Arena 24,Tesla,Lost,0,4399
+Arena 24,Tesla,Lost,1,4391
+Arena 24,Tesla,Won,0,4701
+Arena 24,Tesla,Won,1,4582
+Arena 24,The Log,Lost,0,16958
+Arena 24,The Log,Won,0,18024
+Arena 24,Three Musketeers,Lost,0,107
+Arena 24,Three Musketeers,Won,0,127
+Arena 24,Tombstone,Lost,0,1282
+Arena 24,Tombstone,Won,0,1052
+Arena 24,Tornado,Lost,0,2390
+Arena 24,Tornado,Won,0,1684
+Arena 24,Valkyrie,Lost,0,5061
+Arena 24,Valkyrie,Lost,1,6769
+Arena 24,Valkyrie,Won,0,5536
+Arena 24,Valkyrie,Won,1,7311
+Arena 24,Vines,Lost,0,2056
+Arena 24,Vines,Won,0,2065
+Arena 24,Void,Lost,0,86
+Arena 24,Void,Won,0,76
+Arena 24,Wall Breakers,Lost,0,1994
+Arena 24,Wall Breakers,Lost,1,925
+Arena 24,Wall Breakers,Won,0,2168
+Arena 24,Wall Breakers,Won,1,818
+Arena 24,Witch,Lost,0,4214
+Arena 24,Witch,Lost,1,3500
+Arena 24,Witch,Won,0,4373
+Arena 24,Witch,Won,1,3734
+Arena 24,Wizard,Lost,0,2597
+Arena 24,Wizard,Lost,1,2821
+Arena 24,Wizard,Won,0,2696
+Arena 24,Wizard,Won,1,3100
+Arena 24,X-Bow,Lost,0,779
+Arena 24,X-Bow,Won,0,786
+Arena 24,Zap,Lost,0,7074
+Arena 24,Zap,Lost,1,956
+Arena 24,Zap,Won,0,7482
+Arena 24,Zap,Won,1,753
+Arena 24,Zappies,Lost,0,463
+Arena 24,Zappies,Won,0,454
+Arena 13,Archer Queen,Lost,0,7
+Arena 13,Archer Queen,Won,0,6
+Arena 13,Archers,Lost,0,1214
+Arena 13,Archers,Lost,1,813
+Arena 13,Archers,Won,0,1549
+Arena 13,Archers,Won,1,1213
+Arena 13,Arrows,Lost,0,9304
+Arena 13,Arrows,Won,0,8047
+Arena 13,Baby Dragon,Lost,0,6917
+Arena 13,Baby Dragon,Lost,1,287
+Arena 13,Baby Dragon,Won,0,7703
+Arena 13,Baby Dragon,Won,1,477
+Arena 13,Balloon,Lost,0,2350
+Arena 13,Balloon,Won,0,1484
+Arena 13,Bandit,Lost,0,889
+Arena 13,Bandit,Won,0,984
+Arena 13,Barbarian Barrel,Lost,0,3409
+Arena 13,Barbarian Barrel,Won,0,2078
+Arena 13,Barbarian Hut,Lost,0,33
+Arena 13,Barbarian Hut,Won,0,20
+Arena 13,Barbarians,Lost,0,2003
+Arena 13,Barbarians,Lost,1,135
+Arena 13,Barbarians,Won,0,2013
+Arena 13,Barbarians,Won,1,227
+Arena 13,Bats,Lost,0,5039
+Arena 13,Bats,Lost,1,10
+Arena 13,Bats,Won,0,3081
+Arena 13,Bats,Won,1,24
+Arena 13,Battle Healer,Lost,0,59
+Arena 13,Battle Healer,Won,0,76
+Arena 13,Battle Ram,Lost,0,878
+Arena 13,Battle Ram,Lost,1,13
+Arena 13,Battle Ram,Won,0,886
+Arena 13,Battle Ram,Won,1,28
+Arena 13,Berserker,Lost,0,350
+Arena 13,Berserker,Won,0,424
+Arena 13,Bomb Tower,Lost,0,1109
+Arena 13,Bomb Tower,Won,0,639
+Arena 13,Bomber,Lost,0,1380
+Arena 13,Bomber,Lost,1,51
+Arena 13,Bomber,Won,0,1363
+Arena 13,Bomber,Won,1,93
+Arena 13,Boss Bandit,Lost,0,130
+Arena 13,Boss Bandit,Won,0,250
+Arena 13,Bowler,Lost,0,817
+Arena 13,Bowler,Won,0,709
+Arena 13,Cannon,Lost,0,3937
+Arena 13,Cannon,Lost,1,40
+Arena 13,Cannon,Won,0,4632
+Arena 13,Cannon,Won,1,72
+Arena 13,Cannon Cart,Lost,0,1
+Arena 13,Clone,Lost,0,24
+Arena 13,Clone,Won,0,31
+Arena 13,Dark Prince,Lost,0,2014
+Arena 13,Dark Prince,Won,0,1763
+Arena 13,Dart Goblin,Lost,0,4286
+Arena 13,Dart Goblin,Lost,1,77
+Arena 13,Dart Goblin,Won,0,4879
+Arena 13,Dart Goblin,Won,1,121
+Arena 13,Earthquake,Lost,0,131
+Arena 13,Earthquake,Won,0,136
+Arena 13,Electro Dragon,Lost,0,394
+Arena 13,Electro Dragon,Lost,1,308
+Arena 13,Electro Dragon,Won,0,423
+Arena 13,Electro Dragon,Won,1,424
+Arena 13,Electro Giant,Lost,0,231
+Arena 13,Electro Giant,Won,0,275
+Arena 13,Electro Spirit,Lost,0,1678
+Arena 13,Electro Spirit,Won,0,1628
+Arena 13,Electro Wizard,Lost,0,4066
+Arena 13,Electro Wizard,Won,0,4816
+Arena 13,Elite Barbarians,Lost,0,835
+Arena 13,Elite Barbarians,Won,0,970
+Arena 13,Elixir Collector,Lost,0,4
+Arena 13,Elixir Collector,Won,0,7
+Arena 13,Elixir Golem,Lost,0,21
+Arena 13,Elixir Golem,Won,0,19
+Arena 13,Executioner,Lost,0,359
+Arena 13,Executioner,Lost,1,401
+Arena 13,Executioner,Won,0,499
+Arena 13,Executioner,Won,1,543
+Arena 13,Fire Spirit,Lost,0,471
+Arena 13,Fire Spirit,Won,0,480
+Arena 13,Fireball,Lost,0,5256
+Arena 13,Fireball,Won,0,5609
+Arena 13,Firecracker,Lost,0,3057
+Arena 13,Firecracker,Lost,1,46
+Arena 13,Firecracker,Won,0,3383
+Arena 13,Firecracker,Won,1,96
+Arena 13,Fisherman,Lost,0,13
+Arena 13,Fisherman,Won,0,4
+Arena 13,Flying Machine,Lost,0,937
+Arena 13,Flying Machine,Won,0,367
+Arena 13,Freeze,Lost,0,1950
+Arena 13,Freeze,Won,0,1390
+Arena 13,Furnace,Lost,0,287
+Arena 13,Furnace,Lost,1,15
+Arena 13,Furnace,Won,0,356
+Arena 13,Furnace,Won,1,34
+Arena 13,Giant,Lost,0,2689
+Arena 13,Giant,Won,0,1109
+Arena 13,Giant Skeleton,Lost,0,857
+Arena 13,Giant Skeleton,Won,0,539
+Arena 13,Giant Snowball,Lost,0,3157
+Arena 13,Giant Snowball,Lost,1,15
+Arena 13,Giant Snowball,Won,0,1935
+Arena 13,Giant Snowball,Won,1,24
+Arena 13,Goblin Barrel,Lost,0,9509
+Arena 13,Goblin Barrel,Lost,1,13
+Arena 13,Goblin Barrel,Won,0,11066
+Arena 13,Goblin Barrel,Won,1,23
+Arena 13,Goblin Cage,Lost,0,1293
+Arena 13,Goblin Cage,Lost,1,4
+Arena 13,Goblin Cage,Won,0,724
+Arena 13,Goblin Cage,Won,1,4
+Arena 13,Goblin Demolisher,Lost,0,153
+Arena 13,Goblin Demolisher,Won,0,95
+Arena 13,Goblin Drill,Lost,0,12
+Arena 13,Goblin Drill,Lost,1,1
+Arena 13,Goblin Drill,Won,0,23
+Arena 13,Goblin Gang,Lost,0,3670
+Arena 13,Goblin Gang,Won,0,3266
+Arena 13,Goblin Giant,Lost,0,618
+Arena 13,Goblin Giant,Lost,1,2
+Arena 13,Goblin Giant,Won,0,315
+Arena 13,Goblin Giant,Won,1,4
+Arena 13,Goblin Hut,Lost,0,1638
+Arena 13,Goblin Hut,Won,0,972
+Arena 13,Goblin Machine,Won,0,7
+Arena 13,Goblins,Lost,0,384
+Arena 13,Goblins,Won,0,400
+Arena 13,Goblinstein,Lost,0,17
+Arena 13,Goblinstein,Won,0,16
+Arena 13,Golden Knight,Lost,0,9
+Arena 13,Golden Knight,Won,0,24
+Arena 13,Golem,Lost,0,657
+Arena 13,Golem,Won,0,498
+Arena 13,Graveyard,Lost,0,1595
+Arena 13,Graveyard,Won,0,933
+Arena 13,Guards,Lost,0,3687
+Arena 13,Guards,Won,0,2872
+Arena 13,Heal Spirit,Lost,0,106
+Arena 13,Heal Spirit,Won,0,82
+Arena 13,Hog Rider,Lost,0,6539
+Arena 13,Hog Rider,Won,0,8063
+Arena 13,Hunter,Lost,0,446
+Arena 13,Hunter,Lost,1,4
+Arena 13,Hunter,Won,0,486
+Arena 13,Hunter,Won,1,5
+Arena 13,Ice Golem,Lost,0,1234
+Arena 13,Ice Golem,Won,0,867
+Arena 13,Ice Spirit,Lost,0,3640
+Arena 13,Ice Spirit,Lost,1,2
+Arena 13,Ice Spirit,Won,0,3560
+Arena 13,Ice Spirit,Won,1,1
+Arena 13,Ice Wizard,Lost,0,1620
+Arena 13,Ice Wizard,Won,0,1712
+Arena 13,Inferno Dragon,Lost,0,4009
+Arena 13,Inferno Dragon,Lost,1,1326
+Arena 13,Inferno Dragon,Won,0,4040
+Arena 13,Inferno Dragon,Won,1,1838
+Arena 13,Inferno Tower,Lost,0,1419
+Arena 13,Inferno Tower,Won,0,1354
+Arena 13,Knight,Lost,0,5866
+Arena 13,Knight,Lost,1,100
+Arena 13,Knight,Won,0,6015
+Arena 13,Knight,Won,1,164
+Arena 13,Lava Hound,Lost,0,305
+Arena 13,Lava Hound,Won,0,67
+Arena 13,Lightning,Lost,0,1061
+Arena 13,Lightning,Won,0,420
+Arena 13,Little Prince,Lost,0,174
+Arena 13,Little Prince,Won,0,326
+Arena 13,Lumberjack,Lost,0,143
+Arena 13,Lumberjack,Lost,1,62
+Arena 13,Lumberjack,Won,0,254
+Arena 13,Lumberjack,Won,1,91
+Arena 13,Magic Archer,Lost,0,635
+Arena 13,Magic Archer,Won,0,751
+Arena 13,Mega Knight,Lost,0,7507
+Arena 13,Mega Knight,Lost,1,162
+Arena 13,Mega Knight,Won,0,10237
+Arena 13,Mega Knight,Won,1,281
+Arena 13,Mega Minion,Lost,0,1433
+Arena 13,Mega Minion,Won,0,599
+Arena 13,Mighty Miner,Lost,0,16
+Arena 13,Mighty Miner,Won,0,24
+Arena 13,Miner,Lost,0,3587
+Arena 13,Miner,Won,0,1702
+Arena 13,Mini P.E.K.K.A,Lost,0,10902
+Arena 13,Mini P.E.K.K.A,Won,0,12995
+Arena 13,Minion Horde,Lost,0,1123
+Arena 13,Minion Horde,Won,0,826
+Arena 13,Minions,Lost,0,2716
+Arena 13,Minions,Won,0,2332
+Arena 13,Mirror,Lost,0,38
+Arena 13,Mirror,Won,0,33
+Arena 13,Monk,Lost,0,28
+Arena 13,Monk,Won,0,50
+Arena 13,Mortar,Lost,0,95
+Arena 13,Mortar,Lost,1,15
+Arena 13,Mortar,Won,0,107
+Arena 13,Mortar,Won,1,35
+Arena 13,Mother Witch,Lost,0,6
+Arena 13,Mother Witch,Won,0,8
+Arena 13,Musketeer,Lost,0,2243
+Arena 13,Musketeer,Lost,1,13
+Arena 13,Musketeer,Won,0,2274
+Arena 13,Musketeer,Won,1,29
+Arena 13,Night Witch,Lost,0,21
+Arena 13,Night Witch,Won,0,28
+Arena 13,P.E.K.K.A,Lost,0,1824
+Arena 13,P.E.K.K.A,Lost,1,99
+Arena 13,P.E.K.K.A,Won,0,1872
+Arena 13,P.E.K.K.A,Won,1,128
+Arena 13,Phoenix,Lost,0,183
+Arena 13,Phoenix,Won,0,160
+Arena 13,Poison,Lost,0,2531
+Arena 13,Poison,Won,0,1063
+Arena 13,Prince,Lost,0,5600
+Arena 13,Prince,Won,0,4950
+Arena 13,Princess,Lost,0,3467
+Arena 13,Princess,Won,0,4359
+Arena 13,Rage,Lost,0,40
+Arena 13,Rage,Won,0,74
+Arena 13,Ram Rider,Lost,0,1641
+Arena 13,Ram Rider,Won,0,1852
+Arena 13,Rascals,Lost,0,251
+Arena 13,Rascals,Won,0,268
+Arena 13,Rocket,Lost,0,732
+Arena 13,Rocket,Won,0,431
+Arena 13,Royal Delivery,Lost,0,6
+Arena 13,Royal Delivery,Won,0,8
+Arena 13,Royal Ghost,Lost,0,3762
+Arena 13,Royal Ghost,Lost,1,30
+Arena 13,Royal Ghost,Won,0,5052
+Arena 13,Royal Ghost,Won,1,74
+Arena 13,Royal Giant,Lost,0,354
+Arena 13,Royal Giant,Lost,1,25
+Arena 13,Royal Giant,Won,0,325
+Arena 13,Royal Giant,Won,1,61
+Arena 13,Royal Hogs,Lost,0,1567
+Arena 13,Royal Hogs,Won,0,1243
+Arena 13,Royal Recruits,Lost,0,1234
+Arena 13,Royal Recruits,Lost,1,10
+Arena 13,Royal Recruits,Won,0,673
+Arena 13,Royal Recruits,Won,1,37
+Arena 13,Rune Giant,Lost,0,37
+Arena 13,Rune Giant,Won,0,45
+Arena 13,Skeleton Army,Lost,0,12668
+Arena 13,Skeleton Army,Lost,1,818
+Arena 13,Skeleton Army,Won,0,14447
+Arena 13,Skeleton Army,Won,1,1555
+Arena 13,Skeleton Barrel,Lost,0,1358
+Arena 13,Skeleton Barrel,Lost,1,5
+Arena 13,Skeleton Barrel,Won,0,998
+Arena 13,Skeleton Barrel,Won,1,13
+Arena 13,Skeleton Dragons,Lost,0,442
+Arena 13,Skeleton Dragons,Won,0,257
+Arena 13,Skeleton King,Lost,0,1
+Arena 13,Skeleton King,Won,0,2
+Arena 13,Skeletons,Lost,0,3303
+Arena 13,Skeletons,Lost,1,122
+Arena 13,Skeletons,Won,0,3298
+Arena 13,Skeletons,Won,1,181
+Arena 13,Sparky,Lost,0,2249
+Arena 13,Sparky,Won,0,2135
+Arena 13,Spear Goblins,Lost,0,2481
+Arena 13,Spear Goblins,Won,0,1122
+Arena 13,Spirit Empress,Lost,0,1
+Arena 13,Suspicious Bush,Lost,0,395
+Arena 13,Suspicious Bush,Won,0,448
+Arena 13,Tesla,Lost,0,2266
+Arena 13,Tesla,Lost,1,689
+Arena 13,Tesla,Won,0,2473
+Arena 13,Tesla,Won,1,1011
+Arena 13,The Log,Lost,0,8343
+Arena 13,The Log,Won,0,10883
+Arena 13,Three Musketeers,Lost,0,270
+Arena 13,Three Musketeers,Won,0,119
+Arena 13,Tombstone,Lost,0,844
+Arena 13,Tombstone,Won,0,945
+Arena 13,Tornado,Lost,0,38
+Arena 13,Tornado,Won,0,46
+Arena 13,Valkyrie,Lost,0,7517
+Arena 13,Valkyrie,Lost,1,466
+Arena 13,Valkyrie,Won,0,8281
+Arena 13,Valkyrie,Won,1,491
+Arena 13,Vines,Lost,0,1666
+Arena 13,Vines,Won,0,2232
+Arena 13,Wall Breakers,Lost,0,2942
+Arena 13,Wall Breakers,Lost,1,22
+Arena 13,Wall Breakers,Won,0,2241
+Arena 13,Wall Breakers,Won,1,40
+Arena 13,Witch,Lost,0,10751
+Arena 13,Witch,Lost,1,991
+Arena 13,Witch,Won,0,12198
+Arena 13,Witch,Won,1,1587
+Arena 13,Wizard,Lost,0,4899
+Arena 13,Wizard,Lost,1,2347
+Arena 13,Wizard,Won,0,5271
+Arena 13,Wizard,Won,1,1689
+Arena 13,X-Bow,Lost,0,676
+Arena 13,X-Bow,Won,0,578
+Arena 13,Zap,Lost,0,5559
+Arena 13,Zap,Lost,1,9
+Arena 13,Zap,Won,0,4476
+Arena 13,Zap,Won,1,17
+Arena 13,Zappies,Lost,0,865
+Arena 13,Zappies,Won,0,447
+Arena 14,Archer Queen,Lost,0,5
+Arena 14,Archer Queen,Won,0,4
+Arena 14,Archers,Lost,0,1152
+Arena 14,Archers,Lost,1,1153
+Arena 14,Archers,Won,0,1341
+Arena 14,Archers,Won,1,1594
+Arena 14,Arrows,Lost,0,8832
+Arena 14,Arrows,Won,0,8215
+Arena 14,Baby Dragon,Lost,0,5848
+Arena 14,Baby Dragon,Lost,1,434
+Arena 14,Baby Dragon,Won,0,6861
+Arena 14,Baby Dragon,Won,1,656
+Arena 14,Balloon,Lost,0,3330
+Arena 14,Balloon,Won,0,2122
+Arena 14,Bandit,Lost,0,2645
+Arena 14,Bandit,Won,0,2157
+Arena 14,Barbarian Barrel,Lost,0,3818
+Arena 14,Barbarian Barrel,Won,0,2702
+Arena 14,Barbarian Hut,Lost,0,27
+Arena 14,Barbarian Hut,Won,0,10
+Arena 14,Barbarians,Lost,0,1944
+Arena 14,Barbarians,Lost,1,153
+Arena 14,Barbarians,Won,0,1847
+Arena 14,Barbarians,Won,1,202
+Arena 14,Bats,Lost,0,4688
+Arena 14,Bats,Lost,1,12
+Arena 14,Bats,Won,0,3666
+Arena 14,Bats,Won,1,7
+Arena 14,Battle Healer,Lost,0,294
+Arena 14,Battle Healer,Won,0,155
+Arena 14,Battle Ram,Lost,0,1474
+Arena 14,Battle Ram,Lost,1,30
+Arena 14,Battle Ram,Won,0,1043
+Arena 14,Battle Ram,Won,1,49
+Arena 14,Berserker,Lost,0,740
+Arena 14,Berserker,Won,0,550
+Arena 14,Bomb Tower,Lost,0,672
+Arena 14,Bomb Tower,Won,0,554
+Arena 14,Bomber,Lost,0,1482
+Arena 14,Bomber,Lost,1,222
+Arena 14,Bomber,Won,0,1417
+Arena 14,Bomber,Won,1,150
+Arena 14,Boss Bandit,Lost,0,201
+Arena 14,Boss Bandit,Won,0,368
+Arena 14,Bowler,Lost,0,1199
+Arena 14,Bowler,Won,0,928
+Arena 14,Cannon,Lost,0,4356
+Arena 14,Cannon,Lost,1,67
+Arena 14,Cannon,Won,0,4841
+Arena 14,Cannon,Won,1,50
+Arena 14,Cannon Cart,Won,0,3
+Arena 14,Clone,Lost,0,56
+Arena 14,Clone,Won,0,80
+Arena 14,Dark Prince,Lost,0,1862
+Arena 14,Dark Prince,Won,0,1928
+Arena 14,Dart Goblin,Lost,0,4498
+Arena 14,Dart Goblin,Lost,1,111
+Arena 14,Dart Goblin,Won,0,5289
+Arena 14,Dart Goblin,Won,1,151
+Arena 14,Earthquake,Lost,0,153
+Arena 14,Earthquake,Won,0,113
+Arena 14,Electro Dragon,Lost,0,922
+Arena 14,Electro Dragon,Lost,1,445
+Arena 14,Electro Dragon,Won,0,554
+Arena 14,Electro Dragon,Won,1,557
+Arena 14,Electro Giant,Lost,0,603
+Arena 14,Electro Giant,Won,0,510
+Arena 14,Electro Spirit,Lost,0,1791
+Arena 14,Electro Spirit,Won,0,1598
+Arena 14,Electro Wizard,Lost,0,5160
+Arena 14,Electro Wizard,Won,0,5398
+Arena 14,Elite Barbarians,Lost,0,1317
+Arena 14,Elite Barbarians,Won,0,1310
+Arena 14,Elixir Collector,Lost,0,7
+Arena 14,Elixir Collector,Won,0,7
+Arena 14,Elixir Golem,Lost,0,679
+Arena 14,Elixir Golem,Won,0,508
+Arena 14,Executioner,Lost,0,1334
+Arena 14,Executioner,Lost,1,617
+Arena 14,Executioner,Won,0,1556
+Arena 14,Executioner,Won,1,881
+Arena 14,Fire Spirit,Lost,0,372
+Arena 14,Fire Spirit,Won,0,415
+Arena 14,Fireball,Lost,0,6256
+Arena 14,Fireball,Won,0,5974
+Arena 14,Firecracker,Lost,0,3773
+Arena 14,Firecracker,Lost,1,62
+Arena 14,Firecracker,Won,0,3953
+Arena 14,Firecracker,Won,1,166
+Arena 14,Fisherman,Lost,0,13
+Arena 14,Fisherman,Won,0,24
+Arena 14,Flying Machine,Lost,0,1030
+Arena 14,Flying Machine,Won,0,518
+Arena 14,Freeze,Lost,0,2028
+Arena 14,Freeze,Won,0,1528
+Arena 14,Furnace,Lost,0,402
+Arena 14,Furnace,Lost,1,44
+Arena 14,Furnace,Won,0,415
+Arena 14,Furnace,Won,1,88
+Arena 14,Giant,Lost,0,1847
+Arena 14,Giant,Won,0,964
+Arena 14,Giant Skeleton,Lost,0,630
+Arena 14,Giant Skeleton,Won,0,461
+Arena 14,Giant Snowball,Lost,0,2599
+Arena 14,Giant Snowball,Lost,1,15
+Arena 14,Giant Snowball,Won,0,1950
+Arena 14,Giant Snowball,Won,1,19
+Arena 14,Goblin Barrel,Lost,0,8824
+Arena 14,Goblin Barrel,Lost,1,49
+Arena 14,Goblin Barrel,Won,0,10680
+Arena 14,Goblin Barrel,Won,1,84
+Arena 14,Goblin Cage,Lost,0,1452
+Arena 14,Goblin Cage,Lost,1,9
+Arena 14,Goblin Cage,Won,0,874
+Arena 14,Goblin Cage,Won,1,8
+Arena 14,Goblin Curse,Lost,0,722
+Arena 14,Goblin Curse,Won,0,597
+Arena 14,Goblin Demolisher,Lost,0,239
+Arena 14,Goblin Demolisher,Won,0,117
+Arena 14,Goblin Drill,Lost,0,279
+Arena 14,Goblin Drill,Lost,1,1
+Arena 14,Goblin Drill,Won,0,180
+Arena 14,Goblin Drill,Won,1,1
+Arena 14,Goblin Gang,Lost,0,4553
+Arena 14,Goblin Gang,Won,0,4123
+Arena 14,Goblin Giant,Lost,0,727
+Arena 14,Goblin Giant,Lost,1,2
+Arena 14,Goblin Giant,Won,0,334
+Arena 14,Goblin Giant,Won,1,9
+Arena 14,Goblin Hut,Lost,0,1600
+Arena 14,Goblin Hut,Won,0,1060
+Arena 14,Goblin Machine,Lost,0,10
+Arena 14,Goblin Machine,Won,0,10
+Arena 14,Goblins,Lost,0,476
+Arena 14,Goblins,Won,0,408
+Arena 14,Goblinstein,Lost,0,14
+Arena 14,Goblinstein,Won,0,28
+Arena 14,Golden Knight,Lost,0,14
+Arena 14,Golden Knight,Won,0,22
+Arena 14,Golem,Lost,0,893
+Arena 14,Golem,Won,0,658
+Arena 14,Graveyard,Lost,0,1089
+Arena 14,Graveyard,Won,0,674
+Arena 14,Guards,Lost,0,3391
+Arena 14,Guards,Won,0,2917
+Arena 14,Heal Spirit,Lost,0,444
+Arena 14,Heal Spirit,Won,0,214
+Arena 14,Hog Rider,Lost,0,6774
+Arena 14,Hog Rider,Won,0,8048
+Arena 14,Hunter,Lost,0,492
+Arena 14,Hunter,Lost,1,8
+Arena 14,Hunter,Won,0,444
+Arena 14,Hunter,Won,1,7
+Arena 14,Ice Golem,Lost,0,1273
+Arena 14,Ice Golem,Won,0,808
+Arena 14,Ice Spirit,Lost,0,3906
+Arena 14,Ice Spirit,Lost,1,4
+Arena 14,Ice Spirit,Won,0,3850
+Arena 14,Ice Spirit,Won,1,7
+Arena 14,Ice Wizard,Lost,0,1909
+Arena 14,Ice Wizard,Won,0,1898
+Arena 14,Inferno Dragon,Lost,0,4814
+Arena 14,Inferno Dragon,Lost,1,1657
+Arena 14,Inferno Dragon,Won,0,4375
+Arena 14,Inferno Dragon,Won,1,2104
+Arena 14,Inferno Tower,Lost,0,1738
+Arena 14,Inferno Tower,Won,0,1815
+Arena 14,Knight,Lost,0,5946
+Arena 14,Knight,Lost,1,156
+Arena 14,Knight,Won,0,6573
+Arena 14,Knight,Won,1,222
+Arena 14,Lava Hound,Lost,0,1054
+Arena 14,Lava Hound,Won,0,366
+Arena 14,Lightning,Lost,0,1117
+Arena 14,Lightning,Won,0,544
+Arena 14,Little Prince,Lost,0,239
+Arena 14,Little Prince,Won,0,424
+Arena 14,Lumberjack,Lost,0,1060
+Arena 14,Lumberjack,Lost,1,408
+Arena 14,Lumberjack,Won,0,1028
+Arena 14,Lumberjack,Won,1,206
+Arena 14,Magic Archer,Lost,0,1400
+Arena 14,Magic Archer,Won,0,1224
+Arena 14,Mega Knight,Lost,0,9461
+Arena 14,Mega Knight,Lost,1,204
+Arena 14,Mega Knight,Won,0,11519
+Arena 14,Mega Knight,Won,1,343
+Arena 14,Mega Minion,Lost,0,1906
+Arena 14,Mega Minion,Won,0,936
+Arena 14,Mighty Miner,Lost,0,25
+Arena 14,Mighty Miner,Won,0,40
+Arena 14,Miner,Lost,0,3339
+Arena 14,Miner,Won,0,2012
+Arena 14,Mini P.E.K.K.A,Lost,0,10399
+Arena 14,Mini P.E.K.K.A,Won,0,12818
+Arena 14,Minion Horde,Lost,0,920
+Arena 14,Minion Horde,Won,0,919
+Arena 14,Minions,Lost,0,2117
+Arena 14,Minions,Won,0,2110
+Arena 14,Mirror,Lost,0,48
+Arena 14,Mirror,Won,0,60
+Arena 14,Monk,Lost,0,39
+Arena 14,Monk,Won,0,82
+Arena 14,Mortar,Lost,0,115
+Arena 14,Mortar,Lost,1,21
+Arena 14,Mortar,Won,0,100
+Arena 14,Mortar,Won,1,52
+Arena 14,Mother Witch,Lost,0,15
+Arena 14,Mother Witch,Won,0,35
+Arena 14,Musketeer,Lost,0,2245
+Arena 14,Musketeer,Lost,1,59
+Arena 14,Musketeer,Won,0,1975
+Arena 14,Musketeer,Won,1,64
+Arena 14,Night Witch,Lost,0,169
+Arena 14,Night Witch,Won,0,144
+Arena 14,P.E.K.K.A,Lost,0,2505
+Arena 14,P.E.K.K.A,Lost,1,490
+Arena 14,P.E.K.K.A,Won,0,2286
+Arena 14,P.E.K.K.A,Won,1,299
+Arena 14,Phoenix,Lost,0,271
+Arena 14,Phoenix,Won,0,118
+Arena 14,Poison,Lost,0,2682
+Arena 14,Poison,Won,0,1353
+Arena 14,Prince,Lost,0,5007
+Arena 14,Prince,Won,0,4759
+Arena 14,Princess,Lost,0,3839
+Arena 14,Princess,Won,0,4747
+Arena 14,Rage,Lost,0,1183
+Arena 14,Rage,Won,0,1012
+Arena 14,Ram Rider,Lost,0,1731
+Arena 14,Ram Rider,Won,0,1972
+Arena 14,Rascals,Lost,0,137
+Arena 14,Rascals,Won,0,179
+Arena 14,Rocket,Lost,0,967
+Arena 14,Rocket,Won,0,718
+Arena 14,Royal Delivery,Lost,0,478
+Arena 14,Royal Delivery,Won,0,445
+Arena 14,Royal Ghost,Lost,0,4138
+Arena 14,Royal Ghost,Lost,1,48
+Arena 14,Royal Ghost,Won,0,4573
+Arena 14,Royal Ghost,Won,1,91
+Arena 14,Royal Giant,Lost,0,614
+Arena 14,Royal Giant,Lost,1,82
+Arena 14,Royal Giant,Won,0,538
+Arena 14,Royal Giant,Won,1,68
+Arena 14,Royal Hogs,Lost,0,1775
+Arena 14,Royal Hogs,Won,0,1341
+Arena 14,Royal Recruits,Lost,0,1309
+Arena 14,Royal Recruits,Lost,1,4
+Arena 14,Royal Recruits,Won,0,724
+Arena 14,Royal Recruits,Won,1,15
+Arena 14,Rune Giant,Lost,0,36
+Arena 14,Rune Giant,Won,0,21
+Arena 14,Skeleton Army,Lost,0,11268
+Arena 14,Skeleton Army,Lost,1,1053
+Arena 14,Skeleton Army,Won,0,13746
+Arena 14,Skeleton Army,Won,1,1808
+Arena 14,Skeleton Barrel,Lost,0,1499
+Arena 14,Skeleton Barrel,Lost,1,10
+Arena 14,Skeleton Barrel,Won,0,1126
+Arena 14,Skeleton Barrel,Won,1,16
+Arena 14,Skeleton Dragons,Lost,0,1206
+Arena 14,Skeleton Dragons,Won,0,573
+Arena 14,Skeleton King,Lost,0,2
+Arena 14,Skeletons,Lost,0,3487
+Arena 14,Skeletons,Lost,1,206
+Arena 14,Skeletons,Won,0,3680
+Arena 14,Skeletons,Won,1,268
+Arena 14,Sparky,Lost,0,2409
+Arena 14,Sparky,Won,0,2273
+Arena 14,Spear Goblins,Lost,0,2146
+Arena 14,Spear Goblins,Won,0,1279
+Arena 14,Spirit Empress,Won,0,2
+Arena 14,Suspicious Bush,Lost,0,545
+Arena 14,Suspicious Bush,Won,0,450
+Arena 14,Tesla,Lost,0,2666
+Arena 14,Tesla,Lost,1,925
+Arena 14,Tesla,Won,0,3038
+Arena 14,Tesla,Won,1,1266
+Arena 14,The Log,Lost,0,9504
+Arena 14,The Log,Won,0,11877
+Arena 14,Three Musketeers,Lost,0,264
+Arena 14,Three Musketeers,Won,0,124
+Arena 14,Tombstone,Lost,0,1402
+Arena 14,Tombstone,Won,0,1206
+Arena 14,Tornado,Lost,0,60
+Arena 14,Tornado,Won,0,78
+Arena 14,Valkyrie,Lost,0,6625
+Arena 14,Valkyrie,Lost,1,602
+Arena 14,Valkyrie,Won,0,7891
+Arena 14,Valkyrie,Won,1,553
+Arena 14,Vines,Lost,0,1965
+Arena 14,Vines,Won,0,2408
+Arena 14,Wall Breakers,Lost,0,2913
+Arena 14,Wall Breakers,Lost,1,26
+Arena 14,Wall Breakers,Won,0,2649
+Arena 14,Wall Breakers,Won,1,38
+Arena 14,Witch,Lost,0,9056
+Arena 14,Witch,Lost,1,1409
+Arena 14,Witch,Won,0,11150
+Arena 14,Witch,Won,1,2107
+Arena 14,Wizard,Lost,0,3815
+Arena 14,Wizard,Lost,1,1990
+Arena 14,Wizard,Won,0,4624
+Arena 14,Wizard,Won,1,1766
+Arena 14,X-Bow,Lost,0,493
+Arena 14,X-Bow,Won,0,479
+Arena 14,Zap,Lost,0,7559
+Arena 14,Zap,Lost,1,4
+Arena 14,Zap,Won,0,5758
+Arena 14,Zap,Won,1,9
+Arena 14,Zappies,Lost,0,1046
+Arena 14,Zappies,Won,0,558

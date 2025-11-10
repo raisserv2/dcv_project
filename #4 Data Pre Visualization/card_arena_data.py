@@ -118,8 +118,8 @@ def process_item_to_dict(item):
 
 # --- 3. MAIN EXECUTION (PROCESS & SAVE) ---
 def main_process_and_save():
-    input_data = ["/Users/raghava/Downloads/New Folder With Items/preprocessed_battle_log_full_batch-2.csv"]
-    output_filename = "/Users/raghava/Downloads/card_percentage_dict.json"
+    input_data = ["../#2 Data Storage/Processed Data/preprocessed_battle_log_full_batch.csv"]
+    output_filename = "../#2 Data Storage/Visualization Data/card_percentage_dict.json"
 
     print(f"Starting parallel processing for {len(input_data)} items...")
     converted_data = []

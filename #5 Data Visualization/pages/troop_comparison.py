@@ -9,38 +9,80 @@ import plotly.graph_objects as go
 dash.register_page(__name__, path="/troop", name="Troop Comparison")
 
 TROOP_PATH = "../#2 Data Storage/Utils/troop_name.csv"
-TROOP_STATS_PATH = (
-    "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats.csv"
-)
-df_troops_stats = pd.read_csv(TROOP_STATS_PATH)
-df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
+TROOP_STATS_PATH_NON_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_non_evo.csv"
+TROOP_STATS_PATH_EVO = "../#2 Data Storage/Visualization Data/clash_royale_card_stats_evo.csv"
+WIN_LOSS_PATH = "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
 
-grouped_df = pd.read_csv(
-    "../#2 Data Storage/Visualized Data/arenawise_card_win_loss.csv"
-)
-
-# Create master arena order and dropdown options
-arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x.split(" ")[1]))
-troops_with_data = sorted(grouped_df["card_name"].unique())
-troop_dropdown_options = [
-    {"label": troop, "value": troop} for troop in troops_with_data
-]
+# --- Load Data ---
+try:
+    df_troops_stats_non_evo = pd.read_csv(TROOP_STATS_PATH_NON_EVO)
+    df_troops_stats_evo = pd.read_csv(TROOP_STATS_PATH_EVO)
+    df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
+    grouped_df = pd.read_csv(WIN_LOSS_PATH)
+    
+    # --- Data Prep ---
+    # Convert "Arena 1" to "1"
+    grouped_df["arena"] = grouped_df["arena"].str.replace("Arena ", "")
+    # Create master arena order
+    arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x))
+    # Create dropdown options
+    troops_with_data = sorted(grouped_df["card_name"].unique())
+    troop_dropdown_options = [
+        {"label": troop, "value": troop} for troop in troops_with_data
+    ]
+except FileNotFoundError as e:
+    print(f"Error loading data: {e}")
+    # Create empty dataframes/lists as fallbacks
+    df_troops_stats_non_evo = pd.DataFrame()
+    df_troops_stats_evo = pd.DataFrame()
+    df_troops_name = pd.Series(["No Troops Found"])
+    grouped_df = pd.DataFrame(columns=['arena', 'card_name', 'outcome', 'evo', 'count'])
+    arena_order = []
+    troops_with_data = ["No Data"]
+    troop_dropdown_options = []
 
 
 # --- REUSABLE FIGURE FUNCTION ---
-def create_troop_figure(selected_troop):
+def create_troop_figure(selected_troop, evo_type):
     """
     Filters the global grouped_df and returns a Plotly figure
-    for the selected troop.
+    for the selected troop AND evolution status.
     """
     if not selected_troop:
-        return go.Figure(layout={"title": "Please select a troop"})
-
-    fig = go.Figure()
-    df_troop = grouped_df[grouped_df["card_name"] == selected_troop]
-
+        return go.Figure(
+            layout={
+                "title": "Please select a troop", 
+                "template": "plotly_dark",
+                "font": {"family": "'Clash Regular', Arial, sans-serif"}
+            }
+        )
+    
+    # Map the radio button value to the 'evo' column value (0 or 1)
+    evo_filter = 1 if evo_type == "evo" else 0
+    
+    # Filter by both card name AND evolution status
+    df_troop = grouped_df[
+        (grouped_df["card_name"] == selected_troop) &
+        (grouped_df["evo"] == evo_filter)
+    ]
+    
+    if df_troop.empty:
+        title_message = f"No {evo_type.capitalize()} data found for {selected_troop}"
+        # Return a blank figure with a message
+        return go.Figure(
+            layout={
+                "title": title_message, 
+                "template": "plotly_dark",
+                "font": {"family": "'Clash Regular', Arial, sans-serif"},
+                "paper_bgcolor": "rgba(0,0,0,0)",
+                "plot_bgcolor": "rgba(0,0,0,0)"
+            }
+        )
+    
     df_won = df_troop[df_troop["outcome"] == "Won"]
     df_lost = df_troop[df_troop["outcome"] == "Lost"]
+
+    fig = go.Figure()
 
     # Add Won Trace
     fig.add_trace(
@@ -49,8 +91,9 @@ def create_troop_figure(selected_troop):
             y=df_won["count"],
             name="Won",
             marker_color="#1343E1",
-            hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
-            opacity=0.45,
+            # Updated hovertemplate
+            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
+            opacity=1,
         )
     )
     # Add Lost Trace
@@ -59,25 +102,42 @@ def create_troop_figure(selected_troop):
             x=df_lost["arena"],
             y=df_lost["count"],
             name="Lost",
-            marker_color="#EE0EC1",
-            hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
-            opacity=0.45,
+            marker_color="#E61C23",
+            # Updated hovertemplate
+            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
+            opacity=1,
         )
     )
 
     fig.update_layout(
-        title_text=f"{selected_troop} Usage: Win vs. Loss",
+        # Updated title
+        title_text=f"{selected_troop} ({evo_type.capitalize()}) Usage: Win vs. Loss",
         xaxis_title="Arena",
         yaxis_title="Usage Count",
-        barmode="overlay",
-        template="plotly_dark",
+        barmode="relative", # 'relative' is good for stacked, 'overlay' is what you had
+        paper_bgcolor= "rgba(0,0,0,0)",
+        plot_bgcolor= "rgba(0,0,0,0)", 
+        font=dict(
+            family="'Clash Regular', Arial, sans-serif",
+            size=14,
+            color="#FFFFFF"
+        ),
+        title_font=dict(
+            family="'Clash Bold', Arial, sans-serif",
+            size=20
+        ),
+        xaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ),
+        yaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ) 
     )
 
     # Apply sorting fix
-    fig.update_xaxes(categoryorder="array", categoryarray=arena_order)
+    fig.update_xaxes(categoryorder="array", categoryarray=arena_order, tickmode='array', tickvals=arena_order, tickangle=-60)
 
     return fig
-
 
 layout = dbc.Container(
     [
@@ -190,47 +250,85 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
     def render_troop_card(selected_troop, evo_type):
         if not selected_troop:
             return html.I("Select a troop to view details.")
+        if evo_type == "normal":
+            troop_data = df_troops_stats_non_evo[df_troops_stats_non_evo["card"] == selected_troop]
 
-        troop_data = df_troops_stats[df_troops_stats["card"] == selected_troop]
+            if troop_data.empty:
+                return html.I("No data found for this troop configuration.")
 
-        if troop_data.empty:
-            return html.I("No data found for this troop configuration.")
+            troop_data = troop_data.iloc[0].to_dict()
 
-        troop_data = troop_data.iloc[0].to_dict()
+            img_component = None
+            if "card" in troop_data and pd.notna(troop_data["card"]):
+                img_path = f"../assets/2_icon_scrpaing/card_icons/{troop_data['card']}.webp"
+                img_component = html.Img(
+                    id=f"img-{selected_troop}-{evo_type}",
+                    src=img_path,
+                    style={
+                        "width": "100%",
+                        "maxHeight": "220px",
+                        "objectFit": "contain",
+                        "marginBottom": "10px",
+                    },
+                )
 
-        img_component = None
-        if "card" in troop_data and pd.notna(troop_data["card"]):
-            img_path = f"../assets/2_icon_scrpaing/card_icons/{troop_data['card']}.webp"
-            img_component = html.Img(
-                id=f"img-{selected_troop}-{evo_type}",
-                src=img_path,
-                style={
-                    "width": "100%",
-                    "maxHeight": "220px",
-                    "objectFit": "contain",
-                    "marginBottom": "10px",
-                },
+            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+
+            # Single component: card containing image and stats, wrapped in Loading
+            card = dbc.Card(
+                [
+                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardBody(
+                        [
+                            img_component if img_component is not None else html.Div(),
+                            html.Ul(stat_items),
+                        ]
+                    ),
+                ]
             )
+            return dcc.Loading(children=card)
+        else:  # evo_type == "evo"
+            troop_data = df_troops_stats_evo[df_troops_stats_evo["card"] == selected_troop]
 
-        stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+            if troop_data.empty:
+                return html.I("No data found for this troop configuration.")
 
-        # Single component: card containing image and stats, wrapped in Loading
-        card = dbc.Card(
-            [
-                dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
-                dbc.CardBody(
-                    [
-                        img_component if img_component is not None else html.Div(),
-                        html.Ul(stat_items),
-                    ]
-                ),
-            ]
-        )
-        return dcc.Loading(children=card)
+            troop_data = troop_data.iloc[0].to_dict()
+
+            img_component = None
+            if "card" in troop_data and pd.notna(troop_data["card"]):
+                img_path = f"../assets/2_icon_scrpaing/evo_card_icons/{troop_data['card']}.webp"
+                img_component = html.Img(
+                    id=f"img-{selected_troop}-{evo_type}",
+                    src=img_path,
+                    style={
+                        "width": "100%",
+                        "maxHeight": "220px",
+                        "objectFit": "contain",
+                        "marginBottom": "10px",
+                    },
+                )
+
+            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+
+            # Single component: card containing image and stats, wrapped in Loading
+            card = dbc.Card(
+                [
+                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardBody(
+                        [
+                            img_component if img_component is not None else html.Div(),
+                            html.Ul(stat_items),
+                        ]
+                    ),
+                ]
+            )
+            return dcc.Loading(children=card)
+    
 
     return (
         render_troop_card(troop1, evo1),
         render_troop_card(troop2, evo2),
-        create_troop_figure(troop1),
-        create_troop_figure(troop2),
+        create_troop_figure(troop1, evo1),
+        create_troop_figure(troop2, evo2),
     )
