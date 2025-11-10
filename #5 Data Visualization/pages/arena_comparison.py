@@ -4,130 +4,142 @@ from dash import html, dcc, callback, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import pandas as pd
-import ast
+import json
+from collections import defaultdict
 
 dash.register_page(__name__, path="/arena", name="Arena Comparison")
 
-grouped_df = pd.read_csv("../#2 Data Storage/Visualized Data/arenawise_card_win_loss.csv")
+# --- 1. Load and Process Data (from your ipywidgets code) ---
+JSON_FILE_PATH = "../#2 Data Storage/Visualized Data/card_percentage_dict.json" # Assumed path
+print(f"Loading data from {JSON_FILE_PATH}...")
 
-# Create master arena order and dropdown options
-arena_order = sorted(list(set(grouped_df['arena'])), key=lambda x: int(x.split(' ')[1]))
-troops_with_data = sorted(grouped_df['card_name'].unique())
-troop_dropdown_options = [{'label': troop, 'value': troop} for troop in troops_with_data]
+try:
+    with open(JSON_FILE_PATH, 'r', encoding='utf-8') as f:
+        card_data = json.load(f)
+    
+    # Invert data to {Arena: {Card: %}}
+    arena_to_card_map = defaultdict(dict)
+    all_arenas_int = range(1, 25) # Arenas 1-24
+    all_arenas_str = [str(i) for i in all_arenas_int]
 
-print("Data processing complete. Dash app is ready.")
+    for card_name, arena_data in card_data.items():
+        for arena_num_str in all_arenas_str:
+            percent = arena_data.get(arena_num_str, 0.0)
+            if percent > 0:
+                arena_to_card_map[arena_num_str][card_name] = percent
+    
+    print("Data processing complete. Dash app is ready.")
 
-# --- REUSABLE FIGURE FUNCTION ---
-def create_troop_figure(selected_troop):
+    # --- Create Dropdown and Slider Options ---
+    arena_slider_marks = {i: f'{i}' for i in all_arenas_int}
+    
+    top_n_dropdown_options = [
+        {'label': f'Top {n}', 'value': n} for n in range(3, 20)
+    ]
+
+except FileNotFoundError:
+    print(f"Error: Could not find {JSON_FILE_PATH}")
+    print("Please make sure the JSON file exists at that path.")
+    # Set empty options if file fails to load
+    arena_to_card_map = defaultdict(dict)
+    arena_slider_marks = {}
+    top_n_dropdown_options = []
+
+
+# --- 3. REUSABLE FIGURE FUNCTION (New function) ---
+def create_top_n_figure(selected_arena, selected_top_n):
     """
-    Filters the global grouped_df and returns a Plotly figure
-    for the selected troop.
+    Creates the horizontal "Top N" bar chart for the
+    selected arena and N value.
     """
-    if not selected_troop:
-        # Create a blank figure with the dark template
-        return go.Figure(
-            layout={
-                "title": "Please select a troop", 
-                "template": "plotly_dark",
-                "paper_bgcolor": "rgba(0,0,0,0)", # Transparent background
-                "plot_bgcolor": "rgba(0,0,0,0)"  # Transparent background
-            }
+    if not selected_arena or not selected_top_n:
+        return go.Figure(layout={
+            "title": "Please select an Arena and Top N value", 
+            "template": "plotly_dark"
+        })
+
+    # Get the card data for the selected arena
+    card_usage_map = arena_to_card_map.get(str(selected_arena), {})
+    
+    # Sort cards by percentage and get the top N
+    sorted_cards = sorted(card_usage_map.items(), key=lambda item: item[1], reverse=True)
+    top_n_data = sorted_cards[:selected_top_n]
+    
+    # Unzip the data into two lists
+    # No reverse needed for this orientation
+    cards = [item[0] for item in top_n_data]
+    percentages = [item[1] for item in top_n_data]
+
+    fig = go.Figure(data=[
+        go.Bar(
+            orientation='h', # Horizontal bar chart
+            x=percentages,
+            y=cards,
+            marker_color='#17BECF' # Plotly Cyan
         )
-
-    fig = go.Figure()
-    df_troop = grouped_df[grouped_df['card_name'] == selected_troop]
-    
-    df_won = df_troop[df_troop['outcome'] == 'Won']
-    df_lost = df_troop[df_troop['outcome'] == 'Lost']
-    
-    # Add Won Trace
-    fig.add_trace(go.Bar(
-        x=df_won['arena'], y=df_won['count'], name='Won',
-        marker_color="#1343E1", 
-        hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
-        opacity=0.45
-    ))
-    # Add Lost Trace
-    fig.add_trace(go.Bar(
-        x=df_lost['arena'], y=df_lost['count'], name='Lost',
-        marker_color="#EE0EC1", 
-        hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
-        opacity=0.45
-    ))
+    ])
     
     fig.update_layout(
-        title_text=f"{selected_troop} Usage: Win vs. Loss",
-        xaxis_title="Arena",
-        yaxis_title="Usage Count",
-        barmode='overlay',
+        title_text=f"Top {selected_top_n} Most Used Cards in Arena {selected_arena}",
         template='plotly_dark',
-        paper_bgcolor= "rgba(0,0,0,0)", # Transparent background
-        plot_bgcolor= "rgba(0,0,0,0)"  # Transparent background
+        xaxis_title="Usage Percentage (%)",
+        yaxis_title="Card Name",
+        yaxis=dict(autorange='reversed'), # Puts highest value at the top
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)"
     )
-    
-    # Apply sorting fix
-    fig.update_xaxes(categoryorder='array', categoryarray=arena_order)
     
     return fig
 
-# --- 4. PAGE LAYOUT (Modified from your template) ---
+# --- 4. PAGE LAYOUT (New Layout) ---
 layout = dbc.Container(
     [
-        html.H2("Troop 1 vs. Troop 2 Arena Comparison"),
+        html.H2("Top N Card Usage by Arena"),
         html.Hr(),
         dbc.Row([
-            # --- Column 1: Troop 1 ---
             dbc.Col([
                 dbc.Card([
-                    dbc.CardHeader("Select Troop 1"),
+                    dbc.CardHeader("Controls"),
                     dbc.CardBody([
-                        dcc.Dropdown(
-                            id='troop-1-dropdown',
-                            options=troop_dropdown_options,
-                            value=troops_with_data[0] # Default to first troop
-                        ),
-                        dcc.Graph(
-                            id='troop-1-graph'
-                        )
+                        dbc.Row([
+                            # Arena Dropdown
+                            dbc.Col([
+                                html.Label("Select Arena:"),
+                                dcc.Slider(
+                                    id='arena-slider',
+                                    min=min(all_arenas_int),
+                                    max=max(all_arenas_int),
+                                    step=1,
+                                    value=min(all_arenas_int),
+                                    marks=arena_slider_marks
+                                )
+                            ], md=6),
+                            # Top N Dropdown
+                            dbc.Col([
+                                html.Label("Show Top N Cards:"),
+                                dcc.Dropdown(
+                                    id='top-n-dropdown',
+                                    options=top_n_dropdown_options,
+                                    value=10 # Default to Top 10
+                                )
+                            ], md=6),
+                        ]),
+                        html.Hr(),
+                        # The Graph
+                        dcc.Graph(id='top-n-graph')
                     ])
                 ])
-            ], md=6),
-            
-            # --- Column 2: Troop 2 ---
-            dbc.Col([
-                dbc.Card([
-                    dbc.CardHeader("Select Troop 2"),
-                    dbc.CardBody([
-                        dcc.Dropdown(
-                            id='troop-2-dropdown',
-                            options=troop_dropdown_options,
-                            value=troops_with_data[1] # Default to second troop
-                        ),
-                        dcc.Graph(
-                            id='troop-2-graph'
-                        )
-                    ])
-                ])
-            ], md=6),
+            ], width=12),
         ]),
     ],
     fluid=True,
 )
 
-# --- 5. CALLBACKS (To make it interactive) ---
-
-# Callback for Troop 1 Graph
-@callback(
-    Output('troop-1-graph', 'figure'),
-    Input('troop-1-dropdown', 'value')
+# --- 5. CALLBACK (New Callback) ---
+@dash.callback(
+    Output('top-n-graph', 'figure'),
+    Input('arena-slider', 'value'),
+    Input('top-n-dropdown', 'value')
 )
-def update_graph_1(selected_troop):
-    return create_troop_figure(selected_troop)
-
-# Callback for Troop 2 Graph
-@callback(
-    Output('troop-2-graph', 'figure'),
-    Input('troop-2-dropdown', 'value')
-)
-def update_graph_2(selected_troop):
-    return create_troop_figure(selected_troop)
+def update_graph(selected_arena, selected_top_n):
+    return create_top_n_figure(selected_arena, selected_top_n)
