@@ -176,14 +176,19 @@ layout = dbc.Container(
                 ])
             ], md=8),
         ]), 
+        html.Br(),
         dbc.Row([
-            dbc.Col([
-                dcc.Graph(
-                    id="meta-map-graph",
-                    figure=create_meta_map(INPUT_FILE),
-                    config={"displayModeBar": False}
+            dbc.Card([
+                dbc.CardHeader("Meta Map: Troop Combinations Overview"),
+                dbc.CardBody([
+                    dcc.Graph(
+                        id="meta-map-graph",
+                        figure=create_meta_map(INPUT_FILE),
+                        config={"displayModeBar": False}
                 )
             ])
+            ])
+            
         ])
     ], 
     fluid=True
