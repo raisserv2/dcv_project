@@ -9,10 +9,10 @@ import plotly.graph_objects as go
 dash.register_page(__name__, path="/troop", name="Troop Comparison")
 
 TROOP_PATH = "../#2 Data Storage/Utils/troop_name.csv"
-TROOP_STATS_PATH = (
-    "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats.csv"
-)
-df_troops_stats = pd.read_csv(TROOP_STATS_PATH)
+TROOP_STATS_PATH_NON_EVO = "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats_non_evo.csv"
+TROOP_STATS_PATH_EVO = "../#2 Data Storage/Data Visualization Data/clash_royale_card_stats_evo.csv"
+df_troops_stats_non_evo = pd.read_csv(TROOP_STATS_PATH_NON_EVO)
+df_troops_stats_evo = pd.read_csv(TROOP_STATS_PATH_EVO)
 df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
 
 grouped_df = pd.read_csv(
@@ -111,6 +111,7 @@ layout = dbc.Container(
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
+                                            value=troops_with_data[0],
                                         ),
                                         html.Br(),
                                         html.Label("Evolution:"),
@@ -151,6 +152,7 @@ layout = dbc.Container(
                                             placeholder="Select a troop...",
                                             searchable=True,
                                             clearable=True,
+                                            value=troops_with_data[1],
                                         ),
                                         html.Br(),
                                         html.Label("Evolution:"),
@@ -196,43 +198,81 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
     def render_troop_card(selected_troop, evo_type):
         if not selected_troop:
             return html.I("Select a troop to view details.")
+        if evo_type == "normal":
+            troop_data = df_troops_stats_non_evo[df_troops_stats_non_evo["card"] == selected_troop]
 
-        troop_data = df_troops_stats[df_troops_stats["card"] == selected_troop]
+            if troop_data.empty:
+                return html.I("No data found for this troop configuration.")
 
-        if troop_data.empty:
-            return html.I("No data found for this troop configuration.")
+            troop_data = troop_data.iloc[0].to_dict()
 
-        troop_data = troop_data.iloc[0].to_dict()
+            img_component = None
+            if "card" in troop_data and pd.notna(troop_data["card"]):
+                img_path = f"../assets/2_icon_scrpaing/card_icons/{troop_data['card']}.webp"
+                img_component = html.Img(
+                    id=f"img-{selected_troop}-{evo_type}",
+                    src=img_path,
+                    style={
+                        "width": "100%",
+                        "maxHeight": "220px",
+                        "objectFit": "contain",
+                        "marginBottom": "10px",
+                    },
+                )
 
-        img_component = None
-        if "card" in troop_data and pd.notna(troop_data["card"]):
-            img_path = f"../assets/2_icon_scrpaing/card_icons/{troop_data['card']}.webp"
-            img_component = html.Img(
-                id=f"img-{selected_troop}-{evo_type}",
-                src=img_path,
-                style={
-                    "width": "100%",
-                    "maxHeight": "220px",
-                    "objectFit": "contain",
-                    "marginBottom": "10px",
-                },
+            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+
+            # Single component: card containing image and stats, wrapped in Loading
+            card = dbc.Card(
+                [
+                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardBody(
+                        [
+                            img_component if img_component is not None else html.Div(),
+                            html.Ul(stat_items),
+                        ]
+                    ),
+                ]
             )
+            return dcc.Loading(children=card)
+        else:  # evo_type == "evo"
+            troop_data = df_troops_stats_evo[df_troops_stats_evo["card"] == selected_troop]
 
-        stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+            if troop_data.empty:
+                return html.I("No data found for this troop configuration.")
 
-        # Single component: card containing image and stats, wrapped in Loading
-        card = dbc.Card(
-            [
-                dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
-                dbc.CardBody(
-                    [
-                        img_component if img_component is not None else html.Div(),
-                        html.Ul(stat_items),
-                    ]
-                ),
-            ]
-        )
-        return dcc.Loading(children=card)
+            troop_data = troop_data.iloc[0].to_dict()
+
+            img_component = None
+            if "card" in troop_data and pd.notna(troop_data["card"]):
+                img_path = f"../assets/2_icon_scrpaing/evo_card_icons/{troop_data['card']}.webp"
+                img_component = html.Img(
+                    id=f"img-{selected_troop}-{evo_type}",
+                    src=img_path,
+                    style={
+                        "width": "100%",
+                        "maxHeight": "220px",
+                        "objectFit": "contain",
+                        "marginBottom": "10px",
+                    },
+                )
+
+            stat_items = [html.Li(f"{k}: {v}") for k, v in troop_data.items()]
+
+            # Single component: card containing image and stats, wrapped in Loading
+            card = dbc.Card(
+                [
+                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardBody(
+                        [
+                            img_component if img_component is not None else html.Div(),
+                            html.Ul(stat_items),
+                        ]
+                    ),
+                ]
+            )
+            return dcc.Loading(children=card)
+    
 
     return (
         render_troop_card(troop1, evo1),
