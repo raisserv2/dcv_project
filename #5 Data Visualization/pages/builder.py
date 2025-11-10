@@ -1,4 +1,4 @@
-# pages/custom_builder.py
+# pages/builder.py
 import dash
 from dash import html, dcc, callback, Input, Output
 import dash_bootstrap_components as dbc
@@ -11,19 +11,31 @@ from collections import defaultdict
 dash.register_page(__name__, path="/builder", name="Card & Arena Analysis")
 
 # --- 1. Load and Prepare Usage Rate Data (JSON) ---
-JSON_FILE = "../#2 Data Storage/Visualization Data/card_percentage_dict.json" 
+
+# <-- FIX: Initialize variables *before* the try block -->
+# This ensures they exist even if the file load fails.
+usage_rate_data = {}
+all_cards_list = []
+card_options = []
+
+JSON_FILE = "card_percentage_dict.json" # <-- FIX: Simplified path
 try:
     with open(JSON_FILE, 'r') as f:
-        card_data = json.load(f)
-    all_cards_list = sorted(list(card_data.keys()))
+        # <-- FIX: Load into 'usage_rate_data' to match the callback -->
+        usage_rate_data = json.load(f) 
+    all_cards_list = sorted(list(usage_rate_data.keys()))
+    # <-- FIX: Define card_options here after all_cards_list is created -->
+    card_options = [{"label": card, "value": card} for card in all_cards_list]
+    print("Usage rate data loaded.")
     
 except Exception as e:
     print(f"CRITICAL ERROR: Could not load {JSON_FILE}. {e}")
-    usage_rate_data = {}
-    card_options = []
+    # Variables are already initialized as empty, so the app won't crash
+
     
 # --- 2. Load and Prepare Win Rate Data (CSV) ---
-WINLOSS_CSV_PATH = "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
+# <-- FIX: Simplified path -->
+WINLOSS_CSV_PATH = "arenawise_card_win_loss.csv"
 win_rate_data = defaultdict(dict) # Structure: {'CardName': {'1': 50.5, '2': 51.2, ...}}
 try:
     df_winloss = pd.read_csv(WINLOSS_CSV_PATH)
@@ -68,7 +80,8 @@ layout = dbc.Container(
                                         html.P("Select one or more cards:", className="card-text"),
                                         dcc.Dropdown(
                                             id="card-selector",
-                                            options= [{"label": card, "value": card} for card in all_cards_list],
+                                            # <-- FIX: Use the 'card_options' variable -->
+                                            options=card_options,
                                             placeholder="Select card(s)...",
                                             multi=True, 
                                             clearable=True,
@@ -141,7 +154,8 @@ def update_arena_plot(selected_cards, selected_metric):
     
     # --- Select Data Source based on toggle ---
     if selected_metric == 'usage':
-        data_source = usage_rate_data
+        # <-- This now correctly uses 'usage_rate_data' -->
+        data_source = usage_rate_data 
         y_axis_title = "Usage Percentage (%)"
         hover_label = "Usage"
         title_text = "Usage Percentage Across Arenas"
