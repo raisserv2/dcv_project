@@ -4,13 +4,14 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 external = [
-    "/assets/custom_fonts.css",
+    "/assets/99_custom.css",
+    "/assets/style.css"
 ]
 # Initialize the app with Bootstrap theme
 app = dash.Dash(
     __name__,
     use_pages=True,
-    external_stylesheets=external+[dbc.themes.BOOTSTRAP],
+    external_stylesheets=external+[dbc.themes.DARKLY],
     suppress_callback_exceptions=True,
 )
 server = app.server
@@ -22,7 +23,7 @@ navbar = dbc.NavbarSimple(
     dark=True,
     children=[
         dbc.NavItem(dbc.NavLink("Troop A vs Troop B", href="/troop")),
-        dbc.NavItem(dbc.NavLink("Arena 1 vs Arena 2", href="/arena")),
+        dbc.NavItem(dbc.NavLink("Arena Comparison", href="/arena")),
         dbc.NavItem(dbc.NavLink("Custom Builder", href="/builder")),
         dbc.NavItem(dbc.NavLink("Combined Strength", href="/combined")),
     ],
