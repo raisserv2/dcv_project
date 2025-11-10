@@ -18,9 +18,10 @@ df_troops_name = pd.read_csv(TROOP_PATH)["Troop_name"]
 grouped_df = pd.read_csv(
     "../#2 Data Storage/Visualization Data/arenawise_card_win_loss.csv"
 )
+grouped_df["arena"] = grouped_df["arena"].str.replace("Arena ", "")
 
 # Create master arena order and dropdown options
-arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x.split(" ")[1]))
+arena_order = sorted(list(set(grouped_df["arena"])), key=lambda x: int(x))
 troops_with_data = sorted(grouped_df["card_name"].unique())
 troop_dropdown_options = [
     {"label": troop, "value": troop} for troop in troops_with_data
@@ -38,8 +39,7 @@ def create_troop_figure(selected_troop):
             layout={
                 "title": "Please select a troop", 
                 "template": "plotly_dark",
-                "paper_bgcolor": "rgba(0,0,0,0)", # Transparent background
-                "plot_bgcolor": "rgba(0,0,0,0)"  # Transparent background
+                "font": {"family": "'Clash Regular', Arial, sans-serif"}                 
             }
         )
 
@@ -57,7 +57,7 @@ def create_troop_figure(selected_troop):
             name="Won",
             marker_color="#1343E1",
             hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
-            opacity=0.45,
+            opacity=0.75,
         )
     )
     # Add Lost Trace
@@ -68,7 +68,7 @@ def create_troop_figure(selected_troop):
             name="Lost",
             marker_color="#EE0EC1",
             hovertemplate=f"Card: {selected_troop}<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
-            opacity=0.45,
+            opacity=0.75,
         )
     )
 
@@ -78,11 +78,28 @@ def create_troop_figure(selected_troop):
         yaxis_title="Usage Count",
         barmode="overlay",
         paper_bgcolor= "rgba(0,0,0,0)", # Transparent background
-        plot_bgcolor= "rgba(0,0,0,0)"  # Transparent background
+        plot_bgcolor= "rgba(0,0,0,0)",  # Transparent background
+        font=dict(
+            family="'Clash Regular', Arial, sans-serif",
+            size=14,
+            color="#FFFFFF"
+        ),
+        # This overrides just the main title to use the 'Clash Bold' font
+        title_font=dict(
+            family="'Clash Bold', Arial, sans-serif",
+            size=20
+        ),
+        # This makes the axis titles bold as well
+        xaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ),
+        yaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ) 
     )
 
     # Apply sorting fix
-    fig.update_xaxes(categoryorder="array", categoryarray=arena_order)
+    fig.update_xaxes(categoryorder="array", categoryarray=arena_order, tickmode='array', tickvals=arena_order, tickangle=-60)
 
     return fig
 

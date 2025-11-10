@@ -42,11 +42,19 @@ try:
     # Sum up counts, ignoring evo (group by arena, card, outcome)
     df_grouped = df_winloss.groupby(['arena_num_str', 'card_name', 'outcome'])['count'].sum().unstack(fill_value=0)
     
-    # Calculate win rate
-    df_grouped['Win_Rate'] = (df_grouped['Won'] / (df_grouped['Won'] + df_grouped['Lost'])).fillna(0) * 100
+    THRESHOLD = 20
     
-    # Build the nested dictionary map
-    for (arena_num, card), win_rate in df_grouped['Win_Rate'].items():
+    # Calculate total matches
+    df_grouped['Total_Matches'] = df_grouped['Won'] + df_grouped['Lost']
+    
+    # Filter the DataFrame to only include rows above the threshold
+    df_filtered = df_grouped[df_grouped['Total_Matches'] > THRESHOLD].copy()
+    
+    # Calculate win rate ONLY on the filtered data
+    df_filtered['Win_Rate'] = (df_filtered['Won'] / df_filtered['Total_Matches']).fillna(0) * 100
+    
+    # Build the nested dictionary map from the FILTERED data
+    for (arena_num, card), win_rate in df_filtered['Win_Rate'].items():
         if win_rate > 0:
             arena_to_winrate_map[arena_num][card] = win_rate
             
@@ -57,7 +65,7 @@ except FileNotFoundError:
 # --- 3. Create Dropdown and Slider Options ---
 # Cleaner marks - label 1, 24, and every 5th arena
 arena_slider_marks = {i: f'{i}' for i in all_arenas_int}
-top_n_dropdown_options = [{'label': f'Top {n}', 'value': n} for n in range(3, 20)]
+top_n_dropdown_options = [{'label': f'Top {n}', 'value': n} for n in range(3, 11)]
 
 
 # --- 4. REUSABLE FIGURE FUNCTION (Modified) ---
@@ -124,8 +132,7 @@ def create_top_n_figure(selected_arena, selected_top_n, selected_metric):
         ),
         yaxis_title_font=dict(
             family="'Clash Bold', Arial, sans-serif"
-        )
-        # 
+        ) 
     )
     
     return fig
@@ -159,7 +166,7 @@ layout = dbc.Container(
                                 dcc.Dropdown(
                                     id='top-n-dropdown',
                                     options=top_n_dropdown_options,
-                                    value=10 # Default to Top 10
+                                    value=5 # Default to Top 5
                                 )
                             ], md=4), # Adjusted width
                             # --- NEW: Metric Toggle ---

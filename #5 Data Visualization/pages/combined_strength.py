@@ -56,7 +56,7 @@ def create_meta_map(csv_path):
     fig.add_hline(
         y=50.0,
         line_dash="dash",
-        line_color="black",
+        line_color="white",
         annotation_text="50% Win Rate",
         annotation_position="bottom right"
     )
@@ -71,7 +71,24 @@ def create_meta_map(csv_path):
         ),
         hovermode="closest",
         height=700,
-        template='plotly_white'
+        template='plotly_dark',
+        font=dict(
+            family="'Clash Regular', Arial, sans-serif",
+            size=14,
+            color="#FFFFFF"
+        ),
+        # This overrides just the main title to use the 'Clash Bold' font
+        title_font=dict(
+            family="'Clash Bold', Arial, sans-serif",
+            size=20
+        ),
+        # This makes the axis titles bold as well
+        xaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ),
+        yaxis_title_font=dict(
+            family="'Clash Bold', Arial, sans-serif"
+        ) 
     )
     return fig
 
@@ -167,10 +184,6 @@ layout = dbc.Container(
     fluid=True
 )
 
-# --- FIX 4: Removed the redundant update_meta_map callback ---
-# (It's no longer needed)
-
-
 @dash.callback(
     Output("total-strength", "children"),
     Output("avg-strength", "children"),
@@ -199,18 +212,77 @@ def update_strength(troop1, troop2): #, n_clicks):
 
     # --- FIX 2: Updated chart logic ---
     strength_fig = go.Figure()
+
+    # 1. Add Usage Count trace (Y-axis 1 - Left)
     strength_fig.add_trace(go.Bar(
-        x=['Usage Count', 'Win Rate %'],
-        y=[usuage_count, win_rate_percent],
-        marker_color=["#1343E1", "#E11343"],
-        text=[f"{usuage_count:,}", f"{win_rate_percent:.1f}%"],
-        textposition='auto'
+        x=['Usage Count'], # Category on X-axis
+        y=[usuage_count],    # Value on Y-axis
+        name='Usage Count',
+        marker_color="#1343E1",
+        text=[f"{usuage_count:,}"],
+        textposition='auto',
+        yaxis='y1' # Assign to the first y-axis
     ))
+    
+    # 2. Add Win Rate trace (Y-axis 2 - Right)
+    strength_fig.add_trace(go.Bar(
+        x=['Win Rate %'], # Category on X-axis
+        y=[win_rate_percent], # Value on Y-axis
+        name='Win Rate %',
+        marker_color="#0BC157",
+        text=[f"{win_rate_percent:.1f}%"],
+        textposition='auto',
+        yaxis='y2' # Assign to the second y-axis
+    ))
+
+    # 3. Update Layout for dual Y-axes
     strength_fig.update_layout(
         title=chart_title,
-        yaxis_title="Value",
-        template="plotly_white",
-        yaxis=dict(range=[0, max(usuage_count * 1.2, win_rate_percent * 1.2, 100)]) # Dynamic y-axis
+        template="plotly_dark",
+        
+        # Define Left Y-axis (Y1)
+        yaxis=dict(
+            title="Usage Count",
+            side="left",
+            range=[0, max(usuage_count * 1.25, 10)], # Dynamic range
+            title_font=dict(family="'Clash Bold', Arial, sans-serif"),
+            tickfont=dict(family="'Clash Regular', Arial, sans-serif"),
+            color="#1343E1" # Match bar color
+        ),
+        
+        # Define Right Y-axis (Y2)
+        yaxis2=dict(
+            title="Win Rate %",
+            side="right",
+            overlaying="y", # Overlay this axis on top of 'y'
+            range=[0, 100], # Win rate is 0-100
+            title_font=dict(family="'Clash Bold', Arial, sans-serif"),
+            tickfont=dict(family="'Clash Regular', Arial, sans-serif"),
+            color="#0BC157" # Match bar color
+        ),
+        
+        # Shared layout properties
+        font=dict(
+            family="'Clash Regular', Arial, sans-serif",
+            size=14,
+            color="#FFFFFF"
+        ),
+        title_font=dict(
+            family="'Clash Bold', Arial, sans-serif",
+            size=20
+        ),
+        xaxis_title_font=dict( # X-axis title (if you add one)
+            family="'Clash Bold', Arial, sans-serif"
+        ),
+        legend=dict( # Show legend to distinguish bars
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1
+        ),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)"
     )
     
     # --- FIX 5: Removed unused meta_fig variable ---
