@@ -26,7 +26,7 @@ try:
             percent = arena_data.get(arena_num_str, 0.0)
             if percent > 0:
                 arena_to_usage_map[arena_num_str][card_name] = percent
-    print("Usage rate data loaded.")
+
 except FileNotFoundError:
     print(f"Error: Could not find {JSON_FILE_PATH}")
 
@@ -57,8 +57,7 @@ try:
     for (arena_num, card), win_rate in df_filtered['Win_Rate'].items():
         if win_rate > 0:
             arena_to_winrate_map[arena_num][card] = win_rate
-            
-    print("Win rate data loaded and processed.")
+
 except FileNotFoundError:
     print(f"Error: Could not find {WINLOSS_CSV_PATH}")
 
