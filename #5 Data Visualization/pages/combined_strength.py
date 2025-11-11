@@ -145,10 +145,11 @@ layout = dbc.Container(
                                     searchable=True,
                                     clearable=True,
                                     value=df_troops_name.iloc[0] if not df_troops_name.empty else None,
+                                    style={'zIndex': 2050},
                                 ),
                             ]
                         ),
-                    ]
+                    ], style={'zIndex': 200}
                 ),
                 dbc.Card(
                     [
@@ -163,11 +164,12 @@ layout = dbc.Container(
                                     searchable=True,
                                     clearable=True,
                                     value=df_troops_name.iloc[1] if len(df_troops_name) > 1 else None,
+                                    style={'zIndex': 1049},
                                 ),
                             ]
                         ),
                     ],
-                    className="mt-3" 
+                    className="mt-3" ,style={'zIndex': 100},
                 ),
                 summary_metrics_card 
             ], md=4),
