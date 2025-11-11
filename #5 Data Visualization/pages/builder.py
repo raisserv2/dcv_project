@@ -50,8 +50,17 @@ try:
     df_grouped['Total_Matches'] = df_grouped['Won'] + df_grouped['Lost']
     df_grouped['Win_Rate'] = (df_grouped['Won'] / df_grouped['Total_Matches']).fillna(0) * 100
     
-    # Build the nested dictionary map {Card: {Arena: WinRate}}
-    for (arena_num, card), win_rate in df_grouped['Win_Rate'].items(): # type: ignore
+    # --- MODIFICATION START: Apply Threshold ---
+    THRESHOLD = 50
+    # Filter the DataFrame to only include rows above the threshold
+    df_filtered = df_grouped[df_grouped['Total_Matches'] > THRESHOLD].copy()
+    # --- MODIFICATION END ---
+    
+    # Calculate win rate ONLY on the filtered data
+    df_filtered['Win_Rate'] = (df_filtered['Won'] / df_filtered['Total_Matches']).fillna(0) * 100
+    
+    # Build the nested dictionary map {Card: {Arena: WinRate}} from the FILTERED data
+    for (arena_num, card), win_rate in df_filtered['Win_Rate'].items(): # type: ignore
         if win_rate > 0:
             win_rate_data[card][arena_num] = win_rate
             
