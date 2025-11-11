@@ -74,3 +74,8 @@ def update_page_class(pathname):
 
 if __name__ == "__main__":
     app.run(debug=True, port=8050)
+
+
+#if u want to deploy on local server uncomment below and comment above
+# if __name__ == "__main__":
+#     app.run(host="0.0.0.0", port=8050, debug=False)
