@@ -28,11 +28,7 @@ navbar = dbc.NavbarSimple(
         dbc.NavItem(dbc.NavLink("Combos", href="/combined")),
         dbc.NavItem(dbc.NavLink("Evo", href="/evo")),
         dbc.NavItem(dbc.NavLink("Rarity Analysis", href="/rarity")),
-<<<<<<< HEAD
         dbc.NavItem(dbc.NavLink("Deck Archetypes", href="/deck")),
-=======
-        dbc.NavItem(dbc.NavLink("Deck Archetypes", href="/deck"))
->>>>>>> dca9a1de709dfe87c8558a6ac6868bd3bb848119
     ],
 )
 
