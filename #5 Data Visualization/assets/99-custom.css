@@ -13,6 +13,55 @@ haven't defined something.
    If you have local fonts loaded via @font-face use that family name here. */
 /* --- Custom Font Definitions --- */
 /* --- Custom Font Definitions --- */
+
+/* --- General Page Layout --- */
+html, #_dash-app-content {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* * --- FIX 1: ADD THIS NEW RULE --- 
+ * Make the container *holding* the background fill the viewport.
+ */
+#main-app-container {
+    min-height: 100vh;
+    width: 100%;
+    /* This ensures all background-size: cover rules apply to the full viewport */
+}
+
+/* * --- FIX 2: MODIFY THIS EXISTING RULE --- 
+ */
+._dash-bootstrap .container-fluid {
+  /* min-height: 100vh;  <-- REMOVE THIS */
+  min-height: 100%; /* <-- CHANGE TO THIS (to fill its parent, #main-app-container) */
+  padding: 16px 24px;
+  background-color: transparent !important; /* Make app container transparent */
+}
+
+body {
+  overflow-y: auto;
+  font-family: 'Clash Regular','Clash Bold', Arial, sans-serif;
+  
+  /* --- 1. REMOVE THE BACKGROUND IMAGE FROM HERE --- */
+  /* background-image: url('clash_royale_wallpaper.webp'); <-- DELETE THIS */
+  
+  /* --- 2. ADD A SOLID BACKGROUND COLOR AS A FALLBACK --- */
+  background-color: #111111;
+}
+
+/* Default background (for homepage, etc.) */
+#main-app-container.page-default-background {
+  /* These rules will now work as expected! */
+  background-image: url('clash_royale_wallpaper.webp'); 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 @font-face {
     font-family: 'Clash Bold';
     src: url('fonts/Clash_Bold.otf') format('opentype');
