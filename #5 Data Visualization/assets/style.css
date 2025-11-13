@@ -66,3 +66,18 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5) !important;
     border-color: var(--bs-primary) !important; /* Highlights border on hover */
 }
+
+/* --- OFF STATE (Not Checked) --- */
+.form-switch.dbc .form-check-input {
+  /* This is the color of the "track" when OFF */
+  background-color: #c4e1ff;
+  border-color: #69a2ce;
+}
+
+.form-switch.dbc .form-check-input:checked {
+  /* This is the color of the "track" when ON */
+  background-color: #a20ee1; /* Example: Your "Won" blue */
+  border-color: #77009b;
+  
+  /* The default "on" thumb is white, which is fine, so no need to change it. */
+}

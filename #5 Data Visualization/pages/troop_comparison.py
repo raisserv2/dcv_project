@@ -47,10 +47,11 @@ except FileNotFoundError as e:
 
 
 # --- REUSABLE FIGURE FUNCTION ---
-def create_troop_figure(selected_troop, evo_type):
+def create_troop_figure(selected_troop, evo_status):
     """
     Filters the global grouped_df and returns a Plotly figure
     for the selected troop AND evolution status.
+    evo_status will be True for Evolution, False for Normal.
     """
     if not selected_troop:
         return go.Figure(
@@ -63,8 +64,9 @@ def create_troop_figure(selected_troop, evo_type):
             }
         )
     
-    # Map the radio button value to the 'evo' column value (0 or 1)
-    evo_filter = 1 if evo_type == "evo" else 0
+    # Map boolean to labels and data filters
+    evo_label = "Evolution" if evo_status else "Normal"
+    evo_filter = 1 if evo_status else 0
     
     # Filter by both card name AND evolution status
     df_troop = grouped_df[
@@ -73,7 +75,7 @@ def create_troop_figure(selected_troop, evo_type):
     ]
     
     if df_troop.empty:
-        title_message = f"No {evo_type.capitalize()} data found for {selected_troop}"
+        title_message = f"No {evo_label.capitalize()} data found for {selected_troop}"
         # Return a blank figure with a message
         return go.Figure(
             layout={
@@ -100,7 +102,7 @@ def create_troop_figure(selected_troop, evo_type):
             name="Won",
             marker_color="#1343E1",
             # Updated hovertemplate
-            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
+            hovertemplate=f"Card: {selected_troop} ({evo_label.capitalize()})<br>Arena: %{{x}}<br>Outcome: Won<br>Count: %{{y}}<extra></extra>",
             opacity=1,
         )
     )
@@ -112,14 +114,14 @@ def create_troop_figure(selected_troop, evo_type):
             name="Lost",
             marker_color="#E61C23",
             # Updated hovertemplate
-            hovertemplate=f"Card: {selected_troop} ({evo_type.capitalize()})<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
+            hovertemplate=f"Card: {selected_troop} ({evo_label.capitalize()})<br>Arena: %{{x}}<br>Outcome: Lost<br>Count: %{{y}}<extra></extra>",
             opacity=1,
         )
     )
 
     fig.update_layout(
         # Updated title
-        title_text=f"{selected_troop} ({evo_type.capitalize()}) Usage: Win vs. Loss",
+        title_text=f"{selected_troop} ({evo_label.capitalize()}) Usage: Win vs. Loss",
         xaxis_title="Arena",
         yaxis_title="Usage Count",
         barmode="group", # 'relative' is good for stacked, 'overlay' is what you had
@@ -177,14 +179,10 @@ layout = dbc.Container(
                                             id="evolution-container-1",
                                             style={'display': 'none'}, # Hide by default
                                             children=[
-                                                dcc.RadioItems(
+                                                dbc.Switch(
                                                     id="evolution-selector-1",
-                                                    options=[
-                                                        {"label": "Normal", "value": "normal"},
-                                                        {"label": "Evolution", "value": "evo"},
-                                                    ],
-                                                    value="normal",
-                                                    inline=True,
+                                                    label="Evolution",
+                                                    value=False, # False = "Off" (Normal), True = "On" (Evo)
                                                     className="dbc"
                                                 ),
                                             ]
@@ -221,14 +219,10 @@ layout = dbc.Container(
                                             id="evolution-container-2",
                                             style={'display': 'none'}, # Hide by default
                                             children=[
-                                                dcc.RadioItems(
+                                                dbc.Switch(
                                                     id="evolution-selector-2",
-                                                    options=[
-                                                        {"label": "Normal", "value": "normal"},
-                                                        {"label": "Evolution", "value": "evo"},
-                                                    ],
-                                                    value="normal",
-                                                    inline=True,
+                                                    label="Evolution",
+                                                    value=False, # False = "Off" (Normal), True = "On" (Evo)
                                                     className="dbc"
                                                 ),
                                             ]
@@ -263,7 +257,7 @@ def toggle_evolution_radio_1(selected_troop):
         return {'display': 'block'}, dash.no_update # Keep current value
     else:
         # If no troop selected or troop has no evo (0), hide and reset
-        return {'display': 'none'}, "normal" 
+        return {'display': 'none'}, False 
 
 # --- NEW CALLBACK 2: Show/Hide Evo Radio for Troop 2 ---
 @dash.callback(
@@ -277,7 +271,7 @@ def toggle_evolution_radio_2(selected_troop):
         return {'display': 'block'}, dash.no_update # Keep current value
     else:
         # If no troop selected or troop has no evo (0), hide and reset
-        return {'display': 'none'}, "normal"
+        return {'display': 'none'}, False
 
 @dash.callback(
     Output("troop-info-1", "children"),
@@ -290,10 +284,10 @@ def toggle_evolution_radio_2(selected_troop):
     Input("evolution-selector-2", "value"),
 )
 def update_troop_cards(troop1, evo1, troop2, evo2):
-    def render_troop_card(selected_troop, evo_type):
+    def render_troop_card(selected_troop, evo_status):
         if not selected_troop:
             return html.I("Select a troop to view details.")
-        if evo_type == "normal":
+        if evo_status is False:
             troop_data = df_troops_stats_non_evo[df_troops_stats_non_evo["card"] == selected_troop]
 
             if troop_data.empty:
@@ -311,7 +305,7 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
                 
 
                 img_component = html.Img(
-                    id=f"img-{selected_troop}-{evo_type}",
+                    id=f"img-{selected_troop}-{evo_status}",
                     src=img_path,
                     style={
                         "width": "100%",
@@ -331,7 +325,7 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
             # Single component: card containing image and stats, wrapped in Loading
             card = dbc.Card(
                 [
-                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardHeader(f"{selected_troop} (Normal)"),
                     dbc.CardBody(
                         [
                             img_component if img_component is not None else html.Div(),
@@ -356,7 +350,7 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
                 if troop_data['card'] == "P.E.K.K.A":
                     img_path = f"../assets/2_icon_scrpaing/evo_card_icons/PEKKA.webp"
                 img_component = html.Img(
-                    id=f"img-{selected_troop}-{evo_type}",
+                    id=f"img-{selected_troop}-{evo_status}",
                     src=img_path,
                     style={
                         "width": "100%",
@@ -376,7 +370,7 @@ def update_troop_cards(troop1, evo1, troop2, evo2):
             # Single component: card containing image and stats, wrapped in Loading
             card = dbc.Card(
                 [
-                    dbc.CardHeader(f"{selected_troop} ({evo_type.capitalize()})"),
+                    dbc.CardHeader(f"{selected_troop} (Evolution)"),
                     dbc.CardBody(
                         [
                             img_component if img_component is not None else html.Div(),
