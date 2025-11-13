@@ -188,7 +188,7 @@ if df is not None:
                         dbc.Card([
                             dbc.CardHeader("Win Rate Distribution by Rarity"),
                             dbc.CardBody([
-                                dcc.Graph(figure=Rarity_Violin)
+                                dcc.Graph(id="rarity-violin", figure=Rarity_Violin)
                             ])
                         ]),
                         width=6
@@ -197,7 +197,7 @@ if df is not None:
                         dbc.Card([
                             dbc.CardHeader("Rarity Distribution in Current Meta"),
                             dbc.CardBody([
-                                dcc.Graph(figure=Rarity_Meta_Share)
+                                dcc.Graph(id="rarity-meta", figure=Rarity_Meta_Share)
                             ])
                         ]),
                         width=6
@@ -211,7 +211,7 @@ if df is not None:
                         dbc.Card([
                             dbc.CardHeader("Card Performance: Win Rate vs Usage"),
                             dbc.CardBody([
-                                dcc.Graph(figure=Win_Rate_Usage_Bubble)
+                                dcc.Graph(id="rarity-comparison-bubble", figure=Win_Rate_Usage_Bubble)
                             ])
                         ]),
                         width=12
